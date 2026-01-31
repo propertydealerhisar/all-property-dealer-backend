@@ -1,0 +1,882 @@
+[
+  {
+    "name": "MEHTA PROPERTIES",
+    "address": "Saini Complex, 649, Sector-12",
+    "areaServed": " Sector 25 and nearby areas",
+    "city": "Panipat",
+    "slug": "mehta-properties-panipat",
+    "tags": [
+      "Real Estate Agents",
+      "Estate Agents for Residential Rental"
+    ]
+  },
+  {
+    "name": "GUPTA PROPERTIES",
+    "address": "MAIN, Barsat Rd, near SUPRITI HOSPITAL",
+    "areaServed": "Panipat",
+    "city": "Panipat",
+    "slug": "gupta-properties-panipat",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Naveen Properties",
+    "address": "TDI city, Panipat, Faridpur,",
+    "areaServed": "Haryana and nearby areas",
+    "city": "Panipat",
+    "slug": "naveen-properties-panipat",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "New Heights Properties",
+    "address": "TDI Club, 38-39, Huda Sector",
+    "areaServed": "Panipat",
+    "city": "Panipat",
+    "slug": "new-heights-properties-panipat",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Urban Properties",
+    "address": "2304, HBC, Sector 13-17",
+    "areaServed": "Eldeco Estate and nearby areas",
+    "city": "Panipat",
+    "slug": "urban-properties-panipat",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "Mahaluxmi Properties",
+    "address": "Villa No A, 145, TDI city",
+    "areaServed": "Faridpur and nearby areas",
+    "city": "Panipat",
+    "slug": "mahaluxmi-properties-panipat",
+    "tags": [
+      "Estate Agents for Commercial Space",
+      "Real Estate agents for Plot Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Krishna Property",
+    "address": "Shop,2 Street Number",
+    "areaServed": " Panipat",
+    "city": "Panipat",
+    "slug": "krishna-property-panipat",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "Unicorn Luxury Infra Pvt Ltd",
+    "address": "Office no 115 First Floor, Tdi city ",
+    "areaServed": "Shodapur and nearby areas",
+    "city": "Panipat",
+    "slug": "unicorn-luxury-infra-pvt-ltd-panipat",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Plus Properties",
+    "address": " first floor, Eldeco hi - street, Sco no - 23",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "plus-properties-panipat",
+    "tags": [
+      "Estate Agents for Residential Rental",
+      "Estate Agents for Commercial Rental"
+    ]
+  },
+  {
+    "name": "Shri Guru Nanak properties",
+    "address": "himanshu nursery, 481, Virat Nagar",
+    "areaServed": "Haryana and nearby areas",
+    "city": "Panipat",
+    "slug": "shri-guru-nanak-properties-panipat",
+    "tags": [
+      "Estate Agents for Residence",
+      "House Rentals for Family"
+    ]
+  },
+  {
+    "name": "Vishwas Properties & Rental Services",
+    "address": " #615, Sector 13-17",
+    "areaServed": " Panipat",
+    "city": "Panipat",
+    "slug": "vishwas-properties-rental-services-panipat",
+    "tags": [
+      "Real Estate Agents for House Sell/Purchase",
+      "Real Estate agents for Flat Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Dashmesh Properties",
+    "address": " 4, Assandh Rd, Latif Garden, Diwan Nagar",
+    "areaServed": "Panipat",
+    "city": "Panipat",
+    "slug": "dashmesh-properties-panipat",
+    "tags": [
+      "Estate Agent for Leasehold",
+      "Apartment Rental"
+    ]
+  },
+  {
+    "name": "K.K. Properties",
+    "address": "Housing Board, 1813, COLONY, Sector 13-17",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "k-k-properties-panipat",
+    "tags": [
+      "Estate Agents for Residential Space",
+      "Estate Agents for Commercial Space"
+    ]
+  },
+  {
+    "name": "B.S Poperty Advisor in Panipat",
+    "address": "H.N 2340, A 13-17, Housing Board Colony",
+    "areaServed": "Haryana and nearby areas",
+    "city": "Panipat",
+    "slug": "b-s-poperty-advisor-in-panipat-panipat",
+    "tags": [
+      "Real Estate agents for Plot Sell/Purchase",
+      "Trusted Property Dealer"
+    ]
+  },
+  {
+    "name": "Manan Estate",
+    "address": "First Floor, Shopping complex, SCO 225, Sector 13-17",
+    "areaServed": "Panipat Refinery Township and nearby areas",
+    "city": "Panipat",
+    "slug": "manan-estate-panipat",
+    "tags": [
+      "Real Estate Broker for Residence",
+      "Real Estate Agents for To-Let Service"
+    ]
+  },
+  {
+    "name": "Manveet Properties",
+    "address": "Mittal mall, Sector 25 Phase 2, Sector 25",
+    "areaServed": "Karnal and nearby areas",
+    "city": "Panipat",
+    "slug": "manveet-properties-panipat",
+    "tags": [
+      "Real Estate Agents",
+      "Estate Agents for Residential Rental"
+    ]
+  },
+  {
+    "name": "Property Villa",
+    "address": " Shop no. 17, Sector-12",
+    "areaServed": "Panipat",
+    "city": "Panipat",
+    "slug": "property-villa-panipat",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Mohan Properties & Builders .",
+    "address": "23, Sector 25 Rd",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "mohan-properties-builders-panipat",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Friends Properties",
+    "address": "Devi Mandir Road Bhola Chowk, Devi Mandir Road",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "friends-properties-panipat",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Delhi Estates",
+    "address": " A- 1/9, opp. club house, Eldeco Estate, One",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "delhi-estates-panipat",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "Budhiraja Properties",
+    "address": "Salarganj Gate, 512/1, Grand Trunk Rd, near Ram Gadiya Gurudwara",
+    "areaServed": "Panipat Refinery Township and nearby areas",
+    "city": "Panipat",
+    "slug": "budhiraja-properties-panipat",
+    "tags": [
+      "Estate Agents for Commercial Space",
+      "Real Estate agents for Plot Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Kuber Properties",
+    "address": "A2/13, TDI city",
+    "areaServed": "TDI city",
+    "city": "Panipat",
+    "slug": "kuber-properties-panipat",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "Sonu Property Dealer",
+    "address": "Shop No 131, Shopping Complex",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "sonu-property-dealer-panipat",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "RAJA PROPERTY PANIPAT",
+    "address": "234, SECTOR 40",
+    "areaServed": " TDI city and nearby areas",
+    "city": "Panipat",
+    "slug": "raja-property-panipat-panipat",
+    "tags": [
+      "Estate Agents for Residential Rental",
+      "Estate Agents for Commercial Rental"
+    ]
+  },
+  {
+    "name": "Speed way property advisor & Builder",
+    "address": "69/3, near Dr Koushal dental clinic",
+    "areaServed": " Huda Sector 11 and nearby areas",
+    "city": "Panipat",
+    "slug": "speed-way-property-advisor-builder-panipat",
+    "tags": [
+      "Estate Agents for Residence",
+      "House Rentals for Family"
+    ]
+  },
+  {
+    "name": "Joginder properties",
+    "address": "Kabri Rd, TDI city",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "joginder-properties-panipat",
+    "tags": [
+      "Real Estate Agents for House Sell/Purchase",
+      "Real Estate agents for Flat Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Uptown Property Panipat - Sale & Purchase",
+    "address": "Shop No 2, First Floor, Dharm Singh Market",
+    "areaServed": "Panipat",
+    "city": "Panipat",
+    "slug": "uptown-property-panipat-sale-purchase-panipat",
+    "tags": [
+      "Estate Agent for Leasehold",
+      "Apartment Rental"
+    ]
+  },
+  {
+    "name": "ELDECO ESTATE ONE PANIPAT",
+    "address": "Grand Trunk Rd, Eldeco Estate, Sector 03",
+    "areaServed": "132103",
+    "city": "Panipat",
+    "slug": "eldeco-estate-one-panipat-panipat",
+    "tags": [
+      "Estate Agents for Residential Space",
+      "Estate Agents for Commercial Space"
+    ]
+  },
+  {
+    "name": "Super Estate",
+    "address": "560A, on. Toll tax, near Huda office, Sector - 18",
+    "areaServed": "Panipat Taraf Afghan and nearby areas",
+    "city": "Panipat",
+    "slug": "super-estate-panipat",
+    "tags": [
+      "Real Estate agents for Plot Sell/Purchase",
+      "Trusted Property Dealer"
+    ]
+  },
+  {
+    "name": "Vijay Properties",
+    "address": "Gohana - Panipat Rd, opp. Sugar mill,",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "vijay-properties-panipat",
+    "tags": [
+      "Real Estate Broker for Residence",
+      "Real Estate Agents for To-Let Service"
+    ]
+  },
+  {
+    "name": "Bhatia Realtors",
+    "address": " Housing Board Colony, 1840, Sector 13-17",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "bhatia-realtors-panipat",
+    "tags": [
+      "Real Estate Agents",
+      "Estate Agents for Residential Rental"
+    ]
+  },
+  {
+    "name": "Ahuja Property Advisor",
+    "address": "Ward no 20, Virat Nagar",
+    "areaServed": "Panipat",
+    "city": "Panipat",
+    "slug": "ahuja-property-advisor-panipat",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "M3M PLOTS PANIPAT NEW LAUNCH",
+    "address": "Plot no 39, near TDI Club, Huda Sector, TDI city",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "m3m-plots-panipat-new-launch-panipat",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "AP Infra Group",
+    "address": "SCO 37, TDI Near Toll Plaza, Sector 39",
+    "areaServed": "Karnal and nearby areas",
+    "city": "Panipat",
+    "slug": "ap-infra-group-panipat",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Swastik Properties",
+    "address": "GATE NO.2, 2343 HBC SECTOR 13",
+    "areaServed": "Sector - 7 and nearby areas",
+    "city": "Panipat",
+    "slug": "swastik-properties-panipat",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "bala ji property",
+    "address": " kacha fatak, Industrial Area Phase 2",
+    "areaServed": "Panipat",
+    "city": "Panipat",
+    "slug": "bala-ji-property-panipat",
+    "tags": [
+      "Estate Agents for Commercial Space",
+      "Real Estate agents for Plot Sell/Purchase"
+    ]
+  },
+  {
+    "name": "VANSH PROPERTY",
+    "address": "75, Assandh Rd, Arya Nagar",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "vansh-property-panipat",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "Global Properties and Builders",
+    "address": " C1052, Ansals Sushant City",
+    "areaServed": "Eldeco Estate and nearby areas",
+    "city": "Panipat",
+    "slug": "global-properties-and-builders-panipat",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Suvidha Properties",
+    "address": " 9XV2+9C2, Assandh Rd, Friends Colony",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "suvidha-properties-panipat",
+    "tags": [
+      "Estate Agents for Residential Rental",
+      "Estate Agents for Commercial Rental"
+    ]
+  },
+  {
+    "name": "Vikas Properties",
+    "address": "ear Mandir Road",
+    "areaServed": "Panipat",
+    "city": "Panipat",
+    "slug": "vikas-properties-panipat",
+    "tags": [
+      "Estate Agents for Residence",
+      "House Rentals for Family"
+    ]
+  },
+  {
+    "name": "B.S Property Advisor",
+    "address": " 465, Virat Nagar",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "b-s-property-advisor-panipat",
+    "tags": [
+      "Real Estate Agents for House Sell/Purchase",
+      "Real Estate agents for Flat Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Ram Gopal Estate",
+    "address": " Bishon Sarup Colony",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "ram-gopal-estate-panipat",
+    "tags": [
+      "Estate Agent for Leasehold",
+      "Apartment Rental"
+    ]
+  },
+  {
+    "name": "Malik Property Salahkar",
+    "address": "9X58+MCV, Vikas Nagar",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "malik-property-salahkar-panipat",
+    "tags": [
+      "Estate Agents for Residential Space",
+      "Estate Agents for Commercial Space"
+    ]
+  },
+  {
+    "name": "DHANDA PROPERTY DEALER",
+    "address": " 9XF2+425, New Mukhija Colony",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "dhanda-property-dealer-panipat",
+    "tags": [
+      "Real Estate agents for Plot Sell/Purchase",
+      "Trusted Property Dealer"
+    ]
+  },
+  {
+    "name": "Gurunanak Properties",
+    "address": "415 - R, Jatal Rd, Model Town",
+    "areaServed": "Model Town and nearby areas",
+    "city": "Panipat",
+    "slug": "gurunanak-properties-panipat",
+    "tags": [
+      "Real Estate Broker for Residence",
+      "Real Estate Agents for To-Let Service"
+    ]
+  },
+  {
+    "name": "Durga Properties",
+    "address": " Guru Nanak Pura, Salar Ganj Bazar",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "durga-properties-panipat",
+    "tags": [
+      "Real Estate Agents",
+      "Estate Agents for Residential Rental"
+    ]
+  },
+  {
+    "name": "Anand Properties",
+    "address": "Sector-12, Near Shiv Mandir, T- Market, Huda",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "anand-properties-panipat",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "CHAWLA PROPERTY ADVISORS",
+    "address": " New shantinagar, Model Town",
+    "areaServed": "New Shanti Nagar and nearby areas",
+    "city": "Panipat",
+    "slug": "chawla-property-advisors-panipat",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Luxmi Properties",
+    "address": " CX8M+V86, Barsat Rd, Sector 13-17",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "luxmi-properties-panipat",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Rma property",
+    "address": "9XJH+67Q, Huda Sector 11",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "rma-property-panipat",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "Avni Estate",
+    "address": "Fectory No. 3 Gali No.3, Ugrakheri Rd",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "avni-estate-panipat",
+    "tags": [
+      "Estate Agents for Commercial Space",
+      "Real Estate agents for Plot Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Siya Ram Properties and Cars",
+    "address": " Shop Number 1, Mandir Rd, near Geeta Mandir",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "siya-ram-properties-and-cars-panipat",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "Jind Panipat Properties",
+    "address": "Booth 35, Commercial Complex, Near, Women Police Station Rd",
+    "areaServed": "Panipat and nearby areas",
+    "city": "Panipat",
+    "slug": "jind-panipat-properties-panipat",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "TDI CONNAUGHT ESTATE",
+    "address": " Sector 23, Phase 2, Huda",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "tdi-connaught-estate-panipat",
+    "tags": [
+      "Estate Agents for Residential Rental",
+      "Estate Agents for Commercial Rental"
+    ]
+  },
+  {
+    "name": "Saini property advisor",
+    "address": " New Mukhija Colony, Sat Kartar Nagar",
+    "areaServed": "New Mukhija Colony",
+    "city": "Panipat",
+    "slug": "saini-property-advisor-panipat",
+    "tags": [
+      "Estate Agents for Residence",
+      "House Rentals for Family"
+    ]
+  },
+  {
+    "name": "GM Property",
+    "address": "one Sector - 40,",
+    "areaServed": "Karnal and nearby areas",
+    "city": "Panipat",
+    "slug": "gm-property-panipat",
+    "tags": [
+      "Real Estate Agents for House Sell/Purchase",
+      "Real Estate agents for Flat Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Neel Properties",
+    "address": "Main Road, Shanti Nagar",
+    "areaServed": "Shanti Nagar",
+    "city": "Panipat",
+    "slug": "neel-properties-panipat",
+    "tags": [
+      "Estate Agent for Leasehold",
+      "Apartment Rental"
+    ]
+  },
+  {
+    "name": "Jagdish Properties",
+    "address": "19, New, Ram Nagar",
+    "areaServed": "Tehsil Camp and nearby areas",
+    "city": "Panipat",
+    "slug": "jagdish-properties-panipat",
+    "tags": [
+      "Estate Agents for Residential Space",
+      "Estate Agents for Commercial Space"
+    ]
+  },
+  {
+    "name": "Saini niwas, saini property dealer",
+    "address": "1113, Sant Kartar Nagar",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "saini-niwas-saini-property-dealer-panipat",
+    "tags": [
+      "Real Estate agents for Plot Sell/Purchase",
+      "Trusted Property Dealer"
+    ]
+  },
+  {
+    "name": "SHANTANU REAL ESTATE OFFICE NO 201 LA REGENCIA",
+    "address": "OFFICE NO 201, La Regencia Rd",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "shantanu-real-estate-office-no-201-la-regencia-panipat",
+    "tags": [
+      "Real Estate Broker for Residence",
+      "Real Estate Agents for To-Let Service"
+    ]
+  },
+  {
+    "name": "ADEN VISTA",
+    "address": " Gali no. 2, CNG Pump, Model Town Rd",
+    "areaServed": "Jattal",
+    "city": "Panipat",
+    "slug": "aden-vista-panipat",
+    "tags": [
+      "Real Estate Agents",
+      "Estate Agents for Residential Rental"
+    ]
+  },
+  {
+    "name": "Trident Plots Panipat New Launch",
+    "address": " Plot no 39, near TDI Club",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "trident-plots-panipat-new-launch-panipat",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Vk Holidays",
+    "address": "Shri RK senior secondary School, Refinery Rd",
+    "areaServed": "Delhi Cantt and nearby areas",
+    "city": "Panipat",
+    "slug": "vk-holidays-panipat",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "HINDUSTAN PROPERTIES",
+    "address": " Add: #140-L, near Ahuja Sweets, Model Town",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "hindustan-properties-panipat",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Sampatti Samadhan",
+    "address": " Barsat Rd, near Mother Pride School, Cheema Enclave",
+    "areaServed": "Panipat Refinery Township and nearby areas",
+    "city": "Panipat",
+    "slug": "sampatti-samadhan-panipat",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "Vikram Kashyap",
+    "address": " Near Hari Singh Chowk, Devi Mandir Road",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "vikram-kashyap-panipat",
+    "tags": [
+      "Estate Agents for Commercial Space",
+      "Real Estate agents for Plot Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Property dealer",
+    "address": " 185, Nehru Nagar Rd, Nehuru Nagar, Ram Nagar",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "property-dealer-panipat",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "Trident Realty Panipat",
+    "address": "Trident, Sector 19A, Nizampur",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "trident-realty-panipat-panipat",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Real Associates",
+    "address": "1258, Gali Number 1, near Kundu Auto Glass",
+    "areaServed": "Haridwar and nearby areas",
+    "city": "Panipat",
+    "slug": "real-associates-panipat",
+    "tags": [
+      "Estate Agents for Residential Rental",
+      "Estate Agents for Commercial Rental"
+    ]
+  },
+  {
+    "name": "Kalyan Property Dealer",
+    "address": "Gali Number 6, New Model Town",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "kalyan-property-dealer-panipat",
+    "tags": [
+      "Estate Agents for Residence",
+      "House Rentals for Family"
+    ]
+  },
+  {
+    "name": "Aman Garg Properties",
+    "address": "Devi Mandir Rd, near Radha enclave, Parshuram Colony",
+    "areaServed": "Panipat",
+    "city": "Panipat",
+    "slug": "aman-garg-properties-panipat",
+    "tags": [
+      "Real Estate Agents for House Sell/Purchase",
+      "Real Estate agents for Flat Sell/Purchase"
+    ]
+  },
+  {
+    "name": "American Properties",
+    "address": "Shop No-69, Mother Teresa Market",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "american-properties-panipat",
+    "tags": [
+      "Estate Agent for Leasehold",
+      "Apartment Rental"
+    ]
+  },
+  {
+    "name": "Dav property dealer",
+    "address": "Kohand",
+    "areaServed": "Karnal",
+    "city": "Panipat",
+    "slug": "dav-property-dealer-panipat",
+    "tags": [
+      "Estate Agents for Residential Space",
+      "Estate Agents for Commercial Space"
+    ]
+  },
+  {
+    "name": "Mohindra Properties",
+    "address": "50, 8, Sanoli Rd, near Bhim Goda Mandir",
+    "areaServed": "Gurugram and nearby areas",
+    "city": "Panipat",
+    "slug": "mohindra-properties-panipat",
+    "tags": [
+      "Real Estate agents for Plot Sell/Purchase",
+      "Trusted Property Dealer"
+    ]
+  },
+  {
+    "name": "Shri Krishan Properties Dealer",
+    "address": "Kaimla, Karnal",
+    "areaServed": "Alipur Khalsa and nearby areas",
+    "city": "Panipat",
+    "slug": "shri-krishan-properties-dealer-panipat",
+    "tags": [
+      "Real Estate Broker for Residence",
+      "Real Estate Agents for To-Let Service"
+    ]
+  },
+  {
+    "name": "Laxmi Property Advisor",
+    "address": "Shop -134 A, Near By Chota Gate Devi Mandir Road Devi Mandir Road",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "laxmi-property-advisor-panipat",
+    "tags": [
+      "Real Estate Agents",
+      "Estate Agents for Residential Rental"
+    ]
+  },
+  {
+    "name": "Satyam Properties Govt. Approved",
+    "address": "595, Model Town Rd",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "satyam-properties-govt-approved-panipat",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Rishika Properties",
+    "address": "DS 22 , Commercial Complex, Sector 13-17",
+    "areaServed": " Panipat Refinery Township and nearby areas",
+    "city": "Panipat",
+    "slug": "rishika-properties-panipat",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Emperium Realty",
+    "address": " Basement Floor, Hotel Shingla Palace GT Road",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "emperium-realty-panipat",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Krishna Krishna Properties",
+    "address": " Model Town",
+    "areaServed": "",
+    "city": "Panipat",
+    "slug": "krishna-krishna-properties-panipat",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  }
+]

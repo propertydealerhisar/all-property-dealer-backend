@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Guru Ji Properties",
+    "address": " Hno 1232 ward no 20, near bus stand",
+    "areaServed": "Gurugram",
+    "city": "Charkhi Dadri",
+    "slug": "guru-ji-properties-charkhi-dadri",
+    "tags": [
+      "Real Estate Agents",
+      "Estate Agents for Residential Rental"
+    ]
+  },
+  {
+    "name": "Bhai Sandeep Phogat Property",
+    "address": " H7V3+8F4, Loharu Rd, Loharu Chowk",
+    "areaServed": "",
+    "city": "Charkhi Dadri",
+    "slug": "bhai-sandeep-phogat-property-charkhi-dadri",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Phogat properties",
+    "address": " H7R8+9R5",
+    "areaServed": "",
+    "city": "Charkhi Dadri",
+    "slug": "phogat-properties-charkhi-dadri",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  }
+]

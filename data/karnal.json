@@ -1,0 +1,882 @@
+[
+  {
+    "name": "Goyal Property Centre",
+    "address": "DSS - 194, HSVP Market, Saini Colony, Sector 12",
+    "areaServed": "Nehru Place and nearby areas",
+    "city": "Karnal",
+    "slug": "goyal-property-centre-karnal",
+    "tags": [
+      "Real Estate Agents",
+      "Estate Agents for Residential Rental"
+    ]
+  },
+  {
+    "name": "Chawla Properties",
+    "address": " #15, opposite Guru Nanak Dev Public School",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "chawla-properties-karnal",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Shubham Properties",
+    "address": "SCO - 1173, Urban Estate, Sector 32",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "shubham-properties-karnal",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "JMD Properties",
+    "address": " 191,R, Model Town",
+    "areaServed": "Model Town",
+    "city": "Karnal",
+    "slug": "jmd-properties-karnal",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Karnal Realty",
+    "address": "99 Main, Kailash Rd, near N. S. Petrol Pump",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "karnal-realty-karnal",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "City Associates",
+    "address": "House No.1900, Sector 32",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "city-associates-karnal",
+    "tags": [
+      "Estate Agents for Commercial Space",
+      "Real Estate agents for Plot Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Karnal - Real Estates",
+    "address": "SHOP NO :1, OLD, Ranwar Rd, Sector 5",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "karnal-real-estates-karnal",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "Shree shyam property dealer",
+    "address": " 4986, Gali No. 1, Shiv Colony",
+    "areaServed": "Shiv Colony",
+    "city": "Karnal",
+    "slug": "shree-shyam-property-dealer-karnal",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Dhawan Properties",
+    "address": "near Noor Mahal Chowk, Sector - 33",
+    "areaServed": "Karnal and nearby areas",
+    "city": "Karnal",
+    "slug": "dhawan-properties-karnal",
+    "tags": [
+      "Estate Agents for Residential Rental",
+      "Estate Agents for Commercial Rental"
+    ]
+  },
+  {
+    "name": "JASS PROPERTIES KARNAL",
+    "address": "SHOP NO-13, Main Market Rd, Sector 7",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "jass-properties-karnal-karnal",
+    "tags": [
+      "Estate Agents for Residence",
+      "House Rentals for Family"
+    ]
+  },
+  {
+    "name": "PINE PROPERTIES",
+    "address": " 64, vedanth, Alpha International City",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "pine-properties-karnal",
+    "tags": [
+      "Real Estate Agents for House Sell/Purchase",
+      "Real Estate agents for Flat Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Gupta Property",
+    "address": "H No 435, Saini Colony",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "gupta-property-karnal",
+    "tags": [
+      "Estate Agent for Leasehold",
+      "Apartment Rental"
+    ]
+  },
+  {
+    "name": "Harjap Properties",
+    "address": "534, Sector 29",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "harjap-properties-karnal",
+    "tags": [
+      "Estate Agents for Residential Space",
+      "Estate Agents for Commercial Space"
+    ]
+  },
+  {
+    "name": "Naveen Properties",
+    "address": " fountain chowk, ANSAL API, sector 36",
+    "areaServed": "Ansal Town and nearby areas",
+    "city": "Karnal",
+    "slug": "naveen-properties-karnal",
+    "tags": [
+      "Real Estate agents for Plot Sell/Purchase",
+      "Trusted Property Dealer"
+    ]
+  },
+  {
+    "name": "Bhumika Real Estate",
+    "address": "Ground Floor, Riddhi Siddhi, A-38",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "bhumika-real-estate-karnal",
+    "tags": [
+      "Real Estate Broker for Residence",
+      "Real Estate Agents for To-Let Service"
+    ]
+  },
+  {
+    "name": "Home City Properties & Developers",
+    "address": " B57, Ridhi Sidhi Avenue, pocket 4 Atulyam Park",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "home-city-properties-developers-karnal",
+    "tags": [
+      "Real Estate Agents",
+      "Estate Agents for Residential Rental"
+    ]
+  },
+  {
+    "name": "Karnal Property",
+    "address": " Karnal and nearby areas",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "karnal-property-karnal",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Avinash Aneja Properties",
+    "address": "492 R, Model Town",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "avinash-aneja-properties-karnal",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "BATRA PROPERTIES",
+    "address": "1132, Sector 9",
+    "areaServed": "Karnal and nearby areas",
+    "city": "Karnal",
+    "slug": "batra-properties-karnal",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Luthra Property Dealer",
+    "address": "639, Old Housing Board Colony, Main Road, Sector 13",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "luthra-property-dealer-karnal",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "True Value properties & developers",
+    "address": "1886, Sector 32",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "true-value-properties-developers-karnal",
+    "tags": [
+      "Estate Agents for Commercial Space",
+      "Real Estate agents for Plot Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Sharma Property Dealer",
+    "address": "Ranwar Rd, Sector 5",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "sharma-property-dealer-karnal",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "Verma Properties",
+    "address": "1177p, near Hotel Noor Mahal, Adarsh Nagar",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "verma-properties-karnal",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Narang Properties",
+    "address": "157P, Sector 32,",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "narang-properties-karnal",
+    "tags": [
+      "Estate Agents for Residential Rental",
+      "Estate Agents for Commercial Rental"
+    ]
+  },
+  {
+    "name": "OM Real Estate",
+    "address": "324-L, near Crown Hotel, Model Town",
+    "areaServed": "Model Town",
+    "city": "Karnal",
+    "slug": "om-real-estate-karnal",
+    "tags": [
+      "Estate Agents for Residence",
+      "House Rentals for Family"
+    ]
+  },
+  {
+    "name": "Chandigarh Property dealer",
+    "address": "Amar Market, Sector 9",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "chandigarh-property-dealer-karnal",
+    "tags": [
+      "Real Estate Agents for House Sell/Purchase",
+      "Real Estate agents for Flat Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Shankar Property & Financial Consultancy",
+    "address": "Dss No. 207, Saini Colony, Part-1, Sector 12",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "shankar-property-financial-consultancy-karnal",
+    "tags": [
+      "Estate Agent for Leasehold",
+      "Apartment Rental"
+    ]
+  },
+  {
+    "name": "Malhotra Real Estate",
+    "address": " 1807, G.F, opp. Shiv Mandir Road",
+    "areaServed": "Delhi and nearby areas",
+    "city": "Karnal",
+    "slug": "malhotra-real-estate-karnal",
+    "tags": [
+      "Estate Agents for Residential Space",
+      "Estate Agents for Commercial Space"
+    ]
+  },
+  {
+    "name": "VINOD PROPERTIES",
+    "address": "HOUSE NO. 1, Sector 32",
+    "areaServed": "Chandigarh and nearby areas",
+    "city": "Karnal",
+    "slug": "vinod-properties-karnal",
+    "tags": [
+      "Real Estate agents for Plot Sell/Purchase",
+      "Trusted Property Dealer"
+    ]
+  },
+  {
+    "name": "Dheeraj Property Dealer",
+    "address": "912, Sector 7",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "dheeraj-property-dealer-karnal",
+    "tags": [
+      "Real Estate Broker for Residence",
+      "Real Estate Agents for To-Let Service"
+    ]
+  },
+  {
+    "name": "BALAJI PROPERTY DEALER",
+    "address": " 6, Hansi Rd, Braham Nagar",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "balaji-property-dealer-karnal",
+    "tags": [
+      "Real Estate Agents",
+      "Estate Agents for Residential Rental"
+    ]
+  },
+  {
+    "name": "Arya Properties",
+    "address": "162, Sector 32",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "arya-properties-karnal",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Mahavir Properties",
+    "address": "165/29, Sector 29",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "mahavir-properties-karnal",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Malik Properties",
+    "address": "1826p, near Udham Singh Chowk",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "malik-properties-karnal",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Bindal Property Dealer",
+    "address": " Phusgarh Rd, Rajivpuram, Sector - 33",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "bindal-property-dealer-karnal",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "Raja Properties",
+    "address": "House No. 362",
+    "areaServed": "Sector 12 and nearby areas",
+    "city": "Karnal",
+    "slug": "raja-properties-karnal",
+    "tags": [
+      "Estate Agents for Commercial Space",
+      "Real Estate agents for Plot Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Decent Property",
+    "address": " near Shiv Mandir Road, Housing Board Colony",
+    "areaServed": " Karnal",
+    "city": "Karnal",
+    "slug": "decent-property-karnal",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "Key Homes properties",
+    "address": " Near Gopal ji bakery opposite RK puram gali no 7",
+    "areaServed": "Shakti Puram and nearby areas",
+    "city": "Karnal",
+    "slug": "key-homes-properties-karnal",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Laxmi Properties",
+    "address": "Gb-11, CHD city, Sector-45",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "laxmi-properties-karnal",
+    "tags": [
+      "Estate Agents for Residential Rental",
+      "Estate Agents for Commercial Rental"
+    ]
+  },
+  {
+    "name": "Gorsi properties",
+    "address": "Shope no. 183, Huda market, Sector 9",
+    "areaServed": "Sector 9",
+    "city": "Karnal",
+    "slug": "gorsi-properties-karnal",
+    "tags": [
+      "Estate Agents for Residence",
+      "House Rentals for Family"
+    ]
+  },
+  {
+    "name": "Milan Property",
+    "address": "1737, Housing Board Colony, Sector 6",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "milan-property-karnal",
+    "tags": [
+      "Real Estate Agents for House Sell/Purchase",
+      "Real Estate agents for Flat Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Rana Properties",
+    "address": "Gali No-12 ,Vasant Vihar Karnal,Shop no 34",
+    "areaServed": "Karnal and nearby areas",
+    "city": "Karnal",
+    "slug": "rana-properties-karnal",
+    "tags": [
+      "Estate Agent for Leasehold",
+      "Apartment Rental"
+    ]
+  },
+  {
+    "name": "GULSHAN PROPERTIES",
+    "address": " SCO 199, Saini Colony, Part 1, Sector 12",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "gulshan-properties-karnal",
+    "tags": [
+      "Estate Agents for Residential Space",
+      "Estate Agents for Commercial Space"
+    ]
+  },
+  {
+    "name": "Saini Properties",
+    "address": " 906, Part A, Sector 4",
+    "areaServed": "Karnal and nearby areas",
+    "city": "Karnal",
+    "slug": "saini-properties-karnal",
+    "tags": [
+      "Real Estate agents for Plot Sell/Purchase",
+      "Trusted Property Dealer"
+    ]
+  },
+  {
+    "name": "R.V Real Estate Company.",
+    "address": "Shiv Mandir Rd, Housing Board Colony, Sector 6",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "r-v-real-estate-company-karnal",
+    "tags": [
+      "Real Estate Broker for Residence",
+      "Real Estate Agents for To-Let Service"
+    ]
+  },
+  {
+    "name": "Munjal Properties",
+    "address": " Sector 9",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "munjal-properties-karnal",
+    "tags": [
+      "Real Estate Agents",
+      "Estate Agents for Residential Rental"
+    ]
+  },
+  {
+    "name": "Hari Om Property Dealer Karnal",
+    "address": "386/29, Sector 29",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "hari-om-property-dealer-karnal-karnal",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "K.C. Properties",
+    "address": " Shop No. 115, Sector-6",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "k-c-properties-karnal",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "N.L Properties",
+    "address": " Shop no.67, Main Market, Sector 7",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "n-l-properties-karnal",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Gupta properties (To Let Service)",
+    "address": "1362, Sector 6",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "gupta-properties-to-let-service-karnal",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "JANGRA PROPERTY DEALERS",
+    "address": " Gali No. 7, Shiv Colony",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "jangra-property-dealers-karnal",
+    "tags": [
+      "Estate Agents for Commercial Space",
+      "Real Estate agents for Plot Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Karan Bhumi Property",
+    "address": "1",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "karan-bhumi-property-karnal",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "Shri Krishan Properties Dealer",
+    "address": "Kaimla",
+    "areaServed": " Alipur Khalsa and nearby areas",
+    "city": "Karnal",
+    "slug": "shri-krishan-properties-dealer-karnal",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Karnal Real Estate",
+    "address": "Shop No. 78, Sky Height, near Noor Mahal Hotel",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "karnal-real-estate-karnal",
+    "tags": [
+      "Estate Agents for Residential Rental",
+      "Estate Agents for Commercial Rental"
+    ]
+  },
+  {
+    "name": "Pasricha Enterprises",
+    "address": "531 R, Officers Colony, Model Town",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "pasricha-enterprises-karnal",
+    "tags": [
+      "Estate Agents for Residence",
+      "House Rentals for Family"
+    ]
+  },
+  {
+    "name": "Guru kirpa property",
+    "address": " MX7W+9MV, Sector 4",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "guru-kirpa-property-karnal",
+    "tags": [
+      "Real Estate Agents for House Sell/Purchase",
+      "Real Estate agents for Flat Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Neelkanth Properties",
+    "address": "69, vedanth, Sector 29",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "neelkanth-properties-karnal",
+    "tags": [
+      "Estate Agent for Leasehold",
+      "Apartment Rental"
+    ]
+  },
+  {
+    "name": "Maa Durga Properties",
+    "address": "Assandh",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "maa-durga-properties-karnal",
+    "tags": [
+      "Estate Agents for Residential Space",
+      "Estate Agents for Commercial Space"
+    ]
+  },
+  {
+    "name": "New Bhatia Properties Karnal",
+    "address": "Basement, Link Road, below Hotel Karnal Inn",
+    "areaServed": "Karnal and nearby areas",
+    "city": "Karnal",
+    "slug": "new-bhatia-properties-karnal-karnal",
+    "tags": [
+      "Real Estate agents for Plot Sell/Purchase",
+      "Trusted Property Dealer"
+    ]
+  },
+  {
+    "name": "Brahma Ji Properties",
+    "address": "Gali No 35, Karan Vihar, Sector 34",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "brahma-ji-properties-karnal",
+    "tags": [
+      "Real Estate Broker for Residence",
+      "Real Estate Agents for To-Let Service"
+    ]
+  },
+  {
+    "name": "Dhillon Property Dealer",
+    "address": " Mayapuri Rd, Moti Nagar, Sector 14",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "dhillon-property-dealer-karnal",
+    "tags": [
+      "Real Estate Agents",
+      "Estate Agents for Residential Rental"
+    ]
+  },
+  {
+    "name": "YOUR PROPERTIES",
+    "address": "11,12, Railway Rd, near S.D. Girls Sr. Sec. School",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "your-properties-karnal",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Lather property dealer",
+    "address": "MX8H+M36, Sector 3",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "lather-property-dealer-karnal",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Balaji Properties",
+    "address": "Office:-#1667, Devi Dass Pura, Sector 5",
+    "areaServed": "Kurukshetra and nearby areas",
+    "city": "Karnal",
+    "slug": "balaji-properties-karnal",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Jain Properties",
+    "address": "C-51/4, Model Town",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "jain-properties-karnal",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "Goyal Properties",
+    "address": " Shop No. 15, Janta Mandi, Old Grain Market",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "goyal-properties-karnal",
+    "tags": [
+      "Estate Agents for Commercial Space",
+      "Real Estate agents for Plot Sell/Purchase"
+    ]
+  },
+  {
+    "name": "kumar property advisor",
+    "address": " Sector 6",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "kumar-property-advisor-karnal",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "O.P Sharma Property Dealers",
+    "address": "A.2 link road",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "o-p-sharma-property-dealers-karnal",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Bhardwaj associates",
+    "address": "Back side of heritage lawns, near palm Residency",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "bhardwaj-associates-karnal",
+    "tags": [
+      "Estate Agents for Residential Rental",
+      "Estate Agents for Commercial Rental"
+    ]
+  },
+  {
+    "name": "Dheeraj Verma Properties",
+    "address": "912, Sector 7 Rd",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "dheeraj-verma-properties-karnal",
+    "tags": [
+      "Estate Agents for Residence",
+      "House Rentals for Family"
+    ]
+  },
+  {
+    "name": "Karnal property advisor",
+    "address": " P267+GR9, Kunjpura Rd, Sector 27",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "karnal-property-advisor-karnal",
+    "tags": [
+      "Real Estate Agents for House Sell/Purchase",
+      "Real Estate agents for Flat Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Op Sharma Property Dealer And Consultant",
+    "address": " MXRQ+F9X, link road, Sector 5",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "op-sharma-property-dealer-and-consultant-karnal",
+    "tags": [
+      "Estate Agent for Leasehold",
+      "Apartment Rental"
+    ]
+  },
+  {
+    "name": "The Real Property",
+    "address": " MXCJ+Q2C, Main Bazida Road",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "the-real-property-karnal",
+    "tags": [
+      "Estate Agents for Residential Space",
+      "Estate Agents for Commercial Space"
+    ]
+  },
+  {
+    "name": "S.K. Property Advisor",
+    "address": "H.No, 1361, near Royal Residency",
+    "areaServed": "Chandigarh and nearby areas",
+    "city": "Karnal",
+    "slug": "s-k-property-advisor-karnal",
+    "tags": [
+      "Real Estate agents for Plot Sell/Purchase",
+      "Trusted Property Dealer"
+    ]
+  },
+  {
+    "name": "Gaurav Properties",
+    "address": " Shop No.81, Huda Market",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "gaurav-properties-karnal",
+    "tags": [
+      "Real Estate Broker for Residence",
+      "Real Estate Agents for To-Let Service"
+    ]
+  },
+  {
+    "name": "Kapil bhatia property dealer",
+    "address": "Arya samaj market, Old Press Colony",
+    "areaServed": "Nilokheri Township",
+    "city": "Karnal",
+    "slug": "kapil-bhatia-property-dealer-karnal",
+    "tags": [
+      "Real Estate Agents",
+      "Estate Agents for Residential Rental"
+    ]
+  },
+  {
+    "name": "Mahadev Property Advisor",
+    "address": "Karnal",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "mahadev-property-advisor-karnal",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "SRI KRISHNA ESTATE",
+    "address": "1221, opp. Noor mahal hotel, Sector 32",
+    "areaServed": "Karnal and nearby areas",
+    "city": "Karnal",
+    "slug": "sri-krishna-estate-karnal",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Vault Realty Ventures",
+    "address": "The Royal Paradise. 130 K.M. Stone",
+    "areaServed": "Karnal",
+    "city": "Karnal",
+    "slug": "vault-realty-ventures-karnal",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Khurana Associates",
+    "address": "306 - L, Model Town",
+    "areaServed": "",
+    "city": "Karnal",
+    "slug": "khurana-associates-karnal",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  }
+]
