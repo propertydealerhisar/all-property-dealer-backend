@@ -12,13 +12,12 @@ connectDB().then(async () => {
 
 // ================= MIDDLEWARE =================
 
-// 🔥 ADVANCED CORS CONFIGURATION
 const corsOptions = {
   origin: [
-    "http://localhost:3000",      // local frontend
-    "https://propertydeler-gold-frontend.vercel.app/"      // production frontend
+    "http://localhost:3000",
+    "https://propertydeler-gold-frontend.vercel.app"
   ],
-  methods: ["GET", "POST", "PUT", "DELETE"],
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true,
 };
 
