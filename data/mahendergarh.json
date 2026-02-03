@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Dev Property Advisor",
+    "address": "Maharana Pratap Chowk, Main, Satnali Rd, Bijali Board Colony",
+    "areaServed": "",
+    "city": "Mahendergarh",
+    "slug": "dev-property-advisor-mahendergarh",
+    "tags": [
+      "Real Estate Agents",
+      "Estate Agents for Residential Rental"
+    ]
+  },
+  {
+    "name": "Vestige DLCP Mahendergarh",
+    "address": " Bijali Board Colony",
+    "areaServed": "",
+    "city": "Mahendergarh",
+    "slug": "vestige-dlcp-mahendergarh-mahendergarh",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "राव अमन कनीनवाल फार्म",
+    "address": " Narnaul - Mahendragarh Rd,",
+    "areaServed": "",
+    "city": "Mahendergarh",
+    "slug": "rao-aman-kaninwaal-farm-mahendergarh",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  }
+]

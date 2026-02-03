@@ -70,7 +70,7 @@ async function importDealersOnce() {
         continue;
       }
 
-      const city = "Hansi";
+      const city = "Fatehabad";
       const slug = makeSlug(`${item.name} ${city}`);
 
       // Duplicate by slug

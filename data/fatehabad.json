@@ -1,0 +1,147 @@
+
+
+[
+  {
+    "name": "Satguru Property Dealer",
+    "address": " Ward no.-10, 3, Satguru Property D, Sec. 3",
+    "areaServed": "Khera/ Kheda and nearby areas",
+    "city": "Fatehabad",
+    "slug": "satguru-property-dealer-fatehabad",
+    "tags": [
+      "Real Estate Agents",
+      "Estate Agents for Residential Rental"
+    ]
+  },
+  {
+    "name": "Meet Property Advisor",
+    "address": " Shop No.10, Valmikki Mandir",
+    "areaServed": "Fatehabad",
+    "city": "Fatehabad",
+    "slug": "meet-property-advisor-fatehabad",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Bhatia Properties",
+    "address": "Booth No 26, opposite Government Hospital",
+    "areaServed": "Haryana",
+    "city": "Fatehabad",
+    "slug": "bhatia-properties-fatehabad",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Bajrangi Properties",
+    "address": "Shaam Vihar, Sunder Nagar",
+    "areaServed": "",
+    "city": "Fatehabad",
+    "slug": "bajrangi-properties-fatehabad",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Swagat Properties",
+    "address": " On Sirsa-Delhi Hwy, and, Daulatpur - Bhodia Rd",
+    "areaServed": "Fatehabad and nearby areas",
+    "city": "Fatehabad",
+    "slug": "swagat-properties-fatehabad",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "Green properties",
+    "address": " Bhattu Rd, near SIWACH HOSPITAL, Maturam Colony",
+    "areaServed": "Fatehabad",
+    "city": "Fatehabad",
+    "slug": "green-properties-fatehabad",
+    "tags": [
+      "Estate Agents for Commercial Space",
+      "Real Estate agents for Plot Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Five Star Property consultant",
+    "address": "HUDA Shopping complex, Sector 3",
+    "areaServed": " Fatehabad",
+    "city": "Fatehabad",
+    "slug": "five-star-property-consultant-fatehabad",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "Bajaj Properties",
+    "address": " Shop No. 31, HUDA Market, opp. Polyclinic, Sector 3",
+    "areaServed": "",
+    "city": "Fatehabad",
+    "slug": "bajaj-properties-fatehabad",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Sugam Real Estate",
+    "address": "Sugam Real Estate, G.T. Road",
+    "areaServed": "",
+    "city": "Fatehabad",
+    "slug": "sugam-real-estate-fatehabad",
+    "tags": [
+      "Estate Agents for Residential Rental",
+      "Estate Agents for Commercial Rental"
+    ]
+  },
+  {
+    "name": "Shri Ji Real Estate & Developers",
+    "address": " Hanspur road, Chungi Rd, near by pass",
+    "areaServed": "Fatehabad",
+    "city": "Fatehabad",
+    "slug": "shri-ji-real-estate-developers-fatehabad",
+    "tags": [
+      "Estate Agents for Residence",
+      "House Rentals for Family"
+    ]
+  },
+  {
+    "name": "Paras properties",
+    "address": "Bhattu Rd,opp.gulnar cinema, near sbi atm,",
+    "areaServed": "",
+    "city": "Fatehabad",
+    "slug": "paras-properties-fatehabad",
+    "tags": [
+      "Real Estate Agents for House Sell/Purchase",
+      "Real Estate agents for Flat Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Ahuja Properties",
+    "address": "10 palika Bazaar G.t.Road",
+    "areaServed": "",
+    "city": "Fatehabad",
+    "slug": "ahuja-properties-fatehabad",
+    "tags": [
+      "Estate Agent for Leasehold",
+      "Apartment Rental"
+    ]
+  },
+  {
+    "name": "Sukhda Properties",
+    "address": "near durga mandir, Bhima Basti",
+    "areaServed": "Fatehabad and nearby areas",
+    "city": "Fatehabad",
+    "slug": "sukhda-properties-fatehabad",
+    "tags": [
+      "Estate Agents for Residential Space",
+      "Estate Agents for Commercial Space"
+    ]
+  }
+]
