@@ -17,6 +17,13 @@ const corsOptions = {
     "http://localhost:3000",
     "https://propertydeler-gold-frontend.vercel.app",
     "https://propertydeler-gold-frontend-yg8l.vercel.app",
+    "https://propertydeler-gold-frontend-lp3d.vercel.app",
+    "https://propertydeler-gold-frontend-w423.vercel.app",
+    "https://propertydeler-gold-frontend-xkw9.vercel.app",
+    "https://propertydeler-gold-frontend-33ts.vercel.app",
+    "https://propertydeler-gold-frontend-k2da.vercel.app",
+    "https://propertydeler-gold-frontend-9wvp.vercel.app",
+    
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true,
