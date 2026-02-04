@@ -79,3 +79,66 @@ exports.getSingleBySlug = async (req, res) => {
     });
   }
 };
+
+
+exports.getAllDataWithFallback = async (req, res) => {
+  try {
+    const page = parseInt(req.query.page) || 1;
+    const limit = parseInt(req.query.limit);
+
+    const skip = (page - 1) * limit;
+
+    // URL se aaya hua city name
+    const targetCity = req.params.domain;
+
+    // Case-insensitive regex query
+    const cityQuery = new RegExp("^" + targetCity + "$", "i");
+
+    // STEP 1 – City wise count (case insensitive)
+    const cityTotal = await Dealer.countDocuments({
+      city: cityQuery,
+    });
+
+    // STEP 2 – City wise data
+    let list = await Dealer.find({
+      city: cityQuery,
+    })
+      .sort({ createdAt: -1 })
+      .skip(skip)
+      .limit(limit);
+
+    let remaining = 0;
+
+    // STEP 3 – Agar 20 se kam hua to fallback
+    if (cityTotal < 20) {
+      remaining = 20 - cityTotal;
+
+      const extraData = await Dealer.find({
+        city: { $not: cityQuery },
+      })
+        .sort({ createdAt: -1 })
+        .limit(remaining);
+
+      list = [...list, ...extraData];
+    }
+
+    res.json({
+      success: true,
+
+      targetCity: targetCity,
+
+      originalCityCount: cityTotal,
+
+      fallbackAdded: remaining > 0,
+      fallbackCount: remaining,
+
+      data: list,
+    });
+
+  } catch (err) {
+    res.status(500).json({
+      success: false,
+      message: err.message,
+    });
+  }
+};

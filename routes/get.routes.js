@@ -7,10 +7,13 @@ const domainMiddleware = require("../middleware/domainMiddleware");
 // 🔥 domain middleware
 router.use("/:domain", domainMiddleware);
 
-// all dealers
+// ===== OLD API – HOME PAGE KE LIYE (NO CHANGE) =====
 router.get("/:domain", dealerController.getAllData);
 
-// single dealer
+// ===== NEW API – FOOTER CITY PAGES KE LIYE =====
+router.get("/:domain/fallback", dealerController.getAllDataWithFallback);
+
+// ===== SINGLE DEALER (NO CHANGE) =====
 router.get("/:domain/:slug", dealerController.getSingleBySlug);
 
 module.exports = router;
