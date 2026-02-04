@@ -15,7 +15,8 @@ connectDB().then(async () => {
 const corsOptions = {
   origin: [
     "http://localhost:3000",
-    "https://propertydeler-gold-frontend.vercel.app"
+    "https://propertydeler-gold-frontend.vercel.app",
+    "https://propertydeler-gold-frontend-yg8l.vercel.app",
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true,
