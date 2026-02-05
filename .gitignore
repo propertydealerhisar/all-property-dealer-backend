@@ -40,3 +40,4 @@ selenium
 .gradle
 target/
 !.gitkeep
+data/

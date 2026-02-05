@@ -23,7 +23,7 @@ const corsOptions = {
     "https://propertydeler-gold-frontend-33ts.vercel.app",
     "https://propertydeler-gold-frontend-k2da.vercel.app",
     "https://propertydeler-gold-frontend-9wvp.vercel.app",
-    
+
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true,
@@ -42,10 +42,11 @@ app.get("/", (req, res) => {
 const authRoutes = require("./routes/auth");
 const dealerRoutes = require("./routes/dealer.routes");
 const getRoutes = require("./routes/get.routes");
-
+const blogRoutes = require("./routes/blogRoutes");
 app.use("/api/auth", authRoutes);
 app.use("/api/get", getRoutes);
 app.use("/api/dealers", dealerRoutes);
+app.use("/api/blogs", blogRoutes);
 
 // ================= START SERVER =================
 const PORT = process.env.PORT || 5000;

@@ -6,20 +6,31 @@ const Dealer = require("../models/Dealer");
  */
 exports.getAllData = async (req, res) => {
   try {
-    // pagination query params
+    let domain = req.params.domain;
+
+    console.log("Incoming domain =>", domain);
+
+    const withoutWWW = domain.replace("www.", "");
+    const withWWW = "www." + withoutWWW;
+
+    console.log("Searching for =>", withoutWWW, "OR", withWWW);
+
     const page = parseInt(req.query.page) || 1;
     const limit = parseInt(req.query.limit) || 10;
-
     const skip = (page - 1) * limit;
 
-    // total records
     const total = await Dealer.countDocuments({
-      domain: req.domain,
+      $or: [
+        { domain: withoutWWW },
+        { domain: withWWW }
+      ]
     });
 
-    // paginated list
     const list = await Dealer.find({
-      domain: req.domain,
+      $or: [
+        { domain: withoutWWW },
+        { domain: withWWW }
+      ]
     })
       .sort({ createdAt: -1 })
       .skip(skip)
@@ -27,14 +38,10 @@ exports.getAllData = async (req, res) => {
 
     res.json({
       success: true,
-      domain: req.domain,
-
-      // pagination info
+      domain: withoutWWW,
       totalRecords: total,
       currentPage: page,
       totalPages: Math.ceil(total / limit),
-      perPage: limit,
-
       data: list,
     });
 
@@ -47,6 +54,7 @@ exports.getAllData = async (req, res) => {
 };
 
 
+
 /**
  * ✅ GET single dealer by domain + slug
  * URL: /api/dealers/:domain/:slug
@@ -54,7 +62,6 @@ exports.getAllData = async (req, res) => {
 exports.getSingleBySlug = async (req, res) => {
   try {
     const { slug } = req.params;
-
     const item = await Dealer.findOne({
       domain: req.domain,
       slug,
