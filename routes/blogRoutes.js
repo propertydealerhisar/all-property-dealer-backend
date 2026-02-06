@@ -1,18 +1,22 @@
-// const express = require("express");
-// const router = express.Router();
-
-// const { importJsonDirect } = require("../controllers/blogController");
-
-// router.get("/import-json", importJsonDirect);
-
-// module.exports = router;
 const express = require("express");
 const router = express.Router();
 
-const { getBlogs, getSingleBlog } = require("../controllers/blogController");
+const blogController = require("../controllers/blogController");
 
-router.get("/", getBlogs);
+// Import JSON
+router.get("/import-json", blogController.importJsonDirect);
 
-router.get("/slug/:slug", getSingleBlog);
+// Update Hero Images
+router.get("/import-heroimg", blogController.updateHeroImagesInDB);
+
+// Blogs list
+router.get("/", blogController.getBlogs);
+
+// Single blog by slug
+router.get("/slug/:slug", blogController.getSingleBlog);
+
+//update hero img json sa
+router.post("/update-heroimg-from-file", blogController.updateHeroImgFromFile);
+
 
 module.exports = router;

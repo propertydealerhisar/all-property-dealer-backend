@@ -1,17 +1,3 @@
-// const mongoose = require("mongoose");
-
-// const blogSchema = new mongoose.Schema({}, { strict: false });
-
-// module.exports = mongoose.model("Blog", blogSchema);
-// const mongoose = require("mongoose");
-
-// const blogSchema = new mongoose.Schema({
-
-//   heroImg: String   // yahan first image save hogi
-
-// }, { strict: false });
-
-// module.exports = mongoose.model("Blog", blogSchema);
 const mongoose = require("mongoose");
 
 const blogSchema = new mongoose.Schema({
@@ -36,10 +22,10 @@ const blogSchema = new mongoose.Schema({
 
   categories: [Number],
 
-  heroImg: String,
-     // card image ke liye
+  heroImg: String,   // yahan first image save hogi
+
   domain: String
 
 }, { strict: false });
 
-module.exports = mongoose.model("Blogs", blogSchema);
+module.exports = mongoose.model("Blog", blogSchema);

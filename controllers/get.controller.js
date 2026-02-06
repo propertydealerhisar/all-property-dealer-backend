@@ -16,7 +16,7 @@ exports.getAllData = async (req, res) => {
     console.log("Searching for =>", withoutWWW, "OR", withWWW);
 
     const page = parseInt(req.query.page) || 1;
-    const limit = parseInt(req.query.limit) || 10;
+    const limit = parseInt(req.query.limit);
     const skip = (page - 1) * limit;
 
     const total = await Dealer.countDocuments({

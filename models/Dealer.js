@@ -9,6 +9,7 @@ const dealerSchema = new mongoose.Schema(
     city: { type: String, required: true },
     slug: { type: String, unique: true, index: true },
     domain: { type: String,  },
+    state : { type: String,  },
 
   },
   { timestamps: true }

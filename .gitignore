@@ -41,3 +41,5 @@ selenium
 target/
 !.gitkeep
 data/
+scripts/
+slugImages.json
