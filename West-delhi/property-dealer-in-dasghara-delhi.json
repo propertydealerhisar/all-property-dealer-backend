@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Property Dealer.",
+    "address": "Shop no, 12, Maharana Pratap Rd, Block 44Q, market, Karol Bagh, Delhi, 110005",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Dasghara",
+    "slug": "property-dealer-dasghara"
+  },
+  {
+    "name": "Lohiya Properties",
+    "address": "1st floor, wz-29, near pnb atm, Dasghara, New Delhi, Delhi 110012",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Dasghara",
+    "slug": "lohiya-properties-dasghara"
+  },
+  {
+    "name": "Balraj Properties",
+    "address": "Wz-74/1, Mahershi Balmiki Marg Dasghara, New Delhi, New, Delhi, 110012",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Dasghara",
+    "slug": "balraj-properties-dasghara"
+  }
+]

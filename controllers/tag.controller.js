@@ -22,8 +22,13 @@ const TAG_POOL = [
 // 🔁 AUTO SET TAGS TO ALL RECORDS WHICH DON'T HAVE TAGS
 exports.autoSetTags = async (req, res) => {
   try {
-    // Find records where tags not exist or empty
+
+    // 👉 Yahin domain fix kar diya
+    const TARGET_DOMAIN = "www.propertydealerindelhi.com";
+
+    // Sirf us domain ke records jinke tags empty hain
     const list = await Dealer.find({
+      domain: TARGET_DOMAIN,
       $or: [{ tags: { $exists: false } }, { tags: { $size: 0 } }],
     });
 
@@ -33,6 +38,7 @@ exports.autoSetTags = async (req, res) => {
     for (const item of list) {
       const tag1 = TAG_POOL[tagIndex % TAG_POOL.length];
       const tag2 = TAG_POOL[(tagIndex + 1) % TAG_POOL.length];
+
       const tags = [tag1, tag2];
 
       tagIndex += 2;
@@ -44,10 +50,12 @@ exports.autoSetTags = async (req, res) => {
 
     res.json({
       success: true,
+      domain: TARGET_DOMAIN,
       totalFound: list.length,
       updated,
-      message: "Tags auto assigned successfully",
+      message: "Tags auto assigned successfully (domain specific)",
     });
+
   } catch (err) {
     console.error("AUTO TAG ERROR:", err);
     res.status(500).json({ message: err.message });

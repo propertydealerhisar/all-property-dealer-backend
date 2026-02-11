@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Perfect Property",
+    "address": "Office : 249, NH-19, Hari Nagar Ashram, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Ashram",
+    "slug": "perfect-property-south-delhi"
+  },
+  {
+    "name": "Bhandari Properties",
+    "address": "265, Hari Nagar Ashram, Ashram, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Ashram",
+    "slug": "bhandari-properties-south-delhi"
+  },
+  {
+    "name": "Balaji Properties",
+    "address": "117, Mathura Rd, near SBI ATM, Hari Nagar Ashram, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Ashram",
+    "slug": "balaji-properties-south-delhi"
+  },
+  {
+    "name": "Happy Properties",
+    "address": "شاھی 4/46, Double story, behind Shahi Masjid مسجد, Jungpura Extension, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Ashram",
+    "slug": "happy-properties-south-delhi"
+  },
+  {
+    "name": "Pahlawan Properties",
+    "address": "114, Hari Nagar Ashram, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Ashram",
+    "slug": "pahlawan-properties-south-delhi"
+  },
+  {
+    "name": "Sharma Property Dealer",
+    "address": "First Floor, 1455/14, Nai Sarak, near Shiv mandir, Shri Ram Market, Maliwara, Jogiwara, Chandni Chowk, Delhi, 110006",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Ashram",
+    "slug": "sharma-property-dealer-south-delhi"
+  },
+  {
+    "name": "Lucky Properties.",
+    "address": "Shop No 4/6, Opposite Modi Pastry Corner Jangpura Extension, Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Ashram",
+    "slug": "lucky-properties-south-delhi"
+  },
+  {
+    "name": "LEAD REALTY",
+    "address": "101, Mathura Rd, near Bharat Petrol Pump, Siddhartha Enclave, Hari Nagar Ashram, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Ashram",
+    "slug": "lead-realty-south-delhi"
+  },
+  {
+    "name": "Shri Ram Properties",
+    "address": "near chawla restaurant, Mukherjee Nagar, Delhi, 110033",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Ashram",
+    "slug": "shri-ram-properties-south-delhi"
+  },
+  {
+    "name": "Vimal property dealer",
+    "address": "99-A Hari Nagar Ashram dda sabzi market, Phase 2, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Ashram",
+    "slug": "vimal-property-dealer-south-delhi"
+  },
+  {
+    "name": "Yamini Properties & Construction",
+    "address": "33, near Bhim Park, Bhagwan Nagar, Pocket B Sidhartha Extention, Sidhartha Nagar, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Ashram",
+    "slug": "yamini-properties-construction-south-delhi"
+  }
+]

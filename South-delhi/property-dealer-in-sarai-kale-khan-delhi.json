@@ -1,0 +1,514 @@
+[
+  {
+    "name": "K S Associates",
+    "address": "G-30, Ground Floor, Jungpura Extension, Delhi, 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "k-s-associates-south-delhi"
+  },
+  {
+    "name": "Happy Properties",
+    "address": "شاھی 4/46, Double story, behind Shahi Masjid مسجد, Jungpura Extension, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "happy-properties-south-delhi"
+  },
+  {
+    "name": "South Delhi Finest Homes",
+    "address": "C-45, Nizamudin East, New Delhi, Delhi 110013",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "south-delhi-finest-homes-south-delhi"
+  },
+  {
+    "name": "Lodhi Property Co Limited",
+    "address": "Lodi Road, Nizamuddin, Nizamuddin West, New Delhi, Delhi 110003",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "lodhi-property-co-limited-south-delhi"
+  },
+  {
+    "name": "Lucky Properties.",
+    "address": "Shop No 4/6, Opposite Modi Pastry Corner Jangpura Extension, Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "lucky-properties-south-delhi"
+  },
+  {
+    "name": "Gulshan Estate Agents – Real Estate Consultants",
+    "address": "C-115, Opp Defence Colony Flyover Market, Lajpat Nagar I, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "gulshan-estate-agents-real-estate-consultants-south-delhi"
+  },
+  {
+    "name": "South Delhi Floors",
+    "address": "A-67, Amber Vithi Rd, Block A, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "south-delhi-floors-south-delhi"
+  },
+  {
+    "name": "VOHRA ASSOCIATES",
+    "address": "3/1, Jangpura, Pant Nagar, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "vohra-associates-south-delhi"
+  },
+  {
+    "name": "Chopra Properties",
+    "address": "E-105, Block E, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "chopra-properties-south-delhi"
+  },
+  {
+    "name": "India Estates",
+    "address": "169, Block C, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "india-estates-south-delhi"
+  },
+  {
+    "name": "Majestic Estates",
+    "address": "Ground floor, Shop no, P-19, below Sagar Ratna Restaurant, opp. Fine Home Apartments, Mayur Vihar Phase I, Block P, Pandav Nagar, New Delhi, Delhi, 110091",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "majestic-estates-south-delhi"
+  },
+  {
+    "name": "Arora Properties- F 94, Lajpat Nagar-II",
+    "address": "F 94, F Block, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "arora-properties--f-94-lajpat-nagar-ii-south-delhi"
+  },
+  {
+    "name": "House True Real Estate Services",
+    "address": "G-30, Block G, Lajpat Nagar III, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "house-true-real-estate-services-south-delhi"
+  },
+  {
+    "name": "JSR Real Estate Services & Investment",
+    "address": "Ashram, near by maharani bagh, New Friends Colony, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "jsr-real-estate-services-investment-south-delhi"
+  },
+  {
+    "name": "Shriram Properties",
+    "address": "Mata Mandir Rd, near Mata Mandir Road, Bharat Nagar, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "shriram-properties-south-delhi"
+  },
+  {
+    "name": "Dev Properties",
+    "address": "2/4, Samman Bazar Rd, Bhogal, Jangpura, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "dev-properties-south-delhi"
+  },
+  {
+    "name": "Gulshan Properties",
+    "address": "74/2, Dr C V Raman Rd, Block D, Friends Colony East, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "gulshan-properties-south-delhi"
+  },
+  {
+    "name": "Gulati Properties",
+    "address": "Shop No- 8, DDA Market, Near INOX Eros One, Jangpura, Jungpura Extension, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "gulati-properties-south-delhi"
+  },
+  {
+    "name": "KALA MALHOTRA PROPERTY DEALER :- Real Estate Agency Near at Uttam Nagar for Buy, Rent, Sell Houses, Flat & Apartments",
+    "address": "C6B near, Pali Factory Rd, Shish Ram Park, Block C, Uttam Nagar East, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "kala-malhotra-property-dealer---real-estate-agency-near-at-uttam-nagar-for-buy-rent-sell-houses-flat-apartments-south-delhi"
+  },
+  {
+    "name": "Arora properties",
+    "address": "7/1, Block 7, Nehru Nagar, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "arora-properties-south-delhi"
+  },
+  {
+    "name": "Wadhwa Properties",
+    "address": "Motorcycle Market, B -1, Block B, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "wadhwa-properties-south-delhi"
+  },
+  {
+    "name": "Real Value",
+    "address": "New Friends Colony, Delhi, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "real-value-south-delhi"
+  },
+  {
+    "name": "Waqar Properties",
+    "address": "Shop.No - 6, Basement, Main Market, Block F, Nizamuddin, New Delhi, Delhi 110013",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "waqar-properties-south-delhi"
+  },
+  {
+    "name": "Vimal property dealer",
+    "address": "99-A Hari Nagar Ashram dda sabzi market, Phase 2, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "vimal-property-dealer-south-delhi"
+  },
+  {
+    "name": "Bhandari Properties",
+    "address": "265, Hari Nagar Ashram, Ashram, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "bhandari-properties-south-delhi"
+  },
+  {
+    "name": "SS PROPERTY",
+    "address": "Nafees Rd, near farhan juice corner, near fatima public school, Batla House, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "ss-property-south-delhi"
+  },
+  {
+    "name": "Sahni Properties - Realtors and Developers",
+    "address": "Shop no 22, DDA Market Rd, Pocket 3, Mayur Vihar Phase I, Pocket 3, Mayur Vihar, New Delhi, Delhi, 110091",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "sahni-properties---realtors-and-developers-south-delhi"
+  },
+  {
+    "name": "Annu And Sons Property",
+    "address": "110025, Block F, Joga Bai Extension, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "annu-and-sons-property-south-delhi"
+  },
+  {
+    "name": "INFO REALTY",
+    "address": "D, Bharat Nagar, New Friends Colony, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "info-realty-south-delhi"
+  },
+  {
+    "name": "Alig Properties",
+    "address": "143, 3rd floor, Street Number 12, Jogabai Extension, Zakir Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "alig-properties-south-delhi"
+  },
+  {
+    "name": "N.K Properties",
+    "address": "219, Shop No-5, Lower Ground Floor, Main Road zakir Nagar, near Jama Masjid, Okhla, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "nk-properties-south-delhi"
+  },
+  {
+    "name": "Kumar Properties",
+    "address": "E-87, Block E, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "kumar-properties-south-delhi"
+  },
+  {
+    "name": "National Properties",
+    "address": "C-1, Ground Floor, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "national-properties-south-delhi"
+  },
+  {
+    "name": "Uppal Properties",
+    "address": "5/41, Old Double Storey, Nirmal Colony, Block 5, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "uppal-properties-south-delhi"
+  },
+  {
+    "name": "Chauhan properties",
+    "address": "Road no 21, A-175, New Ashok Nagar Rd, near pal optical, Block B, New Ashok Nagar, New Delhi, Delhi, 110096",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "chauhan-properties-south-delhi"
+  },
+  {
+    "name": "Amit Properties",
+    "address": "351, Pocket -v, Mayur Vihar, Delhi, 110091",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "amit-properties-south-delhi"
+  },
+  {
+    "name": "Kumar Linkers Estate Pvt. Ltd.",
+    "address": "UGF 2&3, E-109, near Akshardham Temple, Pandav Nagar, Delhi, 110091",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "kumar-linkers-estate-pvt-ltd-south-delhi"
+  },
+  {
+    "name": "Homeshop8®",
+    "address": "Shop No. 8, Community Centre, Block A, Friends Colony East, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "homeshop8-south-delhi"
+  },
+  {
+    "name": "Gulati Propeties",
+    "address": "C-11, Block C, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "gulati-propeties-south-delhi"
+  },
+  {
+    "name": "Alliance Real Estate",
+    "address": "O-6, Veer Savarkar Marg, Block O, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "alliance-real-estate-south-delhi"
+  },
+  {
+    "name": "Arora Estate Services",
+    "address": "Shop No.5, Hanuman Mandir, Krishna Market, Block D, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "arora-estate-services-south-delhi"
+  },
+  {
+    "name": "SWASTIK PROPERTY",
+    "address": "F 297, 7, N Pandav Nagar, Samaspur Village, Pandav Nagar, Delhi, 110091",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "swastik-property-south-delhi"
+  },
+  {
+    "name": "Aradhya Properties",
+    "address": "Gate No. 2, 19-A, near Ahlcon International School, Patparganj, Mayur Vihar, New Delhi, Delhi, 110091",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "aradhya-properties-south-delhi"
+  },
+  {
+    "name": "Pahalwan chowk",
+    "address": "H7P4+48G, Namberdar Chowk, Block C, Sarai Kale Khan, New Delhi, Delhi 110013",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "pahalwan-chowk-south-delhi"
+  },
+  {
+    "name": "Arora's Real Estate Agents",
+    "address": "B 88, B Block, East of Kailash, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "aroras-real-estate-agents-south-delhi"
+  },
+  {
+    "name": "Sharma Properties Dealer",
+    "address": "Shop No.19, Eros Rd, near Shanti Park, Block H, Jungpura Extension, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "sharma-properties-dealer-south-delhi"
+  },
+  {
+    "name": "Tyagi Property Dealer",
+    "address": "Double Storey, 1/34, Jangupura Extension, Jangpura, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "tyagi-property-dealer-south-delhi"
+  },
+  {
+    "name": "JP ASSOCIATES",
+    "address": "Shop no.8, Guru Nanak Market, Hospital Rd., Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "jp-associates-south-delhi"
+  },
+  {
+    "name": "LEAD REALTY",
+    "address": "101, Mathura Rd, near Bharat Petrol Pump, Siddhartha Enclave, Hari Nagar Ashram, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "lead-realty-south-delhi"
+  },
+  {
+    "name": "Bismillah Properties,salepurchase only.",
+    "address": "Batla House, Sir Syed Rd, Block F, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "bismillah-propertiessalepurchase-only-south-delhi"
+  },
+  {
+    "name": "RTO Office Sarai Kale Khan",
+    "address": "Mahatma Gandhi Rd, ISBT Sarai Kale Khan, Sarai Kale Khan, New Delhi, Delhi 110013",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "rto-office-sarai-kale-khan-south-delhi"
+  },
+  {
+    "name": "Sai Property",
+    "address": "House No 1, Sahakarita Marg, Chilla Sarda Bangar, Chilla Sarda Bangar Village, Mayur Vihar, New Delhi, Delhi 110091",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "sai-property-south-delhi"
+  },
+  {
+    "name": "rajwati properties",
+    "address": "22/5, Bhogal Rd, Jangpura, Block C, Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "rajwati-properties-south-delhi"
+  },
+  {
+    "name": "NeelAnjali Properties, Delhi",
+    "address": "House no 277L, Block B1, Street 11, New Ashok Nagar Rd, Block B, New Ashok Nagar, New Delhi, Delhi, 110096",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "neelanjali-properties-delhi-south-delhi"
+  },
+  {
+    "name": "Kerala Properties (Regd )",
+    "address": "H.o.136A, Pocket IV, Pratap Nagar, Mayur Vihar, New Delhi, Delhi, 110091",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "kerala-properties-regd-south-delhi"
+  },
+  {
+    "name": "Bhatia Properties",
+    "address": "A-213, Block A, Lajpat Nagar I, new delhi, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "bhatia-properties-south-delhi"
+  },
+  {
+    "name": "Abhinandan Real Estate Consultants",
+    "address": "139 B, near Gurudwara, Taimoor Nagar, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "abhinandan-real-estate-consultants-south-delhi"
+  },
+  {
+    "name": "Institute of Driving and Traffic Research",
+    "address": "Ring Rd, adjoining ISBT, ISBT Sarai Kale Khan, Sarai Kale Khan, New Delhi, Delhi 110013",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "institute-of-driving-and-traffic-research-south-delhi"
+  },
+  {
+    "name": "Guru Kirpa Properties",
+    "address": "L-39, Block L, Lajpat Nagar 4, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "guru-kirpa-properties-south-delhi"
+  },
+  {
+    "name": "Batla Properties",
+    "address": "Shop No.F-14, 1, Sir Syed Rd, Jogabai Extension, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "batla-properties-south-delhi"
+  },
+  {
+    "name": "A.S. Properties",
+    "address": "New, 76, 167, Mayur Vihar, Pocket 4, Pratap Nagar, Mayur Vihar, New Delhi, Delhi, 110091",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "as-properties-south-delhi"
+  },
+  {
+    "name": "Pankaj property dealer",
+    "address": "",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "pankaj-property-dealer-south-delhi"
+  },
+  {
+    "name": "GOKULAM PROPERTIES",
+    "address": "STREET NO: 10, Neelkanth Building, B-70, Phase 1, Shashi Garden, Mayur Vihar, Delhi, 110091",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "gokulam-properties-south-delhi"
+  },
+  {
+    "name": "One City Promoters Private Limited",
+    "address": "D-2, Block D, Kalindi Colony, New Friends Colony, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sarai Kale Khan",
+    "slug": "one-city-promoters-private-limited-south-delhi"
+  }
+]

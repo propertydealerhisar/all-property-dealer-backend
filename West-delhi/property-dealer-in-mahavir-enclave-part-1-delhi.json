@@ -1,0 +1,458 @@
+[
+  {
+    "name": "Shree Properties Builder and Dealer",
+    "address": "RZG 21, Mandir Marg, opp. Relaxo Showroom, Kali Nagar, Mahavir Enclave I, Mahavir Enclave Part 1, Mahavir Enclave, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "shree-properties-builder-and-dealer-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Shree Laxmi Properties",
+    "address": "RZF-1/348, Gali No. 3, nearby welcome pharmacy, Mahavir Enclave I, Mahavir Enclave Part 2, Mahavir Enclave, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "shree-laxmi-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Satwik Homes",
+    "address": "Kali Nagar, Mahavir Enclave I, Mahavir Enclave Part 1, Mahavir Enclave, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "satwik-homes-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Property kunj",
+    "address": "G3, Mandir Marg, Kali Nagar, Mahavir Enclave I, Palam, Mahavir Enclave, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "property-kunj-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Dass Properties",
+    "address": "Street No 4 , Mahavir Enclave, Dabri - Palam Rd, Mahavir Enclave I, Mahavir Enclave, New Delhi, Delhi 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "dass-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Sharma Property Dealer",
+    "address": "F1/151, Gali No.2, Nasirpur Rd, Mahavir Enclave, New Delhi, Delhi 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "sharma-property-dealer-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Sangam Properties",
+    "address": "Shop No.1, White House, H2/15, Kali Nagar, Block RZ, Mahavir Enclave Part 1, Mahavir Enclave, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "sangam-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Ridhi Sidhi property",
+    "address": "Shop No- L26 Plot No-L26, Main, Palam Rd, Kali Nagar, Block L, Mahavir Enclave Part 1, Mahavir Enclave, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "ridhi-sidhi-property-mahavir-enclave-part-1"
+  },
+  {
+    "name": "RATHI PROPERTIES",
+    "address": "H3XJ+MR4, Gali No. 7, Mahavir Enclave I, Mahavir Enclave Part 2, Mahavir Enclave, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "rathi-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Rajasthan Properties",
+    "address": "Palam Dabri Marg, Mahavir Enclave I, Mahavir Enclave Part 1, Mahavir Enclave, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "rajasthan-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Vicky Properties",
+    "address": "Dwarka Dabri Road, C-4, Mahavir Enclave Part 3, Mahavir Enclave, New Delhi, Delhi 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "vicky-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Bajrangbali property dealer",
+    "address": "B 153, 154, Gali No. 6, New Jankipuri, Mahavir Enclave Part 3, Bindapur, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "bajrangbali-property-dealer-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Yadav Associates Property Dealer Palam",
+    "address": "School, 64, Main Rd, opposite Palam Village, Puran Nagar, Block RZ, Raj Nagar I, Palam, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "yadav-associates-property-dealer-palam-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Maa Kalka Property Dealer",
+    "address": "Building No M222, M222, near by Dabri - Palam Road, Vijay Enclave, Mahavir Enclave, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "maa-kalka-property-dealer-mahavir-enclave-part-1"
+  },
+  {
+    "name": "RUDRA PROPERTIES",
+    "address": "RZ-F-1, 26, Gali No.1, Mahavir Enclave I, Mahavir Enclave Part 2, Mahavir Enclave, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "rudra-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "S.R. PROPERTIES",
+    "address": "RZ B-5, GURUDWARA ROAD, Dabri - Palam Rd, Mahavir Enclave Part 1, New Delhi, Delhi 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "sr-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Ghanshyam Property",
+    "address": "Vijay Enclave, M-205, Mirzapur, Mahavir Enclave, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "ghanshyam-property-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Sanjay Bihari",
+    "address": "H3VF+WFG, Dwarka Rd, S-1, Sector 1 Dwarka, Dwarka, Delhi, 110075",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "sanjay-bihari-mahavir-enclave-part-1"
+  },
+  {
+    "name": "KALA MALHOTRA PROPERTY DEALER :- Real Estate Agency Near at Uttam Nagar for Buy, Rent, Sell Houses, Flat & Apartments",
+    "address": "C6B near, Pali Factory Rd, Shish Ram Park, Block C, Uttam Nagar East, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "kala-malhotra-property-dealer---real-estate-agency-near-at-uttam-nagar-for-buy-rent-sell-houses-flat-apartments-mahavir-enclave-part-1"
+  },
+  {
+    "name": "DP real estate",
+    "address": "Rz 52, Palam Vihar Rd, behind Manipal hospital, Sector 6 Dwarka, Dwarka, Delhi, 110075",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "dp-real-estate-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Deluxe Property Dealer",
+    "address": "Rz D-85, Block D, Dabri Extension, Dabri Extension East, Dabri, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "deluxe-property-dealer-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Landcraft Builders",
+    "address": "H2/130A, Rz, 33 Feet Rd, near Sulabh International, Kali Nagar, Bengali Colony, Muesuem, Mahavir Enclave, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "landcraft-builders-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Shree Shubh Home Properties",
+    "address": "J34J+7RF, Palam, Dabri - Palam Rd, Vaishali Colony, Dashrath Puri, New Delhi, Delhi 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "shree-shubh-home-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Sapra Properties",
+    "address": "power house, Mahavir enclave part 3, sunday market, near dwarka, Sector 2 Dwarka, New Delhi, Delhi 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "sapra-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Ashiana Properties",
+    "address": "H3XP+XQR A-Block, 2,Capital Apartment, Pocket 6, Sector 1A Dwarka, Nasirpur, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "ashiana-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Dada Dev Properties",
+    "address": "WZ-55, Dwarka Road, Palam Village, Palam, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "dada-dev-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "K R properties",
+    "address": "shop no 1, B-7, Gali No. 8, Block A, Dashrath Puri, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "k-r-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "jha real estate",
+    "address": "C-919, ground floor, Sector 7, Block E, Palam Extension, Dwarka, New Delhi, Delhi, 110077",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "jha-real-estate-mahavir-enclave-part-1"
+  },
+  {
+    "name": "SHIVA PROPERTIES & INTERIORS",
+    "address": "Shop No. E-2, Pocket 3, DDA Flats, Bindapur (Dwarka), ND-59, Opp - D Block Community Centre, Uttam Vihar, Bindapur, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "shiva-properties-interiors-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Shri Khatu Shyam Property",
+    "address": "RZ-121 Gali No.6, Budh Bazar Rd, New Janki Puri, New Delhi, Delhi 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "shri-khatu-shyam-property-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Property dealer dwarka & uttam nagar",
+    "address": "Vishwas Park Extn, Raja Puri, Madhu Vihar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "property-dealer-dwarka-uttam-nagar-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Unnati Properties",
+    "address": "E 548, Ramphal Chowk Rd, Block E, Sector 7 Dwarka, Dwarka, New Delhi, Delhi, 110077",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "unnati-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Kanha Raj properties",
+    "address": "C, 360/361, Ramphal Chowk Rd, Block D, Sector 7 Dwarka, Dwarka, New Delhi, Delhi, 110077",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "kanha-raj-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Satish property Dealer",
+    "address": "Gali No. 39, Indira Park, Manglapuri, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "satish-property-dealer-mahavir-enclave-part-1"
+  },
+  {
+    "name": "A To Z Real Estate Solution",
+    "address": "Wz-653/3 gali, Street Number 18E, Kailashpuri Main, Block R, Sadh Nagar, Palam, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "a-to-z-real-estate-solution-mahavir-enclave-part-1"
+  },
+  {
+    "name": "JAIN PROPERTIES",
+    "address": "E-551, Near, Ramphal Chowk Rd, Chandar Vihar, Block B, Sector 7 Dwarka, Dwarka, Delhi, 110077",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "jain-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "COCHIN REALTORS",
+    "address": "3, Street Number 9, Block F, Mahavir Enclave Part 1, Mahavir Enclave, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "cochin-realtors-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Ahuja Properties",
+    "address": "C5D, 109A, Mangalpuri I, Janakpuri, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "ahuja-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Best Deal Associates",
+    "address": "Central Market, Office No-203, Plot No-14, Vardhman Airport Plaza-2, near Canara Bank, Sector 6 Dwarka, New Delhi, Delhi 110075",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "best-deal-associates-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Jain Properties & Developers",
+    "address": "Shop no-1 & 2, G-126, Street No.26, Raja Puri, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "jain-properties-developers-mahavir-enclave-part-1"
+  },
+  {
+    "name": "BHK HOMES",
+    "address": "Rajmandir, Metro station, Street Number 9, near Dashrathpuri, Ch Harphool Singh Market, Naveen Kunj Society, Mahavir Enclave, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "bhk-homes-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Link Properties & Developers",
+    "address": "G.S Plot No. 7, Manish Plaza, 1, Pocket 1, Sector 10 Dwarka, Dwarka, Delhi, 110075",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "link-properties-developers-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Ahlawat Associates",
+    "address": "C 43, Main Rajapuri Rd, near superb Gym, Block No B-1, Sanjay Enclave, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "ahlawat-associates-mahavir-enclave-part-1"
+  },
+  {
+    "name": "MAA vaishno properties",
+    "address": "Nirankari Bhavan wali, C-35, Gali No. 2, Block M, Vijay Enclave, Mahavir Enclave, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "maa-vaishno-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Siyaram Builders And Developers LLP",
+    "address": "A1/396, St Number 4, Madhu Vihar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "siyaram-builders-and-developers-llp-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Ahuja Associates : Best Property Dealer in Dwarka",
+    "address": "G-2, Manish Link Plaza, Sector 5 Market, Sector 5, Dwarka, Delhi, 110075",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "ahuja-associates-best-property-dealer-in-dwarka-mahavir-enclave-part-1"
+  },
+  {
+    "name": "CHIRAG PROPERTY DEALER",
+    "address": "J33R+VMW, Gali No. 11c, Block B, Dabri Extension East, Manglapuri, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "chirag-property-dealer-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Sigma Deep Properties",
+    "address": "Mahavir Enclave, Plot No. RZ-f1/301 A, Gali, New Delhi, Delhi 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "sigma-deep-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "S R Properties",
+    "address": "E-16, shop no-2, kalibari mandir marg, bengali colony, Mahavir enclave, palam dabri road, Palam, Delhi 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "s-r-properties-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Swastik Builders",
+    "address": "F1/21 Basement, Landmark-opposite Church, Gali No. 2E, Mahavir Enclave I, Mahavir Enclave Part 1, Mahavir Enclave, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "swastik-builders-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Grihasthi Property",
+    "address": "RZD-70/3, Dabri - Palam Rd, Durgapuri & Dwarkapuri, Block A, Mahavir Enclave Part 2, Mahavir Enclave, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "grihasthi-property-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Neeraj Chauhan Property Dealer And Building Material Supplier & Timber Store",
+    "address": "Rz Cd 32, near Sector 2, Kali Nagar, Block H, Mahavir Enclave Part 1, Dwarka, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "neeraj-chauhan-property-dealer-and-building-material-supplier-timber-store-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Shree Kunj Associates",
+    "address": "RzG/110, Mahavir Enclave, Mandir Marg, near Universal Public School, Palam, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "shree-kunj-associates-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Alam Property",
+    "address": "Rz H 21, near Som Bazar Road, Block H, Sitapuri Part 2, Dabri, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "alam-property-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Delhi Ka Builder",
+    "address": "Rz 172 Main Nasirpur, Kw kurtiwale, near by Bikaner Restaurent front, Durga Park Colony, Dabri, New Delhi, Delhi 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "delhi-ka-builder-mahavir-enclave-part-1"
+  },
+  {
+    "name": "Chauhan Property dealer",
+    "address": "b, Block C4A, Janakpuri, New Delhi, Delhi, 110058",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "chauhan-property-dealer-mahavir-enclave-part-1"
+  },
+  {
+    "name": "NP Embroidery",
+    "address": "RZH158, Block H, Sitapuri Part 2, Sitapuri, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mahavir Enclave Part 1",
+    "slug": "np-embroidery-mahavir-enclave-part-1"
+  }
+]

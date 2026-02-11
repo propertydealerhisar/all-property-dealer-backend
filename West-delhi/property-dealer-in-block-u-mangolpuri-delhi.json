@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Gupta Property Dealer",
+    "address": "D.D.A. Market, O-15, near State Bank Of India, C Block, Mangolpuri, Delhi, 110083",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Block U Mangolpuri",
+    "slug": "gupta-property-dealer-block-u-mangolpuri"
+  },
+  {
+    "name": "Raj Properties Dealer",
+    "address": "J-1080, near M.C.D. Office, Mangolpur Khurd, Mangolpuri, Delhi, 110083",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Block U Mangolpuri",
+    "slug": "raj-properties-dealer-block-u-mangolpuri"
+  },
+  {
+    "name": "Jaish property dealer",
+    "address": "Munnalal House, 578, Block U, Mangolpuri, New Delhi, Delhi, 110083",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Block U Mangolpuri",
+    "slug": "jaish-property-dealer-block-u-mangolpuri"
+  },
+  {
+    "name": "Nitin Property Dealer",
+    "address": "R-1162, DDA Market, Block S, Mangolpuri, New Delhi, Delhi, 110083",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Block U Mangolpuri",
+    "slug": "nitin-property-dealer-block-u-mangolpuri"
+  }
+]

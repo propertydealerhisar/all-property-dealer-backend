@@ -1,0 +1,434 @@
+[
+  {
+    "name": "Nagpal Estates.: Property Dealer Paschim Vihar",
+    "address": "Ground Floor, M -17, Guru Harkishan Nagar, Paschim Vihar, New Delhi, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "nagpal-estates-property-dealer-paschim-vihar-guru-harkishan-nagar"
+  },
+  {
+    "name": "Anurag Associate-Best Property Dealer In Paschim Vihar-Property Dealer In Paschim Vihar.",
+    "address": "Shop No. 20, DDA Market, Bhera Enclave, Paschim Vihar, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "anurag-associate-best-property-dealer-in-paschim-vihar-property-dealer-in-paschim-vihar-guru-harkishan-nagar"
+  },
+  {
+    "name": "Tony properties",
+    "address": "Guru Harkishan Nagar, Paschim Vihar, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "tony-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "Ahuja Associates",
+    "address": "M- 116, Nangloi Saiyed Rd, Guru Harkishan Nagar, Paschim Vihar, New Delhi, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "ahuja-associates-guru-harkishan-nagar"
+  },
+  {
+    "name": "VK Properties",
+    "address": "H.NO 48, VK PROPERTIES, Pandit Deen Dayal Upadhyay Marg, Block G, Pushkar Enclave, Paschim Vihar, New Delhi, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "vk-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "West Delhi Properties",
+    "address": "DDA Market, 21, Shubham Enclave, Paschim Vihar, New Delhi, Delhi 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "west-delhi-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "Aggarwal Properties.",
+    "address": "Bhera Enclave, Paschim Vihar, New Delhi, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "aggarwal-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "Fair Deal Associates",
+    "address": "Prateek Apartment, A-2/62, A 2 Block, Paschim Vihar, New Delhi, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "fair-deal-associates-guru-harkishan-nagar"
+  },
+  {
+    "name": "Madaan Properties",
+    "address": "G-5 Gupta Arcade, Rohtak Rd, Inder Enclave, New Delhi, Delhi 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "madaan-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "Gogia Properties",
+    "address": "422, Bhera Enclave, Paschim Vihar, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "gogia-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "National Property",
+    "address": "C-2, 487/65 National Market, Peera Garhi, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "national-property-guru-harkishan-nagar"
+  },
+  {
+    "name": "Ajay Properties",
+    "address": "418, Main Road, Opp. Radisson, Nangloi Saiyed Rd, Bhera Enclave, Paschim Vihar, New Delhi, Delhi 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "ajay-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "Manisha Properties",
+    "address": "357, Nangloi Saiyed Rd, GH 14, Block GH 14, Paschim Vihar, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "manisha-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "Handa Properties Paschim Vihar",
+    "address": "DDA Market, Shop no 3, Bg3 and Bg5, near Nirankari satsang bhawan, Paschim Vihar, New Delhi, Delhi 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "handa-properties-paschim-vihar-guru-harkishan-nagar"
+  },
+  {
+    "name": "Sai Kripa Estates .",
+    "address": "B-371, Lower Ground Floor, Outer Ring Rd, Meera Bagh, Paschim Vihar, New Delhi, Delhi 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "sai-kripa-estates-guru-harkishan-nagar"
+  },
+  {
+    "name": "Sikander Properties",
+    "address": "1, Delhi Plot No 17 A Guru harkishan Nagar, Nilothi Extn, New Delhi, Delhi 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "sikander-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "GURU JI PROPERTIES",
+    "address": "185, Ambica Vihar, Paschim Vihar, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "guru-ji-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "MEHRA PROPERTY",
+    "address": "National Market, 487/36, Peera Garhi, Peeragarhi Village, Paschim Vihar, New Delhi, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "mehra-property-guru-harkishan-nagar"
+  },
+  {
+    "name": "Prime Properties (Industrial, commercial, warehouse, office)",
+    "address": "DSIDC Complex, SFS-35, Rohtak Rd, Delhi State Industrial Development Corporation, Udyog Nagar, Nangloi, Delhi, 110041",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "prime-properties-industrial-commercial-warehouse-office-guru-harkishan-nagar"
+  },
+  {
+    "name": "Amit Estate Sunder Vihar",
+    "address": "Ground Floor 1, White House, 2, Outer Ring Rd, opposite Mc Donalds, Sunder Vihar, Paschim Vihar, New Delhi, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "amit-estate-sunder-vihar-guru-harkishan-nagar"
+  },
+  {
+    "name": "All India Properties",
+    "address": "A2, Prateek Apartment, 2, Hoti Singh Sisodia Marg, A 2 Block, Paschim Vihar, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "all-india-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "99 Property",
+    "address": "Maa Shakti Apartment, A1/134, A 2 Block, Paschim Vihar, New Delhi, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "99-property-guru-harkishan-nagar"
+  },
+  {
+    "name": "Shanti Properties",
+    "address": "A2/13, Prateek Apartment, LIG Flat, Hoti Singh Sisodia Marg, A 2 Block, Paschim Vihar, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "shanti-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "Mehta Properties",
+    "address": "407, Outer Ring Rd, Block 12, Bhera Enclave, Paschim Vihar, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "mehta-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "Suresh Property Dealer",
+    "address": "C-220 , Chandan Vihar, Shani Bazar Rd, Laxmi Park, Block B, Vandana Vihar, Nangloi, Delhi, 110041",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "suresh-property-dealer-guru-harkishan-nagar"
+  },
+  {
+    "name": "Shiv Kripa Property – Paschim Vihar | Peeragarhi | Mundka",
+    "address": "Ekta Enclave, 122 b, near Peeragarhi, Ekta Enclave, Peeragarhi Village, Paschim Vihar, Delhi, 110041",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "shiv-kripa-property-paschim-vihar-peeragarhi-mundka-guru-harkishan-nagar"
+  },
+  {
+    "name": "Khera Properties",
+    "address": "4, Gurudwara Rd, near Gurudwara Sri Guru Singh Sabha, B 2 Block, Paschim Vihar, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "khera-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "Magoo Associates",
+    "address": "Shop No-9, GH-9, GH-9 Block, Paschim Vihar, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "magoo-associates-guru-harkishan-nagar"
+  },
+  {
+    "name": "SocietyFlats.com",
+    "address": "M, 130, Guru Harkishan Nagar, Paschim Vihar, New Delhi, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "societyflatscom-guru-harkishan-nagar"
+  },
+  {
+    "name": "J T Properties",
+    "address": "Rd Number 30, Shubham Enclave, Reserve Bank Enclave, Paschim Vihar, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "j-t-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "Dua Properties",
+    "address": "Prateek Apartment, A 2 Block, Paschim Vihar, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "dua-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "Sahib Estates",
+    "address": "Adjoin Axis Bank, B2/14, B 2 Block, Paschim Vihar, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "sahib-estates-guru-harkishan-nagar"
+  },
+  {
+    "name": "Tiwari Properties",
+    "address": "Rzc-207, Nihal Vihar, Nangloi, New Delhi, Delhi, 110041",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "tiwari-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "Prakash Properties",
+    "address": "M39G+H65, H65, Nihal Vihar New, 50 Feet Rd, Nihal Vihar, Vandana Vihar, Nangloi, New Delhi, Delhi 110041",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "prakash-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "RM DELHI PROPERTIES",
+    "address": "First Floor, Market, WZ-9A, West, Jwalaheri Village, Paschim Vihar, New Delhi, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "rm-delhi-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "Ajay Dhamija Properties",
+    "address": "A-5/131 A, near INDRAPRASTHA WORLD SCHOOL, Vihar, Paschim Vihar, New Delhi, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "ajay-dhamija-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "Pragati Properties-Property Dealer In Madipur.",
+    "address": "Pocket 2, Double Story, 737-A, Madipur Village, Madipur JJ Colony, Paschim Puri, New Delhi, Delhi 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "pragati-properties-property-dealer-in-madipur-guru-harkishan-nagar"
+  },
+  {
+    "name": "Lucky property nihal vihar",
+    "address": "Rzb-327, Nihal Vihar, Nangloi, Delhi, 110041",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "lucky-property-nihal-vihar-guru-harkishan-nagar"
+  },
+  {
+    "name": "Sajdeh and Associates-Govt. Approved Property Valuer",
+    "address": "First floor, House Number 22, Block A1, A 1 Block, Krishna Apartment, Paschim Vihar, New Delhi, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "sajdeh-and-associates-govt-approved-property-valuer-guru-harkishan-nagar"
+  },
+  {
+    "name": "Padam Associate",
+    "address": "B Block, B-379, Outer Ring Rd, Block B, Meera Bagh, Paschim Vihar, New Delhi, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "padam-associate-guru-harkishan-nagar"
+  },
+  {
+    "name": "R.K. Properties",
+    "address": "SHOP NO, 14, 50 Feet Rd, near RAJINDRA PUBLIC SCHOOl, Block C, Nihal Vihar, Nangloi, Delhi, 110041",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "rk-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "Ram Rahim Property",
+    "address": "R Z A 53, Satsang Rd, Nihal Vihar, Nangloi, Delhi, 110041",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "ram-rahim-property-guru-harkishan-nagar"
+  },
+  {
+    "name": "Sameer properties",
+    "address": "A-46, Chander Vihar, Nilothi Extn, Nangloi, New Delhi, Delhi, 110041",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "sameer-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "KALA MALHOTRA PROPERTY DEALER :- Real Estate Agency Near at Uttam Nagar for Buy, Rent, Sell Houses, Flat & Apartments",
+    "address": "C6B near, Pali Factory Rd, Shish Ram Park, Block C, Uttam Nagar East, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "kala-malhotra-property-dealer---real-estate-agency-near-at-uttam-nagar-for-buy-rent-sell-houses-flat-apartments-guru-harkishan-nagar"
+  },
+  {
+    "name": "SURI PROPERTIES",
+    "address": "A -13, Block A, Meera Bagh, Paschim Vihar, New Delhi, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "suri-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "The NCR Properties",
+    "address": "",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "the-ncr-properties-guru-harkishan-nagar"
+  },
+  {
+    "name": "Pranav Mendiratta Realtors",
+    "address": "M4C3+W6J, A 2 Block, Paschim Vihar, New Delhi, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "pranav-mendiratta-realtors-guru-harkishan-nagar"
+  },
+  {
+    "name": "Avneesh Properties - Sale Purchase of Flat, Builder floor, Plots Residential & Commercial - Delhi / NCR / Gurgaon",
+    "address": "First Floor, A2/238 Prateek app. (Flats, Paschim Vihar, New Delhi, Delhi 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "avneesh-properties---sale-purchase-of-flat-builder-floor-plots-residential-commercial---delhi-ncr-gurgaon-guru-harkishan-nagar"
+  },
+  {
+    "name": "Sky Real Estate .",
+    "address": "561, GH 14, Block GH 14, Paschim Vihar, New Delhi, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "sky-real-estate-guru-harkishan-nagar"
+  },
+  {
+    "name": "Lelo Realty",
+    "address": "457, Bhera Enclave, Paschim Vihar, New Delhi, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "lelo-realty-guru-harkishan-nagar"
+  },
+  {
+    "name": "Ahuja real estate",
+    "address": "M-133, Guru Harkishan Nagar, Paschim Vihar, New Delhi, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "ahuja-real-estate-guru-harkishan-nagar"
+  },
+  {
+    "name": "Paschim Vihar Property Dealer",
+    "address": "2ND FLOOR, 142, Avtar Enclave, Paschim Vihar, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "paschim-vihar-property-dealer-guru-harkishan-nagar"
+  },
+  {
+    "name": "Shree hari Real-estate",
+    "address": "G-61, Block G, Pushkar Enclave, Paschim Vihar, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "shree-hari-real-estate-guru-harkishan-nagar"
+  },
+  {
+    "name": "S K Properties",
+    "address": "D G H 8/157, A1 Rd, near LIC Colony, Block A 2, Mianwali Nagar, Paschim Vihar, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Guru Harkishan Nagar",
+    "slug": "s-k-properties-guru-harkishan-nagar"
+  }
+]

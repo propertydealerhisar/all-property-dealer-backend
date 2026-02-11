@@ -1,0 +1,370 @@
+[
+  {
+    "name": "Vivaan Real Estate",
+    "address": "Pillar No. 722, A-26, Nanhey Park Rd, Nanhey Park, Matiala Extension, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "vivaan-real-estate-nanhey-park"
+  },
+  {
+    "name": "Ansh Properties and Builders",
+    "address": "Mangal Bazar Rd, opp. Sunil Dairy, Manas Kunj, Santosh Park, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "ansh-properties-and-builders-nanhey-park"
+  },
+  {
+    "name": "KALA MALHOTRA PROPERTY DEALER",
+    "address": "C6B near, Pali Factory Rd, Shish Ram Park, Block C, Uttam Nagar East, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "kala-malhotra-property-dealer-nanhey-park"
+  },
+  {
+    "name": "Jha Property Dealer",
+    "address": "Shukkar Bazar, Nanhey Park, Om Vihar, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "jha-property-dealer-nanhey-park"
+  },
+  {
+    "name": "Gupta Associates .",
+    "address": "B-52 Opposite Street No 14, near Hanuman Mandir Road, Kiran Garden, Uttam Nagar, New Delhi, Delhi 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "gupta-associates-nanhey-park"
+  },
+  {
+    "name": "Manchanda Properties & Consultant",
+    "address": "A-88, Main Bindapur Matiyala Rd, Near Barat Ghar, Nanhey Park, Om Vihar, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "manchanda-properties-consultant-nanhey-park"
+  },
+  {
+    "name": "Neeraj Properties",
+    "address": "Uttam Nagar, Som Bazar Rd, Block B, Raja Puri, Matiala, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "neeraj-properties-nanhey-park"
+  },
+  {
+    "name": "Kalsi Associates - Property Dealers | 1 Bhk flats | 2 Bhk Flats | 3 Bhk Flats | Dwarka Mor",
+    "address": "Shop No. G-8, Mohan Garden, Dwarka Mod, Uttam Nagar, Rama Park, Nawada, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "kalsi-associates---property-dealers-1-bhk-flats-2-bhk-flats-3-bhk-flats-dwarka-mor-nanhey-park"
+  },
+  {
+    "name": "Mehta Properties & Builders",
+    "address": "Ground Floor, A-191/192, opposite Metro Pillar No. 758, Gulab Bagh, Block D, Sewak Park, Uttam Nagar, Delhi, New Delhi, Delhi 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "mehta-properties-builders-nanhey-park"
+  },
+  {
+    "name": "Munjal Properties",
+    "address": "A-122, Rama Park, near Dwarka Mor Station, Rama Park, Block A, Rama Park, Uttam Nagar, NewDelhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "munjal-properties-nanhey-park"
+  },
+  {
+    "name": "Baba Baidyanath Property dealer",
+    "address": "D-1/103, Block D, Mansa Ram Park, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "baba-baidyanath-property-dealer-nanhey-park"
+  },
+  {
+    "name": "Naman Properties",
+    "address": "Gulab Bhag, Block A, Kiran Garden, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "naman-properties-nanhey-park"
+  },
+  {
+    "name": "Baba Properties",
+    "address": "A-65, Gurudwara Rd, Mohan Garden, Block A, Mahavir Enclave, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "baba-properties-nanhey-park"
+  },
+  {
+    "name": "PREM PROPERTIES - Uttam Nagar / Janakpuri , Delhi",
+    "address": "D-127, near LAL MANDIR, Vijay Vihar, Block E, Ram Datt Enclave, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "prem-properties---uttam-nagar-janakpuri-delhi-nanhey-park"
+  },
+  {
+    "name": "HAPPY HOMES PROPERTIES AND BUILDERS",
+    "address": "METRO PILLAR NO 714, RAJMAL ROAD, C-33/A, Jain Park Rd, Block B, Om Vihar, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "happy-homes-properties-and-builders-nanhey-park"
+  },
+  {
+    "name": "Prem Homes",
+    "address": "G-5, Kiran Garden, Main, Matiala Rd, Uttam Nagar, Greater Kailash, New Delhi, Delhi 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "prem-homes-nanhey-park"
+  },
+  {
+    "name": "Kailash Properties & Builders",
+    "address": "R-3/79,dwarka mor, 55 Foot Road , nawada housing complex, Dwarka Mor, Uttam Nagar, New Delhi, Delhi 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "kailash-properties-builders-nanhey-park"
+  },
+  {
+    "name": "Chhabra Property.",
+    "address": "A, 1/89, Hastsal Rd, Block A 1, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "chhabra-property-nanhey-park"
+  },
+  {
+    "name": "Kushwaha Homes Private Limited",
+    "address": "B-13/14, Matiala Rd, Gulab Bhag, Block A, Kiran Garden, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "kushwaha-homes-private-limited-nanhey-park"
+  },
+  {
+    "name": "Khanna Properties",
+    "address": "67, Nawada Rd, Goverdhan Park, Phase 1, Om Vihar, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "khanna-properties-nanhey-park"
+  },
+  {
+    "name": "Choudhary Properties & Builders",
+    "address": "RZG 204, Sec 3, behind Petrol Pump, Block G, Vishwas Park, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "choudhary-properties-builders-nanhey-park"
+  },
+  {
+    "name": "Shivam Properties",
+    "address": "Block B, B-46, Hanuman Mandir Rd, Block C, Kiran Garden, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "shivam-properties-nanhey-park"
+  },
+  {
+    "name": "Shiva Homes",
+    "address": "E 107, Ram Nagar Rd, Om Vihar Extn, Param Puri, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "shiva-homes-nanhey-park"
+  },
+  {
+    "name": "shree homes",
+    "address": "Block T, Param Puri, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "shree-homes-nanhey-park"
+  },
+  {
+    "name": "My Dream Home Solution 369 (A Unit of Khatri Associate)",
+    "address": "Shop No 93, Ram Nagar Rd, Om Vihar Extn, Om Vihar, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "my-dream-home-solution-369-a-unit-of-khatri-associate-nanhey-park"
+  },
+  {
+    "name": "R.N. Properties",
+    "address": "B-1/50, Gali no. 20, Hanuman Mandir Rd, Kiran Garden, Uttam Nagar, New Delhi, Delhi 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "rn-properties-nanhey-park"
+  },
+  {
+    "name": "Nanhey park uttam nagar",
+    "address": "74, Street No. 11, Shukkar Bazar, Nanhey Park, Om Vihar, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "nanhey-park-uttam-nagar-nanhey-park"
+  },
+  {
+    "name": "GULATI ESTATES",
+    "address": "No.707, Plot No.98-99, Ram Nagar Rd, near PNB Bank & Metro Piller, Om Vihar Extn, Param Puri, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "gulati-estates-nanhey-park"
+  },
+  {
+    "name": "Prime Associates",
+    "address": "T-100, Shukkar Bazar Rd, Block T, Param Puri, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "prime-associates-nanhey-park"
+  },
+  {
+    "name": "DELHI PROPERTIES",
+    "address": "Gali Number 6, Dwarka Mor, A Block, Sewak Park, Nawada, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "delhi-properties-nanhey-park"
+  },
+  {
+    "name": "GAURAV HOMES",
+    "address": "E-97, Ram Nagar Rd, Om Vihar Extn, Param Puri, Bindapur, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "gaurav-homes-nanhey-park"
+  },
+  {
+    "name": "Dada Dev Properties",
+    "address": "Shop Number-100, near Malhotra Tyre Factory, Matiala Extension, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "dada-dev-properties-nanhey-park"
+  },
+  {
+    "name": "Arshia Real Estate",
+    "address": "Jain Park, Plot No: 90/91, Main, Matiala Rd, Uttam Nagar, New Delhi, Delhi 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "arshia-real-estate-nanhey-park"
+  },
+  {
+    "name": "Uttam Nagar Properties",
+    "address": "G1/137A, Behind Bank Of India & Vishal Mega Mart,, Opp. Metro Pillar Ni. 677, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "uttam-nagar-properties-nanhey-park"
+  },
+  {
+    "name": "N. Shanaya Realtech & Metal Pvt. Ltd.",
+    "address": "Pillar No - 707, Shop No -01 Gali No -08, Extension Ram Nagar Road, Om Vihar, Uttam Nagar, New Delhi, Delhi 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "n-shanaya-realtech-metal-pvt-ltd-nanhey-park"
+  },
+  {
+    "name": "Himanshu Properties & Builders",
+    "address": "T-27A, near KHANNA Tent House, Shukar Bazar, Block T, Param Puri, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "himanshu-properties-builders-nanhey-park"
+  },
+  {
+    "name": "Real Estate",
+    "address": "hare krishn nagar, Matiala Extension, Raja Puri, Matiala, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "real-estate-nanhey-park"
+  },
+  {
+    "name": "Jeet Builders & Developers",
+    "address": "Shop No B-16, opposite Park, Jain Park, Om Vihar, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "jeet-builders-developers-nanhey-park"
+  },
+  {
+    "name": "Partap Builders",
+    "address": "RZ -154, near NIRANKARI BHAWAN, Santosh Park, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "partap-builders-nanhey-park"
+  },
+  {
+    "name": "Greenways Associates",
+    "address": "Greenways Associates, E 9, near Som Bazar Road, near Dwarka, Nanhey Park, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "greenways-associates-nanhey-park"
+  },
+  {
+    "name": "Arora Associates & Builders",
+    "address": "Shukra Bazar Road, T-170, Main Bindapur Matiyala Rd, Param Puri, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "arora-associates-builders-nanhey-park"
+  },
+  {
+    "name": "DHANU PROPERTIES",
+    "address": "Rz-T-147, T Extension, Jain Colony Part 1, Subhash Park, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "dhanu-properties-nanhey-park"
+  },
+  {
+    "name": "Shri Shyam Properties",
+    "address": "Sukhiram Park, RZ-25-26, Hanuman Mandir Rd, near by Metro Pillar No. 725, Uttam Nagar, Matiala, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "shri-shyam-properties-nanhey-park"
+  },
+  {
+    "name": "SAI DHAN PROPERTIES",
+    "address": "Shop No -E, 1, Ram Nagar Rd, Om Vihar Extn, Om Vihar, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "sai-dhan-properties-nanhey-park"
+  },
+  {
+    "name": "Mahir Properties",
+    "address": "Netaji Subhas Institute Of Technology, WZ-195, Matiala Ext Rd, Pocket 1, Dwarka Sector-3, Matiala, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "mahir-properties-nanhey-park"
+  },
+  {
+    "name": "Ananta Associates",
+    "address": "E-32, near Om Vihar, Om Vihar Extn, Param Puri, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nanhey Park",
+    "slug": "ananta-associates-nanhey-park"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Sharma Property Dealer",
+    "address": "First Floor, 1455/14, Nai Sarak, near Shiv mandir, Shri Ram Market, Maliwara, Jogiwara, Chandni Chowk, Delhi, 110006",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Gandhi Market",
+    "slug": "sharma-property-dealer-gandhi-market"
+  },
+  {
+    "name": "Pappu bhai property agent",
+    "address": "9/6268 hari gali, Gandhi Nagar, Delhi, 110031",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Gandhi Market",
+    "slug": "pappu-bhai-property-agent-gandhi-market"
+  },
+  {
+    "name": "Ganga Property Dealer",
+    "address": "1a, 18, Jheel Marg, Block 1a, Geeta Colony, Delhi, 110031",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Gandhi Market",
+    "slug": "ganga-property-dealer-gandhi-market"
+  },
+  {
+    "name": "Hari Om Property (Shukla ji)",
+    "address": "Shop no- 1355, Hanuman mandir wali gali, Gandhi Nagar, West Kanti Nagar, Seelampur, Delhi, 110031",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Gandhi Market",
+    "slug": "hari-om-property-shukla-ji-gandhi-market"
+  },
+  {
+    "name": "Aggarwal properties",
+    "address": "satya Narayan mandir, 9/6897 gali, near mahavir chowk, Gandhi Nagar, Delhi, 110031",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Gandhi Market",
+    "slug": "aggarwal-properties-gandhi-market"
+  }
+]

@@ -1,0 +1,586 @@
+[
+  {
+    "name": "Arora properties",
+    "address": "31/968, dda falts masngir, Madngir, New Delhi, Delhi 110062",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "arora-properties-south-delhi"
+  },
+  {
+    "name": "Prince Property",
+    "address": "31/969,D.D.A Flats, Dr.Ambedkar Nagar, Madangir, New Delhi, Delhi 110062",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "prince-property-south-delhi"
+  },
+  {
+    "name": "OM Properties",
+    "address": "34/1096, DDA Flats, JJ Colony, Sector 4, Madangir, New Delhi, Delhi 110062",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "om-properties-south-delhi"
+  },
+  {
+    "name": "property dealer",
+    "address": "f 2nd 323 Madangir New Delhi, New Delhi, Delhi 110062",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "property-dealer-south-delhi"
+  },
+  {
+    "name": "Property Zone",
+    "address": "Gate No.2, Freedom Fighters Enclave, A-111, Freedom Fighter Colony, Block B, Neb Sarai, Sainik Farm, New Delhi, Delhi 110068",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "property-zone-south-delhi"
+  },
+  {
+    "name": "Pahadia Properties",
+    "address": "10/224, DDA Flats, Doctor Ambedkar Nagar, Madangir, New Delhi, Delhi 110062",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "pahadia-properties-south-delhi"
+  },
+  {
+    "name": "CRS Properties",
+    "address": "Shop No. A, 20, Devli Rd, Pocket A, Khanpur Extension, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "crs-properties-south-delhi"
+  },
+  {
+    "name": "Narender properties",
+    "address": "Shop No.A, 245, Devli Rd, Khanpur Village, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "narender-properties-south-delhi"
+  },
+  {
+    "name": "Bansal Properties",
+    "address": "B-1, Devli Rd, Pocket B, Duggal Colony, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "bansal-properties-south-delhi"
+  },
+  {
+    "name": "Chugh Properties (Regd. )",
+    "address": "Shop no- 2, Dr.Ambedkar Nagar, Block B, Sector 4, Madangir, New Delhi, Delhi 110062",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "chugh-properties-regd-south-delhi"
+  },
+  {
+    "name": "M V PROPERTIES REGD- Best Property dealer",
+    "address": "F 2/1 GROUND FLOOR, F BLOCK, Shiv Mandir, near Gol Chakkar, Block F, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "m-v-properties-regd--best-property-dealer-south-delhi"
+  },
+  {
+    "name": "SHIV SHAKTI PROPERTIES",
+    "address": "No 3, D-8A, Shop, Devli Rd, Krishna Park Colony, Jawahar Park, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "shiv-shakti-properties-south-delhi"
+  },
+  {
+    "name": "Sharma Properties- Best Property Dealer In Sheikh Sarai- PG Boys And Girls In Sheikh Sarai",
+    "address": "39 -A, Corner, near SHAHEED BHAGAT SINGH COLLEGE, J Pocket, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "sharma-properties--best-property-dealer-in-sheikh-sarai--pg-boys-and-girls-in-sheikh-sarai-south-delhi"
+  },
+  {
+    "name": "Girish Property dealer / agent commercial property only",
+    "address": "65, Deepak building 13, Nehru Place, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "girish-property-dealer-agent-commercial-property-only-south-delhi"
+  },
+  {
+    "name": "CM PROPERTIES",
+    "address": "Shop No, 1, A-15, Devli Rd, Pocket A, Duggal Colony, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "cm-properties-south-delhi"
+  },
+  {
+    "name": "Property Dealer",
+    "address": "A 48, Sarai Shahji, Panchsheel Vihar, Sheikh Sarai Village, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "property-dealer-south-delhi"
+  },
+  {
+    "name": "Sanjay Property Dealer",
+    "address": "Shop No F, 38, near Pnb Bank, Deoli, Khanpur Extension, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "sanjay-property-dealer-south-delhi"
+  },
+  {
+    "name": "SHIV SAI PROPERTIES",
+    "address": "3/1, Dakshinpuri Extension, Block 3, Dakshin Puri Extension, Dakshinpuri, New Delhi, Delhi 110062",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "shiv-sai-properties-south-delhi"
+  },
+  {
+    "name": "Garg Properties",
+    "address": "E-20/1, Block C, Block E, Deoli Extension, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "garg-properties-south-delhi"
+  },
+  {
+    "name": "JKM Properties",
+    "address": "Shop no-1, D-220, Devli Rd, Krishna Park Colony, Deoli Gaon Nai Basti, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "jkm-properties-south-delhi"
+  },
+  {
+    "name": "Nav Durge Properties",
+    "address": "T, Atta Chakki, 163, E/3, 163E, near Sai Baba Mandir, Khirki Extension, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "nav-durge-properties-south-delhi"
+  },
+  {
+    "name": "Shyam Real Estate",
+    "address": "R-54, 2nd Floor, Khirki Extension, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "shyam-real-estate-south-delhi"
+  },
+  {
+    "name": "A V Developers",
+    "address": "207-A, Devli Village, near Mansa Devi Mandir, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "a-v-developers-south-delhi"
+  },
+  {
+    "name": "South Delhi Properties",
+    "address": "JH-8, Khirki Extension, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "south-delhi-properties-south-delhi"
+  },
+  {
+    "name": "Kaushik Estate",
+    "address": "144, Lal Bahadur Shastri Marg, Madangir Village, Madangir, New Delhi, Delhi 110062",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "kaushik-estate-south-delhi"
+  },
+  {
+    "name": "SK Properties",
+    "address": "J 24-B, near SHAHEED BHAGAT SINGH COLLEGE, J Pocket, Phase II, Sheikh Sarai, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "sk-properties-south-delhi"
+  },
+  {
+    "name": "Vaani Properties.",
+    "address": "G Floor, 89, Khirki Extension, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "vaani-properties-south-delhi"
+  },
+  {
+    "name": "Dream Big Associates",
+    "address": "F2/2, Block L, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "dream-big-associates-south-delhi"
+  },
+  {
+    "name": "Kukreja Properties",
+    "address": "shop no 5, 80/60, opp. gurudwara sahib, Shvalik, DDA Flats, Malviya Nagar, New Delhi, Delhi, 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "kukreja-properties-south-delhi"
+  },
+  {
+    "name": "Property Dealers in Kalkaji, Delhi",
+    "address": "DDA Flats St, DDA Flats Kalkaji, Block J 3, Alaknanda Market, Kalkaji, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "property-dealers-in-kalkaji-delhi-south-delhi"
+  },
+  {
+    "name": "B B Sharma Properties",
+    "address": "370, A-1, near Bhagat Singh College, Chirag Dilli, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "b-b-sharma-properties-south-delhi"
+  },
+  {
+    "name": "Vasant Realtors : Property Dealer GK 1 | Property Dealer Gk 2",
+    "address": "Plot no : 316, Greater Kailash-1, Block R, Defence Colony, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "vasant-realtors-property-dealer-gk-1-property-dealer-gk-2-south-delhi"
+  },
+  {
+    "name": "Property World",
+    "address": "178A, Main Bus Stand, Devli Village, Khanpur, Devli Rd, Durga Vihar, Deoli Gaon Nai Basti, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "property-world-south-delhi"
+  },
+  {
+    "name": "JUPITER DEAL MANAGEMENT",
+    "address": "Shop No-17, Csc, Dda Market, Masjid Moth Phase 2, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "jupiter-deal-management-south-delhi"
+  },
+  {
+    "name": "JKM Estate",
+    "address": "Avantika Complex, Market, Block J, Saket, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "jkm-estate-south-delhi"
+  },
+  {
+    "name": "JSK PROPERTEY",
+    "address": "D134, Venu eye, Krishna Park Colony, Jawahar Park, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "jsk-propertey-south-delhi"
+  },
+  {
+    "name": "Sai Property dealer",
+    "address": "Anupam Enclave, IGNOU Rd, Anupam Enclave Phase-1, Saiyad Ul Ajaib Village, Sainik Farm, New Delhi, Delhi 110030",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "sai-property-dealer-south-delhi"
+  },
+  {
+    "name": "Real Leasing India : Real Estate Consultant & Interior Solutions",
+    "address": "LGF, Salcon, Rasvilas, Saket District Centre, District Centre, Sector 6, Pushp Vihar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "real-leasing-india-real-estate-consultant-interior-solutions-south-delhi"
+  },
+  {
+    "name": "Royal Associates",
+    "address": "RZ-2,GROUND FLOOR, Saidulajab, Chandan Colony, New Delhi, Delhi 110030",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "royal-associates-south-delhi"
+  },
+  {
+    "name": "MITALI ASSOCIATES",
+    "address": "J3/252, DDA Flats St, Block J 3, Kalkaji, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "mitali-associates-south-delhi"
+  },
+  {
+    "name": "Property Point .",
+    "address": "G694+CF8 X-Ray, IGNOU Rd, Saiyad Ul Ajaib Village, Saket, New Delhi, Delhi 110030",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "property-point-south-delhi"
+  },
+  {
+    "name": "Kathuria Properties - Best property dealer in Delhi",
+    "address": "10/127, Basement, Opp. Shivalik, B-Block, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "kathuria-properties---best-property-dealer-in-delhi-south-delhi"
+  },
+  {
+    "name": "Khan Property & Realty",
+    "address": "J3/31, Khirki Extension, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "khan-property-realty-south-delhi"
+  },
+  {
+    "name": "Gali Number 32 DDA FLATS MADANGIR",
+    "address": "G69H+93J, Gali Number 32, DDA Flats, JJ Colony, Sector 4, Madangir, New Delhi, Delhi 110062",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "gali-number-32-dda-flats-madangir-south-delhi"
+  },
+  {
+    "name": "KIRPAL PROPERTIES",
+    "address": "J 43 A sheikh sarai-II Near Shaheed Bhagat Singh college d and college of vocational studies, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "kirpal-properties-south-delhi"
+  },
+  {
+    "name": "Amar International Infracon Pvt. Ltd.",
+    "address": "35/1139, DDA Flats, JJ Colony, Sector 4, Madangir, New Delhi, Delhi 110062",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "amar-international-infracon-pvt-ltd-south-delhi"
+  },
+  {
+    "name": "Maruti Properties",
+    "address": "K-79A, J Pocket, Phase II, Sheikh Sarai, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "maruti-properties-south-delhi"
+  },
+  {
+    "name": "Shiv Ji Properties",
+    "address": "R-95 B, Khirki Extension, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "shiv-ji-properties-south-delhi"
+  },
+  {
+    "name": "Nisha Yadav | Property Dealer- Sale | Rent",
+    "address": "Rz 904, Gali No. 23, Tughlakabad Extension, Tughlakabad, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "nisha-yadav-property-dealer--sale-rent-south-delhi"
+  },
+  {
+    "name": "Srishti Properties",
+    "address": "E7/2, Block E, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "srishti-properties-south-delhi"
+  },
+  {
+    "name": "R. S. Yadav Properties",
+    "address": "J - 1/29, Krishna Temple Ln, Khirki Extension, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "r-s-yadav-properties-south-delhi"
+  },
+  {
+    "name": "Mangalam estate",
+    "address": "j, 1/62, Khirki Ext Rd, Gupta Colony, New Colony, Khirki Extension, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "mangalam-estate-south-delhi"
+  },
+  {
+    "name": "Raj Associates",
+    "address": "21, Block J, Saket, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "raj-associates-south-delhi"
+  },
+  {
+    "name": "India Sotheby's International Realty",
+    "address": "5th floor, Wing A, Prius Platinum, D-3, Saket District Centre, District Centre, Sector 6, Pushp Vihar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "india-sothebys-international-realty-south-delhi"
+  },
+  {
+    "name": "Dream Homes Associates",
+    "address": "Gate No, 1, Shokeen Rd, Freedom Fighter Colony, Block A, Neb Sarai, Sainik Farm, New Delhi, Delhi 110068",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "dream-homes-associates-south-delhi"
+  },
+  {
+    "name": "Property Masterz — Property Dealers in Okhla",
+    "address": "Block E-44/3, Okhla Phase II, New Delhi, Delhi 110020",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "property-masterz-property-dealers-in-okhla-south-delhi"
+  },
+  {
+    "name": "Investor Space",
+    "address": "S 331 LGF, Block S, Greater Kailash II, Greater Kailash, Delhi, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "investor-space-south-delhi"
+  },
+  {
+    "name": "RENT A FLAT",
+    "address": "JB-25, Gupta Colony, Khirki Extension, Malviya Nagar, South Delhi, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "rent-a-flat-south-delhi"
+  },
+  {
+    "name": "Raj And Sodhi Property Dealer",
+    "address": "H No-190, near Shiv Mandir, Savitri Nagar, Savitri Nagar Village, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "raj-and-sodhi-property-dealer-south-delhi"
+  },
+  {
+    "name": "Bhatt Associates (Okhla Property Dealers)",
+    "address": "F, 32/6, Okhla Phase II, Pocket D, Okhla Phase II, Okhla Industrial Estate, New Delhi, Delhi 110020",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "bhatt-associates-okhla-property-dealers-south-delhi"
+  },
+  {
+    "name": "Manya property Dealer",
+    "address": "5, Neb Sarai, Block A 1, Neb Sarai, Sainik Farm, New Delhi, Delhi 110068",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "manya-property-dealer-south-delhi"
+  },
+  {
+    "name": "Uppal Properties",
+    "address": "5/41, Old Double Storey, Nirmal Colony, Block 5, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "uppal-properties-south-delhi"
+  },
+  {
+    "name": "Kalra Estates",
+    "address": "113A, K pocket , sheikh sarai 2 , ND 17, near bhagat singh college, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "kalra-estates-south-delhi"
+  },
+  {
+    "name": "Keshav Sanitations & Kitchen Appliances Delhi Khanpur",
+    "address": "13-A, Devli Rd, Bada Mohalla, Pocket A, Duggal Colony, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "keshav-sanitations-kitchen-appliances-delhi-khanpur-south-delhi"
+  },
+  {
+    "name": "Upadhyay real estate",
+    "address": "Building, b8, Panchsheel Vihar, Panchsheel Vihar, Pocket B, Sheikh Sarai Village, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "upadhyay-real-estate-south-delhi"
+  },
+  {
+    "name": "Balaji Properties",
+    "address": "R-95,Shop No-2, Khirki Ext Rd, Khirki Extension, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "balaji-properties-south-delhi"
+  },
+  {
+    "name": "Guru Nanak Motors & Real-estate",
+    "address": "Pocket B, Duggal Colony, Khanpur, New Delhi, Delhi 110062",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "guru-nanak-motors-real-estate-south-delhi"
+  },
+  {
+    "name": "Pal Associates",
+    "address": "Shop No.3, Kh.No.65, IGNOU Rd, Saiyad Ul Ajaib Village, Saket, New Delhi, Delhi 110068",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "pal-associates-south-delhi"
+  },
+  {
+    "name": "Gupta Properties",
+    "address": "Soni Detective & Allied Services Pvt. Ltd., 6, LSC, Balmiki Marg, Lal Bahadur Shastri Marg, DDA Market, Madangir Village, Madangir, New Delhi, Delhi 110062",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "gupta-properties-south-delhi"
+  },
+  {
+    "name": "M N R Consultant - Property Dealer I Sale, purchase and renting In Industrial Area Okhla I Sale & Purchase Dealer In Kalkaji",
+    "address": "F-7, Main Rd, Block F, Kalkaji, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "m-n-r-consultant---property-dealer-i-sale-purchase-and-renting-in-industrial-area-okhla-i-sale-purchase-dealer-in-kalkaji-south-delhi"
+  },
+  {
+    "name": "Hare Krishna Properties",
+    "address": "TA-177/2, Kalkaji Extension, Block A 8, Tughlakabad Extension, Kalkaji, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "hare-krishna-properties-south-delhi"
+  },
+  {
+    "name": "Satya Associates malviya Nagar 80/65A",
+    "address": "Singh Sahab Gurudwara, Malviya Nagar 80/65A singh Sahab, Captain Hitesh Mehta Marg, New Delhi, 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "satya-associates-malviya-nagar-8065a-south-delhi"
+  },
+  {
+    "name": "Gupta Property Dealer",
+    "address": "JD, 21, Gupta Colony, Khirki Extension, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "RPS Colony",
+    "slug": "gupta-property-dealer-south-delhi"
+  }
+]

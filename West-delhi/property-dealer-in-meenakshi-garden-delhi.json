@@ -1,0 +1,290 @@
+[
+  {
+    "name": "Angel Properties",
+    "address": "C-24 Shop.No, 1, Ajay Enclave, Subhash Nagar, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "angel-properties-meenakshi-garden"
+  },
+  {
+    "name": "Krishna Properties",
+    "address": "Shop 12 Arya samaj Mandir, Subhash Nagar, New Delhi, Delhi 110064",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "krishna-properties-meenakshi-garden"
+  },
+  {
+    "name": "Guruji Properties",
+    "address": "top floor, metro station, Jail Rd, near Tilak Nagar, Prem Nagar, Janakpuri, New Delhi, Delhi, 110058",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "guruji-properties-meenakshi-garden"
+  },
+  {
+    "name": "VRentilia Homes | Apna PG in Tilak Nagar | PG near Metro",
+    "address": "13/33 A, Block 3, Tilak Nagar, Karol Bagh, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "vrentilia-homes-apna-pg-in-tilak-nagar-pg-near-metro-meenakshi-garden"
+  },
+  {
+    "name": "Grover Property Dealers [Groverconsultants]",
+    "address": "WZ-1, Mukherji Park, Chaukhandi, Tilak Nagar, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "grover-property-dealers-groverconsultants-meenakshi-garden"
+  },
+  {
+    "name": "Mohit Properties",
+    "address": "Office No 7, 3, Block 7, Ashok Nagar, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "mohit-properties-meenakshi-garden"
+  },
+  {
+    "name": "Guruji Property.com®Estate Agent Hari Nagar",
+    "address": "Shop Number 3, C 37 A, Shaheed Mangal Pandey Marg, near Clock Tower, near ddu hospital front gate, Nanak Pura, Hari Nagar, New Delhi, Delhi, 110064",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "guruji-propertycomestate-agent-hari-nagar-meenakshi-garden"
+  },
+  {
+    "name": "Shimpu Properties",
+    "address": "2/265, Block 17, Manak Vihar, Subhash Nagar, New Delhi, Delhi, 110064",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "shimpu-properties-meenakshi-garden"
+  },
+  {
+    "name": "Sharma Ji Properties",
+    "address": "S.P.Mukherjee Park, WZ-46, Tilak Nagar, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "sharma-ji-properties-meenakshi-garden"
+  },
+  {
+    "name": "Dewan Properties",
+    "address": "Shop No. 7, 4/33, Block 16, Subhash Nagar, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "dewan-properties-meenakshi-garden"
+  },
+  {
+    "name": "Sumit Properties and Finance Advisor",
+    "address": "near Haldiram, Block 4A, Tilak Nagar, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "sumit-properties-and-finance-advisor-meenakshi-garden"
+  },
+  {
+    "name": "Manjeet Properties",
+    "address": "31/16, opp. Ramleela Ground, Block 31, Ashok Nagar, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "manjeet-properties-meenakshi-garden"
+  },
+  {
+    "name": "MAXIMUM ESTATES - Best property dealer in Rajouri garden",
+    "address": "d 22 b, Rajouri Garden, Delhi, 110064",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "maximum-estates---best-property-dealer-in-rajouri-garden-meenakshi-garden"
+  },
+  {
+    "name": "Ruhani Real Estate & Construction",
+    "address": "24/11, Chhoti Subji Mandi, Janakpuri, New Delhi, Delhi 110058",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "ruhani-real-estate-construction-meenakshi-garden"
+  },
+  {
+    "name": "Nagpal Properties & Construction",
+    "address": "Shopping Centre, B-3, Balasaheb Devras Marg, Block BA, Tagore Garden, Tagore Garden Extension, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "nagpal-properties-construction-meenakshi-garden"
+  },
+  {
+    "name": "Nagpal Properties",
+    "address": "J-102 Milap Market, Beri Wala Bagh, New Delhi, Delhi 110064",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "nagpal-properties-meenakshi-garden"
+  },
+  {
+    "name": "Mahajan Properties -Best property dealer in Tagore Garden",
+    "address": "Main Market, Tagore Garden, Tagore Garden Extension, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "mahajan-properties--best-property-dealer-in-tagore-garden-meenakshi-garden"
+  },
+  {
+    "name": "Shiva Properties",
+    "address": "Wz-48, Khyala Village, Block I, Khayala, Vishnu Garden, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "shiva-properties-meenakshi-garden"
+  },
+  {
+    "name": "Prime Property Solutions",
+    "address": "8/6, Block 8, Kirti Nagar Industrial Area, Ramesh Nagar, New Delhi, Delhi 110015",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "prime-property-solutions-meenakshi-garden"
+  },
+  {
+    "name": "Sarpal Properties",
+    "address": "N-56/3, CH Harpal Chandela Rd, Block N, Shyam Nagar, Vishnu Garden, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "sarpal-properties-meenakshi-garden"
+  },
+  {
+    "name": "Navnidhi Homes",
+    "address": "17, 92, near Arjun Hospital, Block 17, Press Colony, Subhash Nagar, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "navnidhi-homes-meenakshi-garden"
+  },
+  {
+    "name": "BhrithiInfra",
+    "address": "Top Floor, Metro Station, Wz-108, near Subhash Nagar, opp. Pillar No 480, Meenakshi Garden, Ashok Nagar, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "bhrithiinfra-meenakshi-garden"
+  },
+  {
+    "name": "walia property dealers",
+    "address": "J-115, Main Market, Block J, Rajouri Garden, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "walia-property-dealers-meenakshi-garden"
+  },
+  {
+    "name": "Khalsa Properties",
+    "address": "Wz-39, Sant Garh, MBS Nagar, Block WZ, Old Sahib Pura, Tilak Nagar, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "khalsa-properties-meenakshi-garden"
+  },
+  {
+    "name": "J & J Group (Rajouri Garden)",
+    "address": "J, 154, Main Market Marg, Block J, Rajouri Garden Extension, Rajouri Garden, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "j-j-group-rajouri-garden-meenakshi-garden"
+  },
+  {
+    "name": "Rajouri Associates",
+    "address": "LIG flats, Block J3, Rajouri Garden Extension, Rajouri Garden, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "rajouri-associates-meenakshi-garden"
+  },
+  {
+    "name": "Khurana Properties",
+    "address": "B-67/1, Block B, Fateh Nagar, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "khurana-properties-meenakshi-garden"
+  },
+  {
+    "name": "Neellkanth Properties - rental property dealer - Builder in Ramesh Nagar - property dealer in Ramesh Nagar-mansarover garden",
+    "address": "single storey, 25A, Ramesh Nagar, New Delhi, Delhi 110015",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "neellkanth-properties---rental-property-dealer---builder-in-ramesh-nagar---property-dealer-in-ramesh-nagar-mansarover-garden-meenakshi-garden"
+  },
+  {
+    "name": "VM PROPERTIES - ESTATE AGENTS/RENTAL/SALE/PURCHASE/BUILDER",
+    "address": "A-46, Ram Nagar Rd, near PNB BANK 707, Uttam Nagar West, Om Vihar Extn, Om Vihar, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "vm-properties---estate-agentsrentalsalepurchasebuilder-meenakshi-garden"
+  },
+  {
+    "name": "Karan property dealer",
+    "address": "220, Street Number 10, Sant Garh, MBS Nagar, Block WZ, Chaukhandi, Vishnu Garden, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "karan-property-dealer-meenakshi-garden"
+  },
+  {
+    "name": "ANHAD GROUP",
+    "address": "Shop No-1, J, 5/121, Block J, Rajouri Garden Extension, Rajouri Garden, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "anhad-group-meenakshi-garden"
+  },
+  {
+    "name": "Ekam Properties",
+    "address": "J-4, Sheetla Mandir Road, Block N, Shyam Nagar, Vishnu Garden, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "ekam-properties-meenakshi-garden"
+  },
+  {
+    "name": "Gupta & Sons Property Dealers",
+    "address": "SHOP NO.17, SFS MARKET, 4, Dilkhush Bagh Industrial Area, Ashok Vihar, Delhi, 110033",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "gupta-sons-property-dealers-meenakshi-garden"
+  },
+  {
+    "name": "Batra Properties",
+    "address": "MG1/28, Main PVR Rd, Soniapur, Block MG1, Vikaspuri, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "batra-properties-meenakshi-garden"
+  },
+  {
+    "name": "Delhi Property Bazar",
+    "address": "C-56-M, Mansa Ram Park Rd, Sainik Nagar, Mansa Ram Park, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "delhi-property-bazar-meenakshi-garden"
+  },
+  {
+    "name": "Shriram Property Dealers Regd-Property Dealer In Ashok Vihar-Residential property-Commercial Property Dealer In Wazirpur",
+    "address": "C-2, adjacent Axis Bank, Phase 1, Ashok Vihar, New Delhi, Delhi, 110052",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Meenakshi Garden",
+    "slug": "shriram-property-dealers-regd-property-dealer-in-ashok-vihar-residential-property-commercial-property-dealer-in-wazirpur-meenakshi-garden"
+  }
+]

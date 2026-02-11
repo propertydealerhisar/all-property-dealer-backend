@@ -1,0 +1,586 @@
+[
+  {
+    "name": "KALKA PROPERTY",
+    "address": "Lila Ram Market, South Extension II, Block K, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "kalka-property-south-delhi"
+  },
+  {
+    "name": "Rama Buildwell",
+    "address": "18A, behind AIIMS, Hardev Puri, Gautam Nagar, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "rama-buildwell-south-delhi"
+  },
+  {
+    "name": "SR Properties | Best Property Dealer In Greater Kailash",
+    "address": "W Block, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "sr-properties-best-property-dealer-in-greater-kailash-south-delhi"
+  },
+  {
+    "name": "Disputed Property Buyer - Instant Cash",
+    "address": "A9 Niti Bagh New Delhi, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "disputed-property-buyer---instant-cash-south-delhi"
+  },
+  {
+    "name": "Ultra Realty Estates",
+    "address": "S514, S Swaran Singh Bhandari Marg, Greater Kailash-1, Block S, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "ultra-realty-estates-south-delhi"
+  },
+  {
+    "name": "Royal Siyaram estate - Renting, Sale Purchase & Consultant",
+    "address": "e-125, Block E, Amar Colony, Lajpat Nagar, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "royal-siyaram-estate---renting-sale-purchase-consultant-south-delhi"
+  },
+  {
+    "name": "RAI SAHIB ASSOCIATES",
+    "address": "Rai sahib apartment, 306, Masjid Moth Rd, behind R-39, South Extension II, Block R, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "rai-sahib-associates-south-delhi"
+  },
+  {
+    "name": "PURI PROPERTIES.",
+    "address": "Puri Niwas, 81, Gautam Nagar Rd, Gautam Nagar, Yusuf Sarai, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "puri-properties-south-delhi"
+  },
+  {
+    "name": "South Delhi Floors",
+    "address": "A-67, Amber Vithi Rd, Block A, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "south-delhi-floors-south-delhi"
+  },
+  {
+    "name": "GoodLuck Properties – Real Estate Agent green park (South Delhi)",
+    "address": "S1 GROUND FLOOR, ICICI Bank Ltd, near Haldiram or, Block A, Green Park Extension, Green Park, New Delhi, Delhi 110016",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "goodluck-properties-real-estate-agent-green-park-south-delhi-south-delhi"
+  },
+  {
+    "name": "Sharma Properties- Best Property Dealer In Sheikh Sarai- PG Boys And Girls In Sheikh Sarai",
+    "address": "39 -A, Corner, near SHAHEED BHAGAT SINGH COLLEGE, J Pocket, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "sharma-properties--best-property-dealer-in-sheikh-sarai--pg-boys-and-girls-in-sheikh-sarai-south-delhi"
+  },
+  {
+    "name": "Property Dealer",
+    "address": "A 48, Sarai Shahji, Panchsheel Vihar, Sheikh Sarai Village, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "property-dealer-south-delhi"
+  },
+  {
+    "name": "Uppal Properties",
+    "address": "5/41, Old Double Storey, Nirmal Colony, Block 5, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "uppal-properties-south-delhi"
+  },
+  {
+    "name": "Chopra Properties",
+    "address": "E-105, Block E, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "chopra-properties-south-delhi"
+  },
+  {
+    "name": "Ashirwad Properties (Regd)",
+    "address": "South Ex Tower, Leela Ram market, G-2/389, Masjid Moth Rd, South Extension II, Block A, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "ashirwad-properties-regd-south-delhi"
+  },
+  {
+    "name": "India Estates",
+    "address": "169, Block C, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "india-estates-south-delhi"
+  },
+  {
+    "name": "Sharma Estate",
+    "address": "N-140, near Mother dairy, N Block, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "sharma-estate-south-delhi"
+  },
+  {
+    "name": "Sai Properties",
+    "address": "G-66/2, Gautam Nagar Rd, Gautam Nagar, Gulmohar Park, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "sai-properties-south-delhi"
+  },
+  {
+    "name": "SR Properties | Best Property Dealer in GK",
+    "address": "Pamposh Enclave, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "sr-properties-best-property-dealer-in-gk-south-delhi"
+  },
+  {
+    "name": "House True Real Estate Services",
+    "address": "G-30, Block G, Lajpat Nagar III, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "house-true-real-estate-services-south-delhi"
+  },
+  {
+    "name": "Girish Property dealer / agent commercial property only",
+    "address": "65, Deepak building 13, Nehru Place, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "girish-property-dealer-agent-commercial-property-only-south-delhi"
+  },
+  {
+    "name": "Goyal Properties",
+    "address": "H666+4M8, Gautam Nagar Rd, Gautam Nagar, Gulmohar Park, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "goyal-properties-south-delhi"
+  },
+  {
+    "name": "M V PROPERTIES REGD- Best Property dealer",
+    "address": "F 2/1 GROUND FLOOR, F BLOCK, Shiv Mandir, near Gol Chakkar, Block F, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "m-v-properties-regd--best-property-dealer-south-delhi"
+  },
+  {
+    "name": "Kaushish Properties",
+    "address": "120, opp. b6/74 block, Block B 7, Arjun Nagar, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "kaushish-properties-south-delhi"
+  },
+  {
+    "name": "Sukhdham Real Estate | Buy, Sell, Rent Property in South Delhi | 1,2,3,4 bhk flats, apartments, commercial property",
+    "address": "Shop No.8, G-13/12, Block E, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "sukhdham-real-estate-buy-sell-rent-property-in-south-delhi-1234-bhk-flats-apartments-commercial-property-south-delhi"
+  },
+  {
+    "name": "XLNC PROPERTIES",
+    "address": "239, Masjid Moth Rd, South Extension II, Masjid Moth Village, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "xlnc-properties-south-delhi"
+  },
+  {
+    "name": "Lajpat Nagar, New Delhi",
+    "address": "18, Sri Jhoole Lal Setu Flyover, Block L, Lajpat Nagar III, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "lajpat-nagar-new-delhi-south-delhi"
+  },
+  {
+    "name": "Arun Property: Sale & Purchase in Luxurious Properties",
+    "address": "252-B, LGF, Prince Plaza, near Iskon Temple, Sant Nagar, East of Kailash, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "arun-property-sale-purchase-in-luxurious-properties-south-delhi"
+  },
+  {
+    "name": "Utility Land & Flats",
+    "address": "Shop 36 DDA Market Shopping Centre, Neeti Bagh, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "utility-land-flats-south-delhi"
+  },
+  {
+    "name": "Buniyad Realty Limited - Delhi Branch",
+    "address": "First Floor, A-32, Firoz Ghandi Marg, Block A, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "buniyad-realty-limited---delhi-branch-south-delhi"
+  },
+  {
+    "name": "Ratan Properties Consultants",
+    "address": "Shop No 8, DDA Market , UCO Bank Complex, opposite Asiad Village, Shahpur Jat, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "ratan-properties-consultants-south-delhi"
+  },
+  {
+    "name": "Arora Properties- F 94, Lajpat Nagar-II",
+    "address": "F 94, F Block, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "arora-properties--f-94-lajpat-nagar-ii-south-delhi"
+  },
+  {
+    "name": "Dream Big Associates",
+    "address": "F2/2, Block L, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "dream-big-associates-south-delhi"
+  },
+  {
+    "name": "S 22 Greater Kailash Part 1",
+    "address": "G6XM+Q6W, Hansraj Gupta Rd, Greater Kailash-1, Block S, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "s-22-greater-kailash-part-1-south-delhi"
+  },
+  {
+    "name": "Bansal Real Esstate",
+    "address": "",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "bansal-real-esstate-south-delhi"
+  },
+  {
+    "name": "KDR Properties Pvt Ltd",
+    "address": "B-6/10 Deer Park Road DDA Shopping Complex, Chaudhary Harsukh Marg, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "kdr-properties-pvt-ltd-south-delhi"
+  },
+  {
+    "name": "NCR INVESTORS",
+    "address": "B/45, opposite ndtv office, Block B, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "ncr-investors-south-delhi"
+  },
+  {
+    "name": "Hub and Oak Realty",
+    "address": "E 14 LGF, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "hub-and-oak-realty-south-delhi"
+  },
+  {
+    "name": "Friends Properties .",
+    "address": "5/1, Old Double Storey, Nirmal Colony, Block 5, Amar Colony, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "friends-properties-south-delhi"
+  },
+  {
+    "name": "Rachit Bakshi",
+    "address": "I 13, Block I, Part 3, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "rachit-bakshi-south-delhi"
+  },
+  {
+    "name": "Happy Properties",
+    "address": "شاھی 4/46, Double story, behind Shahi Masjid مسجد, Jungpura Extension, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "happy-properties-south-delhi"
+  },
+  {
+    "name": "Sanjay Property Dealer",
+    "address": "Shop No F, 38, near Pnb Bank, Deoli, Khanpur Extension, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "sanjay-property-dealer-south-delhi"
+  },
+  {
+    "name": "Royal Associates",
+    "address": "7/7-A, Old Double Storey, Nirmal Colony, Block 7, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "royal-associates-south-delhi"
+  },
+  {
+    "name": "Raj And Sodhi Property Dealer",
+    "address": "H No-190, near Shiv Mandir, Savitri Nagar, Savitri Nagar Village, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "raj-and-sodhi-property-dealer-south-delhi"
+  },
+  {
+    "name": "Defence Properties",
+    "address": "A-454, Block A, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "defence-properties-south-delhi"
+  },
+  {
+    "name": "Abhay Property",
+    "address": "307 A, 51-52, Nehru Place, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "abhay-property-south-delhi"
+  },
+  {
+    "name": "Royal Estates",
+    "address": "G-39, Block G, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "royal-estates-south-delhi"
+  },
+  {
+    "name": "Gupta Property Dealer",
+    "address": "JD, 21, Gupta Colony, Khirki Extension, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "gupta-property-dealer-south-delhi"
+  },
+  {
+    "name": "Property Junction - Best Property Dealer In Lajpat Nagar - Property On Rent In Lajpat Nagar",
+    "address": "H-105, Block D, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "property-junction---best-property-dealer-in-lajpat-nagar---property-on-rent-in-lajpat-nagar-south-delhi"
+  },
+  {
+    "name": "Vaani Properties.",
+    "address": "G Floor, 89, Khirki Extension, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "vaani-properties-south-delhi"
+  },
+  {
+    "name": "Kumar Properties",
+    "address": "E-87, Block E, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "kumar-properties-south-delhi"
+  },
+  {
+    "name": "Grand Dreams Realty",
+    "address": "25, F Block, Lajpat Nagar III, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "grand-dreams-realty-south-delhi"
+  },
+  {
+    "name": "Mukesh Properties : Property Dealer | Builder Floors | Saket",
+    "address": "J 77, Block D, Paryavaran Complex, Sainik Farm, New Delhi, Delhi 110030",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "mukesh-properties-property-dealer-builder-floors-saket-south-delhi"
+  },
+  {
+    "name": "Sooryam Properties",
+    "address": "K-1/38, Sudarshan Munjal Marg, Block K 1, Chittaranjan Park, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "sooryam-properties-south-delhi"
+  },
+  {
+    "name": "Bahl Properties",
+    "address": "B-138, Block B, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "bahl-properties-south-delhi"
+  },
+  {
+    "name": "Bhatia Properties",
+    "address": "6, Guru Nanak Market, Lajpat Nagar 4, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "bhatia-properties-south-delhi"
+  },
+  {
+    "name": "Khanna Associates",
+    "address": "OFFICE No. 3, DDA Market, KHANNA ASSOCIATES, Greater Kailash Enclave I, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "khanna-associates-south-delhi"
+  },
+  {
+    "name": "Horizon Realty Care",
+    "address": "119, Block B 7, Arjun Nagar, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "horizon-realty-care-south-delhi"
+  },
+  {
+    "name": "Alliance Real Estate",
+    "address": "O-6, Veer Savarkar Marg, Block O, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "alliance-real-estate-south-delhi"
+  },
+  {
+    "name": "Taneja Properties",
+    "address": "E-92, Block E, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "taneja-properties-south-delhi"
+  },
+  {
+    "name": "MD Properties",
+    "address": "19, Gitanjali Malviya Nagar Rd, Old Market, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "md-properties-south-delhi"
+  },
+  {
+    "name": "Alpha Properties",
+    "address": "",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "alpha-properties-south-delhi"
+  },
+  {
+    "name": "Vibrant Universal Solutions",
+    "address": "first floor, nbcc shoping complex, F 12, Block A, East Kidwai Nagar, Kidwai Nagar, New Delhi, Delhi 110023",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "vibrant-universal-solutions-south-delhi"
+  },
+  {
+    "name": "Delhi Properties",
+    "address": "E-11, Lajpat Nagar I, Rampul Chowk, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "delhi-properties-south-delhi"
+  },
+  {
+    "name": "Simran Associates",
+    "address": "C-156, Dr Deen Dyal Verma Marg, near Puma Showroom, Block C, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "simran-associates-south-delhi"
+  },
+  {
+    "name": "Blue Mango Estate and Developers",
+    "address": "B-109, Dayanand Colony, Lajpat Nagar 4, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "blue-mango-estate-and-developers-south-delhi"
+  },
+  {
+    "name": "Arora Estate Services",
+    "address": "Shop No.5, Hanuman Mandir, Krishna Market, Block D, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "arora-estate-services-south-delhi"
+  },
+  {
+    "name": "CHHABRA REAL ESTATES",
+    "address": "Subhash tailor, Main Bazar Rd, Main bazar, opposite to Arya samaj mandir Sarai, Aam Bagh, Gandhi Colony, Mehrauli, New Delhi, Delhi 110030",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "chhabra-real-estates-south-delhi"
+  },
+  {
+    "name": "JAI SHIV (JS) PROPERTIES",
+    "address": "L, 57, Old Double Storey, Vikram Vihar, Lajpat Nagar 4, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "jai-shiv-js-properties-south-delhi"
+  },
+  {
+    "name": "DEFENCE COLONY REALTORS",
+    "address": "1st floor, A-192, Block C, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "defence-colony-realtors-south-delhi"
+  },
+  {
+    "name": "Sonakshi Properties",
+    "address": "A-53, Amar Colony A Block, Block A, Amar Colony, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "sonakshi-properties-south-delhi"
+  },
+  {
+    "name": "Noble Properties",
+    "address": "Nirmal Puri, Nirmal Colony, Block 5, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "noble-properties-south-delhi"
+  },
+  {
+    "name": "One Property",
+    "address": "A-1, main market, behind Barista, Block A, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sadiq Nagar",
+    "slug": "one-property-south-delhi"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Rahul Properties",
+    "address": "1, Near, Gandhi Chowk, Block A, Mohan Garden, Razapur Khurd, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mohan Garden",
+    "slug": "rahul-properties-mohan-garden"
+  },
+  {
+    "name": "Ayodhya Properties",
+    "address": "R-124, Main, R Block Rd, Block P, Mohan Garden, uttam nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mohan Garden",
+    "slug": "ayodhya-properties-mohan-garden"
+  },
+  {
+    "name": "Sethi Property Dealer",
+    "address": "K-1/41, Mohan Garden, Pipal Wala Rd, Uttam Nagar, Block P, Mohan Garden, Razapur Khurd, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mohan Garden",
+    "slug": "sethi-property-dealer-mohan-garden"
+  },
+  {
+    "name": "Garg Properties And Builders",
+    "address": "WE- 75 B , Rama Park Road, Gali Number 10, Mohan Garden, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mohan Garden",
+    "slug": "garg-properties-and-builders-mohan-garden"
+  },
+  {
+    "name": "Bhardwaj properties",
+    "address": "K1 extn, 96, Gurudwara Rd, Mohan Garden, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mohan Garden",
+    "slug": "bhardwaj-properties-mohan-garden"
+  },
+  {
+    "name": "KALA MALHOTRA PROPERTY DEALER",
+    "address": "C6B near, Pali Factory Rd, Shish Ram Park, Block C, Uttam Nagar East, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mohan Garden",
+    "slug": "kala-malhotra-property-dealer-mohan-garden"
+  },
+  {
+    "name": "R. P. Gupta Real Estate",
+    "address": "L-23/5, Mohan Garden, Near Char Diwari Bus Stop,, Rama Park, Block A, Rama Park, Uttam Nagar, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mohan Garden",
+    "slug": "r-p-gupta-real-estate-mohan-garden"
+  },
+  {
+    "name": "BATRA REAL ESTATE DEVELOPERS",
+    "address": "Rajesh Kumar Jha, B - 2, First Floor, opp. Pillar Number 764, Uttam Nagar, New Delhi, Delhi 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mohan Garden",
+    "slug": "batra-real-estate-developers-mohan-garden"
+  },
+  {
+    "name": "Jai Bhole Properties",
+    "address": "R 3 B, 29, Block D, Mohan Garden, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mohan Garden",
+    "slug": "jai-bhole-properties-mohan-garden"
+  },
+  {
+    "name": "Chauhan Associates",
+    "address": "3-A25, R, Block D, Mohan Garden, Razapur Khurd, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mohan Garden",
+    "slug": "chauhan-associates-mohan-garden"
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "name": "I Property Solutions - Real Estate Agency",
+    "address": "UG-14, Somdatt Chamber -II, 9, Bhikaji Cama Place, Rama Krishna Puram, New Delhi, Delhi 110066",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "i-property-solutions---real-estate-agency-south-delhi"
+  },
+  {
+    "name": "Navjot Properties",
+    "address": "BB-1/B Block-B DDA Flats, DDA, Munirka, New Delhi, Delhi 110067",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "navjot-properties-south-delhi"
+  },
+  {
+    "name": "Ma Vaishno Projects & Management Services",
+    "address": "Africa Avenue, Mahatma Gandhi Rd, Bhikaji Cama Place, Rama Krishna Puram, New Delhi, Delhi 110066",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "ma-vaishno-projects-management-services-south-delhi"
+  },
+  {
+    "name": "Rama Properties",
+    "address": "UG 28-29 Somdutt Chamber - I, Bhikaji Cama Place, New Delhi, Delhi 110066",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "rama-properties-south-delhi"
+  },
+  {
+    "name": "Shree Balaji Properties",
+    "address": "Ansal Chamber-2, R-1, Bhikaji Cama Place, Rama Krishna Puram, New Delhi, Delhi 110066",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "shree-balaji-properties-south-delhi"
+  },
+  {
+    "name": "Royal Property",
+    "address": "E-128, Mohammad Pur, Bhikaji Cama Place, New Delhi, Delhi 110066",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "royal-property-south-delhi"
+  },
+  {
+    "name": "Royale Realtors India",
+    "address": "19 DDA Market, Shanti Niketan, New Delhi, Delhi 110021",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "royale-realtors-india-south-delhi"
+  },
+  {
+    "name": "Jain Associates .",
+    "address": "Flat No. 9C, Block BD, DDA Flats, Munirka, New Delhi, Delhi 110067",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "jain-associates-south-delhi"
+  },
+  {
+    "name": "Square Real Estate",
+    "address": "B6 Market, Safdarjung Enclave, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "square-real-estate-south-delhi"
+  },
+  {
+    "name": "Yadav Properties - Best Property Dealers in South Delhi, Real Estate Consultants in Delhi",
+    "address": "Lower Ground Floor, H. No. 69, opposite Venkateshwara College, Moti Bagh II, Satya Niketan, South Moti Bagh, New Delhi, Delhi 110021",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "yadav-properties---best-property-dealers-in-south-delhi-real-estate-consultants-in-delhi-south-delhi"
+  },
+  {
+    "name": "Goswami Properties",
+    "address": "bus stand, 124A/8C, main road, NRPC Colony, Block B, Katwaria Sarai, New Delhi, Delhi 110016",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "goswami-properties-south-delhi"
+  },
+  {
+    "name": "Tara Estate Pvt. Ltd - Property dealer in Vasant Vihar | Real Estate in Vasant Vihar",
+    "address": "FIRST FLOOR, C Block, C-18, Paschimi Marg, Block C, Vasant Vihar, New Delhi, Delhi, 110057",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "tara-estate-pvt-ltd---property-dealer-in-vasant-vihar-real-estate-in-vasant-vihar-south-delhi"
+  },
+  {
+    "name": "Parasnath Realtech Pvt Ltd.",
+    "address": "117-B 1st Floor, Somdutt Chamber 1, BHIKAJI CAMA PLACE, 5, Bhikaji Cama Place, Rama Krishna Puram, New Delhi, Delhi 110066",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "parasnath-realtech-pvt-ltd-south-delhi"
+  },
+  {
+    "name": "Bindal Associates",
+    "address": "138/11, Rama Market, Munirka, Delhi, New Delhi, Delhi 110067",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "bindal-associates-south-delhi"
+  },
+  {
+    "name": "The Dream House Nine: Best Property Dealers in South Delhi | Real Estate Consultants in Vasant Vihar",
+    "address": "G 45, Vasant Enclave, Vasant Vihar, New Delhi, Delhi 110057",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "the-dream-house-nine-best-property-dealers-in-south-delhi-real-estate-consultants-in-vasant-vihar-south-delhi"
+  },
+  {
+    "name": "Surya Associates",
+    "address": "62/6A, Laxmi Market, Munirka, Delhi 110067",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "surya-associates-south-delhi"
+  },
+  {
+    "name": "Balaji properties",
+    "address": "107a, 107A, Chaudhary Hukum Chand Marg, near National Cadet Corps, Humayunpur, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "balaji-properties-south-delhi"
+  },
+  {
+    "name": "SURESH PROPERTY CONSULTANT",
+    "address": "62K, Ch Deepak Marg, Humayunpur, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "suresh-property-consultant-south-delhi"
+  },
+  {
+    "name": "Param Properties",
+    "address": "Near Bada Gurudwara, 177-A, Arjun Nagar, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "param-properties-south-delhi"
+  },
+  {
+    "name": "SR Properties | Best Property Dealer in Vasant Vihar, Delhi",
+    "address": "Block F, Vasant Vihar, New Delhi, Delhi 110057",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "sr-properties-best-property-dealer-in-vasant-vihar-delhi-south-delhi"
+  },
+  {
+    "name": "Genesis Real Estate Consultant Pvt Ltd",
+    "address": "Somdutt Chamber 1, Bhikaji Cama Place, Rama Krishna Puram, New Delhi, Delhi 110066",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "genesis-real-estate-consultant-pvt-ltd-south-delhi"
+  },
+  {
+    "name": "Khairal Properties",
+    "address": "Shop No. 86, B-5 Market, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "khairal-properties-south-delhi"
+  },
+  {
+    "name": "Realty Keys",
+    "address": "B4/246, Krishna Nagar, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "realty-keys-south-delhi"
+  },
+  {
+    "name": "Gupta Associates",
+    "address": "205, F St, near Anupam Restaurant, Munirka, New Delhi, Delhi 110067",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "gupta-associates-south-delhi"
+  },
+  {
+    "name": "Aman Associates",
+    "address": "Laxmi Market, Prateek Market Rd, Baba Gangnath Market, Munirka, New Delhi, Delhi 110067",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "aman-associates-south-delhi"
+  },
+  {
+    "name": "Property Management in Delhi by nobroker",
+    "address": "Sangam Courtyard, opp. Delhi Club House, Sector 9, Rama Krishna Puram, New Delhi, Delhi 110022",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "property-management-in-delhi-by-nobroker-south-delhi"
+  },
+  {
+    "name": "M V PROPERTIES REGD- Best Property dealer",
+    "address": "F 2/1 GROUND FLOOR, F BLOCK, Shiv Mandir, near Gol Chakkar, Block F, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "m-v-properties-regd--best-property-dealer-south-delhi"
+  },
+  {
+    "name": "Key properties-Property Dealer In Katwaria Sarai-Best Property Dealer In Katwaria Sarai",
+    "address": "F-116, ground floor, prakash apartment, Block D, Katwaria Sarai, New Delhi, Delhi 110016",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "key-properties-property-dealer-in-katwaria-sarai-best-property-dealer-in-katwaria-sarai-south-delhi"
+  },
+  {
+    "name": "Real Properties",
+    "address": "124/7A, Opposite B-6 Extension, Safdarjung Enclave, Arjun Nagar, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "real-properties-south-delhi"
+  },
+  {
+    "name": "Shree Krishna Properties",
+    "address": "261 - B, B-6/92, Arjun Nagar, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "shree-krishna-properties-south-delhi"
+  },
+  {
+    "name": "Iqbal Real Estate Agency & Builder",
+    "address": "Shop No 216, Ring Rd, Market, Sarojini Nagar, New Delhi, Delhi 110023",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "iqbal-real-estate-agency-builder-south-delhi"
+  },
+  {
+    "name": "Shri Sai Properties",
+    "address": "House Number 51, Gali No. 1, near Govt. Boys Sr. Secondry School, Krishna Nagar, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "shri-sai-properties-south-delhi"
+  },
+  {
+    "name": "Amazon Properties",
+    "address": "202, Arjun Nagar, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "amazon-properties-south-delhi"
+  },
+  {
+    "name": "Khanna Estate",
+    "address": "S 14, 1st floor S block, Uphaar Cinema Complex, Green Park Extension, Green Park, New Delhi, Delhi 110016",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "khanna-estate-south-delhi"
+  },
+  {
+    "name": "Only Properties",
+    "address": "UG 19, Ansal Chamber -1, Bhikaji Cama Place, Rama Krishna Puram, New Delhi, Delhi 110066",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "only-properties-south-delhi"
+  },
+  {
+    "name": "Pooja Property Dealer",
+    "address": "",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "pooja-property-dealer-south-delhi"
+  },
+  {
+    "name": "Munirka DDA BB.BLOCK NEW DELHI",
+    "address": "H53F+GRC, DDA Flats, Munirka, New Delhi, Delhi 110067",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "munirka-dda-bbblock-new-delhi-south-delhi"
+  },
+  {
+    "name": "eProperty India",
+    "address": "1st Floor, Ambedkar Chowk, 329A, Munirka, New Delhi, Delhi 110067",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "eproperty-india-south-delhi"
+  },
+  {
+    "name": "Jain Estates Oncor International",
+    "address": "A 21, Sri Aurobindo Marg, Block A, Green Park Extension, Green Park, New Delhi, Delhi 110016",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "jain-estates-oncor-international-south-delhi"
+  },
+  {
+    "name": "Lucky Properties",
+    "address": "51/C, near Relaince Fresh, Block B 7, Arjun Nagar, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "lucky-properties-south-delhi"
+  },
+  {
+    "name": "Tara Estates Pvt. Ltd",
+    "address": "",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "tara-estates-pvt-ltd-south-delhi"
+  },
+  {
+    "name": "Harsukh Properties",
+    "address": "Shop No 203, Arjun Nagar, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "harsukh-properties-south-delhi"
+  },
+  {
+    "name": "JOSHI PROPERTIES",
+    "address": "124/A, Shaheed Jeet Singh Marg, Naraina, Block A, Katwaria Sarai, New Delhi, Delhi 110016",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "joshi-properties-south-delhi"
+  },
+  {
+    "name": "Dharam Chand Jain & Sons",
+    "address": "K-120, Block P, Hauz Khas Enclave, Hauz Khas, New Delhi, Delhi 110016",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "dharam-chand-jain-sons-south-delhi"
+  },
+  {
+    "name": "Classic Real Estate",
+    "address": "19/250 Main Shivalik Road, Malviya Nagar, Near IDBI Bank, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "classic-real-estate-south-delhi"
+  },
+  {
+    "name": "Chhatwal Properties",
+    "address": "Shop No. 7, Central Market, Chaudhary Jhandu Singh Marg, Block A 1, Nauroji Nagar, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "chhatwal-properties-south-delhi"
+  },
+  {
+    "name": "Sai Estate",
+    "address": "44A/1, Arjun Nagar, New Delhi, 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "sai-estate-south-delhi"
+  },
+  {
+    "name": "Palika Bhawan",
+    "address": "Block B, Sector 13, Rama Krishna Puram, New Delhi, Delhi 110066",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "palika-bhawan-south-delhi"
+  },
+  {
+    "name": "Tayal Associates",
+    "address": "S-16, Uphaar Shopping Complex, Green Park Extension, Green Park New Delhi, Delhi 110016, Green Park Extension, Green Park, New Delhi, Delhi 110016",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "tayal-associates-south-delhi"
+  },
+  {
+    "name": "enclave estates",
+    "address": "209, Humayun Pur Rd, Humayunpur, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "enclave-estates-south-delhi"
+  },
+  {
+    "name": "KAY DEE CREATIVE HOMZ- Best Property Dealer in Satya Niketan, Best Real Estate Consultant, Premium Hostels For Girls & Boys",
+    "address": "Shop No 71, Satya Niketan Rd, opposite Sri Venkateswara college, Moti Bagh II, Satya Niketan, South Moti Bagh, New Delhi, Delhi 110021",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "kay-dee-creative-homz--best-property-dealer-in-satya-niketan-best-real-estate-consultant-premium-hostels-for-girls-boys-south-delhi"
+  },
+  {
+    "name": "Sector 5 Market RK PURAM New Delhi",
+    "address": "H56C+PV4, Sector 5, Rama Krishna Puram, New Delhi, Delhi 110022",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "sector-5-market-rk-puram-new-delhi-south-delhi"
+  },
+  {
+    "name": "Sandhu Estate",
+    "address": "C-4, LSC, TOP FLOOR, C-BLOCK MARKET, LSC, Paschimi Marg, Block C, Vasant Vihar, New Delhi, Delhi 110057",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "sandhu-estate-south-delhi"
+  },
+  {
+    "name": "R K Property and Consultants",
+    "address": "A-196/1, Pocket A, Phase 1, Ashok Vihar, Delhi, 110052",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "r-k-property-and-consultants-south-delhi"
+  },
+  {
+    "name": "Destination Realty Solutions Private Limited",
+    "address": "Commercial Complex, B-14,20 & 21,Rakesh Deep Building, Balbir Saxena Marg, Gulmohar Enclave, Yusuf Sarai, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "destination-realty-solutions-private-limited-south-delhi"
+  },
+  {
+    "name": "Shakun Realtors",
+    "address": "23/1, 2nd Floor (Left Side), Chaudhary Harsukh Marg, Arjun Nagar, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "shakun-realtors-south-delhi"
+  },
+  {
+    "name": "Krishna Associates",
+    "address": "SNo 102/1, near Mata Mandir Road, Block B 7, Arjun Nagar, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "krishna-associates-south-delhi"
+  },
+  {
+    "name": "JUPITER DEAL MANAGEMENT",
+    "address": "K-66, Block P, Hauz Khas Enclave, Hauz Khas, New Delhi, Delhi 110016",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "jupiter-deal-management-south-delhi"
+  },
+  {
+    "name": "Vasant Estate",
+    "address": "39, Basant Lok, Vasant Vihar, New Delhi, Delhi 110057",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "vasant-estate-south-delhi"
+  },
+  {
+    "name": "Rk PURAM SECTOR 2 , Number - 700",
+    "address": "H55M+HH8, Sector 2 R K Puram, Adarsh Colony, Sector 2, Rama Krishna Puram, New Delhi, Delhi 110022",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "rk-puram-sector-2-number---700-south-delhi"
+  },
+  {
+    "name": "Sudershan & Co.",
+    "address": "C-21/1, Safdarjung Development Area, Hauz Khas, New Delhi, Delhi 110016",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "sudershan-co-south-delhi"
+  },
+  {
+    "name": "Arora Property",
+    "address": "Shop No-D-11/40, Halar Rd, near Metro Pillar No 387, opposite Union Bnk Of India, Pocket 3, Sector 8A, Rohini, Delhi, 110085",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "arora-property-south-delhi"
+  },
+  {
+    "name": "Som Vihar Apartments",
+    "address": "H-402, H-Block, Som Vihar, Rama Krishna Puram, New Delhi, Delhi 110022",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "som-vihar-apartments-south-delhi"
+  },
+  {
+    "name": "Dhruv Associates",
+    "address": "No.1,Mandir Market, Rama Krishna Puram, New Delhi, Delhi 110022",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "dhruv-associates-south-delhi"
+  },
+  {
+    "name": "Ca Atul Mangal & Co",
+    "address": "19, Flat, Block A, A St, opp. Ardee Montessori House, DDA Flats, Munirka, New Delhi, Delhi 110067",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "ca-atul-mangal-co-south-delhi"
+  },
+  {
+    "name": "S.Kumars Valet services",
+    "address": "Shop No - 3, Vivekanand Market, Sector 1, R.k.Puram, New Delhi, Delhi 110022",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "skumars-valet-services-south-delhi"
+  },
+  {
+    "name": "ARTH PROPERTY",
+    "address": "D-1, Street D, Block D, Munirka, New Delhi, Delhi 110067",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "arth-property-south-delhi"
+  },
+  {
+    "name": "Guru Properties",
+    "address": "Ground Floor, F-46, near by Haldiram, Block G, Green Park Extension, Green Park, New Delhi, Delhi 110016",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "guru-properties-south-delhi"
+  },
+  {
+    "name": "Laxmi Estate",
+    "address": "near, Market Evergreen Sweet house 16, Block T, Green Park, New Delhi, Delhi 110016",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "laxmi-estate-south-delhi"
+  },
+  {
+    "name": "Conscom Properties",
+    "address": "UG 29, Somdutt Chamber-2, near Punjab National Bank, Bhikaji Cama Place, Rama Krishna Puram, New Delhi, Delhi 110066",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "conscom-properties-south-delhi"
+  },
+  {
+    "name": "Shree Ram Properties",
+    "address": "DDA Flats, 78/1,Opp, Safdarjung Enclave, Arjun Nagar, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "shree-ram-properties-south-delhi"
+  },
+  {
+    "name": "Sunny Properties",
+    "address": "Shop Number-224, near Kamal Cinema, Humayunpur, Safdarjung Enclave, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "sunny-properties-south-delhi"
+  },
+  {
+    "name": "Property dealer",
+    "address": "H566+4M5, Block F, Vasant Vihar, New Delhi, Delhi 110057",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "property-dealer-south-delhi"
+  },
+  {
+    "name": "Luv Properties",
+    "address": "A-60, near Bt Main Market, DDA Flats, Hauz Khas, New Delhi, Delhi 110067",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "luv-properties-south-delhi"
+  },
+  {
+    "name": "Narula Associates",
+    "address": "Shop No, 5, Mandir Marg, Block BH, Lalji, New Delhi, Delhi 110022",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sector 2 RK Puram",
+    "slug": "narula-associates-south-delhi"
+  }
+]

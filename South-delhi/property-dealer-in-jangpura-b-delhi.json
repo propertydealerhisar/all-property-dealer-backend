@@ -1,0 +1,554 @@
+[
+  {
+    "name": "Happy Properties",
+    "address": "شاھی 4/46, Double story, behind Shahi Masjid مسجد, Jungpura Extension, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "happy-properties-south-delhi"
+  },
+  {
+    "name": "Lucky Properties.",
+    "address": "Shop No 4/6, Opposite Modi Pastry Corner Jangpura Extension, Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "lucky-properties-south-delhi"
+  },
+  {
+    "name": "K S Associates",
+    "address": "G-30, Ground Floor, Jungpura Extension, Delhi, 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "k-s-associates-south-delhi"
+  },
+  {
+    "name": "VOHRA ASSOCIATES",
+    "address": "3/1, Jangpura, Pant Nagar, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "vohra-associates-south-delhi"
+  },
+  {
+    "name": "Property Exchange",
+    "address": "K, 19, Jangpura, Block G, Jungpura Extension, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "property-exchange-south-delhi"
+  },
+  {
+    "name": "Friend's Properties",
+    "address": "41, Church Rd, Jangpura, Samman Bazar, Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "friends-properties-south-delhi"
+  },
+  {
+    "name": "Gandhi Properties",
+    "address": "43, Masjid Rd, Jangpura, Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "gandhi-properties-south-delhi"
+  },
+  {
+    "name": "Perfect Property",
+    "address": "Office : 249, NH-19, Hari Nagar Ashram, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "perfect-property-south-delhi"
+  },
+  {
+    "name": "Dev Properties",
+    "address": "2/4, Samman Bazar Rd, Bhogal, Jangpura, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "dev-properties-south-delhi"
+  },
+  {
+    "name": "S. S. Builder",
+    "address": "61-A, Masjid Rd, Jangpura, Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "s-s-builder-south-delhi"
+  },
+  {
+    "name": "Lodhi Property Co Limited",
+    "address": "Lodi Road, Nizamuddin, Nizamuddin West, New Delhi, Delhi 110003",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "lodhi-property-co-limited-south-delhi"
+  },
+  {
+    "name": "Gulshan Estate Agents – Real Estate Consultants",
+    "address": "C-115, Opp Defence Colony Flyover Market, Lajpat Nagar I, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "gulshan-estate-agents-real-estate-consultants-south-delhi"
+  },
+  {
+    "name": "South Delhi Finest Homes",
+    "address": "C-45, Nizamudin East, New Delhi, Delhi 110013",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "south-delhi-finest-homes-south-delhi"
+  },
+  {
+    "name": "Chopra Properties",
+    "address": "E-105, Block E, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "chopra-properties-south-delhi"
+  },
+  {
+    "name": "Pahlawan Properties",
+    "address": "114, Hari Nagar Ashram, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "pahlawan-properties-south-delhi"
+  },
+  {
+    "name": "South Delhi Floors",
+    "address": "A-67, Amber Vithi Rd, Block A, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "south-delhi-floors-south-delhi"
+  },
+  {
+    "name": "Kapur Properties",
+    "address": "K- 31B ,Ground floor, Block L, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "kapur-properties-south-delhi"
+  },
+  {
+    "name": "Wadhwa Properties",
+    "address": "Motorcycle Market, B -1, Block B, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "wadhwa-properties-south-delhi"
+  },
+  {
+    "name": "JP ASSOCIATES",
+    "address": "Shop no.8, Guru Nanak Market, Hospital Rd., Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "jp-associates-south-delhi"
+  },
+  {
+    "name": "Balaji Properties",
+    "address": "117, Mathura Rd, near SBI ATM, Hari Nagar Ashram, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "balaji-properties-south-delhi"
+  },
+  {
+    "name": "Temple Properties",
+    "address": "Shop Number.25, Masjid Rd, Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "temple-properties-south-delhi"
+  },
+  {
+    "name": "Blue Mango Estate and Developers",
+    "address": "B-109, Dayanand Colony, Lajpat Nagar 4, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "blue-mango-estate-and-developers-south-delhi"
+  },
+  {
+    "name": "Arora properties",
+    "address": "7/1, Block 7, Nehru Nagar, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "arora-properties-south-delhi"
+  },
+  {
+    "name": "Property Junction - Best Property Dealer In Lajpat Nagar - Property On Rent In Lajpat Nagar",
+    "address": "H-105, Block D, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "property-junction---best-property-dealer-in-lajpat-nagar---property-on-rent-in-lajpat-nagar-south-delhi"
+  },
+  {
+    "name": "Arora Properties- F 94, Lajpat Nagar-II",
+    "address": "F 94, F Block, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "arora-properties--f-94-lajpat-nagar-ii-south-delhi"
+  },
+  {
+    "name": "Kalka Properties",
+    "address": "Samman Bazar Rd, Samman Bazar, Bhogal, Jangpura, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "kalka-properties-south-delhi"
+  },
+  {
+    "name": "Sharma Properties Dealer",
+    "address": "Shop No.19, Eros Rd, near Shanti Park, Block H, Jungpura Extension, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "sharma-properties-dealer-south-delhi"
+  },
+  {
+    "name": "Bhalla Properties - Renting, Sale Purchase & Consultant",
+    "address": "H-19,old double storey,lajpat nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "bhalla-properties---renting-sale-purchase-consultant-south-delhi"
+  },
+  {
+    "name": "Anshu Properties",
+    "address": "Shop No. 2, 1, Block 1, Nehru Nagar, Lajpat Nagar, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "anshu-properties-south-delhi"
+  },
+  {
+    "name": "House True Real Estate Services",
+    "address": "G-30, Block G, Lajpat Nagar III, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "house-true-real-estate-services-south-delhi"
+  },
+  {
+    "name": "Chowdhary Properties",
+    "address": "15 B, Guru Nanak Market, National Park, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "chowdhary-properties-south-delhi"
+  },
+  {
+    "name": "Dinesh Property dealer Kailash colony",
+    "address": "A-57, Kailash Colony, Block A, Amar Colony, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "dinesh-property-dealer-kailash-colony-south-delhi"
+  },
+  {
+    "name": "Shriram Properties",
+    "address": "Mata Mandir Rd, near Mata Mandir Road, Bharat Nagar, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "shriram-properties-south-delhi"
+  },
+  {
+    "name": "Gulati Propeties",
+    "address": "C-11, Block C, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "gulati-propeties-south-delhi"
+  },
+  {
+    "name": "LEAD REALTY",
+    "address": "101, Mathura Rd, near Bharat Petrol Pump, Siddhartha Enclave, Hari Nagar Ashram, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "lead-realty-south-delhi"
+  },
+  {
+    "name": "Bhagwati Properties",
+    "address": "near Angoori Mandir, Kilokri, Phase 1, Sunlight Colony, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "bhagwati-properties-south-delhi"
+  },
+  {
+    "name": "Alliance Real Estate",
+    "address": "O-6, Veer Savarkar Marg, Block O, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "alliance-real-estate-south-delhi"
+  },
+  {
+    "name": "Arun Property: Sale & Purchase in Luxurious Properties",
+    "address": "252-B, LGF, Prince Plaza, near Iskon Temple, Sant Nagar, East of Kailash, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "arun-property-sale-purchase-in-luxurious-properties-south-delhi"
+  },
+  {
+    "name": "Rachit Bakshi",
+    "address": "I 13, Block I, Part 3, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "rachit-bakshi-south-delhi"
+  },
+  {
+    "name": "Girish Property dealer / agent commercial property only",
+    "address": "65, Deepak building 13, Nehru Place, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "girish-property-dealer-agent-commercial-property-only-south-delhi"
+  },
+  {
+    "name": "Kumar Properties",
+    "address": "E-87, Block E, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "kumar-properties-south-delhi"
+  },
+  {
+    "name": "Tyagi Property Dealer",
+    "address": "Double Storey, 1/34, Jangupura Extension, Jangpura, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "tyagi-property-dealer-south-delhi"
+  },
+  {
+    "name": "Gulshan Properties",
+    "address": "74/2, Dr C V Raman Rd, Block D, Friends Colony East, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "gulshan-properties-south-delhi"
+  },
+  {
+    "name": "Property Linkers ®",
+    "address": "C, 31, behind SBI Bank Building, Block C, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "property-linkers-south-delhi"
+  },
+  {
+    "name": "Delhi Properties",
+    "address": "E-11, Lajpat Nagar I, Rampul Chowk, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "delhi-properties-south-delhi"
+  },
+  {
+    "name": "Buniyad Realty Limited - Delhi Branch",
+    "address": "First Floor, A-32, Firoz Ghandi Marg, Block A, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "buniyad-realty-limited---delhi-branch-south-delhi"
+  },
+  {
+    "name": "Shalimar Meat Shop& Dheer Properties-Best Chicken&Mutton Shop In Hari Nagar Ashram-Best Property Dealer In Hari Nagar Ashram",
+    "address": "21, opposite Shalimar Cinema, Koil Camp, Phase 2, Hari Nagar Ashram, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "shalimar-meat-shop-dheer-properties-best-chickenmutton-shop-in-hari-nagar-ashram-best-property-dealer-in-hari-nagar-ashram-south-delhi"
+  },
+  {
+    "name": "Delhi NCR Real Estate Agents",
+    "address": "#169,lower Ground Floor, Sant Nagar, East of Kailash, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "delhi-ncr-real-estate-agents-south-delhi"
+  },
+  {
+    "name": "Arora's Real Estate Agents",
+    "address": "B 88, B Block, East of Kailash, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "aroras-real-estate-agents-south-delhi"
+  },
+  {
+    "name": "Vasant Realtors : Property Dealer GK 1 | Property Dealer Gk 2",
+    "address": "Plot no : 316, Greater Kailash-1, Block R, Defence Colony, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "vasant-realtors-property-dealer-gk-1-property-dealer-gk-2-south-delhi"
+  },
+  {
+    "name": "Lucky Property Dealer",
+    "address": "H732+MGF, Sant Nagar, East of Kailash, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "lucky-property-dealer-south-delhi"
+  },
+  {
+    "name": "Royal Associates",
+    "address": "7/7-A, Old Double Storey, Nirmal Colony, Block 7, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "royal-associates-south-delhi"
+  },
+  {
+    "name": "NAMITA PROPERTIES",
+    "address": "M-7, Old Double Storey, Lajpat Nagar 4, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "namita-properties-south-delhi"
+  },
+  {
+    "name": "Sharma Properties",
+    "address": "Shop No:F-110, F Block, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "sharma-properties-south-delhi"
+  },
+  {
+    "name": "Friends Properties .",
+    "address": "5/1, Old Double Storey, Nirmal Colony, Block 5, Amar Colony, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "friends-properties-south-delhi"
+  },
+  {
+    "name": "M.D. SONS -Authorized Dealer Hindware, Queo Bathrooms, Jaquar, Euronics, Astral, Supreme, Nirali, Somany",
+    "address": "94, Samman Bazar Rd, Samman Bazar, Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "md-sons--authorized-dealer-hindware-queo-bathrooms-jaquar-euronics-astral-supreme-nirali-somany-south-delhi"
+  },
+  {
+    "name": "Kamdhenu Property",
+    "address": "1521 Wazir Nagar, Bhishm Pitamah Marg, Main road, Kotla, New Delhi, Delhi 110003",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "kamdhenu-property-south-delhi"
+  },
+  {
+    "name": "Saini properties",
+    "address": "2nd floor, 34, Lane 3, Bharat Nagar, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "saini-properties-south-delhi"
+  },
+  {
+    "name": "GTB PROPERTIES",
+    "address": "Pocket A, Shop No. -2, 718/719, Sunlight Colony.1, Sidhartha Nagar, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "gtb-properties-south-delhi"
+  },
+  {
+    "name": "SR Properties | Best Property Dealer In Greater Kailash",
+    "address": "W Block, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "sr-properties-best-property-dealer-in-greater-kailash-south-delhi"
+  },
+  {
+    "name": "Property Dealer in South Delhi",
+    "address": "C-100 110065, DDA Flats Rd, Double Storey, Garhi, East of Kailash, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "property-dealer-in-south-delhi-south-delhi"
+  },
+  {
+    "name": "Lajpat Nagar, New Delhi",
+    "address": "18, Sri Jhoole Lal Setu Flyover, Block L, Lajpat Nagar III, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "lajpat-nagar-new-delhi-south-delhi"
+  },
+  {
+    "name": "Gill Properties",
+    "address": "7/23, Block 7, Nehru Nagar, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "gill-properties-south-delhi"
+  },
+  {
+    "name": "Target Properties",
+    "address": "A-162, Block A, Lajpat Nagar-1, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "target-properties-south-delhi"
+  },
+  {
+    "name": "Bharat Realtors & Developers",
+    "address": "",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "bharat-realtors-developers-south-delhi"
+  },
+  {
+    "name": "Dhariwal Properties",
+    "address": "B-120, Block B, Amar Colony, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "dhariwal-properties-south-delhi"
+  },
+  {
+    "name": "Mehta Property Dealer",
+    "address": "H6MX+J9H, Jangpura, Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "mehta-property-dealer-south-delhi"
+  },
+  {
+    "name": "Mohan Property Sale Purchase",
+    "address": "Shop No 9, Jiwan Nagar, Bhagwan Nagar, Hari Nagar Ashram, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "mohan-property-sale-purchase-south-delhi"
+  },
+  {
+    "name": "Simran Associates",
+    "address": "C-156, Dr Deen Dyal Verma Marg, near Puma Showroom, Block C, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Jangpura B",
+    "slug": "simran-associates-south-delhi"
+  }
+]

@@ -1,0 +1,450 @@
+[
+  {
+    "name": "Angel Properties",
+    "address": "C-24 Shop.No, 1, Ajay Enclave, Subhash Nagar, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "angel-properties-ajay-enclave"
+  },
+  {
+    "name": "Krishna Properties",
+    "address": "Shop 12 Arya samaj Mandir, Subhash Nagar, New Delhi, Delhi 110064",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "krishna-properties-ajay-enclave"
+  },
+  {
+    "name": "PD :- Property Dealer | Rental Property | Buy/Sale Property in Tilak Nagar/Janakpuri/Subhash Nagar/Rajouri Garden",
+    "address": "No. 4, Metro Station Gate, 16/1C, near Tilak Nagar Road, Prem Nagar, Janakpuri, New Delhi, Delhi, 110058",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "pd---property-dealer-rental-property-buysale-property-in-tilak-nagarjanakpurisubhash-nagarrajouri-garden-ajay-enclave"
+  },
+  {
+    "name": "Guruji Properties",
+    "address": "top floor, metro station, Jail Rd, near Tilak Nagar, Prem Nagar, Janakpuri, New Delhi, Delhi, 110058",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "guruji-properties-ajay-enclave"
+  },
+  {
+    "name": "Hiveee Estates",
+    "address": "2, 197, Block 17, Block 2, Subhash Nagar, Delhi, 110064",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "hiveee-estates-ajay-enclave"
+  },
+  {
+    "name": "Mohit Properties",
+    "address": "Office No 7, 3, Block 7, Ashok Nagar, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "mohit-properties-ajay-enclave"
+  },
+  {
+    "name": "Real Estate Shop",
+    "address": "15/5 A, Tilak Nagar :, Tilak Nagar Rd, Main Market, New Delhi, Delhi 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "real-estate-shop-ajay-enclave"
+  },
+  {
+    "name": "Gautam properties",
+    "address": "1, 177, Arya samaj road, Block 17, Subhash Nagar, Delhi, 110064",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "gautam-properties-ajay-enclave"
+  },
+  {
+    "name": "Guruji Property.com®Estate Agent Hari Nagar",
+    "address": "Shop Number 3, C 37 A, Shaheed Mangal Pandey Marg, near Clock Tower, near ddu hospital front gate, Nanak Pura, Hari Nagar, New Delhi, Delhi, 110064",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "guruji-propertycomestate-agent-hari-nagar-ajay-enclave"
+  },
+  {
+    "name": "Surya Estates",
+    "address": "139 DDA market Adjoining J Block Community Centre, Opposite Hotel Surya Continental Rajouri Garden, New Delhi, Delhi 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "surya-estates-ajay-enclave"
+  },
+  {
+    "name": "Kanwal Properties",
+    "address": "Shop No. 5, 5/181, Block 17, Block 5, Subhash Nagar, Delhi, 110064",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "kanwal-properties-ajay-enclave"
+  },
+  {
+    "name": "Thakral Properties",
+    "address": "LEFT, corner Office, WZ 56, Mukhram Park Extension, Mukherjee Park Extension, Tilak Nagar, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "thakral-properties-ajay-enclave"
+  },
+  {
+    "name": "Saluja Properties",
+    "address": "Shop No 8, MIG Flats, DDA Market, Block 1, Rajouri Garden, New Delhi, Delhi, 110064",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "saluja-properties-ajay-enclave"
+  },
+  {
+    "name": "Singh Build Estate",
+    "address": "A-64, Asha Park Area, Block A, Gali no.4, Near, Jail Road, New Delhi, Delhi 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "singh-build-estate-ajay-enclave"
+  },
+  {
+    "name": "Mehta Properties.",
+    "address": "766, Manak Vihar Tandoor Chowk, Manak Vihar Rd, Manak Vihar, Tihar Village, New Delhi, Delhi 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "mehta-properties-ajay-enclave"
+  },
+  {
+    "name": "AMBIKA PROPERTIES",
+    "address": "DDA MIG Flats, 202 G, Garage, SOCIETY GATE 5, Rajouri Garden, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "ambika-properties-ajay-enclave"
+  },
+  {
+    "name": "Chadha Properties & Motors",
+    "address": "Shop No. 18/1, Near Tilak Nagar Metro Station, Jail Rd, Prem Nagar, Janakpuri, Delhi, 110058",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "chadha-properties-motors-ajay-enclave"
+  },
+  {
+    "name": "SKY REAL GROUP",
+    "address": "WZ-1, 3rd Floor, Ganesh Nagar, Tilak Nagar, New Delhi, Delhi 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "sky-real-group-ajay-enclave"
+  },
+  {
+    "name": "Mohan properties",
+    "address": "A-70, Punjabi Mkt Rd, near grover sweets, Shyam Nagar, Pocket A, Shyam Nagar, Vishnu Garden, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "mohan-properties-ajay-enclave"
+  },
+  {
+    "name": "Madhan Estate Agency",
+    "address": "13/8A, Tilak Nagar Rd, Tilak Nagar, New Delhi, Delhi 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "madhan-estate-agency-ajay-enclave"
+  },
+  {
+    "name": "Kuldeep Property Dealer",
+    "address": "64, New Delhi, Delhi 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "kuldeep-property-dealer-ajay-enclave"
+  },
+  {
+    "name": "Nagpal Properties & Construction",
+    "address": "Shopping Centre, B-3, Balasaheb Devras Marg, Block BA, Tagore Garden, Tagore Garden Extension, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "nagpal-properties-construction-ajay-enclave"
+  },
+  {
+    "name": "Nagpal Properties",
+    "address": "J-102 Milap Market, Beri Wala Bagh, New Delhi, Delhi 110064",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "nagpal-properties-ajay-enclave"
+  },
+  {
+    "name": "V.P. Batta & Sons Property Dealer",
+    "address": "DEEP ENCLAVE, POCKET D, LIG-9A, Phase 3, Ashok Vihar III, Ashok Vihar, Delhi, 110052",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "vp-batta-sons-property-dealer-ajay-enclave"
+  },
+  {
+    "name": "Ruhani Real Estate & Construction",
+    "address": "24/11, Chhoti Subji Mandi, Janakpuri, New Delhi, Delhi 110058",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "ruhani-real-estate-construction-ajay-enclave"
+  },
+  {
+    "name": "PROPERTY SHOP, Property dealer in wazirpur industrial area, Bawana industrial area, Rajasthani Udyog Nagar ind , NSP",
+    "address": "B 48 group, Block B, Wazirpur Industrial Area, Ashok Vihar, Delhi, 110052",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "property-shop-property-dealer-in-wazirpur-industrial-area-bawana-industrial-area-rajasthani-udyog-nagar-ind-nsp-ajay-enclave"
+  },
+  {
+    "name": "SHREE JEE PROPERTIES",
+    "address": "119, CA Block, Hari Enclave, Hari Nagar, Delhi, 110064",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "shree-jee-properties-ajay-enclave"
+  },
+  {
+    "name": "J S Chawla Vedios & Properties",
+    "address": "Shop No.2, WZ-370, Mother Dairy Rd, Pocket 5, Shiv Nagar, Janakpuri, New Delhi, Delhi, 110058",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "j-s-chawla-vedios-properties-ajay-enclave"
+  },
+  {
+    "name": "Sarpal Properties",
+    "address": "N-56/3, CH Harpal Chandela Rd, Block N, Shyam Nagar, Vishnu Garden, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "sarpal-properties-ajay-enclave"
+  },
+  {
+    "name": "Pathak Ji Properties & Finance Adviser - Real Estate in Tilak Nagar - Mall Road - Property Dealer in Tilak Nagar",
+    "address": "17, 11 A, Mall Rd, near Riwaaz Garments, Block 1, Tilak Nagar, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "pathak-ji-properties-finance-adviser---real-estate-in-tilak-nagar---mall-road---property-dealer-in-tilak-nagar-ajay-enclave"
+  },
+  {
+    "name": "M.S. ASSOCIATES",
+    "address": "WZ-22A, Gali No 10, opposite Delhi Haat, Hari Nagar, Virender Nagar, Janakpuri, New Delhi, Delhi, 110058",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "ms-associates-ajay-enclave"
+  },
+  {
+    "name": "Jolly Properties",
+    "address": "Nehru Market, j5/94, Block J-5, Block J, Rajouri Garden Extension, Rajouri Garden, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "jolly-properties-ajay-enclave"
+  },
+  {
+    "name": "Dhall Properties",
+    "address": "72, New Delhi, Delhi 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "dhall-properties-ajay-enclave"
+  },
+  {
+    "name": "Nav Durga Property (Rajasthan Wale)",
+    "address": "Off-G, 16, RG Trade Tower, Netaji Subhash Place, Shakurpur, Delhi, 110034",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "nav-durga-property-rajasthan-wale-ajay-enclave"
+  },
+  {
+    "name": "Verma Properties",
+    "address": "J-67 Hari nagar Milap Market, near Beriwala Bagh, New Delhi, Delhi 110064",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "verma-properties-ajay-enclave"
+  },
+  {
+    "name": "J.M.D PROPERTY",
+    "address": "Four Story Flats, 213, Vishal Enclave, Tagore Garden Extension, New Delhi, Delhi 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "jmd-property-ajay-enclave"
+  },
+  {
+    "name": "Nivas Point | Best Property Dealers in Tilak Nagar, Real Estate Consultants in West Delhi",
+    "address": "Ground Floor, F- 9, Mukhram Garden, Chaukhandi, Tilak Nagar, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "nivas-point-best-property-dealers-in-tilak-nagar-real-estate-consultants-in-west-delhi-ajay-enclave"
+  },
+  {
+    "name": "Rishabh Associates",
+    "address": "Wz 42 A, Meenakshi Garden, Subhash Nagar, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "rishabh-associates-ajay-enclave"
+  },
+  {
+    "name": "Livora Homes",
+    "address": "WZ-24/1, Hind Nagar, Mukherji Park, Chaukhandi, Tilak Nagar, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "livora-homes-ajay-enclave"
+  },
+  {
+    "name": "REAL PROPERTY HUB",
+    "address": "Plot no.323, near dashmesh rumala wala, DDA Colony, Chand Nagar, Vishnu Garden, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "real-property-hub-ajay-enclave"
+  },
+  {
+    "name": "Saini Properties",
+    "address": "3B-88, Khayala, Vishnu Garden, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "saini-properties-ajay-enclave"
+  },
+  {
+    "name": "K. Mehta Property dealer",
+    "address": "S-2/200, East Janak Puri, Old Mahavir Nagar, Tilak Nagar, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "k-mehta-property-dealer-ajay-enclave"
+  },
+  {
+    "name": "Shubham Home Solutions-Property Dealer In Ashok Vihar-Builder Floor In Ashok Vihar-Commercial Property Dealer In Wazirpur",
+    "address": "C-2, Ashok Vihar Phase 1 Rd, next to AXIS BANK, Block C, Pocket C, Ashok Vihar, Delhi, 110052",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "shubham-home-solutions-property-dealer-in-ashok-vihar-builder-floor-in-ashok-vihar-commercial-property-dealer-in-wazirpur-ajay-enclave"
+  },
+  {
+    "name": "Yogesh Property & Builders",
+    "address": "G - 5, Lawrence Rd, Dr Lohia Industrial Area, Rampura Industrial Area, Tri Nagar, New Delhi, Delhi, 110035",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "yogesh-property-builders-ajay-enclave"
+  },
+  {
+    "name": "Shriram Property Dealers Regd-Property Dealer In Ashok Vihar-Residential property-Commercial Property Dealer In Wazirpur",
+    "address": "C-2, adjacent Axis Bank, Phase 1, Ashok Vihar, New Delhi, Delhi, 110052",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "shriram-property-dealers-regd-property-dealer-in-ashok-vihar-residential-property-commercial-property-dealer-in-wazirpur-ajay-enclave"
+  },
+  {
+    "name": "Vishal Properties",
+    "address": "J-7/80G Nehru Market Road, near Mister Gulati Bakers, Rajouri Garden, New Delhi, Delhi 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "vishal-properties-ajay-enclave"
+  },
+  {
+    "name": "GuruNanak Properties and Builders",
+    "address": "19/4, Block 19, Tilak Nagar, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "gurunanak-properties-and-builders-ajay-enclave"
+  },
+  {
+    "name": "NAV DURGA PROPERTY DEALER",
+    "address": "2478/190, Gali No. 190, Onkar Nagar A, Shanti Nagar, Tri Nagar, Delhi, 110035",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "nav-durga-property-dealer-ajay-enclave"
+  },
+  {
+    "name": "Khanna Properties",
+    "address": "86, New Delhi, Delhi 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "khanna-properties-ajay-enclave"
+  },
+  {
+    "name": "Baba property - Property Dealer In Shastri Nagar - Best Property Dealer In Shastri Nagar",
+    "address": "A-509, near Axis Bank ATM, Block A, Block D, Shastri Nagar, Delhi, 110052",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "baba-property---property-dealer-in-shastri-nagar---best-property-dealer-in-shastri-nagar-ajay-enclave"
+  },
+  {
+    "name": "MS REAL ESTATE",
+    "address": "44/1, Block 44, Ashok Nagar, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "ms-real-estate-ajay-enclave"
+  },
+  {
+    "name": "Vishall Landbase Private Limited",
+    "address": "E Block Rd, Block AE, 53A, Mansarover Garden, New Delhi, Delhi, 110015",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "vishall-landbase-private-limited-ajay-enclave"
+  },
+  {
+    "name": "KK Real Estate & Finance",
+    "address": "B-47/3, Jail Rd, Block D, Gopal Nagar, Fateh Nagar, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "kk-real-estate-finance-ajay-enclave"
+  },
+  {
+    "name": "Housing Hunts - Property Dealer In Hari Nagar And Mayapuri",
+    "address": "Shop No. 23, A-1, DDA Market, Hari Nagar, New Delhi, Delhi, 110064",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "housing-hunts---property-dealer-in-hari-nagar-and-mayapuri-ajay-enclave"
+  },
+  {
+    "name": "Best Property Dealer In Delhi",
+    "address": "J4X3+CW3, Vishnu Garden, Block N, Shyam Nagar, Vishnu Garden, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "best-property-dealer-in-delhi-ajay-enclave"
+  },
+  {
+    "name": "Shree balaji Property dealer",
+    "address": "C-110, Subhash Park, Block C 1, New Ashok Nagar, New Delhi, Delhi, 110096",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Ajay Enclave",
+    "slug": "shree-balaji-property-dealer-ajay-enclave"
+  }
+]

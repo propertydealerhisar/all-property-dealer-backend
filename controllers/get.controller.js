@@ -1,9 +1,6 @@
 const Dealer = require("../models/Dealer");
 
-/**
- * ✅ GET all dealers by domain
- * URL: /api/dealers/:domain
- */
+
 exports.getAllData = async (req, res) => {
   try {
     let domain = req.params.domain;
@@ -13,28 +10,34 @@ exports.getAllData = async (req, res) => {
     const withoutWWW = domain.replace("www.", "");
     const withWWW = "www." + withoutWWW;
 
-    console.log("Searching for =>", withoutWWW, "OR", withWWW);
-
     const page = parseInt(req.query.page) || 1;
-    const limit = parseInt(req.query.limit);
-    const skip = (page - 1) * limit;
+    const limit = parseInt(req.query.limit) || 100;
 
-    const total = await Dealer.countDocuments({
+    const search = req.query.search || "";   // 👈 NEW
+
+    let matchQuery = {
       $or: [
         { domain: withoutWWW },
         { domain: withWWW }
       ]
-    });
+    };
 
-    const list = await Dealer.find({
-      $or: [
-        { domain: withoutWWW },
-        { domain: withWWW }
-      ]
-    })
-      .sort({ createdAt: -1 })
-      .skip(skip)
-      .limit(limit);
+    // 🔥 TEXT SEARCH LOGIC
+    if (search) {
+      matchQuery.$text = { $search: search };
+    }
+
+    const total = await Dealer.countDocuments(matchQuery);
+
+    // 🔥 RANDOM + SEARCH COMBINE
+    const list = await Dealer.aggregate([
+      { $match: matchQuery },
+
+      // Agar search ho to relevance sort
+      ...(search
+        ? [{ $sort: { score: { $meta: "textScore" } } }]
+        : [{ $sample: { size: limit } }])
+    ]);
 
     res.json({
       success: true,
@@ -52,6 +55,7 @@ exports.getAllData = async (req, res) => {
     });
   }
 };
+
 
 
 
@@ -146,6 +150,88 @@ exports.getAllDataWithFallback = async (req, res) => {
     res.status(500).json({
       success: false,
       message: err.message,
+    });
+  }
+};
+
+//ya state ka dataa haryanaa ka la jaiyee
+exports.getAllDataByState = async (req, res) => {
+  try {
+    let state = req.params.state.trim();
+
+    console.log("Searching state =>", state);
+
+    const matchQuery = {
+      state: { $regex: new RegExp("^" + state + "$", "i") }
+    };
+
+    const total = await Dealer.countDocuments(matchQuery);
+
+    if (total === 0) {
+      return res.status(404).json({
+        success: false,
+        message: "Dealer not found"
+      });
+    }
+
+    // ======== IMPORTANT CHANGE HERE ========
+    const list = await Dealer.aggregate([
+      { $match: matchQuery },
+      { $sample: { size: total } }   // randomize whole data
+    ]);
+    // =======================================
+
+    res.json({
+      success: true,
+      totalRecords: total,
+      data: list
+    });
+
+  } catch (err) {
+    res.status(500).json({
+      success: false,
+      message: err.message
+    });
+  }
+};
+
+
+exports.getAllDataByCity = async (req, res) => {
+  try {
+    let city = req.params.city.trim();
+
+    console.log("Searching city =>", city);
+
+    const matchQuery = {
+      city: { $regex: new RegExp("^" + city + "$", "i") }
+    };
+
+    const total = await Dealer.countDocuments(matchQuery);
+
+    if (total === 0) {
+      return res.status(404).json({
+        success: false,
+        message: "Dealer not found for this city"
+      });
+    }
+
+    // 🔥 IMPORTANT CHANGE – NO LIMIT, ALL DATA RANDOM
+    const list = await Dealer.aggregate([
+      { $match: matchQuery },
+      { $sample: { size: total } }   // jitna data utna sample
+    ]);
+
+    res.json({
+      success: true,
+      city: city,
+      totalRecords: total,
+      data: list
+    });
+
+  } catch (err) {
+    res.status(500).json({
+      success: false,
+      message: err.message
     });
   }
 };

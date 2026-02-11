@@ -128,10 +128,20 @@ exports.getBlogs = async (req, res) => {
 
     const total = await Blog.countDocuments(filter);
 
-    const blogs = await Blog.find(filter)
-      .select("title excerpt slug heroImg date domain")
-      .skip((page - 1) * limit)
-      .limit(limit);
+    const blogs = await Blog.aggregate([
+      { $match: filter },
+      { $sample: { size: limit } },   // 👈 RANDOM BLOGS
+      {
+        $project: {
+          title: 1,
+          excerpt: 1,
+          slug: 1,
+          heroImg: 1,
+          date: 1,
+          domain: 1
+        }
+      }
+    ]);
 
     res.status(200).json({
       success: true,
@@ -182,7 +192,10 @@ exports.updateHeroImgFromFile = async (req, res) => {
       });
     }
 
-    // ROOT folder se direct path banega
+    // ----- YAHA APNA DOMAIN NAME LIKH DO -----
+    const DOMAIN_NAME = "www.propertydealerindelhi.com";
+    // -----------------------------------------
+
     const fullPath = path.join(process.cwd(), filePath);
 
     if (!fs.existsSync(fullPath)) {
@@ -197,6 +210,7 @@ exports.updateHeroImgFromFile = async (req, res) => {
 
     let updated = 0;
     let notFound = 0;
+    let domainMismatch = 0;
 
     for (let item of records) {
 
@@ -206,15 +220,28 @@ exports.updateHeroImgFromFile = async (req, res) => {
         continue;
       }
 
-      const blog = await Blog.findOne({ slug });
+      // 🔥 PEHLE DOMAIN + SLUG DONO MATCH HONGE
+      const blog = await Blog.findOne({
+        domain: DOMAIN_NAME,
+        slug: slug
+      });
 
       if (!blog) {
         notFound++;
         continue;
       }
 
+      // Double safety – agar kisi blog ka domain alag ho
+      if (blog.domain !== DOMAIN_NAME) {
+        domainMismatch++;
+        continue;
+      }
+
       await Blog.updateOne(
-        { slug: slug },
+        {
+          domain: DOMAIN_NAME,
+          slug: slug
+        },
         { $set: { heroImg: heroImg } }
       );
 
@@ -222,16 +249,57 @@ exports.updateHeroImgFromFile = async (req, res) => {
     }
 
     res.status(200).json({
-      message: "Hero Images Updated Successfully",
+      message: "Hero Images Updated Successfully (Domain Wise)",
       totalRecords: records.length,
       updatedBlogs: updated,
-      slugNotFound: notFound
+      slugNotFound: notFound,
+      domainMismatch: domainMismatch
     });
 
   } catch (error) {
     res.status(500).json({
       message: "Error updating hero images from file",
       error: error.message
+    });
+  }
+};
+
+
+
+
+exports.getBlogsByFixedDomains = async (req, res) => {
+  try {
+
+    const allowedDomains = [
+      "www.propertydealerinfaridabad.com",
+      "www.propertydealeringurgaon.com",
+      "www.propertydealerinhisar.com"
+    ];
+
+    // 🔥 RANDOMIZED MIXED DATA LOGIC
+    const blogs = await Blog.aggregate([
+      {
+        $match: {
+          domain: { $in: allowedDomains }
+        }
+      },
+      {
+        $sample: { size: 1000 }   // jitna max data chahiye
+      }
+    ]);
+
+    res.status(200).json({
+      success: true,
+      total: blogs.length,
+      data: blogs
+    });
+
+  } catch (error) {
+    console.log("Error in getBlogsByFixedDomains:", error);
+
+    res.status(500).json({
+      success: false,
+      message: "Server Error"
     });
   }
 };

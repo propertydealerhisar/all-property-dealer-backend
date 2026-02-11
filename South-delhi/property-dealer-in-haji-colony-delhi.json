@@ -1,0 +1,730 @@
+[
+  {
+    "name": "Thapar Properties",
+    "address": "Shop no 16, DDA Pocket-A Market, Pocket A, Sukhdev Vihar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "thapar-properties-south-delhi"
+  },
+  {
+    "name": "Property Dealer In Sarita Vihar-Chaman Estate-Property Dealer In Jasola",
+    "address": "Flat 147-152, 87A, Pocket 12, Jasola Vihar, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "property-dealer-in-sarita-vihar-chaman-estate-property-dealer-in-jasola-south-delhi"
+  },
+  {
+    "name": "Apollo Properties",
+    "address": "D-353, D.D.A. Flats, Pocket-11, Jasola Vihar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "apollo-properties-south-delhi"
+  },
+  {
+    "name": "Mohd Hayat Properties",
+    "address": "B-49 Ayan manzil Johri farm lane no 8, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "mohd-hayat-properties-south-delhi"
+  },
+  {
+    "name": "Irfan Properties",
+    "address": "F-1/9 Khajoori Road, Jogabai Extension, Batla House, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "irfan-properties-south-delhi"
+  },
+  {
+    "name": "Khurana Estate",
+    "address": "DDA Flats, 30, Pocket A Market, Pocket A, Sukhdev Vihar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "khurana-estate-south-delhi"
+  },
+  {
+    "name": "Bhatt Associates (Okhla Property Dealers)",
+    "address": "F, 32/6, Okhla Phase II, Pocket D, Okhla Phase II, Okhla Industrial Estate, New Delhi, Delhi 110020",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "bhatt-associates-okhla-property-dealers-south-delhi"
+  },
+  {
+    "name": "Satish properties",
+    "address": "Shop no 36, Pocket A, Sukhdev Vihar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "satish-properties-south-delhi"
+  },
+  {
+    "name": "ROYAL PROPERTY",
+    "address": "G ,51GROUND FLOOR, 40, Futta Jama Masjid Rd, Shaheen Bagh, Block A, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "royal-property-south-delhi"
+  },
+  {
+    "name": "Property Masterz – Office Space & Property Dealers in Jasola",
+    "address": "DLF Tower A, District Centre, Jasola Vihar, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "property-masterz-office-space-property-dealers-in-jasola-south-delhi"
+  },
+  {
+    "name": "S R PROPERTIES",
+    "address": "G7WW+4H6, Sector 8, Pocket 8, Jasola Vihar, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "s-r-properties-south-delhi"
+  },
+  {
+    "name": "Haji Properties",
+    "address": "1, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "haji-properties-south-delhi"
+  },
+  {
+    "name": "Zakir Nagar Property Dealer",
+    "address": "near Ashoka park, Zakir Nagar, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "zakir-nagar-property-dealer-south-delhi"
+  },
+  {
+    "name": "Real Value",
+    "address": "New Friends Colony, Delhi, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "real-value-south-delhi"
+  },
+  {
+    "name": "Property Masterz — Property Dealers in Okhla",
+    "address": "Block E-44/3, Okhla Phase II, New Delhi, Delhi 110020",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "property-masterz-property-dealers-in-okhla-south-delhi"
+  },
+  {
+    "name": "Annu And Sons Property",
+    "address": "110025, Block F, Joga Bai Extension, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "annu-and-sons-property-south-delhi"
+  },
+  {
+    "name": "Haji Nasir Property",
+    "address": "85, Shaheen Bagh, Block B, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "haji-nasir-property-south-delhi"
+  },
+  {
+    "name": "Apkaaashiyana okhla",
+    "address": "Okhla Vihar, Okhla Vihar, Block C, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "apkaaashiyana-okhla-south-delhi"
+  },
+  {
+    "name": "Pawan Birla - property dealer in Jasola Sarita Vihar - best real estate agent in jasola sarita vihaar",
+    "address": "Building, 256/6, near Pocket 10B, Jasola, Jasola Vihar, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "pawan-birla---property-dealer-in-jasola-sarita-vihar---best-real-estate-agent-in-jasola-sarita-vihaar-south-delhi"
+  },
+  {
+    "name": "Sana Properties",
+    "address": "44 A Pocket, 10B, Jasola, Jasola Vihar, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "sana-properties-south-delhi"
+  },
+  {
+    "name": "Uzair Property Dealer",
+    "address": "H-46/17, Batla House, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "uzair-property-dealer-south-delhi"
+  },
+  {
+    "name": "Saini properties",
+    "address": "2nd floor, 34, Lane 3, Bharat Nagar, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "saini-properties-south-delhi"
+  },
+  {
+    "name": "Shriram Properties",
+    "address": "Mata Mandir Rd, near Mata Mandir Road, Bharat Nagar, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "shriram-properties-south-delhi"
+  },
+  {
+    "name": "Gulshan Properties",
+    "address": "74/2, Dr C V Raman Rd, Block D, Friends Colony East, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "gulshan-properties-south-delhi"
+  },
+  {
+    "name": "Kerala Properties",
+    "address": "142- A, Pocket M, Sarita Vihar, New Delhi, Delhi 110076",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "kerala-properties-south-delhi"
+  },
+  {
+    "name": "S. K. Properties",
+    "address": "F-30, Shop, No.1, Nafees Rd, Jamia, Batla House, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "s-k-properties-south-delhi"
+  },
+  {
+    "name": "Prithvi Estates",
+    "address": "First Floor, Omaxe Square, 52, District Centre, Jasola Vihar, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "prithvi-estates-south-delhi"
+  },
+  {
+    "name": "SHIV ASSOCIATES",
+    "address": "G 211 Near Gurudwara, Sarita Vihar, New Delhi, Delhi 110076",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "shiv-associates-south-delhi"
+  },
+  {
+    "name": "Cashmir Property",
+    "address": "G, 89, Kalindi Kunj Rd, Shaheen Bagh, Block B, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "cashmir-property-south-delhi"
+  },
+  {
+    "name": "Friends Property",
+    "address": "O-Block, Gali No 6, Shahab masjid Road, Batla house, Jamia Nagar, Okhla, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "friends-property-south-delhi"
+  },
+  {
+    "name": "Bismillah Properties,salepurchase only.",
+    "address": "Batla House, Sir Syed Rd, Block F, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "bismillah-propertiessalepurchase-only-south-delhi"
+  },
+  {
+    "name": "Property in Okhla",
+    "address": "A Block, Abul Fazal Enclave Rd, Abul Fazal Enclave, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "property-in-okhla-south-delhi"
+  },
+  {
+    "name": "N.K Properties",
+    "address": "219, Shop No-5, Lower Ground Floor, Main Road zakir Nagar, near Jama Masjid, Okhla, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "nk-properties-south-delhi"
+  },
+  {
+    "name": "Gaur Properties",
+    "address": "Janta Flats, Mathura Rd, Pocket 11, Jasola Vihar, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "gaur-properties-south-delhi"
+  },
+  {
+    "name": "Girish Property dealer / agent commercial property only",
+    "address": "65, Deepak building 13, Nehru Place, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "girish-property-dealer-agent-commercial-property-only-south-delhi"
+  },
+  {
+    "name": "King Properties",
+    "address": "28, Abul Fazal Enclave Rd, Abul Fazal Enclave, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "king-properties-south-delhi"
+  },
+  {
+    "name": "Suvidha Services",
+    "address": "H, block market, 1, Pankaj Plaza, Sarita Vihar, New Delhi, Delhi 110076",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "suvidha-services-south-delhi"
+  },
+  {
+    "name": "Homeshop8®",
+    "address": "Shop No. 8, Community Centre, Block A, Friends Colony East, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "homeshop8-south-delhi"
+  },
+  {
+    "name": "Alig Properties",
+    "address": "143, 3rd floor, Street Number 12, Jogabai Extension, Zakir Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "alig-properties-south-delhi"
+  },
+  {
+    "name": "Triple A Real Estate",
+    "address": "F38, Abul Fazal Enclave Part 1, Part 1 Abul Fazal Enclave, Block G, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "triple-a-real-estate-south-delhi"
+  },
+  {
+    "name": "Dinesh Property dealer Kailash colony",
+    "address": "A-57, Kailash Colony, Block A, Amar Colony, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "dinesh-property-dealer-kailash-colony-south-delhi"
+  },
+  {
+    "name": "Batla Properties",
+    "address": "Shop No.F-14, 1, Sir Syed Rd, Jogabai Extension, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "batla-properties-south-delhi"
+  },
+  {
+    "name": "Aadharshila Real Estate Services",
+    "address": "190 TO 203, Sarita Vihar Road, Pocket A, Sarita Vihar, New Delhi, Delhi 110076",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "aadharshila-real-estate-services-south-delhi"
+  },
+  {
+    "name": "Investors Peak",
+    "address": "3rd floor, G-67, Shaheen Bagh, Jamia Millia Islamia, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "investors-peak-south-delhi"
+  },
+  {
+    "name": "Prime Location Properties - Jewar Airport Plots, Land & Properties Near Jewar Noida",
+    "address": "Flat No-001, 1st Floor, J-13, Batla House, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "prime-location-properties---jewar-airport-plots-land-properties-near-jewar-noida-south-delhi"
+  },
+  {
+    "name": "A To Z Asif Proprety",
+    "address": "numbar.8, C-69, Shaheen Bagh, Thokar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "a-to-z-asif-proprety-south-delhi"
+  },
+  {
+    "name": "Ganesh Properties",
+    "address": "3, Batla House, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "ganesh-properties-south-delhi"
+  },
+  {
+    "name": "Inder Properties",
+    "address": "H78C+H6M, H78C, New, Bharat Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "inder-properties-south-delhi"
+  },
+  {
+    "name": "Zameen properties",
+    "address": "Lane no 3, مسجد نبی, B-88/146, 1st Lane Johri Farm, opposite Masjid Nabi Lane, Noor Nagar Extension, Noor Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "zameen-properties-south-delhi"
+  },
+  {
+    "name": "Grandlay Associates",
+    "address": "Flat No. 190, Main Rd, Pocket A, Sarita Vihar, New Delhi, Delhi 110076",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "grandlay-associates-south-delhi"
+  },
+  {
+    "name": "INFO REALTY",
+    "address": "D, Bharat Nagar, New Friends Colony, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "info-realty-south-delhi"
+  },
+  {
+    "name": "Shree Ram Property",
+    "address": "A-248, Sanjay Colony II, Pocket Y, Sanjay Colony, Okhla Phase II, Okhla Industrial Estate, New Delhi, Delhi 110020",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "shree-ram-property-south-delhi"
+  },
+  {
+    "name": "Sir Syed Properties",
+    "address": "Sir Syed Rd, Batla House, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "sir-syed-properties-south-delhi"
+  },
+  {
+    "name": "Perfect Property",
+    "address": "Office : 249, NH-19, Hari Nagar Ashram, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "perfect-property-south-delhi"
+  },
+  {
+    "name": "Kumar Linkers Estate Pvt. Ltd.",
+    "address": "UGF 2&3, E-109, near Akshardham Temple, Pandav Nagar, Delhi, 110091",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "kumar-linkers-estate-pvt-ltd-south-delhi"
+  },
+  {
+    "name": "Krishna Properties",
+    "address": "CV Raman Marg, Bharat Nagar, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "krishna-properties-south-delhi"
+  },
+  {
+    "name": "Madhyam",
+    "address": "312, 3rd Floor, Apollo Metro, US Complex, near Jasola, Jasola Vihar, New Delhi, Delhi 110020",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "madhyam-south-delhi"
+  },
+  {
+    "name": "House of Leasing",
+    "address": "Second Floor, 32-D/2, 1st Lane Johri Farm, Jamia Nagar Extension, Noor Nagar Extension, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "house-of-leasing-south-delhi"
+  },
+  {
+    "name": "Jamia Homes",
+    "address": "",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "jamia-homes-south-delhi"
+  },
+  {
+    "name": "Ma Properties",
+    "address": "77 A /13, near Sarvodaya School, Noor Nagar Extension, Noor Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "ma-properties-south-delhi"
+  },
+  {
+    "name": "Gupta & Company",
+    "address": "Okhla, Jamia Nagar, Okhla, New Delhi, Delhi 110020",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "gupta-company-south-delhi"
+  },
+  {
+    "name": "Sharma Properties",
+    "address": "Shop number 70, Okhla Phase 3 Rd, Okhla Phase III, Okhla Industrial Estate, New Delhi, Delhi 110020",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "sharma-properties-south-delhi"
+  },
+  {
+    "name": "Splendor Landbase Limited",
+    "address": "Splendor Forum, Plot, Street Number 3, Near Appolo Hospital, Jasola Vihar, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "splendor-landbase-limited-south-delhi"
+  },
+  {
+    "name": "Unity Property",
+    "address": "Bfbr, Bx, F-105, New, South, near Okhla Vihar, Abul Fazal Enclave, Canal Colony, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "unity-property-south-delhi"
+  },
+  {
+    "name": "Friends Properties",
+    "address": "134-A, Navjivan Buddh Vihar, Taimoor Nagar, New Friends Colony, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "friends-properties-south-delhi"
+  },
+  {
+    "name": "V V H Group",
+    "address": "Shop No 1, Gali, Khalilullah Masjid St, Batla House, Ghafoor Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "v-v-h-group-south-delhi"
+  },
+  {
+    "name": "Property Dealers in Kalkaji, Delhi",
+    "address": "DDA Flats St, DDA Flats Kalkaji, Block J 3, Alaknanda Market, Kalkaji, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "property-dealers-in-kalkaji-delhi-south-delhi"
+  },
+  {
+    "name": "MAA BHAGWATI PROPERTIES",
+    "address": "167/6-B, near Surya Hotel, Block D, Sarai Jullena, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "maa-bhagwati-properties-south-delhi"
+  },
+  {
+    "name": "Sahni Properties - Realtors and Developers",
+    "address": "Shop no 22, DDA Market Rd, Pocket 3, Mayur Vihar Phase I, Pocket 3, Mayur Vihar, New Delhi, Delhi, 110091",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "sahni-properties---realtors-and-developers-south-delhi"
+  },
+  {
+    "name": "Mohan Properties",
+    "address": "17, Sukhdev Vihar, Masihgarh, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "mohan-properties-south-delhi"
+  },
+  {
+    "name": "Panworld Properties",
+    "address": "Shop No 32 and 41, Local Shopping Centre, Block C, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "panworld-properties-south-delhi"
+  },
+  {
+    "name": "MUSA PROPERTIES",
+    "address": "Gali No-8, P-1, Noor Jaha Masjid, Jamia, Batla House, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "musa-properties-south-delhi"
+  },
+  {
+    "name": "Nambardar Real Estate",
+    "address": "88, CV Raman Marg, Sarai Jullena, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "nambardar-real-estate-south-delhi"
+  },
+  {
+    "name": "Uppal Properties",
+    "address": "5/41, Old Double Storey, Nirmal Colony, Block 5, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "uppal-properties-south-delhi"
+  },
+  {
+    "name": "The Lush Homes",
+    "address": "126, Sukhdev Vihar, Sarai Jullena, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "the-lush-homes-south-delhi"
+  },
+  {
+    "name": "Ganesh Property Dealer",
+    "address": "759A/7, 756, Govindpuri, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "ganesh-property-dealer-south-delhi"
+  },
+  {
+    "name": "Crown advertising",
+    "address": "d, 12/1, Okhla Vihar Main Rd, Okhla Vihar, Mujeeb Bagh, Noor Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "crown-advertising-south-delhi"
+  },
+  {
+    "name": "KP PROPERTIES - Property Dealer | Construction | South Delhi",
+    "address": "B 91 lgf, Main Rd, Block B, Kalkaji, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "kp-properties---property-dealer-construction-south-delhi-south-delhi"
+  },
+  {
+    "name": "JSR Connections",
+    "address": "14, Maulana Mohammed Ali Jauhar Marg, Block A, Friends Colony East, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "jsr-connections-south-delhi"
+  },
+  {
+    "name": "Yamini Properties & Construction",
+    "address": "33, near Bhim Park, Bhagwan Nagar, Pocket B Sidhartha Extention, Sidhartha Nagar, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "yamini-properties-construction-south-delhi"
+  },
+  {
+    "name": "Friends Properties .",
+    "address": "5/1, Old Double Storey, Nirmal Colony, Block 5, Amar Colony, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "friends-properties-south-delhi"
+  },
+  {
+    "name": "RB PROPERTY",
+    "address": "Harkesh Nagar, Okhla Industrial Estate, New Delhi, Delhi 110020",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "rb-property-south-delhi"
+  },
+  {
+    "name": "Agarwal property",
+    "address": "H72R+GCR, Pocket 11, Jasola Vihar, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "agarwal-property-south-delhi"
+  },
+  {
+    "name": "Prince Properties",
+    "address": "Pocket L, Sarita Vihar, New Delhi, Delhi 110076",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "prince-properties-south-delhi"
+  },
+  {
+    "name": "SIROHI REAL ESTATE AGENCY",
+    "address": "SIROHI NIWAS HOUSE, 140, Gali No. 12, near MUTHOOT FINANCE, Gyani Market, Block C, Khazoori Khas, New Delhi, Delhi, 110090",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "sirohi-real-estate-agency-south-delhi"
+  },
+  {
+    "name": "VM Associates",
+    "address": "A7/2, Okhla Phase II, Okhla Industrial Estate, New Delhi, Delhi 110020",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "vm-associates-south-delhi"
+  },
+  {
+    "name": "AL-AHAD -DATES & DRY FRUITS",
+    "address": "F, 30, Shaheen Bagh, Abul Fazal Enclave Part 2, Jamia Nagar, Okhla, New Delhi, delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "al-ahad--dates-dry-fruits-south-delhi"
+  },
+  {
+    "name": "Fasteign Realty Services",
+    "address": "37 A First Floor Front Facing Nai Basti, Abul Fazal Enclave Part 1, Jamia Nagar, Okhla, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "fasteign-realty-services-south-delhi"
+  },
+  {
+    "name": "R.M. Properties",
+    "address": "Part 1 Abul Fazal Enclave, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "rm-properties-south-delhi"
+  },
+  {
+    "name": "Vision2030Projects",
+    "address": "Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "vision2030projects-south-delhi"
+  },
+  {
+    "name": "Sarita Associates",
+    "address": "J252, near H Pocket, Abul Fazal Enclave Part 2, J Block, Sarita Vihar, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Haji Colony",
+    "slug": "sarita-associates-south-delhi"
+  }
+]

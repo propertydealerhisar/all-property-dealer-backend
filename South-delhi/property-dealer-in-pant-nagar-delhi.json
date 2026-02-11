@@ -1,0 +1,450 @@
+[
+  {
+    "name": "VOHRA ASSOCIATES",
+    "address": "3/1, Jangpura, Pant Nagar, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "vohra-associates-south-delhi"
+  },
+  {
+    "name": "Happy Properties",
+    "address": "شاھی 4/46, Double story, behind Shahi Masjid مسجد, Jungpura Extension, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "happy-properties-south-delhi"
+  },
+  {
+    "name": "K S Associates",
+    "address": "G-30, Ground Floor, Jungpura Extension, Delhi, 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "k-s-associates-south-delhi"
+  },
+  {
+    "name": "Lucky Properties.",
+    "address": "Shop No 4/6, Opposite Modi Pastry Corner Jangpura Extension, Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "lucky-properties-south-delhi"
+  },
+  {
+    "name": "Property Exchange",
+    "address": "K, 19, Jangpura, Block G, Jungpura Extension, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "property-exchange-south-delhi"
+  },
+  {
+    "name": "Gulshan Estate Agents – Real Estate Consultants",
+    "address": "C-115, Opp Defence Colony Flyover Market, Lajpat Nagar I, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "gulshan-estate-agents-real-estate-consultants-south-delhi"
+  },
+  {
+    "name": "Chopra Properties",
+    "address": "E-105, Block E, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "chopra-properties-south-delhi"
+  },
+  {
+    "name": "Gandhi Properties",
+    "address": "43, Masjid Rd, Jangpura, Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "gandhi-properties-south-delhi"
+  },
+  {
+    "name": "Friend's Properties",
+    "address": "41, Church Rd, Jangpura, Samman Bazar, Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "friends-properties-south-delhi"
+  },
+  {
+    "name": "Gulati Properties",
+    "address": "Shop No- 8, DDA Market, Near INOX Eros One, Jangpura, Jungpura Extension, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "gulati-properties-south-delhi"
+  },
+  {
+    "name": "Sangam Properties",
+    "address": "Gate No.5, A-10, opp. Lajpat Nagar Metro Station, Block A, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "sangam-properties-south-delhi"
+  },
+  {
+    "name": "Kapur Properties",
+    "address": "K- 31B ,Ground floor, Block L, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "kapur-properties-south-delhi"
+  },
+  {
+    "name": "Dev Properties",
+    "address": "2/4, Samman Bazar Rd, Bhogal, Jangpura, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "dev-properties-south-delhi"
+  },
+  {
+    "name": "S. S. Builder",
+    "address": "61-A, Masjid Rd, Jangpura, Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "s-s-builder-south-delhi"
+  },
+  {
+    "name": "India Estates",
+    "address": "169, Block C, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "india-estates-south-delhi"
+  },
+  {
+    "name": "Temple Properties",
+    "address": "Shop Number.25, Masjid Rd, Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "temple-properties-south-delhi"
+  },
+  {
+    "name": "JP ASSOCIATES",
+    "address": "Shop no.8, Guru Nanak Market, Hospital Rd., Bhogal, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "jp-associates-south-delhi"
+  },
+  {
+    "name": "South Delhi Floors",
+    "address": "A-67, Amber Vithi Rd, Block A, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "south-delhi-floors-south-delhi"
+  },
+  {
+    "name": "Bhalla Properties - Renting, Sale Purchase & Consultant",
+    "address": "H-19,old double storey,lajpat nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "bhalla-properties---renting-sale-purchase-consultant-south-delhi"
+  },
+  {
+    "name": "Arora Properties- F 94, Lajpat Nagar-II",
+    "address": "F 94, F Block, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "arora-properties--f-94-lajpat-nagar-ii-south-delhi"
+  },
+  {
+    "name": "National Properties",
+    "address": "C-1, Ground Floor, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "national-properties-south-delhi"
+  },
+  {
+    "name": "House True Real Estate Services",
+    "address": "G-30, Block G, Lajpat Nagar III, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "house-true-real-estate-services-south-delhi"
+  },
+  {
+    "name": "Bhandari Properties",
+    "address": "265, Hari Nagar Ashram, Ashram, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "bhandari-properties-south-delhi"
+  },
+  {
+    "name": "Bahl Properties",
+    "address": "B-138, Block B, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "bahl-properties-south-delhi"
+  },
+  {
+    "name": "Gulati Propeties",
+    "address": "C-11, Block C, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "gulati-propeties-south-delhi"
+  },
+  {
+    "name": "Balaji Properties",
+    "address": "117, Mathura Rd, near SBI ATM, Hari Nagar Ashram, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "balaji-properties-south-delhi"
+  },
+  {
+    "name": "Arora Estate Services",
+    "address": "Shop No.5, Hanuman Mandir, Krishna Market, Block D, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "arora-estate-services-south-delhi"
+  },
+  {
+    "name": "Dinesh Property dealer Kailash colony",
+    "address": "A-57, Kailash Colony, Block A, Amar Colony, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "dinesh-property-dealer-kailash-colony-south-delhi"
+  },
+  {
+    "name": "Taneja Properties",
+    "address": "E-92, Block E, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "taneja-properties-south-delhi"
+  },
+  {
+    "name": "Uppal Properties",
+    "address": "5/41, Old Double Storey, Nirmal Colony, Block 5, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "uppal-properties-south-delhi"
+  },
+  {
+    "name": "Alliance Real Estate",
+    "address": "O-6, Veer Savarkar Marg, Block O, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "alliance-real-estate-south-delhi"
+  },
+  {
+    "name": "Kumar Properties",
+    "address": "E-87, Block E, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "kumar-properties-south-delhi"
+  },
+  {
+    "name": "Delhi Properties",
+    "address": "E-11, Lajpat Nagar I, Rampul Chowk, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "delhi-properties-south-delhi"
+  },
+  {
+    "name": "Property Linkers ®",
+    "address": "C, 31, behind SBI Bank Building, Block C, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "property-linkers-south-delhi"
+  },
+  {
+    "name": "Jai Mata Property",
+    "address": "22A, Siddhartha Basti, Pocket C, Sidhartha Nagar, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "jai-mata-property-south-delhi"
+  },
+  {
+    "name": "Girish Property dealer / agent commercial property only",
+    "address": "65, Deepak building 13, Nehru Place, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "girish-property-dealer-agent-commercial-property-only-south-delhi"
+  },
+  {
+    "name": "KR Property - Best Property Dealers in South Delhi, Property Consultants in Safdarjung, Enclave Green Park",
+    "address": "104 B, Sufdarjung, Green Park, Arjun Nagar, South Delhi, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "kr-property---best-property-dealers-in-south-delhi-property-consultants-in-safdarjung-enclave-green-park-south-delhi"
+  },
+  {
+    "name": "Friends Properties .",
+    "address": "5/1, Old Double Storey, Nirmal Colony, Block 5, Amar Colony, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "friends-properties-south-delhi"
+  },
+  {
+    "name": "Anshu Properties",
+    "address": "Shop No. 2, 1, Block 1, Nehru Nagar, Lajpat Nagar, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "anshu-properties-south-delhi"
+  },
+  {
+    "name": "Target Properties",
+    "address": "A-162, Block A, Lajpat Nagar-1, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "target-properties-south-delhi"
+  },
+  {
+    "name": "Arora properties",
+    "address": "7/1, Block 7, Nehru Nagar, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "arora-properties-south-delhi"
+  },
+  {
+    "name": "Kamdhenu Property",
+    "address": "1521 Wazir Nagar, Bhishm Pitamah Marg, Main road, Kotla, New Delhi, Delhi 110003",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "kamdhenu-property-south-delhi"
+  },
+  {
+    "name": "Vijay Estate Agency",
+    "address": "E-211, Banphul Marg, Part - 1, Block E, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "vijay-estate-agency-south-delhi"
+  },
+  {
+    "name": "NAMITA PROPERTIES",
+    "address": "M-7, Old Double Storey, Lajpat Nagar 4, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "namita-properties-south-delhi"
+  },
+  {
+    "name": "Bhatia Properties",
+    "address": "A-213, Block A, Lajpat Nagar I, new delhi, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "bhatia-properties-south-delhi"
+  },
+  {
+    "name": "Sehgal Properties",
+    "address": "A-205,Lajpat Nagar-1, A-201, Krishna Market Rd, Block A, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "sehgal-properties-south-delhi"
+  },
+  {
+    "name": "Pant Nagar",
+    "address": "",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "pant-nagar-south-delhi"
+  },
+  {
+    "name": "kumar,s real estate",
+    "address": "e 71, Block E, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "kumars-real-estate-south-delhi"
+  },
+  {
+    "name": "SUNRISE PROPERTIES",
+    "address": "803, 14, Bhishma Pitamah Marg, South Extension I, Arjun Nagar, Wazir Nagar, New Delhi, Delhi 110003",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "sunrise-properties-south-delhi"
+  },
+  {
+    "name": "Verma Property",
+    "address": "30, Lodhi Rd, Near Jor Bagh, Meharchand Market, Lodi Colony, New Delhi, Delhi 110003",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "verma-property-south-delhi"
+  },
+  {
+    "name": "Defence Properties",
+    "address": "A-454, Block A, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "defence-properties-south-delhi"
+  },
+  {
+    "name": "Gogia Properties Pvt. Ltd.",
+    "address": "Krishna Mandir Marg, C-681, Street No. 3, Block S, Nanakpura, Ganesh Nagar, Delhi, 110092",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "gogia-properties-pvt-ltd-south-delhi"
+  },
+  {
+    "name": "M.S. Properties",
+    "address": "E-215, near Ram Pull Chowk, Block F, Lajpat Nagar-1, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "ms-properties-south-delhi"
+  },
+  {
+    "name": "Jamia Nagar Properties | Flat for Sale & Purchase in Jamia Nagar | Housing society in Jamia Nagar",
+    "address": "143, 3rd floor, Street Number 12, Jamia Nagar, Jogabai Extension, Zakir Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "jamia-nagar-properties-flat-for-sale-purchase-in-jamia-nagar-housing-society-in-jamia-nagar-south-delhi"
+  },
+  {
+    "name": "Simran Associates",
+    "address": "C-156, Dr Deen Dyal Verma Marg, near Puma Showroom, Block C, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "simran-associates-south-delhi"
+  },
+  {
+    "name": "JAI SHIV (JS) PROPERTIES",
+    "address": "L, 57, Old Double Storey, Vikram Vihar, Lajpat Nagar 4, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Pant Nagar",
+    "slug": "jai-shiv-js-properties-south-delhi"
+  }
+]

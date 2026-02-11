@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Dream Property",
+    "address": "B 23, Panchsheel Enclave, Near Chirag Delhi Metro Station, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Panchsheel Enclave",
+    "slug": "dream-property-south-delhi"
+  },
+  {
+    "name": "Deepak Chawla",
+    "address": "E-91, Greater Kailash Enclave I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Panchsheel Enclave",
+    "slug": "deepak-chawla-south-delhi"
+  },
+  {
+    "name": "Property Dealer",
+    "address": "A 48, Sarai Shahji, Panchsheel Vihar, Sheikh Sarai Village, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Panchsheel Enclave",
+    "slug": "property-dealer-south-delhi"
+  },
+  {
+    "name": "Panchsheel Homes",
+    "address": "C - 51, Block C, Panchsheel Enclave, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Panchsheel Enclave",
+    "slug": "panchsheel-homes-south-delhi"
+  }
+]

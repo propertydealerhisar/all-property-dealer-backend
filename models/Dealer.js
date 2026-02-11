@@ -10,6 +10,7 @@ const dealerSchema = new mongoose.Schema(
     slug: { type: String, unique: true, index: true },
     domain: { type: String,  },
     state : { type: String,  },
+    area :{type:String , }
 
   },
   { timestamps: true }

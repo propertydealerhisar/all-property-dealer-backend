@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Satish property Dealer",
+    "address": "Gali No. 39, Indira Park, Manglapuri, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Sagarpur",
+    "slug": "satish-property-dealer-sagarpur"
+  },
+  {
+    "name": "MANGALAM PROPERTIES",
+    "address": "RZ-F-31, Block T, West Sagarpur, Sagar Pur, New Delhi, Delhi, 110046",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Sagarpur",
+    "slug": "mangalam-properties-sagarpur"
+  },
+  {
+    "name": "Property Point",
+    "address": "Tent wala school, 9, Street No. 11, Maharshi Enclave, Main Sagarpur, Sagar Pur, New Delhi, Delhi, 110046",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Sagarpur",
+    "slug": "property-point-sagarpur"
+  },
+  {
+    "name": "Choudhary Property Dealer",
+    "address": "J442+GCC, Block T, Gandhi Market, Sagar Pur, Delhi, 110046",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Sagarpur",
+    "slug": "choudhary-property-dealer-sagarpur"
+  },
+  {
+    "name": "Rajput properties",
+    "address": "652, Street Number 3, Sant Mohalla, Main Sagarpur, Sagar Pur, New Delhi, Delhi, 110046",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Sagarpur",
+    "slug": "rajput-properties-sagarpur"
+  },
+  {
+    "name": "Manoj Properties",
+    "address": "45, D-8, palam marg, Choti Puliya, Kamal Park, Rajiv Park, Sagar Pur, New Delhi, Delhi, 110045",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Sagarpur",
+    "slug": "manoj-properties-sagarpur"
+  },
+  {
+    "name": "Khatuwala Properties",
+    "address": "Wz-49, D Block Rd, Mohan Nagar, Block WZ, Main Sagarpur, Sagar Pur, New Delhi, Delhi, 110046",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Sagarpur",
+    "slug": "khatuwala-properties-sagarpur"
+  },
+  {
+    "name": "Goyal Property",
+    "address": "Shastri Market, RZ/C-3, RZ Rd, Block T, Gandhi Market, Sagar Pur, Delhi, 110046",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Sagarpur",
+    "slug": "goyal-property-sagarpur"
+  }
+]

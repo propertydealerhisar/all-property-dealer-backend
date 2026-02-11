@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Friends Properties",
+    "address": "WZ-11A, Nangal Raya, Shaheed Bhagat Singh Marg Flyover, Block WZ, Lajwanti Garden, Janakpuri, New Delhi, Delhi 110046",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nangal Raya",
+    "slug": "friends-properties-nangal-raya"
+  },
+  {
+    "name": "Shree shyam properties",
+    "address": "2nd floor, Wz 344 A, Nangal Raya, New Delhi, Delhi 110046",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nangal Raya",
+    "slug": "shree-shyam-properties-nangal-raya"
+  },
+  {
+    "name": "Next Vision Home",
+    "address": "WZ- 1198-1199, Pankha Rd, Pocket D 2A, Nangal Raya, Janakpuri, New Delhi, Delhi, 110046",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nangal Raya",
+    "slug": "next-vision-home-nangal-raya"
+  },
+  {
+    "name": "Sikka Estate",
+    "address": "C4E -214, Block C3A, Block C 4E, Janakpuri, New Delhi, Delhi, 110058",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Nangal Raya",
+    "slug": "sikka-estate-nangal-raya"
+  }
+]

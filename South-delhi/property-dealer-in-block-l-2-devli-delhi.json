@@ -1,0 +1,402 @@
+[
+  {
+    "name": "A V Developers",
+    "address": "207-A, Devli Village, near Mansa Devi Mandir, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "a-v-developers-south-delhi"
+  },
+  {
+    "name": "Sangam Property",
+    "address": "Holi Chowk, Proli Village, Khanpur, L202, Gali Number 9, Block L, Devli, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "sangam-property-south-delhi"
+  },
+  {
+    "name": "MAHADEV PROPERTIES",
+    "address": "east fo sanik fram house no-506/2 devli village, bandh road, near corporation bank new delhi-110062, lal dora, Sangam Vihar Rd, Devli, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "mahadev-properties-south-delhi"
+  },
+  {
+    "name": "Property World",
+    "address": "178A, Main Bus Stand, Devli Village, Khanpur, Devli Rd, Durga Vihar, Deoli Gaon Nai Basti, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "property-world-south-delhi"
+  },
+  {
+    "name": "Tum Sai Properties",
+    "address": "J2/245-A, Gupta Colony, Block J 1, Devli, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "tum-sai-properties-south-delhi"
+  },
+  {
+    "name": "JKM Properties",
+    "address": "Shop no-1, D-220, Devli Rd, Krishna Park Colony, Deoli Gaon Nai Basti, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "jkm-properties-south-delhi"
+  },
+  {
+    "name": "Sharmaji Property",
+    "address": "A368, 370, Bandh Rd, Durga Vihar, Devli, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "sharmaji-property-south-delhi"
+  },
+  {
+    "name": "Ravi property's",
+    "address": "C-639, Sangam Vihar Rd, Block C, Devli, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "ravi-propertys-south-delhi"
+  },
+  {
+    "name": "CM PROPERTIES",
+    "address": "Shop No, 1, A-15, Devli Rd, Pocket A, Duggal Colony, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "cm-properties-south-delhi"
+  },
+  {
+    "name": "Garg Properties",
+    "address": "E-20/1, Block C, Block E, Deoli Extension, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "garg-properties-south-delhi"
+  },
+  {
+    "name": "Paras Property",
+    "address": "B-167, Devli Rd, Pocket C, Duggal Colony, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "paras-property-south-delhi"
+  },
+  {
+    "name": "Narender properties",
+    "address": "Shop No.A, 245, Devli Rd, Khanpur Village, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "narender-properties-south-delhi"
+  },
+  {
+    "name": "Property Zone",
+    "address": "Gate No.2, Freedom Fighters Enclave, A-111, Freedom Fighter Colony, Block B, Neb Sarai, Sainik Farm, New Delhi, Delhi 110068",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "property-zone-south-delhi"
+  },
+  {
+    "name": "CRS Properties",
+    "address": "Shop No. A, 20, Devli Rd, Pocket A, Khanpur Extension, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "crs-properties-south-delhi"
+  },
+  {
+    "name": "Khan Properties",
+    "address": "L1, Block M 2, Devli, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "khan-properties-south-delhi"
+  },
+  {
+    "name": "Sangam Vihar house",
+    "address": "Kamlesh pal, L1/365, Block L1, Block L 2, Devli, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "sangam-vihar-house-south-delhi"
+  },
+  {
+    "name": "Sanjay Property Dealer",
+    "address": "Shop No F, 38, near Pnb Bank, Deoli, Khanpur Extension, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "sanjay-property-dealer-south-delhi"
+  },
+  {
+    "name": "Shree Ganesh Properties",
+    "address": "Gali No: 18, Main Road, G-Ii, 100A, 6 Number St, Block B, Devli, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "shree-ganesh-properties-south-delhi"
+  },
+  {
+    "name": "Rao Properties",
+    "address": "G64P+3CR, Desh Bandhu Gupta Rd, Nai Basti, Deoli Gaon Nai Basti, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "rao-properties-south-delhi"
+  },
+  {
+    "name": "Kirti property consultants",
+    "address": "Block B, Devli, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "kirti-property-consultants-south-delhi"
+  },
+  {
+    "name": "Diwakar Properties",
+    "address": "338, Block G, Devli, Sangam Vihar, New Delhi, Delhi 110062",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "diwakar-properties-south-delhi"
+  },
+  {
+    "name": "Rajora Properties",
+    "address": "C-1st 190, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "rajora-properties-south-delhi"
+  },
+  {
+    "name": "Goodwill Associate",
+    "address": "C-381, Block B, Devli, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "goodwill-associate-south-delhi"
+  },
+  {
+    "name": "VIRASAT PROPERTIES",
+    "address": "B-190, Devli Rd, Pocket B, Jawahar Park, Khanpur, New Delhi, Delhi, 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "virasat-properties-south-delhi"
+  },
+  {
+    "name": "Max Dixit",
+    "address": "B-5. Shop No 2, Krishna Park Devli Road Khanpur New Delhi : 110062, Delhi, 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "max-dixit-south-delhi"
+  },
+  {
+    "name": "BK Property",
+    "address": "House Number 691, New Delhi Sangam Vihar Gupta Colony Jakariya masjid, Gali No. 11, Block I 2, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "bk-property-south-delhi"
+  },
+  {
+    "name": "M V PROPERTIES REGD- Best Property dealer",
+    "address": "F 2/1 GROUND FLOOR, F BLOCK, Shiv Mandir, near Gol Chakkar, Block F, Malviya Nagar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "m-v-properties-regd--best-property-dealer-south-delhi"
+  },
+  {
+    "name": "Smile properties",
+    "address": "H-17/2, H block, Malviya Nagar, Sangam Vihar, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "smile-properties-south-delhi"
+  },
+  {
+    "name": "property dealer",
+    "address": "f 2nd 323 Madangir New Delhi, New Delhi, Delhi 110062",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "property-dealer-south-delhi"
+  },
+  {
+    "name": "R S & Nagar Property",
+    "address": "B-175, Gopal Das Chowk, Pocket B, Jawahar Park, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "r-s-nagar-property-south-delhi"
+  },
+  {
+    "name": "Zil Bennett",
+    "address": "B-5, Devli Rd, Krishna Park Colony, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "zil-bennett-south-delhi"
+  },
+  {
+    "name": "JSK PROPERTEY",
+    "address": "D134, Venu eye, Krishna Park Colony, Jawahar Park, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "jsk-propertey-south-delhi"
+  },
+  {
+    "name": "Satish's Sun Real Estate",
+    "address": "Gate no 3, Block B Gate, New, IGNOU Rd, Freedom Fighter Colony, Block B, Neb Sarai, Sainik Farm, New Delhi, Delhi 110068",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "satishs-sun-real-estate-south-delhi"
+  },
+  {
+    "name": "SR Properties",
+    "address": "649/1, Desh Bandhu Gupta Rd, D Block, Krishna Park Colony, Deoli, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "sr-properties-south-delhi"
+  },
+  {
+    "name": "Shri Kalka Developers",
+    "address": "G-2, 18/57, Ratiya Marg, Block F 2, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "shri-kalka-developers-south-delhi"
+  },
+  {
+    "name": "Singh Real Estate Property Dealers",
+    "address": "DDA Mini Market, Ka 2, opposite Gayan Bharti School, Block D, Saket, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "singh-real-estate-property-dealers-south-delhi"
+  },
+  {
+    "name": "J.P.EARTHMOVERS",
+    "address": "7/404 L1, Budh Bazar, Block L 2, Devli, Sangam Vihar, DELHI, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "jpearthmovers-south-delhi"
+  },
+  {
+    "name": "Delhi Properties",
+    "address": "D-1, B-565, near SAI Ram Mandir, Block B, Devli, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "delhi-properties-south-delhi"
+  },
+  {
+    "name": "Shri Shyam properties and builders",
+    "address": "House no - 1897, L-1, Street no -03, Asthal Mandir Rd, near police chowki, New Delhi, 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "shri-shyam-properties-and-builders-south-delhi"
+  },
+  {
+    "name": "Shree guruji properties",
+    "address": "D-348, Devli Rd, near malik vidhya bhawan, Ashok Vatika, Krishna Park Colony, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "shree-guruji-properties-south-delhi"
+  },
+  {
+    "name": "Shiv Shakti Properties Group",
+    "address": "120, Tigri, Block C, Sangam Vihar, New, Division, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "shiv-shakti-properties-group-south-delhi"
+  },
+  {
+    "name": "Mohd Abdul Barik",
+    "address": "Shop No 39, Budh Bazar, Block M 2, Devli, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "mohd-abdul-barik-south-delhi"
+  },
+  {
+    "name": "Laxmi Estate Agency",
+    "address": "Shop No. D, 138, Devli Rd, D Block, Krishna Park Colony, Jawahar Park, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "laxmi-estate-agency-south-delhi"
+  },
+  {
+    "name": "S D Sharma's residence",
+    "address": "South Sainik Farm, Area, II-587-A, Block L, Block K, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "s-d-sharmas-residence-south-delhi"
+  },
+  {
+    "name": "Indian Property",
+    "address": "L-1 747/13, Bandh Road, near Mother Dairy, Durga Vihar, Budh Bazaar, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "indian-property-south-delhi"
+  },
+  {
+    "name": "H.K. Properties",
+    "address": "A-28 , H.K. properties, Devli extension, tigadi, Road, New Delhi, 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "hk-properties-south-delhi"
+  },
+  {
+    "name": "R K Properties",
+    "address": "A20, Devli Rd, opposite Pizza Corner, Pocket D, Khanpur Extension, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "r-k-properties-south-delhi"
+  },
+  {
+    "name": "Digital Multi Solutions - Best CCTV Camera installation & Repair Service in Delhi",
+    "address": "F2, 873, A, Block C, Block F, Sangam Vihar, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "digital-multi-solutions---best-cctv-camera-installation-repair-service-in-delhi-south-delhi"
+  },
+  {
+    "name": "Yash Properties",
+    "address": "B-75, 76, Devli Rd, Krishna Park Colony, Duggal Colony, Khanpur, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "yash-properties-south-delhi"
+  },
+  {
+    "name": "Jai Mata Di Cyber Cafe And Properties",
+    "address": "A-114 Devli Extension Tigri Road, 110080, New Delhi, Delhi 110080",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Output: Block L-2 Devli",
+    "slug": "jai-mata-di-cyber-cafe-and-properties-south-delhi"
+  }
+]

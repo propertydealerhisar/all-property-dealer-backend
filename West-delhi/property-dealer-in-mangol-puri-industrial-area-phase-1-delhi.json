@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Gupta Properties",
+    "address": "Shop NO 1, near DSIIDC Engineering Complex, Phase 1, Phase 2, Pocket B, Industrial Area, Mangolpuri, New Delhi, Delhi, 110083",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mangol Puri Industrial Area Phase 1",
+    "slug": "gupta-properties-mangol-puri-industrial-area-phase-1"
+  },
+  {
+    "name": "Jain & Mittal Properties",
+    "address": "GOL CHAKKER, 38, 40 METER ROAD, Pocket A, Sector 1, Rohini, Delhi, 110085",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mangol Puri Industrial Area Phase 1",
+    "slug": "jain-mittal-properties-mangol-puri-industrial-area-phase-1"
+  },
+  {
+    "name": "mangolpuri, Industrial Area, phase-1",
+    "address": "1, Mangol Puri Industrial Area Phase I, Phase 1, Pocket B, Industrial Area, Mangolpuri, Delhi, 110083",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mangol Puri Industrial Area Phase 1",
+    "slug": "mangolpuri-industrial-area-phase-1-mangol-puri-industrial-area-phase-1"
+  },
+  {
+    "name": "Rajput Properties",
+    "address": "Shop No 102, Street No. 7, Mangol Puri Industrial Area Phase I, Phase 1, Pocket B, Block P, Mangolpuri, New Delhi, Delhi, 110083",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mangol Puri Industrial Area Phase 1",
+    "slug": "rajput-properties-mangol-puri-industrial-area-phase-1"
+  },
+  {
+    "name": "Chawla Estates",
+    "address": "Gate3, A5/B 91, Block A 1, Ashirwad, Paschim Vihar, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mangol Puri Industrial Area Phase 1",
+    "slug": "chawla-estates-mangol-puri-industrial-area-phase-1"
+  },
+  {
+    "name": "Bhagwati Properties",
+    "address": "BC 302, 2, opposite Park, opposite Toilet Complex, Mangolpuri Industrial Area Phase II, Phase 2, Pocket BC, Industrial Area, Mangolpuri, Delhi, 110083",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Mangol Puri Industrial Area Phase 1",
+    "slug": "bhagwati-properties-mangol-puri-industrial-area-phase-1"
+  }
+]

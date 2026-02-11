@@ -1,0 +1,482 @@
+[
+  {
+    "name": "Bhalla Properties - Renting, Sale Purchase & Consultant",
+    "address": "H-19,old double storey,lajpat nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "bhalla-properties---renting-sale-purchase-consultant-south-delhi"
+  },
+  {
+    "name": "Kapur Properties",
+    "address": "K- 31B ,Ground floor, Block L, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "kapur-properties-south-delhi"
+  },
+  {
+    "name": "Sangam Properties",
+    "address": "Gate No.5, A-10, opp. Lajpat Nagar Metro Station, Block A, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "sangam-properties-south-delhi"
+  },
+  {
+    "name": "Arora Properties- F 94, Lajpat Nagar-II",
+    "address": "F 94, F Block, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "arora-properties--f-94-lajpat-nagar-ii-south-delhi"
+  },
+  {
+    "name": "Chopra Properties",
+    "address": "E-105, Block E, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "chopra-properties-south-delhi"
+  },
+  {
+    "name": "Wadhwa Properties",
+    "address": "Motorcycle Market, B -1, Block B, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "wadhwa-properties-south-delhi"
+  },
+  {
+    "name": "Gulshan Estate Agents – Real Estate Consultants",
+    "address": "C-115, Opp Defence Colony Flyover Market, Lajpat Nagar I, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "gulshan-estate-agents-real-estate-consultants-south-delhi"
+  },
+  {
+    "name": "Royal Estates",
+    "address": "G-39, Block G, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "royal-estates-south-delhi"
+  },
+  {
+    "name": "Buniyad Realty Limited - Delhi Branch",
+    "address": "First Floor, A-32, Firoz Ghandi Marg, Block A, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "buniyad-realty-limited---delhi-branch-south-delhi"
+  },
+  {
+    "name": "House True Real Estate Services",
+    "address": "G-30, Block G, Lajpat Nagar III, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "house-true-real-estate-services-south-delhi"
+  },
+  {
+    "name": "Uppal Properties",
+    "address": "5/41, Old Double Storey, Nirmal Colony, Block 5, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "uppal-properties-south-delhi"
+  },
+  {
+    "name": "Property Linkers ®",
+    "address": "C, 31, behind SBI Bank Building, Block C, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "property-linkers-south-delhi"
+  },
+  {
+    "name": "Alliance Real Estate",
+    "address": "O-6, Veer Savarkar Marg, Block O, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "alliance-real-estate-south-delhi"
+  },
+  {
+    "name": "Property Junction - Best Property Dealer In Lajpat Nagar - Property On Rent In Lajpat Nagar",
+    "address": "H-105, Block D, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "property-junction---best-property-dealer-in-lajpat-nagar---property-on-rent-in-lajpat-nagar-south-delhi"
+  },
+  {
+    "name": "Sharma Properties",
+    "address": "Shop No:F-110, F Block, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "sharma-properties-south-delhi"
+  },
+  {
+    "name": "India Estates",
+    "address": "169, Block C, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "india-estates-south-delhi"
+  },
+  {
+    "name": "Rachit Bakshi",
+    "address": "I 13, Block I, Part 3, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "rachit-bakshi-south-delhi"
+  },
+  {
+    "name": "Bahl Properties",
+    "address": "B-138, Block B, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "bahl-properties-south-delhi"
+  },
+  {
+    "name": "Lajpat Nagar, New Delhi",
+    "address": "18, Sri Jhoole Lal Setu Flyover, Block L, Lajpat Nagar III, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "lajpat-nagar-new-delhi-south-delhi"
+  },
+  {
+    "name": "Grand Dreams Realty",
+    "address": "25, F Block, Lajpat Nagar III, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "grand-dreams-realty-south-delhi"
+  },
+  {
+    "name": "Royal Associates",
+    "address": "7/7-A, Old Double Storey, Nirmal Colony, Block 7, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "royal-associates-south-delhi"
+  },
+  {
+    "name": "Happy Properties",
+    "address": "شاھی 4/46, Double story, behind Shahi Masjid مسجد, Jungpura Extension, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "happy-properties-south-delhi"
+  },
+  {
+    "name": "Chowdhary Properties",
+    "address": "15 B, Guru Nanak Market, National Park, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "chowdhary-properties-south-delhi"
+  },
+  {
+    "name": "Guru Kirpa Properties",
+    "address": "L-39, Block L, Lajpat Nagar 4, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "guru-kirpa-properties-south-delhi"
+  },
+  {
+    "name": "Arora Estate Services",
+    "address": "Shop No.5, Hanuman Mandir, Krishna Market, Block D, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "arora-estate-services-south-delhi"
+  },
+  {
+    "name": "kumar,s real estate",
+    "address": "e 71, Block E, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "kumars-real-estate-south-delhi"
+  },
+  {
+    "name": "Target Properties",
+    "address": "A-162, Block A, Lajpat Nagar-1, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "target-properties-south-delhi"
+  },
+  {
+    "name": "Milan Properties",
+    "address": "C-25, Block A, Dayanand Colony, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "milan-properties-south-delhi"
+  },
+  {
+    "name": "New Golden Properties",
+    "address": "C-147, Central Market, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "new-golden-properties-south-delhi"
+  },
+  {
+    "name": "Sehgal Properties",
+    "address": "A-205,Lajpat Nagar-1, A-201, Krishna Market Rd, Block A, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "sehgal-properties-south-delhi"
+  },
+  {
+    "name": "Bharat Realtors & Developers",
+    "address": "",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "bharat-realtors-developers-south-delhi"
+  },
+  {
+    "name": "Ahuja Realtors",
+    "address": "B 40, opp. Sanatan Dharam School, Block B, Dayanand Colony, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "ahuja-realtors-south-delhi"
+  },
+  {
+    "name": "Nice Properties",
+    "address": "C-8, Lala Lajpat Rai Rd, Block C, Amar Colony, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "nice-properties-south-delhi"
+  },
+  {
+    "name": "Vijay Estate Agency",
+    "address": "E-211, Banphul Marg, Part - 1, Block E, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "vijay-estate-agency-south-delhi"
+  },
+  {
+    "name": "Arjun Properties",
+    "address": "L-39, Block I, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "arjun-properties-south-delhi"
+  },
+  {
+    "name": "Danube Properties Delhi",
+    "address": "Danube Properties, B4, Block B, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "danube-properties-delhi-south-delhi"
+  },
+  {
+    "name": "Sai Associates",
+    "address": "C -147, Block C, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "sai-associates-south-delhi"
+  },
+  {
+    "name": "Noble Properties",
+    "address": "Nirmal Puri, Nirmal Colony, Block 5, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "noble-properties-south-delhi"
+  },
+  {
+    "name": "City Properties",
+    "address": "20 , National Park , Basement, Lajpat Nagar-4, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "city-properties-south-delhi"
+  },
+  {
+    "name": "Deepak Associates",
+    "address": "Amar Colony, Nirmal Puri, Block D, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "deepak-associates-south-delhi"
+  },
+  {
+    "name": "Bhatia Properties",
+    "address": "6, Guru Nanak Market, Lajpat Nagar 4, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "bhatia-properties-south-delhi"
+  },
+  {
+    "name": "DREAM HOME RREALTORS",
+    "address": "F, 88, F Block, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "dream-home-rrealtors-south-delhi"
+  },
+  {
+    "name": "Ashirwad Associates",
+    "address": "Shop No. 3, Guru Nanak Market, Lajpat Nagar 4, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "ashirwad-associates-south-delhi"
+  },
+  {
+    "name": "Aman Associates",
+    "address": "B 7, near Universal tyre shop, Central Market, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "aman-associates-south-delhi"
+  },
+  {
+    "name": "DEFENCE COLONY REALTORS",
+    "address": "1st floor, A-192, Block C, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "defence-colony-realtors-south-delhi"
+  },
+  {
+    "name": "Sai Properties",
+    "address": "6-B, Guru Nanak Market, behind Vikram Hotel, National Park, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "sai-properties-south-delhi"
+  },
+  {
+    "name": "Surya Associates",
+    "address": "Shop Number L-103, Jal Vihar, Road, Block L, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "surya-associates-south-delhi"
+  },
+  {
+    "name": "Block B, Lajpat Nagar II",
+    "address": "H6FR+M25, Block A, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "block-b-lajpat-nagar-ii-south-delhi"
+  },
+  {
+    "name": "JAI SHIV (JS) PROPERTIES",
+    "address": "L, 57, Old Double Storey, Vikram Vihar, Lajpat Nagar 4, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "jai-shiv-js-properties-south-delhi"
+  },
+  {
+    "name": "AAA Capital Services Private Limited",
+    "address": "House number 143, 144, Block B, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "aaa-capital-services-private-limited-south-delhi"
+  },
+  {
+    "name": "SSBS Property & Rentals",
+    "address": "Shop Number, C-160, Block C, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "ssbs-property-rentals-south-delhi"
+  },
+  {
+    "name": "BlueStone Jewellery Lajpat Nagar",
+    "address": "C, 14, Veer Savarkar Marg, Block C, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "bluestone-jewellery-lajpat-nagar-south-delhi"
+  },
+  {
+    "name": "Defence Properties",
+    "address": "A-454, Block A, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "defence-properties-south-delhi"
+  },
+  {
+    "name": "Property Point",
+    "address": "207, 19A, Near Dutta Chowk, Prakash Mohalla, Amritpuri, East of Kailash, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "property-point-south-delhi"
+  },
+  {
+    "name": "Krishna Properties",
+    "address": "220, Prakash Mohalla, Garhi, East of Kailash, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "krishna-properties-south-delhi"
+  },
+  {
+    "name": "Guru Ji Properties",
+    "address": "Shop A 199 Ground Floor, near Bittu Bike, Block E, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "guru-ji-properties-south-delhi"
+  },
+  {
+    "name": "Property Dealers",
+    "address": "1, Vinoba Puri, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "property-dealers-south-delhi"
+  },
+  {
+    "name": "Ganpati Properties",
+    "address": "Bses Office, Shop.No, C-108, Lajpat Nagar II, 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "ganpati-properties-south-delhi"
+  },
+  {
+    "name": "United Estate Agency",
+    "address": "63, Market Rd, Block C, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "united-estate-agency-south-delhi"
+  },
+  {
+    "name": "Ravinder Properties",
+    "address": "Office Address- 7, National Park Basement, Lajpat Nagar 4, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Lajpat Nagar 2",
+    "slug": "ravinder-properties-south-delhi"
+  }
+]

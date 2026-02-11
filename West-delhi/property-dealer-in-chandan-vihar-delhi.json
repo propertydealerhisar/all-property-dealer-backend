@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Suresh Property Dealer",
+    "address": "C-220 , Chandan Vihar, Shani Bazar Rd, Laxmi Park, Block B, Vandana Vihar, Nangloi, Delhi, 110041",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Chandan Vihar",
+    "slug": "suresh-property-dealer-chandan-vihar"
+  },
+  {
+    "name": "KALA MALHOTRA PROPERTY DEALER",
+    "address": "C6B near, Pali Factory Rd, Shish Ram Park, Block C, Uttam Nagar East, Uttam Nagar, New Delhi, Delhi, 110059",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Chandan Vihar",
+    "slug": "kala-malhotra-property-dealer-chandan-vihar"
+  },
+  {
+    "name": "Ashwinn Properties (Chander Vihar Gullu Ji)",
+    "address": "C 150 uday vihar near bhat biradari gurudawra sdm school road before, veer bajar chonk, ext, Nilothi, Delhi, 110041",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Chandan Vihar",
+    "slug": "ashwinn-properties-chander-vihar-gullu-ji-chandan-vihar"
+  },
+  {
+    "name": "Sameer properties",
+    "address": "A-46, Chander Vihar, Nilothi Extn, Nangloi, New Delhi, Delhi, 110041",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Chandan Vihar",
+    "slug": "sameer-properties-chandan-vihar"
+  },
+  {
+    "name": "Fair Deal Associates",
+    "address": "Prateek Apartment, A-2/62, A 2 Block, Paschim Vihar, New Delhi, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Chandan Vihar",
+    "slug": "fair-deal-associates-chandan-vihar"
+  },
+  {
+    "name": "Radhey Krishna Property Dealer",
+    "address": "C-253, Shani Bazaar Rd, Nihal Vihar, Chandan Vihar, Nangloi, New Delhi, Delhi, 110041",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Chandan Vihar",
+    "slug": "radhey-krishna-property-dealer-chandan-vihar"
+  }
+]

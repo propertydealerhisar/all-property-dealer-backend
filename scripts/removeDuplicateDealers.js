@@ -1,44 +1,72 @@
-import mongoose from "mongoose";
-import fs from "fs";
-import Dealer from "./models/Dealer.js"; // apna model path
+const fs = require("fs");
 
-await mongoose.connect("mongodb://127.0.0.1:27017/yourDB");
+// ===== CONFIG =====
+const FILE_PATH = "./West-delhi/amerged.json";
+// ==================
 
-const all = await Dealer.find();
+try {
+  const raw = fs.readFileSync(FILE_PATH, "utf-8");
+  const data = JSON.parse(raw);
 
-const seen = new Map();
-const deleted = [];
-let removedCount = 0;
-
-for (let item of all) {
-  if (!item.name) continue;
-
-  const key = item.name.trim().toLowerCase();
-
-  if (seen.has(key)) {
-    await Dealer.deleteOne({ _id: item._id });
-    deleted.push({
-      _id: item._id,
-      name: item.name,
-      address: item.address,
-    });
-
-    console.log("🗑️ Deleted:", item.name, item._id.toString());
-    removedCount++;
-  } else {
-    seen.set(key, item._id.toString());
+  if (!Array.isArray(data)) {
+    console.log("❌ JSON file array format me nahi hai");
+    process.exit(1);
   }
+
+  console.log(`Total Records Before: ${data.length}`);
+
+  const uniqueMap = new Map();
+  const slugSet = new Set();
+
+  let duplicateCount = 0;
+  let emptyAddressCount = 0;
+  let slugDuplicateCount = 0;
+
+  data.forEach(item => {
+    const name = (item.name || "").toLowerCase().trim();
+    const address = (item.address || "").toLowerCase().trim();
+    const slug = (item.slug || "").toLowerCase().trim();
+
+    // 🔴 REMOVE EMPTY ADDRESS RECORDS
+    if (!address) {
+      emptyAddressCount++;
+      return;
+    }
+
+    // 🔴 REMOVE SLUG DUPLICATES
+    if (slugSet.has(slug)) {
+      slugDuplicateCount++;
+      return;
+    }
+
+    // mark slug as used
+    slugSet.add(slug);
+
+    // name + address ko unique key banaya
+    const key = `${name}___${address}`;
+
+    if (!uniqueMap.has(key)) {
+      uniqueMap.set(key, item);
+    } else {
+      duplicateCount++;
+    }
+  });
+
+  const uniqueData = Array.from(uniqueMap.values());
+
+  console.log(`Total Records After: ${uniqueData.length}`);
+  console.log(`Removed Name+Address Duplicates: ${duplicateCount}`);
+  console.log(`Removed Empty Address Records: ${emptyAddressCount}`);
+  console.log(`Removed Slug Duplicates: ${slugDuplicateCount}`);
+
+  fs.writeFileSync(
+    FILE_PATH,
+    JSON.stringify(uniqueData, null, 2),
+    "utf-8"
+  );
+
+  console.log("✅ CLEANUP DONE → Empty Address + Duplicates + Slug Duplicates Removed!");
+
+} catch (err) {
+  console.log("❌ Error:", err.message);
 }
-
-// save deleted log
-fs.writeFileSync(
-  "./deleted_duplicates.json",
-  JSON.stringify(deleted, null, 2)
-);
-
-console.log("================================");
-console.log("✅ Total checked:", all.length);
-console.log("🗑️ Deleted:", removedCount);
-console.log("📁 deleted_duplicates.json file created");
-
-process.exit();

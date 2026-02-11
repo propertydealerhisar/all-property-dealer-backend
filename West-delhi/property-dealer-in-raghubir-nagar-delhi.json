@@ -1,0 +1,410 @@
+[
+  {
+    "name": "SK PROPERTIES",
+    "address": "B-20 , VISHAL ENCLAVE, Tagore Garden, New Delhi, Delhi 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "sk-properties-raghubir-nagar"
+  },
+  {
+    "name": "Nagpal Properties",
+    "address": "ED 117, Block ED, Tagore Garden, Tagore Garden Extension, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "nagpal-properties-raghubir-nagar"
+  },
+  {
+    "name": "Bhagwati Properties Sanjay Khurana",
+    "address": "c-322,323, Raghubir Nagar, Tagore Garden, Tagore Garden Extension, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "bhagwati-properties-sanjay-khurana-raghubir-nagar"
+  },
+  {
+    "name": "Ram Ji Associates",
+    "address": "M-153, Raghubir Nagar Near Gaon Wala Chowk, New Delhi, Delhi 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "ram-ji-associates-raghubir-nagar"
+  },
+  {
+    "name": "Bhatia Properties",
+    "address": "Shop No.181/1, Vishal Market, Shiv Mandir, near Vishal, Tagore Garden, New Delhi, Delhi 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "bhatia-properties-raghubir-nagar"
+  },
+  {
+    "name": "Hare Krishna Properties",
+    "address": "Block EF, Janta Colony, Tagore Garden Extension, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "hare-krishna-properties-raghubir-nagar"
+  },
+  {
+    "name": "VK Properties",
+    "address": "H.NO 48, VK PROPERTIES, Pandit Deen Dayal Upadhyay Marg, Block G, Pushkar Enclave, Paschim Vihar, New Delhi, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "vk-properties-raghubir-nagar"
+  },
+  {
+    "name": "Abhishek Properties khyala",
+    "address": "Khyala industrial area, near Hanuman Mandir, New Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "abhishek-properties-khyala-raghubir-nagar"
+  },
+  {
+    "name": "Lucky Property And Motors",
+    "address": "Shop no J 73, VISHNU GARDEN, 110018, CH Harpal Chandela Rd, Khayala, Vishnu Garden, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "lucky-property-and-motors-raghubir-nagar"
+  },
+  {
+    "name": "Sobhagya Real Estate",
+    "address": "Ca, 4, adjacent goodwill medical centre, near Tagore Garden Water Tank, Block CA, Tagore Garden, Tagore Garden Extension, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "sobhagya-real-estate-raghubir-nagar"
+  },
+  {
+    "name": "HARISH PROPERTIES",
+    "address": "P19, Block P, Raghubir Nagar, Tagore Garden Extension, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "harish-properties-raghubir-nagar"
+  },
+  {
+    "name": "Guru Nanak Property Dealer & Cable",
+    "address": "DDA FLATS, D-1A, Shivaji Enclave, Tagore Garden Extension, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "guru-nanak-property-dealer-cable-raghubir-nagar"
+  },
+  {
+    "name": "Jawa Properties",
+    "address": "J-122 A, near bhandari clinic, Main Market, Rajouri Garden Extension, Rajouri Garden, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "jawa-properties-raghubir-nagar"
+  },
+  {
+    "name": "Nagpal Properties & Construction",
+    "address": "Shopping Centre, B-3, Balasaheb Devras Marg, Block BA, Tagore Garden, Tagore Garden Extension, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "nagpal-properties-construction-raghubir-nagar"
+  },
+  {
+    "name": "Ajanta Properties",
+    "address": "B-1 11, Block B 2, Raghubir Nagar, Vishnu Garden, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "ajanta-properties-raghubir-nagar"
+  },
+  {
+    "name": "Ghosh Properties",
+    "address": "Ground Floor, 94, DDA Janta Flats, Block EF, Shivaji Enclave, Tagore Garden Extension, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "ghosh-properties-raghubir-nagar"
+  },
+  {
+    "name": "Handa Properties Paschim Vihar",
+    "address": "DDA Market, Shop no 3, Bg3 and Bg5, near Nirankari satsang bhawan, Paschim Vihar, New Delhi, Delhi 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "handa-properties-paschim-vihar-raghubir-nagar"
+  },
+  {
+    "name": "RK Properties | Property Dealer In Rajouri Garden | Property Agent Rajouri Garden | Commercial Shop in Rajouri Garden",
+    "address": "Shop No.6, G-14/6A, Main Market, B 2 Block, Rajouri Garden, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "rk-properties-property-dealer-in-rajouri-garden-property-agent-rajouri-garden-commercial-shop-in-rajouri-garden-raghubir-nagar"
+  },
+  {
+    "name": "K.S. Gill & Sons",
+    "address": "C-82A, behind Shivaji College, Shivaji Enclave, Tagore Garden Extension, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "ks-gill-sons-raghubir-nagar"
+  },
+  {
+    "name": "Randhawa Properties",
+    "address": "Shop No.2, Babashri Chand Ashram, WZ-4, Shivaji Vihar, Janta Colony, Tagore Garden Extension, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "randhawa-properties-raghubir-nagar"
+  },
+  {
+    "name": "High Rise Realtors .",
+    "address": "G-51, Block G, Pushkar Enclave, Paschim Vihar, New Delhi, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "high-rise-realtors-raghubir-nagar"
+  },
+  {
+    "name": "J.M.D PROPERTY",
+    "address": "Four Story Flats, 213, Vishal Enclave, Tagore Garden Extension, New Delhi, Delhi 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "jmd-property-raghubir-nagar"
+  },
+  {
+    "name": "GK Properties",
+    "address": "dda lsc market, a-4/14, near sakshra apartment, opp. bala ji hospital, Janta Flats, Block A 3, Shakshar Apartment, Paschim Vihar, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "gk-properties-raghubir-nagar"
+  },
+  {
+    "name": "Friends Properties",
+    "address": "G-54, behind Mc Donalds, Block G, Pushkar Enclave, Paschim Vihar, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "friends-properties-raghubir-nagar"
+  },
+  {
+    "name": "Angad Properties",
+    "address": "Gupta Palace, G-28, West, Block A, Rajouri Garden, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "angad-properties-raghubir-nagar"
+  },
+  {
+    "name": "Angel Properties",
+    "address": "C-24 Shop.No, 1, Ajay Enclave, Subhash Nagar, New Delhi, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "angel-properties-raghubir-nagar"
+  },
+  {
+    "name": "Surya Properties",
+    "address": "E-23A, Block E, Rajouri Garden, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "surya-properties-raghubir-nagar"
+  },
+  {
+    "name": "Kapoor Properties",
+    "address": "149, Tagore Garden, Block EC, Block FC, Tagore Garden, Tagore Garden Extension, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "kapoor-properties-raghubir-nagar"
+  },
+  {
+    "name": "BAJAJ ESTATES Rajouri Garden",
+    "address": "J-109, first floor, Main Market, Block J, Rajouri Garden, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "bajaj-estates-rajouri-garden-raghubir-nagar"
+  },
+  {
+    "name": "Saini Properties",
+    "address": "3B-88, Khayala, Vishnu Garden, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "saini-properties-raghubir-nagar"
+  },
+  {
+    "name": "MEHTA PROPERTIES",
+    "address": "FA33, Shivaji Enclave, Mehta Chowk, New Delhi, Delhi 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "mehta-properties-raghubir-nagar"
+  },
+  {
+    "name": "Ashiyana Associates",
+    "address": "2, 46, West, Punjabi Bagh, Delhi, 110026",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "ashiyana-associates-raghubir-nagar"
+  },
+  {
+    "name": "Krishna Properties",
+    "address": "Shop 12 Arya samaj Mandir, Subhash Nagar, New Delhi, Delhi 110064",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "krishna-properties-raghubir-nagar"
+  },
+  {
+    "name": "Om Sai properties",
+    "address": "DDA FLATS, Shivaji Enclave, Rajouri Garden, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "om-sai-properties-raghubir-nagar"
+  },
+  {
+    "name": "Singh Property",
+    "address": "G-13 Ground, VISHNU GARDEN, near, Mangal Bazar Rd, Pocket E, Shyam Nagar, Vishnu Garden, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "singh-property-raghubir-nagar"
+  },
+  {
+    "name": "PD :- Property Dealer | Rental Property | Buy/Sale Property in Tilak Nagar/Janakpuri/Subhash Nagar/Rajouri Garden",
+    "address": "No. 4, Metro Station Gate, 16/1C, near Tilak Nagar Road, Prem Nagar, Janakpuri, New Delhi, Delhi, 110058",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "pd---property-dealer-rental-property-buysale-property-in-tilak-nagarjanakpurisubhash-nagarrajouri-garden-raghubir-nagar"
+  },
+  {
+    "name": "DHRUV GOHRI REAL ESTATE",
+    "address": "E386, opp. NDPL OFFICE, Block E, Ramesh Nagar, New Delhi, Delhi, 110015",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "dhruv-gohri-real-estate-raghubir-nagar"
+  },
+  {
+    "name": "Saini Property",
+    "address": "M488+PVH Saini Property, Swami Nivruci Nath Marg, Pocket 3, Paschim Puri, Paschim Vihar, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "saini-property-raghubir-nagar"
+  },
+  {
+    "name": "Fair Deal Associates",
+    "address": "Prateek Apartment, A-2/62, A 2 Block, Paschim Vihar, New Delhi, Delhi, 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "fair-deal-associates-raghubir-nagar"
+  },
+  {
+    "name": "Seth Properties",
+    "address": "Shopping Center, B-13A, near Punjab National Bank, Block BA, Tagore Garden, Tagore Garden Extension, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "seth-properties-raghubir-nagar"
+  },
+  {
+    "name": "Club Road Properties",
+    "address": "26-North West Avenue, Club Rd, next to Bikanerwala, Punjabi Bagh, Delhi, 110026",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "club-road-properties-raghubir-nagar"
+  },
+  {
+    "name": "Surya Estates",
+    "address": "7 203, Block B, Ramesh Nagar, New Delhi, Delhi, 110015",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "surya-estates-raghubir-nagar"
+  },
+  {
+    "name": "Saluja Properties",
+    "address": "Shop No 8, MIG Flats, DDA Market, Block 1, Rajouri Garden, New Delhi, Delhi, 110064",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "saluja-properties-raghubir-nagar"
+  },
+  {
+    "name": "Satkartar Motors & Properties",
+    "address": "C-88, Tagore Garden, opposite Gaon Wala Chowk, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "satkartar-motors-properties-raghubir-nagar"
+  },
+  {
+    "name": "Diamond property",
+    "address": "Punjabi Mkt Rd, Pocket B, Chand Nagar, Vishnu Garden, Delhi, 110018",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "diamond-property-raghubir-nagar"
+  },
+  {
+    "name": "West Delhi Properties",
+    "address": "DDA Market, 21, Shubham Enclave, Paschim Vihar, New Delhi, Delhi 110063",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "west-delhi-properties-raghubir-nagar"
+  },
+  {
+    "name": "Anurag Associate-Best Property Dealer In Paschim Vihar-Property Dealer In Paschim Vihar.",
+    "address": "Shop No. 20, DDA Market, Bhera Enclave, Paschim Vihar, Delhi, 110087",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "anurag-associate-best-property-dealer-in-paschim-vihar-property-dealer-in-paschim-vihar-raghubir-nagar"
+  },
+  {
+    "name": "Rawal Properties",
+    "address": "Shopping Centre, B-2, near Punjab National Bank, Block BA, Tagore Garden, Tagore Garden Extension, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "rawal-properties-raghubir-nagar"
+  },
+  {
+    "name": "Balaji Property Dealer",
+    "address": "A 324, Gaon Wala Chiwk, Block N, Raghubir Nagar, Tagore Garden Extension, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "balaji-property-dealer-raghubir-nagar"
+  },
+  {
+    "name": "Gaur Property Dealer",
+    "address": "Shop No: 7, D . D. A Market, F Block, Raghubir Nagar, Tagore Garden, Tagore Garden Extension, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "gaur-property-dealer-raghubir-nagar"
+  },
+  {
+    "name": "Guru Ji Properties",
+    "address": "Shop No. D-42, Ground Floor, near Dua Shoes, Tagore Garden Extension, New Delhi, Delhi 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "guru-ji-properties-raghubir-nagar"
+  }
+]

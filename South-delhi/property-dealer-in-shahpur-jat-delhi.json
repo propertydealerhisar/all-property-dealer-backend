@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Shahpur Jat Property Dealers",
+    "address": "110, Shahpur Jat Outer Road E, Shahpur Jat, Siri Fort, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Shahpur Jat",
+    "slug": "shahpur-jat-property-dealers-south-delhi"
+  },
+  {
+    "name": "Kaushik Properties",
+    "address": "128D/4, Fashion Ln, near Old Shiv Mandir, Shahpur Jat, Siri Fort, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Shahpur Jat",
+    "slug": "kaushik-properties-south-delhi"
+  },
+  {
+    "name": "Ratan Properties Consultants",
+    "address": "Shop No 8, DDA Market , UCO Bank Complex, opposite Asiad Village, Shahpur Jat, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Shahpur Jat",
+    "slug": "ratan-properties-consultants-south-delhi"
+  },
+  {
+    "name": "Sai Properties",
+    "address": "209, Peacock Ln, Shahpur Jat, Siri Fort, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Shahpur Jat",
+    "slug": "sai-properties-south-delhi"
+  }
+]

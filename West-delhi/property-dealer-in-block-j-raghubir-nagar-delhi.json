@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SK PROPERTIES",
+    "address": "B-20 , VISHAL ENCLAVE, Tagore Garden, New Delhi, Delhi 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "sk-properties-raghubir-nagar"
+  },
+  {
+    "name": "Nagpal Properties",
+    "address": "ED 117, Block ED, Tagore Garden, Tagore Garden Extension, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "nagpal-properties-raghubir-nagar"
+  },
+  {
+    "name": "Surya Properties",
+    "address": "E-23A, Block E, Rajouri Garden, New Delhi, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "surya-properties-raghubir-nagar"
+  },
+  {
+    "name": "Kapoor Properties",
+    "address": "149, Tagore Garden, Block EC, Block FC, Tagore Garden, Tagore Garden Extension, Delhi, 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "kapoor-properties-raghubir-nagar"
+  },
+  {
+    "name": "S S Guru Ji Properties",
+    "address": "WZ-75, Street No. 4, Hari Nagar, Shiv Nagar, Hari Nagar, New Delhi, Delhi, 110058",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "s-s-guru-ji-properties-raghubir-nagar"
+  },
+  {
+    "name": "Jasbir Properties",
+    "address": "J-8/77A, Rajouri Garden Extension, Rajouri Garden, New Delhi, Delhi 110027",
+    "state": "Delhi",
+    "city": "West Delhi",
+    "area": "Raghubir Nagar",
+    "slug": "jasbir-properties-raghubir-nagar"
+  }
+]

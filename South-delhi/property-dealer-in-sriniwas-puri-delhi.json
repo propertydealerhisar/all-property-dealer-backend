@@ -1,0 +1,410 @@
+[
+  {
+    "name": "Bhalla Properties - Renting, Sale Purchase & Consultant",
+    "address": "H-19,old double storey,lajpat nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "bhalla-properties---renting-sale-purchase-consultant-south-delhi"
+  },
+  {
+    "name": "Arora properties",
+    "address": "7/1, Block 7, Nehru Nagar, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "arora-properties-south-delhi"
+  },
+  {
+    "name": "C.N.K PROPERTIES",
+    "address": "a62/1, 110065, Garhi, East of Kailash, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "cnk-properties-south-delhi"
+  },
+  {
+    "name": "Real Value",
+    "address": "New Friends Colony, Delhi, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "real-value-south-delhi"
+  },
+  {
+    "name": "Uppal Properties",
+    "address": "5/41, Old Double Storey, Nirmal Colony, Block 5, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "uppal-properties-south-delhi"
+  },
+  {
+    "name": "Anshu Properties",
+    "address": "Shop No. 2, 1, Block 1, Nehru Nagar, Lajpat Nagar, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "anshu-properties-south-delhi"
+  },
+  {
+    "name": "JSR Real Estate Services & Investment",
+    "address": "Ashram, near by maharani bagh, New Friends Colony, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "jsr-real-estate-services-investment-south-delhi"
+  },
+  {
+    "name": "Arora's Real Estate Agents",
+    "address": "B 88, B Block, East of Kailash, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "aroras-real-estate-agents-south-delhi"
+  },
+  {
+    "name": "Krishna Properties",
+    "address": "220, Prakash Mohalla, Garhi, East of Kailash, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "krishna-properties-south-delhi"
+  },
+  {
+    "name": "Property Point",
+    "address": "207, 19A, Near Dutta Chowk, Prakash Mohalla, Amritpuri, East of Kailash, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "property-point-south-delhi"
+  },
+  {
+    "name": "Alliance Real Estate",
+    "address": "O-6, Veer Savarkar Marg, Block O, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "alliance-real-estate-south-delhi"
+  },
+  {
+    "name": "Balaji Properties",
+    "address": "117, Mathura Rd, near SBI ATM, Hari Nagar Ashram, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "balaji-properties-south-delhi"
+  },
+  {
+    "name": "NAMITA PROPERTIES",
+    "address": "M-7, Old Double Storey, Lajpat Nagar 4, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "namita-properties-south-delhi"
+  },
+  {
+    "name": "Pahlawan Properties",
+    "address": "114, Hari Nagar Ashram, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "pahlawan-properties-south-delhi"
+  },
+  {
+    "name": "B S Properties",
+    "address": "Shop Number 3/65, near Iskon Temple, DDA Flats, Jagpura, Amritpuri, East of Kailash, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "b-s-properties-south-delhi"
+  },
+  {
+    "name": "PURI PROPERTIES.",
+    "address": "Puri Niwas, 81, Gautam Nagar Rd, Gautam Nagar, Yusuf Sarai, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "puri-properties-south-delhi"
+  },
+  {
+    "name": "Homeshop8®",
+    "address": "Shop No. 8, Community Centre, Block A, Friends Colony East, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "homeshop8-south-delhi"
+  },
+  {
+    "name": "Milan Properties",
+    "address": "C-25, Block A, Dayanand Colony, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "milan-properties-south-delhi"
+  },
+  {
+    "name": "S. R. Properties",
+    "address": "10/290, DDA Flats, Garhi, East of Kailash, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "s-r-properties-south-delhi"
+  },
+  {
+    "name": "Gill Properties",
+    "address": "7/23, Block 7, Nehru Nagar, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "gill-properties-south-delhi"
+  },
+  {
+    "name": "Guru Kirpa Properties",
+    "address": "L-39, Block L, Lajpat Nagar 4, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "guru-kirpa-properties-south-delhi"
+  },
+  {
+    "name": "Property Linkers",
+    "address": "20, Kailash Hills, East of Kailash, New, Division, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "property-linkers-south-delhi"
+  },
+  {
+    "name": "Bharat Realtors & Developers",
+    "address": "",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "bharat-realtors-developers-south-delhi"
+  },
+  {
+    "name": "Kalka Properties",
+    "address": "65, Vinoba Puri, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "kalka-properties-south-delhi"
+  },
+  {
+    "name": "Rajji Properties",
+    "address": "M-7 Shop No 5 Ods, 110024, Lajpat Nagar IV, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "rajji-properties-south-delhi"
+  },
+  {
+    "name": "Home Linkers",
+    "address": "Old Double Storey, K-53, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "home-linkers-south-delhi"
+  },
+  {
+    "name": "Ahuja Realtors",
+    "address": "B 40, opp. Sanatan Dharam School, Block B, Dayanand Colony, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "ahuja-realtors-south-delhi"
+  },
+  {
+    "name": "Sri Ganesh Properties",
+    "address": "K Block, Old Double Storey, Block K, Lajpat Nagar 4, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "sri-ganesh-properties-south-delhi"
+  },
+  {
+    "name": "Friends Properties",
+    "address": "134-A, Navjivan Buddh Vihar, Taimoor Nagar, New Friends Colony, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "friends-properties-south-delhi"
+  },
+  {
+    "name": "FRIENDS ASSOCIATES",
+    "address": "39/2, Old Double Storey, Block L, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "friends-associates-south-delhi"
+  },
+  {
+    "name": "SafeWay Real Estate | Ajay Thakur",
+    "address": "N-45, Second Floor, near Aggarwal Sweets, Block N, Private Colony, Sri Niwaspuri, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "safeway-real-estate-ajay-thakur-south-delhi"
+  },
+  {
+    "name": "LEAD REALTY",
+    "address": "101, Mathura Rd, near Bharat Petrol Pump, Siddhartha Enclave, Hari Nagar Ashram, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "lead-realty-south-delhi"
+  },
+  {
+    "name": "Jamia Nagar Properties | Flat for Sale & Purchase in Jamia Nagar | Housing society in Jamia Nagar",
+    "address": "143, 3rd floor, Street Number 12, Jamia Nagar, Jogabai Extension, Zakir Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "jamia-nagar-properties-flat-for-sale-purchase-in-jamia-nagar-housing-society-in-jamia-nagar-south-delhi"
+  },
+  {
+    "name": "Mahajan Associate LUCKY PROPERTIES",
+    "address": "A/267, opp. two petrol pump, Hari Nagar Ashram, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "mahajan-associate-lucky-properties-south-delhi"
+  },
+  {
+    "name": "USHA ESTATE",
+    "address": "8 no, Vinoba Puri, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "usha-estate-south-delhi"
+  },
+  {
+    "name": "Hasija properties",
+    "address": "C - 20, Dayanand colony, Lajpat Nagar 4, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "hasija-properties-south-delhi"
+  },
+  {
+    "name": "Kumar Real Estate Consultants",
+    "address": "A 118, Dayanand Colony, Lajpat Nagar 4,, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "kumar-real-estate-consultants-south-delhi"
+  },
+  {
+    "name": "SunX Properties",
+    "address": "A173, Dayananda Colony Rd, Block A, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "sunx-properties-south-delhi"
+  },
+  {
+    "name": "IMANDAR PROPERTY CONSULTANTS PRIVATE LIMITED",
+    "address": "B-33, FIRST FLOOR, Block B, Dayanand Colony, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "imandar-property-consultants-private-limited-south-delhi"
+  },
+  {
+    "name": "Sriniwaspuri",
+    "address": "MCD flats, A 1, Block H, Sri Niwaspuri, South east, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "sriniwaspuri-south-delhi"
+  },
+  {
+    "name": "Amit properties",
+    "address": "B-35, Block B, Dayanand Colony, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "amit-properties-south-delhi"
+  },
+  {
+    "name": "SukhVastu Realty",
+    "address": "Main market Amritpuri, Main Market, Garhi, East of Kailash, New Delhi, Delhi 110066",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "sukhvastu-realty-south-delhi"
+  },
+  {
+    "name": "Panworld Properties",
+    "address": "Shop No 32 and 41, Local Shopping Centre, Block C, New Friends Colony, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "panworld-properties-south-delhi"
+  },
+  {
+    "name": "Unicon Motors & Properties",
+    "address": "Ramesh Market, 198/57, Garhi Jharia Maria, East of Kailash, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "unicon-motors-properties-south-delhi"
+  },
+  {
+    "name": "Sai Properties",
+    "address": "6-B, Guru Nanak Market, behind Vikram Hotel, National Park, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "sai-properties-south-delhi"
+  },
+  {
+    "name": "Vk Properties",
+    "address": "Vk Properties, Pgdav College, Block 7, Nehru Nagar, Lajpat Nagar, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "vk-properties-south-delhi"
+  },
+  {
+    "name": "Batra Properties",
+    "address": "S.N.P Depo, Sriniwas Puri, C/45, Block N, Private Colony, Sri Niwaspuri, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "batra-properties-south-delhi"
+  },
+  {
+    "name": "J S Properties",
+    "address": "H775+3HR, Sriniwaspuri Extn, Srinivas Puri, 16, Sri Niwaspuri, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "j-s-properties-south-delhi"
+  },
+  {
+    "name": "BALAJI ESTATE",
+    "address": "M-14A,second floor, near Bank of baroda, Vinoba Puri, Block M, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "balaji-estate-south-delhi"
+  },
+  {
+    "name": "Shree Siddhi Vinayak Associates",
+    "address": "Office No.- G-4, Surya Plaza, near Surya Hotel, Sriniwaspuri Extn, Block L, Private Colony, New Friends Colony, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "shree-siddhi-vinayak-associates-south-delhi"
+  },
+  {
+    "name": "Kanu Estates Pvt Ltd",
+    "address": "G-24, Sidharth Enclave Bhogal, Siddhartha Enclave, Sunlight Colony, New Delhi, Delhi 110014",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Sriniwas Puri",
+    "slug": "kanu-estates-pvt-ltd-south-delhi"
+  }
+]

@@ -1,0 +1,426 @@
+[
+  {
+    "name": "WASON PROPERTIES",
+    "address": "M-22, First, M Block, Market, Inder Mohan Bhardwaj Marg, Block M, Greater Kailash II, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "wason-properties-south-delhi"
+  },
+  {
+    "name": "Ultra Realty Estates",
+    "address": "S514, S Swaran Singh Bhandari Marg, Greater Kailash-1, Block S, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "ultra-realty-estates-south-delhi"
+  },
+  {
+    "name": "SR Properties | Best Property Dealer In Greater Kailash",
+    "address": "W Block, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "sr-properties-best-property-dealer-in-greater-kailash-south-delhi"
+  },
+  {
+    "name": "SR Properties | Best Property Dealer in GK",
+    "address": "Pamposh Enclave, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "sr-properties-best-property-dealer-in-gk-south-delhi"
+  },
+  {
+    "name": "Khanna Associates",
+    "address": "OFFICE No. 3, DDA Market, KHANNA ASSOCIATES, Greater Kailash Enclave I, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "khanna-associates-south-delhi"
+  },
+  {
+    "name": "Dinesh Property dealer Kailash colony",
+    "address": "A-57, Kailash Colony, Block A, Amar Colony, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "dinesh-property-dealer-kailash-colony-south-delhi"
+  },
+  {
+    "name": "JK Estate Agency",
+    "address": "B, 45, Greater Kailash-1, C Block, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "jk-estate-agency-south-delhi"
+  },
+  {
+    "name": "Arun Property: Sale & Purchase in Luxurious Properties",
+    "address": "252-B, LGF, Prince Plaza, near Iskon Temple, Sant Nagar, East of Kailash, New Delhi, Delhi 110065",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "arun-property-sale-purchase-in-luxurious-properties-south-delhi"
+  },
+  {
+    "name": "South Delhi Property",
+    "address": "B, 2, N Block, Greater Kailash I, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "south-delhi-property-south-delhi"
+  },
+  {
+    "name": "A.M.P.M Realtors",
+    "address": "First Floor, R-21, Greater Kailash-1, Part 1, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "ampm-realtors-south-delhi"
+  },
+  {
+    "name": "Girish Property dealer / agent commercial property only",
+    "address": "65, Deepak building 13, Nehru Place, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "girish-property-dealer-agent-commercial-property-only-south-delhi"
+  },
+  {
+    "name": "7 Star Properties",
+    "address": "Shop No 8, R block, Market, Greater Kailash-1, Block R, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "7-star-properties-south-delhi"
+  },
+  {
+    "name": "Investor Space",
+    "address": "S 331 LGF, Block S, Greater Kailash II, Greater Kailash, Delhi, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "investor-space-south-delhi"
+  },
+  {
+    "name": "Infinity Properties",
+    "address": "GROUND FLOOR, R-281, Greater Kailash-1, Block R, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "infinity-properties-south-delhi"
+  },
+  {
+    "name": "Royal Stone Realtors",
+    "address": "R-276 LGF, Block R, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "royal-stone-realtors-south-delhi"
+  },
+  {
+    "name": "Sharma Estate",
+    "address": "N-140, near Mother dairy, N Block, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "sharma-estate-south-delhi"
+  },
+  {
+    "name": "SS Properties - Property Dealers in Sheikh Sarai | flats for rent & sale in south delhi",
+    "address": "Shop No-39A, J Pocket, Phase II, Sheikh Sarai, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "ss-properties---property-dealers-in-sheikh-sarai-flats-for-rent-sale-in-south-delhi-south-delhi"
+  },
+  {
+    "name": "InvestNow Realtech",
+    "address": "Basement C-116, Greater Kailash-1, C Block, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "investnow-realtech-south-delhi"
+  },
+  {
+    "name": "Shivam Associates",
+    "address": "E283, 2, Main, Inder Mohan Bhardwaj Marg, Greater Kailash Enclave II, Greater Kailash, New Delhi, Delhi",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "shivam-associates-south-delhi"
+  },
+  {
+    "name": "Grihapravesh Propmart Pvt Ltd",
+    "address": "Lower Ground Floor, 170, E Block Rd, Block E, Greater Kailash II, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "grihapravesh-propmart-pvt-ltd-south-delhi"
+  },
+  {
+    "name": "Skyline Estates",
+    "address": "E-588, Greater Kailash Part-ii, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "skyline-estates-south-delhi"
+  },
+  {
+    "name": "FindaHouse",
+    "address": "Block S, S-45, Greater Kailash-1, Block S, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "findahouse-south-delhi"
+  },
+  {
+    "name": "Atul Associates",
+    "address": "E-572, Block E, Greater Kailash II, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "atul-associates-south-delhi"
+  },
+  {
+    "name": "Sharma Properties- Best Property Dealer In Sheikh Sarai- PG Boys And Girls In Sheikh Sarai",
+    "address": "39 -A, Corner, near SHAHEED BHAGAT SINGH COLLEGE, J Pocket, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "sharma-properties--best-property-dealer-in-sheikh-sarai--pg-boys-and-girls-in-sheikh-sarai-south-delhi"
+  },
+  {
+    "name": "G K Realtors",
+    "address": "Off At 11 Part -1, Hemkunt Colony, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "g-k-realtors-south-delhi"
+  },
+  {
+    "name": "Malhotra Properties",
+    "address": "M-19, Block M, Greater Kailash II, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "malhotra-properties-south-delhi"
+  },
+  {
+    "name": "Ghar point (A house renting company)",
+    "address": "B 272, Block B, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "ghar-point-a-house-renting-company-south-delhi"
+  },
+  {
+    "name": "South Delhi Flat Wale “Real Estate Consultant”",
+    "address": "R-276 LGF, Block R, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "south-delhi-flat-wale-real-estate-consultant-south-delhi"
+  },
+  {
+    "name": "V M Associates",
+    "address": "702, Modi Tower, 98, Nehru Place, South Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "v-m-associates-south-delhi"
+  },
+  {
+    "name": "J.D Properties (R)",
+    "address": "A.171 Double story, Kalkaji, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "jd-properties-r-south-delhi"
+  },
+  {
+    "name": "Nangia Realty",
+    "address": "B 1, Greater Kailash Enclave II, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "nangia-realty-south-delhi"
+  },
+  {
+    "name": "3rd Eye Realtors",
+    "address": "Market No. 1, J-1839, opp. Allahabad Bank, Block S, Greater Kailash II, Chittaranjan Park, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "3rd-eye-realtors-south-delhi"
+  },
+  {
+    "name": "Access India Real Estate",
+    "address": "Ground Floor, R-281, Greater Kailash-1, Block E, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "access-india-real-estate-south-delhi"
+  },
+  {
+    "name": "Dhingra Properties",
+    "address": "55, Greater Kailash-1, Block E, Greater Kailash I, Greater Kailash, New Delhi, South Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "dhingra-properties-south-delhi"
+  },
+  {
+    "name": "Kritika consultants",
+    "address": "Greater Kailash Enclave II, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "kritika-consultants-south-delhi"
+  },
+  {
+    "name": "Deb Realtors pvt Ltd - Samir Kumar Deb | Best builder in south delhi, Greater kailash, gk2 , gk1",
+    "address": "M-44, Inder Mohan Bhardwaj Marg, L.G.F, Greater Kailash II, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "deb-realtors-pvt-ltd---samir-kumar-deb-best-builder-in-south-delhi-greater-kailash-gk2-gk1-south-delhi"
+  },
+  {
+    "name": "NCR INVESTORS",
+    "address": "B/45, opposite ndtv office, Block B, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "ncr-investors-south-delhi"
+  },
+  {
+    "name": "LEASELOCK INDIA",
+    "address": "Back Side, E 578, Part II, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "leaselock-india-south-delhi"
+  },
+  {
+    "name": "MyMaxxHome",
+    "address": "M, 76, M Block, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "mymaxxhome-south-delhi"
+  },
+  {
+    "name": "AVR Properties",
+    "address": "Nanaksar Complex, Inder Mohan Bhardwaj Marg, Block M, Greater Kailash II, Chittaranjan Park, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "avr-properties-south-delhi"
+  },
+  {
+    "name": "Link Properties",
+    "address": "F-4, near Metro Pillar Number 85, Block F, East of Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "link-properties-south-delhi"
+  },
+  {
+    "name": "Love bhasin office",
+    "address": "G6QQ+FW9, Inder Mohan Bhardwaj Marg, Block E, Greater Kailash II, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "love-bhasin-office-south-delhi"
+  },
+  {
+    "name": "Daya Property – Real Estate Consultant | C R Park",
+    "address": "Office 102, First Floor, Market No 2, Block H, Chittaranjan Park, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "daya-property-real-estate-consultant-c-r-park-south-delhi"
+  },
+  {
+    "name": "Property Zone",
+    "address": "Gate No.2, Freedom Fighters Enclave, A-111, Freedom Fighter Colony, Block B, Neb Sarai, Sainik Farm, New Delhi, Delhi 110068",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "property-zone-south-delhi"
+  },
+  {
+    "name": "YDTS Tathasthu Pvt Ltd",
+    "address": "Ground Floor, Queen Court, E-62, Road, Block E, Greater Kailash II, DLF, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "ydts-tathasthu-pvt-ltd-south-delhi"
+  },
+  {
+    "name": "PROPERTIES",
+    "address": "K-1, Ground Floor, near Kailash Colony Metro Station, Greater Kailash-1, Block K, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "properties-south-delhi"
+  },
+  {
+    "name": "Gaurav Associates",
+    "address": "C-125, Shop No, 4, C- Block, Dayanand Colony, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "gaurav-associates-south-delhi"
+  },
+  {
+    "name": "Rental South Delhi I Property Consultant l Exclusive luxurious Rentals For Diplomats, Individuals and Families.",
+    "address": "C-61, Block C, Panchsheel Enclave, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "rental-south-delhi-i-property-consultant-l-exclusive-luxurious-rentals-for-diplomats-individuals-and-families-south-delhi"
+  },
+  {
+    "name": "Panchsheel Homes",
+    "address": "C - 51, Block C, Panchsheel Enclave, New Delhi, Delhi 110017",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "panchsheel-homes-south-delhi"
+  },
+  {
+    "name": "KR Property - Best Property Dealers in South Delhi, Property Consultants in Safdarjung, Enclave Green Park",
+    "address": "104 B, Sufdarjung, Green Park, Arjun Nagar, South Delhi, New Delhi, Delhi 110029",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "kr-property---best-property-dealers-in-south-delhi-property-consultants-in-safdarjung-enclave-green-park-south-delhi"
+  },
+  {
+    "name": "Arora Associates",
+    "address": "C-14, Alaknanda Shopping Complex, Alaknanda Market, Alaknanda, New Delhi, Delhi 110019",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "arora-associates-south-delhi"
+  },
+  {
+    "name": "Dhruv Properties",
+    "address": "Greater Kailash-1, M Block, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "dhruv-properties-south-delhi"
+  },
+  {
+    "name": "Swatantra Land & Finance Pvt. Ltd.",
+    "address": "M - 93, Lower Ground Floor, back side, Block E, Greater Kailash II, Greater Kailash, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Greater Kailash 3",
+    "slug": "swatantra-land-finance-pvt-ltd-south-delhi"
+  }
+]

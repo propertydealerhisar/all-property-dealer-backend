@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Real Location",
+    "address": "N 89, N Block Main Road, Abul Fazal Enclave Part 1, Part 1 Abul Fazal Enclave, Block J, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Block J Abul Fazal Enclave Part 1",
+    "slug": "real-location-south-delhi"
+  },
+  {
+    "name": "Real properties & Investors Abul Fazal Shahin bagh",
+    "address": "Abul Fazal Enclave Rd, Shaheen Bagh, Part 1 Abul Fazal Enclave, Block F, part 2nd, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Block J Abul Fazal Enclave Part 1",
+    "slug": "real-properties-investors-abul-fazal-shahin-bagh-south-delhi"
+  },
+  {
+    "name": "AB Properties- Property Dealer in Shaheen Bagh/Abul Fazal Enclave/Jaitpur",
+    "address": "51/16, Upsatir, Shaheen Bagh, Okhla, New, Division, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Block J Abul Fazal Enclave Part 1",
+    "slug": "ab-properties--property-dealer-in-shaheen-baghabul-fazal-enclavejaitpur-south-delhi"
+  },
+  {
+    "name": "Irfan Properties",
+    "address": "F-1/9 Khajoori Road, Jogabai Extension, Batla House, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Block J Abul Fazal Enclave Part 1",
+    "slug": "irfan-properties-south-delhi"
+  },
+  {
+    "name": "The Lucky Property",
+    "address": "G-67, MAIN, Kalindi Kunj Rd, Part 1 Abul Fazal Enclave, Block J, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Block J Abul Fazal Enclave Part 1",
+    "slug": "the-lucky-property-south-delhi"
+  },
+  {
+    "name": "Al- Khidmat Associates",
+    "address": "N-139/B, near Nazeer food, Abul Fazal Enclave, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "Block J Abul Fazal Enclave Part 1",
+    "slug": "al--khidmat-associates-south-delhi"
+  }
+]

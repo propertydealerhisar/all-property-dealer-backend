@@ -1,0 +1,410 @@
+[
+  {
+    "name": "KALKA PROPERTY",
+    "address": "Lila Ram Market, South Extension II, Block K, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "kalka-property-south-delhi"
+  },
+  {
+    "name": "South Delhi Floors",
+    "address": "A-67, Amber Vithi Rd, Block A, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "south-delhi-floors-south-delhi"
+  },
+  {
+    "name": "THE LEGACY HOMES",
+    "address": "Zone) || 110049, B-20, Lutyens' Delhi, Wazir Nagar, New Delhi, Delhi 110003",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "the-legacy-homes-south-delhi"
+  },
+  {
+    "name": "prop solution",
+    "address": "h-10 second floor, South Extension I, Block G, Delhi, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "prop-solution-south-delhi"
+  },
+  {
+    "name": "J J Properties",
+    "address": "221 G/F, Masjid Moth Rd, South Extension II, Block R, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "j-j-properties-south-delhi"
+  },
+  {
+    "name": "Property dealer South Extension",
+    "address": "South Extension II, Block C, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "property-dealer-south-extension-south-delhi"
+  },
+  {
+    "name": "Kamdhenu Property",
+    "address": "1521 Wazir Nagar, Bhishm Pitamah Marg, Main road, Kotla, New Delhi, Delhi 110003",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "kamdhenu-property-south-delhi"
+  },
+  {
+    "name": "SUNRISE PROPERTIES",
+    "address": "803, 14, Bhishma Pitamah Marg, South Extension I, Arjun Nagar, Wazir Nagar, New Delhi, Delhi 110003",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "sunrise-properties-south-delhi"
+  },
+  {
+    "name": "Aggarwal Properties",
+    "address": "24 d, Squadron Leader Mohinder Kumar Jain Marg, near Father Agnel School, Gautam Nagar, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "aggarwal-properties-south-delhi"
+  },
+  {
+    "name": "Rama Buildwell",
+    "address": "18A, behind AIIMS, Hardev Puri, Gautam Nagar, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "rama-buildwell-south-delhi"
+  },
+  {
+    "name": "RAI SAHIB ASSOCIATES",
+    "address": "Rai sahib apartment, 306, Masjid Moth Rd, behind R-39, South Extension II, Block R, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "rai-sahib-associates-south-delhi"
+  },
+  {
+    "name": "Propertiwala",
+    "address": "South Extension II, Masjid Moth Village, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "propertiwala-south-delhi"
+  },
+  {
+    "name": "Gs Property & Consultant",
+    "address": "A-33 Ground Floor, South Extension I, Block F, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "gs-property-consultant-south-delhi"
+  },
+  {
+    "name": "Royal Culture Estates",
+    "address": "283,lower ground floor ,opposite R-39, South Extension II, Masjid Moth Village, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "royal-culture-estates-south-delhi"
+  },
+  {
+    "name": "India Estates",
+    "address": "169, Block C, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "india-estates-south-delhi"
+  },
+  {
+    "name": "Ashirwad Properties (Regd)",
+    "address": "South Ex Tower, Leela Ram market, G-2/389, Masjid Moth Rd, South Extension II, Block A, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "ashirwad-properties-regd-south-delhi"
+  },
+  {
+    "name": "Ghar Property Dealer",
+    "address": "C-220, Market, near by Defence Colony, South Extension I, Kotla Mubarakpur, New Delhi, Delhi 110003",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "ghar-property-dealer-south-delhi"
+  },
+  {
+    "name": "Gulshan Estate Agents – Real Estate Consultants",
+    "address": "C-115, Opp Defence Colony Flyover Market, Lajpat Nagar I, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "gulshan-estate-agents-real-estate-consultants-south-delhi"
+  },
+  {
+    "name": "PURI PROPERTIES.",
+    "address": "Puri Niwas, 81, Gautam Nagar Rd, Gautam Nagar, Yusuf Sarai, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "puri-properties-south-delhi"
+  },
+  {
+    "name": "Rsb Properties",
+    "address": "Building NO-H-5 Basement, South Extension I, Block H, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "rsb-properties-south-delhi"
+  },
+  {
+    "name": "Chandra Prabhu Buildwell Private Limited",
+    "address": "D-15, South Extension, Part-II, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "chandra-prabhu-buildwell-private-limited-south-delhi"
+  },
+  {
+    "name": "Rent A Roof",
+    "address": "Basement, A-286, Block A, Defence Colony, New Delhi, Delhi 110003",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "rent-a-roof-south-delhi"
+  },
+  {
+    "name": "Help Estate & Property Consultant",
+    "address": "Ground Floor, H-28, near Bengali Sweets, Main Market, South Extension, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "help-estate-property-consultant-south-delhi"
+  },
+  {
+    "name": "Hub and Oak Realty",
+    "address": "E 14 LGF, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "hub-and-oak-realty-south-delhi"
+  },
+  {
+    "name": "South Delhi Property",
+    "address": "B, 2, N Block, Greater Kailash I, New Delhi, Delhi 110048",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "south-delhi-property-south-delhi"
+  },
+  {
+    "name": "Defence Properties",
+    "address": "A-454, Block A, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "defence-properties-south-delhi"
+  },
+  {
+    "name": "REALLWORLD -flats for rent in Gk1 in South Delhi NCR | flats for rent in Anand Niketan | Apartment for rent in Defence Colony",
+    "address": "South Extension II, Block F, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "reallworld--flats-for-rent-in-gk1-in-south-delhi-ncr-flats-for-rent-in-anand-niketan-apartment-for-rent-in-defence-colony-south-delhi"
+  },
+  {
+    "name": "B P CONSULTANTS PVT LTD.",
+    "address": "GF C-7, South Extension II, Block M, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "b-p-consultants-pvt-ltd-south-delhi"
+  },
+  {
+    "name": "Rohit Choudhary home",
+    "address": "1878, Uday Chand Marg, South Extension I, Block H, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "rohit-choudhary-home-south-delhi"
+  },
+  {
+    "name": "One Property",
+    "address": "A-1, main market, behind Barista, Block A, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "one-property-south-delhi"
+  },
+  {
+    "name": "Raj Associates",
+    "address": "First Floor, 02-A/B, Plot No. 1515, Bhishma Pitamah Marg, opp. Defence Colony, Wazir Nagar, 110003",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "raj-associates-south-delhi"
+  },
+  {
+    "name": "Gupta Crib",
+    "address": "C 496, Block C, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "gupta-crib-south-delhi"
+  },
+  {
+    "name": "XLNC PROPERTIES",
+    "address": "239, Masjid Moth Rd, South Extension II, Masjid Moth Village, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "xlnc-properties-south-delhi"
+  },
+  {
+    "name": "Shivank Gupta Estates",
+    "address": "South Extension II, Block P, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "shivank-gupta-estates-south-delhi"
+  },
+  {
+    "name": "Rai sahib estate",
+    "address": "306, Masjid Moth Rd, South Extension, Block A, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "rai-sahib-estate-south-delhi"
+  },
+  {
+    "name": "Wadhwa Properties",
+    "address": "Motorcycle Market, B -1, Block B, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "wadhwa-properties-south-delhi"
+  },
+  {
+    "name": "DEFENCE COLONY REALTORS",
+    "address": "1st floor, A-192, Block C, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "defence-colony-realtors-south-delhi"
+  },
+  {
+    "name": "Indian Realtech",
+    "address": "Corner Building, A-272, adjacent to Apple Showroom, Block A, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "indian-realtech-south-delhi"
+  },
+  {
+    "name": "Ankit Choudhary",
+    "address": "2028, 22, near Hanuman Mandir, Pilanji, Kotla Mubarakpur, New Delhi, Delhi 110003",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "ankit-choudhary-south-delhi"
+  },
+  {
+    "name": "24Karat we buy gold (South Ex ) gold silver buyer south delhi | selling gold for cash",
+    "address": "Ground Floor , Building No. N-1 Near -Canara Bank, South Extension I, Block N, New Delhi, Delhi 110003",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "24karat-we-buy-gold-south-ex-gold-silver-buyer-south-delhi-selling-gold-for-cash-south-delhi"
+  },
+  {
+    "name": "First Source Realty",
+    "address": "B 82, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "first-source-realty-south-delhi"
+  },
+  {
+    "name": "Aksh Realty (One Stop Solution)",
+    "address": "2nd Floor, P-39, South Extension II, Wazir Nagar, New Delhi, Delhi 110003",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "aksh-realty-one-stop-solution-south-delhi"
+  },
+  {
+    "name": "Annie consultant",
+    "address": "South Extension I, Block H, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "annie-consultant-south-delhi"
+  },
+  {
+    "name": "Amit Gupta",
+    "address": "Ground Floor, C-534, near Tumble House, Block C, Defence Colony, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "amit-gupta-south-delhi"
+  },
+  {
+    "name": "Buniyad Realty Limited - Delhi Branch",
+    "address": "First Floor, A-32, Firoz Ghandi Marg, Block A, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "buniyad-realty-limited---delhi-branch-south-delhi"
+  },
+  {
+    "name": "MITTAL REALTY - Retail Leasing, Office Leasing and Industrial Warehouse Leasing in Gurgaon, Delhi, Noida",
+    "address": "2, D-15, Ring Rd, South Extension, Block D, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "mittal-realty---retail-leasing-office-leasing-and-industrial-warehouse-leasing-in-gurgaon-delhi-noida-south-delhi"
+  },
+  {
+    "name": "IndiaShowrooms",
+    "address": "D-15, 2 Ring Road, South Ex, Block D, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "indiashowrooms-south-delhi"
+  },
+  {
+    "name": "S R ESTATE & PROPERTIES",
+    "address": "Office -102, First Floor, Mandir Complex, near Leela Ram Market Road, South Extension, Part-2, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "s-r-estate-properties-south-delhi"
+  },
+  {
+    "name": "Sharma Vimal Real Estate & Lease Hold to Free Hold",
+    "address": "Lower Ground Floor, C-35, near Mehrasons Jewellers, South Extension II, Block C, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "sharma-vimal-real-estate-lease-hold-to-free-hold-south-delhi"
+  },
+  {
+    "name": "SOMPAL PROPERTIES",
+    "address": "2ND FLOOR, RADHE KRISHNA MANDIR COMPLEX, 205, MASJID MOTH, South Extension, PART 2, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "sompal-properties-south-delhi"
+  },
+  {
+    "name": "SPACE 4 U - THE REAL ESTATE COMPANY",
+    "address": "R-39, Masjid Moth Rd, South Extension II, Block R, New Delhi, Delhi 110049",
+    "state": "Delhi",
+    "city": "South Delhi",
+    "area": "South Extension 1",
+    "slug": "space-4-u---the-real-estate-company-south-delhi"
+  }
+]
