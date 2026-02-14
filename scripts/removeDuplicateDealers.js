@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 // ===== CONFIG =====
-const FILE_PATH = "./West-delhi/amerged.json";
+const FILE_PATH = "./Central-delhi/emerged.json";
 // ==================
 
 try {

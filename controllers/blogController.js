@@ -131,16 +131,16 @@ exports.getBlogs = async (req, res) => {
     const blogs = await Blog.aggregate([
       { $match: filter },
       { $sample: { size: limit } },   // 👈 RANDOM BLOGS
-      {
-        $project: {
-          title: 1,
-          excerpt: 1,
-          slug: 1,
-          heroImg: 1,
-          date: 1,
-          domain: 1
-        }
-      }
+      // {
+      //   $project: {
+      //     title: 1,
+      //     excerpt: 1,
+      //     slug: 1,
+      //     heroImg: 1,
+      //     date: 1,
+      //     domain: 1
+      //   }
+      // }
     ]);
 
     res.status(200).json({

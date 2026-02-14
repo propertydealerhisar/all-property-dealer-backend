@@ -5,15 +5,28 @@ exports.getAllData = async (req, res) => {
   try {
     let domain = req.params.domain;
 
-    console.log("Incoming domain =>", domain);
+    // 1. DOMAIN VALIDATION
+    if (!domain) {
+      return res.status(400).json({
+        success: false,
+        message: "Domain parameter is required"
+      });
+    }
+
+    // console.log("Incoming domain =>", domain);
 
     const withoutWWW = domain.replace("www.", "");
     const withWWW = "www." + withoutWWW;
 
-    const page = parseInt(req.query.page) || 1;
-    const limit = parseInt(req.query.limit) || 100;
+    // 2. QUERY PARAM VALIDATION
+    let page = parseInt(req.query.page);
+    let limit = parseInt(req.query.limit);
+    const search = req.query.search || "";
 
-    const search = req.query.search || "";   // 👈 NEW
+    if (isNaN(page) || page < 1) page = 1;
+    if (isNaN(limit) || limit < 1 || limit > 500) limit = 100;
+
+    const skip = (page - 1) * limit;
 
     let matchQuery = {
       $or: [
@@ -22,36 +35,104 @@ exports.getAllData = async (req, res) => {
       ]
     };
 
-    // 🔥 TEXT SEARCH LOGIC
-    if (search) {
-      matchQuery.$text = { $search: search };
+    // 3. TEXT SEARCH HANDLING
+    if (search && search.trim().length > 0) {
+      matchQuery.$text = { $search: search.trim() };
     }
 
+    // 4. CHECK IF DOMAIN DATA EXISTS
+    const domainExists = await Dealer.exists({
+      $or: [
+        { domain: withoutWWW },
+        { domain: withWWW }
+      ]
+    });
+
+    if (!domainExists) {
+      return res.status(404).json({
+        success: false,
+        message: "No data found for this domain",
+        domain: withoutWWW
+      });
+    }
+
+    // 5. TOTAL RECORD COUNT
     const total = await Dealer.countDocuments(matchQuery);
 
-    // 🔥 RANDOM + SEARCH COMBINE
-    const list = await Dealer.aggregate([
-      { $match: matchQuery },
+    if (total === 0) {
+      return res.json({
+        success: true,
+        domain: withoutWWW,
+        totalRecords: 0,
+        currentPage: page,
+        totalPages: 0,
+        data: []
+      });
+    }
 
-      // Agar search ho to relevance sort
-      ...(search
-        ? [{ $sort: { score: { $meta: "textScore" } } }]
-        : [{ $sample: { size: limit } }])
-    ]);
+    // 6. AGGREGATION WITH ERROR SAFE PIPELINE
+    let pipeline = [
+      { $match: matchQuery }
+    ];
 
-    res.json({
+    // Search relevance sort
+    if (search) {
+      pipeline.push({
+        $sort: { score: { $meta: "textScore" } }
+      });
+    } else {
+      pipeline.push({
+        $sample: { size: limit }
+      });
+    }
+
+    // Pagination only when search
+    if (search) {
+      pipeline.push(
+        { $skip: skip },
+        { $limit: limit }
+      );
+    }
+
+    const list = await Dealer.aggregate(pipeline);
+
+    // 7. FINAL RESPONSE
+    return res.json({
       success: true,
       domain: withoutWWW,
       totalRecords: total,
       currentPage: page,
       totalPages: Math.ceil(total / limit),
+      dataCount: list.length,
       data: list,
     });
 
   } catch (err) {
-    res.status(500).json({
+    console.error("GET ALL DATA ERROR:", err);
+
+    // 8. MONGODB SPECIFIC ERRORS
+    if (err.name === "MongoError") {
+      return res.status(503).json({
+        success: false,
+        message: "Database error occurred",
+        error: err.message
+      });
+    }
+
+    // 9. TEXT INDEX ERROR HANDLE
+    if (err.code === 27) {
+      return res.status(400).json({
+        success: false,
+        message: "Text search index not configured properly",
+        hint: "Create text index on searchable fields"
+      });
+    }
+
+    // 10. DEFAULT SERVER ERROR
+    return res.status(500).json({
       success: false,
-      message: err.message,
+      message: "Internal Server Error",
+      error: err.message
     });
   }
 };
@@ -66,27 +147,72 @@ exports.getAllData = async (req, res) => {
 exports.getSingleBySlug = async (req, res) => {
   try {
     const { slug } = req.params;
+
+    // 1. SLUG VALIDATION
+    if (!slug || slug.trim() === "") {
+      return res.status(400).json({
+        success: false,
+        message: "Slug parameter is required",
+      });
+    }
+
+    // 2. DOMAIN VALIDATION
+    if (!req.domain) {
+      return res.status(400).json({
+        success: false,
+        message: "Domain is missing in request",
+      });
+    }
+
+    // 3. FIND DEALER
     const item = await Dealer.findOne({
       domain: req.domain,
-      slug,
+      slug: slug.trim(),
     });
 
+    // 4. NOT FOUND HANDLING
     if (!item) {
       return res.status(404).json({
         success: false,
         message: "Dealer not found",
+        slug: slug,
+        domain: req.domain,
       });
     }
 
-    res.json({
+    // 5. SUCCESS RESPONSE
+    return res.json({
       success: true,
       domain: req.domain,
       data: item,
     });
+
   } catch (err) {
-    res.status(500).json({
+    console.error("GET SINGLE DEALER ERROR:", err);
+
+    // 6. INVALID OBJECT ID / QUERY ERROR
+    if (err.name === "CastError") {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid slug format",
+        error: err.message,
+      });
+    }
+
+    // 7. MONGODB CONNECTION ERROR
+    if (err.name === "MongoError") {
+      return res.status(503).json({
+        success: false,
+        message: "Database error occurred",
+        error: err.message,
+      });
+    }
+
+    // 8. DEFAULT SERVER ERROR
+    return res.status(500).json({
       success: false,
-      message: err.message,
+      message: "Internal Server Error",
+      error: err.message,
     });
   }
 };
@@ -157,71 +283,129 @@ exports.getAllDataWithFallback = async (req, res) => {
 //ya state ka dataa haryanaa ka la jaiyee
 exports.getAllDataByState = async (req, res) => {
   try {
-    let state = req.params.state.trim();
+    let state = req.params.state;
+
+    // 1. STATE VALIDATION
+    if (!state || state.trim() === "") {
+      return res.status(400).json({
+        success: false,
+        message: "State parameter is required"
+      });
+    }
+
+    state = state.trim();
 
     console.log("Searching state =>", state);
 
+    // 2. SAFE REGEX MATCH
     const matchQuery = {
-      state: { $regex: new RegExp("^" + state + "$", "i") }
+      state: { $regex: new RegExp("^" + state.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$", "i") }
     };
 
+    // 3. CHECK DATA EXISTS
     const total = await Dealer.countDocuments(matchQuery);
 
     if (total === 0) {
       return res.status(404).json({
         success: false,
-        message: "Dealer not found"
+        message: "No dealers found for this state",
+        state: state
       });
     }
 
-    // ======== IMPORTANT CHANGE HERE ========
+    // 4. LIMIT CONTROL (for safety)
+    const MAX_LIMIT = 2000;
+    const sampleSize = total > MAX_LIMIT ? MAX_LIMIT : total;
+
+    // 5. AGGREGATION WITH ERROR SAFE PIPELINE
     const list = await Dealer.aggregate([
       { $match: matchQuery },
-      { $sample: { size: total } }   // randomize whole data
+      { $sample: { size: sampleSize } }
     ]);
-    // =======================================
 
-    res.json({
+    // 6. FINAL SUCCESS RESPONSE
+    return res.json({
       success: true,
+      state: state,
       totalRecords: total,
+      returnedRecords: list.length,
       data: list
     });
 
   } catch (err) {
-    res.status(500).json({
+    console.error("GET DATA BY STATE ERROR:", err);
+
+    // 7. HANDLE MONGODB ERRORS
+    if (err.name === "MongoError") {
+      return res.status(503).json({
+        success: false,
+        message: "Database error occurred",
+        error: err.message
+      });
+    }
+
+    // 8. REGEX OR QUERY ERROR
+    if (err.name === "SyntaxError") {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid state format",
+        error: err.message
+      });
+    }
+
+    // 9. DEFAULT SERVER ERROR
+    return res.status(500).json({
       success: false,
-      message: err.message
+      message: "Internal Server Error",
+      error: err.message
     });
   }
 };
 
 
+
 exports.getAllDataByCity = async (req, res) => {
   try {
-    let city = req.params.city.trim();
+    let city = req.params.city;
+
+    // 1. CITY VALIDATION
+    if (!city || city.trim() === "") {
+      return res.status(400).json({
+        success: false,
+        message: "City parameter is required"
+      });
+    }
+
+    city = city.trim();
 
     console.log("Searching city =>", city);
 
+    // 2. SAFE REGEX (injection safe)
+    const safeCity = city.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
     const matchQuery = {
-      city: { $regex: new RegExp("^" + city + "$", "i") }
+      city: { $regex: new RegExp("^" + safeCity + "$", "i") }
     };
 
+    // 3. COUNT RECORDS
     const total = await Dealer.countDocuments(matchQuery);
 
     if (total === 0) {
       return res.status(404).json({
         success: false,
-        message: "Dealer not found for this city"
+        message: "Dealer not found for this city",
+        city: city
       });
     }
 
-    // 🔥 IMPORTANT CHANGE – NO LIMIT, ALL DATA RANDOM
+    // 4. SAME ORIGINAL LOGIC (NO CHANGE)
     const list = await Dealer.aggregate([
       { $match: matchQuery },
-      { $sample: { size: total } }   // jitna data utna sample
+      { $sample: { size: total } }
     ]);
 
-    res.json({
+    // 5. SUCCESS RESPONSE
+    return res.json({
       success: true,
       city: city,
       totalRecords: total,
@@ -229,9 +413,162 @@ exports.getAllDataByCity = async (req, res) => {
     });
 
   } catch (err) {
-    res.status(500).json({
+    console.error("GET DATA BY CITY ERROR:", err);
+
+    // 6. MONGODB SPECIFIC ERROR
+    if (err.name === "MongoError") {
+      return res.status(503).json({
+        success: false,
+        message: "Database error occurred",
+        error: err.message
+      });
+    }
+
+    // 7. INVALID QUERY / REGEX ERROR
+    if (err.name === "SyntaxError") {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid city format",
+        error: err.message
+      });
+    }
+
+    // 8. DEFAULT SERVER ERROR
+    return res.status(500).json({
       success: false,
-      message: err.message
+      message: "Internal Server Error",
+      error: err.message
+    });
+  }
+};
+
+
+exports.getDealersByLocation = async (req, res) => {
+  try {
+    const domain = req.query.domain;
+    const location = req.query.location;
+
+    const withoutWWW = domain.replace("www.", "");
+    const withWWW = "www." + withoutWWW;
+
+    const baseFilter = {
+      domain: { $in: [withoutWWW, withWWW] }
+    };
+
+    const sector = location.split(",")[0].trim();
+
+    // 1. Exact location match
+    let matched = await Dealer.find({
+      ...baseFilter,
+      address: { $regex: sector, $options: "i" }
+    });
+
+    // 2. Other dealers from same city
+    let others = await Dealer.find({
+      ...baseFilter,
+      city: { $regex: location.split(",")[1]?.trim() || "", $options: "i" }
+    });
+
+    // Remove duplicates
+    others = others.filter(o =>
+      !matched.some(m => m._id.toString() === o._id.toString())
+    );
+
+    let finalList = [...matched, ...others];
+
+    // 3. Guarantee 30 cards
+    if (finalList.length < 30) {
+      const extra = await Dealer.find(baseFilter)
+        .limit(30 - finalList.length);
+
+      extra.forEach(e => {
+        if (!finalList.some(f => f._id.toString() === e._id.toString())) {
+          finalList.push(e);
+        }
+      });
+    }
+
+    res.json({
+      success: true,
+      data: finalList.slice(0, 30)
+    });
+
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
+
+
+exports.getPropertiesByArea = async (req, res) => {
+  try {
+    const areaSlug = req.params.area;
+
+    if (!areaSlug) {
+      return res.status(400).json({
+        success: false,
+        message: "Area parameter required"
+      });
+    }
+
+    const formattedArea = areaSlug
+      .replace(/-/g, " ")
+      .replace(/\b\w/g, (char) => char.toUpperCase());
+
+    console.log("Searching for area:", formattedArea);
+
+    const DOMAIN = "www.propertydealerindelhi.com";
+    const LIMIT = 100;
+
+    // 🔹 Step 1: Get Area Dealers
+    let areaDealers = await Dealer.find({
+  domain: DOMAIN,
+  area: { $regex: new RegExp("^" + formattedArea + "$", "i") }
+}).limit(LIMIT);
+
+
+    // 🔹 If already enough dealers
+    if (areaDealers.length >= LIMIT) {
+      return res.status(200).json({
+        success: true,
+        total: areaDealers.length,
+        data: areaDealers
+      });
+    }
+
+    // 🔹 Step 2: If less than 100 → Get same city random dealers
+    let cityDealers = [];
+    const remaining = LIMIT - areaDealers.length;
+
+    if (areaDealers.length > 0) {
+      const cityName = areaDealers[0].city;
+
+      cityDealers = await Dealer.aggregate([
+        {
+          $match: {
+            domain: DOMAIN,
+            city: cityName,
+            area: { $ne: formattedArea }
+          }
+        },
+        { $sample: { size: remaining } }
+      ]);
+    }
+
+    // 🔹 Merge area + city fallback
+    const finalDealers = [...areaDealers, ...cityDealers];
+
+    return res.status(200).json({
+      success: true,
+      total: finalDealers.length,
+      data: finalDealers
+    });
+
+  } catch (error) {
+    console.error("Area filter error:", error);
+    return res.status(500).json({
+      success: false,
+      message: "Server error"
     });
   }
 };

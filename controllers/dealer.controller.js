@@ -23,18 +23,52 @@ exports.importDealersFromJson = async (req, res) => {
       return res.status(400).json({ message: "JSON must be an array" });
     }
 
-    // 🚀 DIRECT INSERT
-    const result = await Dealer.insertMany(data);
+    let successCount = 0;
+    let failedRecords = [];
+
+    const CHUNK_SIZE = 500;
+
+    for (let i = 0; i < data.length; i += CHUNK_SIZE) {
+      const chunk = data.slice(i, i + CHUNK_SIZE);
+
+      try {
+        const result = await Dealer.insertMany(chunk, { ordered: false });
+        successCount += result.length;
+      } catch (chunkError) {
+        console.log("Chunk Insert Error:", chunkError.message);
+
+        if (chunkError.writeErrors) {
+          chunkError.writeErrors.forEach((err) => {
+            failedRecords.push({
+              index: err.index + i,
+              error: err.errmsg,
+              record: chunk[err.index],
+            });
+          });
+        } else {
+          failedRecords.push({
+            error: chunkError.message,
+            chunkStart: i,
+          });
+        }
+      }
+    }
 
     res.json({
       success: true,
-      total: data.length,
-      inserted: result.length,
-      message: "Data saved to DB successfully",
+      totalRecords: data.length,
+      insertedRecords: successCount,
+      failedRecords: failedRecords.length,
+      failedDetails: failedRecords,
+      message: "Import process completed",
     });
   } catch (err) {
     console.error("IMPORT ERROR:", err);
-    res.status(500).json({ message: err.message });
+
+    res.status(500).json({
+      message: "Server Import Failed",
+      error: err.message,
+    });
   }
 };
  
