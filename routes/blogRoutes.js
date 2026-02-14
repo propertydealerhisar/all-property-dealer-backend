@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const {importJsonDirect,getBlogs,getSingleBlog,updateHeroImgFromFile,getBlogsByFixedDomains} = require("../controllers/blogController");
+const {importJsonDirect,getBlogs,getSingleBlog,updateHeroImgFromFile,getBlogsByFixedDomains,getNextBlog} = require("../controllers/blogController");
 
 // Import JSON
 router.get("/import-json", importJsonDirect);
@@ -19,5 +19,7 @@ router.get("/slug/:slug", getSingleBlog);
 router.post("/update-heroimg-from-file", updateHeroImgFromFile);
 
 router.get("/getBlogsByFixedDomains/blogs", getBlogsByFixedDomains);
+
+router.get("/next/:slug", getNextBlog);
 
 module.exports = router;

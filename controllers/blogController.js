@@ -303,3 +303,32 @@ exports.getBlogsByFixedDomains = async (req, res) => {
     });
   }
 };
+exports.getNextBlog = async (req, res) => {
+  try {
+    const currentBlog = await Blog.findOne({
+      slug: req.params.slug
+    });
+
+    if (!currentBlog) {
+      return res.status(404).json({
+        success: false,
+        message: "Blog not found"
+      });
+    }
+
+    const nextBlog = await Blog.findOne({
+      _id: { $gt: currentBlog._id }
+    }).sort({ _id: 1 });
+
+    res.status(200).json({
+      success: true,
+      data: nextBlog || null
+    });
+
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: error.message
+    });
+  }
+};

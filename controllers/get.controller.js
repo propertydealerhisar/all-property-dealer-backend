@@ -5,7 +5,6 @@ exports.getAllData = async (req, res) => {
   try {
     let domain = req.params.domain;
 
-    // 1. DOMAIN VALIDATION
     if (!domain) {
       return res.status(400).json({
         success: false,
@@ -13,21 +12,20 @@ exports.getAllData = async (req, res) => {
       });
     }
 
-    // console.log("Incoming domain =>", domain);
-
     const withoutWWW = domain.replace("www.", "");
     const withWWW = "www." + withoutWWW;
 
-    // 2. QUERY PARAM VALIDATION
-    let page = parseInt(req.query.page);
-    let limit = parseInt(req.query.limit);
-    const search = req.query.search || "";
+    // Pagination params
+    let page = parseInt(req.query.page) || 1;
+    let limit = parseInt(req.query.limit) || 10;
+    const search = req.query.search ? req.query.search.trim() : "";
 
-    if (isNaN(page) || page < 1) page = 1;
-    if (isNaN(limit) || limit < 1 || limit > 500) limit = 100;
+    if (page < 1) page = 1;
+    if (limit < 1 || limit > 500) limit = 10;
 
     const skip = (page - 1) * limit;
 
+    // Base match query
     let matchQuery = {
       $or: [
         { domain: withoutWWW },
@@ -35,12 +33,12 @@ exports.getAllData = async (req, res) => {
       ]
     };
 
-    // 3. TEXT SEARCH HANDLING
-    if (search && search.trim().length > 0) {
-      matchQuery.$text = { $search: search.trim() };
+    // Add search if present
+    if (search.length > 0) {
+      matchQuery.$text = { $search: search };
     }
 
-    // 4. CHECK IF DOMAIN DATA EXISTS
+    // Check if domain exists
     const domainExists = await Dealer.exists({
       $or: [
         { domain: withoutWWW },
@@ -52,83 +50,51 @@ exports.getAllData = async (req, res) => {
       return res.status(404).json({
         success: false,
         message: "No data found for this domain",
-        domain: withoutWWW
       });
     }
 
-    // 5. TOTAL RECORD COUNT
-    const total = await Dealer.countDocuments(matchQuery);
+    // Total count for pagination
+    const totalRecords = await Dealer.countDocuments(matchQuery);
 
-    if (total === 0) {
-      return res.json({
-        success: true,
-        domain: withoutWWW,
-        totalRecords: 0,
-        currentPage: page,
-        totalPages: 0,
-        data: []
-      });
-    }
+    const totalPages = Math.ceil(totalRecords / limit);
 
-    // 6. AGGREGATION WITH ERROR SAFE PIPELINE
+    // Aggregation pipeline
     let pipeline = [
       { $match: matchQuery }
     ];
 
-    // Search relevance sort
-    if (search) {
-      pipeline.push({
-        $sort: { score: { $meta: "textScore" } }
-      });
-    } else {
-      pipeline.push({
-        $sample: { size: limit }
-      });
-    }
-
-    // Pagination only when search
-    if (search) {
+    // If search → sort by textScore
+    if (search.length > 0) {
       pipeline.push(
-        { $skip: skip },
-        { $limit: limit }
+        { $addFields: { score: { $meta: "textScore" } } },
+        { $sort: { score: -1 } }
       );
+    } else {
+      // Normal sort (latest first)
+      pipeline.push({ $sort: { createdAt: -1 } });
     }
 
-    const list = await Dealer.aggregate(pipeline);
+    // Always apply pagination
+    pipeline.push(
+      { $skip: skip },
+      { $limit: limit }
+    );
 
-    // 7. FINAL RESPONSE
-    return res.json({
+    const dealers = await Dealer.aggregate(pipeline);
+
+    return res.status(200).json({
       success: true,
       domain: withoutWWW,
-      totalRecords: total,
       currentPage: page,
-      totalPages: Math.ceil(total / limit),
-      dataCount: list.length,
-      data: list,
+      totalPages,
+      totalRecords,
+      dataCount: dealers.length,
+      data: dealers
     });
 
   } catch (err) {
     console.error("GET ALL DATA ERROR:", err);
 
-    // 8. MONGODB SPECIFIC ERRORS
-    if (err.name === "MongoError") {
-      return res.status(503).json({
-        success: false,
-        message: "Database error occurred",
-        error: err.message
-      });
-    }
-
-    // 9. TEXT INDEX ERROR HANDLE
-    if (err.code === 27) {
-      return res.status(400).json({
-        success: false,
-        message: "Text search index not configured properly",
-        hint: "Create text index on searchable fields"
-      });
-    }
-
-    // 10. DEFAULT SERVER ERROR
     return res.status(500).json({
       success: false,
       message: "Internal Server Error",
@@ -136,6 +102,7 @@ exports.getAllData = async (req, res) => {
     });
   }
 };
+
 
 
 
