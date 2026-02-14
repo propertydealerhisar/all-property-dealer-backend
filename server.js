@@ -24,6 +24,7 @@ const corsOptions = {
     "https://propertydeler-gold-frontend-k2da.vercel.app",
     "https://propertydeler-gold-frontend-9wvp.vercel.app",
    "https://property-dealer-in-hisar-2.vercel.app",
+   "https://property-dealer-in-hisar-2.vercel.app/"
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true,
