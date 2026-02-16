@@ -33,12 +33,12 @@ exports.getAllData = async (req, res) => {
       ]
     };
 
-    // Add search if present
+    // Add search condition
     if (search.length > 0) {
       matchQuery.$text = { $search: search };
     }
 
-    // Check if domain exists
+    // Check domain exists
     const domainExists = await Dealer.exists({
       $or: [
         { domain: withoutWWW },
@@ -53,9 +53,8 @@ exports.getAllData = async (req, res) => {
       });
     }
 
-    // Total count for pagination
+    // Total records count
     const totalRecords = await Dealer.countDocuments(matchQuery);
-
     const totalPages = Math.ceil(totalRecords / limit);
 
     // Aggregation pipeline
@@ -63,22 +62,22 @@ exports.getAllData = async (req, res) => {
       { $match: matchQuery }
     ];
 
-    // If search → sort by textScore
     if (search.length > 0) {
+      // SEARCH MODE → sort by textScore
       pipeline.push(
         { $addFields: { score: { $meta: "textScore" } } },
-        { $sort: { score: -1 } }
+        { $sort: { score: -1 } },
+        { $skip: skip },
+        { $limit: limit }
       );
     } else {
-      // Normal sort (latest first)
-      pipeline.push({ $sort: { createdAt: -1 } });
+      // RANDOM SHUFFLE MODE
+      pipeline.push(
+        { $sample: { size: totalRecords } }, // shuffle all matched records
+        { $skip: skip },
+        { $limit: limit }
+      );
     }
-
-    // Always apply pagination
-    pipeline.push(
-      { $skip: skip },
-      { $limit: limit }
-    );
 
     const dealers = await Dealer.aggregate(pipeline);
 
@@ -102,6 +101,7 @@ exports.getAllData = async (req, res) => {
     });
   }
 };
+
 
 
 
