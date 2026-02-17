@@ -412,58 +412,89 @@ exports.getAllDataByCity = async (req, res) => {
 
 exports.getDealersByLocation = async (req, res) => {
   try {
-    const domain = req.query.domain;
-    const location = req.query.location;
-
-    const withoutWWW = domain.replace("www.", "");
-    const withWWW = "www." + withoutWWW;
-
-    const baseFilter = {
-      domain: { $in: [withoutWWW, withWWW] }
-    };
-
-    const sector = location.split(",")[0].trim();
-
-    // 1. Exact location match
-    let matched = await Dealer.find({
-      ...baseFilter,
-      address: { $regex: sector, $options: "i" }
-    });
-
-    // 2. Other dealers from same city
-    let others = await Dealer.find({
-      ...baseFilter,
-      city: { $regex: location.split(",")[1]?.trim() || "", $options: "i" }
-    });
-
-    // Remove duplicates
-    others = others.filter(o =>
-      !matched.some(m => m._id.toString() === o._id.toString())
-    );
-
-    let finalList = [...matched, ...others];
-
-    // 3. Guarantee 30 cards
-    if (finalList.length < 30) {
-      const extra = await Dealer.find(baseFilter)
-        .limit(30 - finalList.length);
-
-      extra.forEach(e => {
-        if (!finalList.some(f => f._id.toString() === e._id.toString())) {
-          finalList.push(e);
-        }
+    const { domain, location } = req.query;
+    if (!domain || !location) {
+      return res.status(400).json({
+        success: false,
+        message: "Domain and location required"
       });
     }
 
-    res.json({
+    const cleanDomain = domain.replace(/^www\./, "").trim();
+    const cleanLocation = location.replace(/-/g, " ").trim();
+
+    const baseFilter = {
+      domain: { $regex: cleanDomain, $options: "i" }
+    };
+
+    // 🔹 Step 1: Exact Match Dealers
+    const matchedDealers = await Dealer.find({
+      ...baseFilter,
+      address: cleanLocation
+    }).lean();
+
+    let finalDealers = [];
+
+    if (matchedDealers.length > 0) {
+
+      // 🔝 Match wale top par
+      finalDealers = [...matchedDealers];
+
+      const remainingCount = 30 - matchedDealers.length;
+
+      if (remainingCount > 0) {
+        // ❗ Matched ko exclude karke random uthao
+        const matchedIds = matchedDealers.map(d => d._id);
+
+        const randomDealers = await Dealer.aggregate([
+          { $match: { ...baseFilter, _id: { $nin: matchedIds } } },
+          { $sample: { size: remainingCount } }
+        ]);
+
+        finalDealers = [...finalDealers, ...randomDealers];
+      }
+
+    } else {
+
+      // ❌ Agar ek bhi match nahi mila
+      finalDealers = await Dealer.aggregate([
+        { $match: baseFilter },
+        { $sample: { size: 30 } }
+      ]);
+
+    }
+
+    // 🔥 Ensure maximum 30
+    finalDealers = finalDealers.slice(0, 30);
+
+    res.set("Cache-Control", "no-store");
+
+    return res.status(200).json({
       success: true,
-      data: finalList.slice(0, 30)
+      count: finalDealers.length,
+      data: finalDealers
     });
 
   } catch (err) {
-    res.status(500).json({ success: false, message: err.message });
+    console.error("Location API Error:", err);
+    return res.status(500).json({
+      success: false,
+      message: "Server Error"
+    });
   }
 };
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
