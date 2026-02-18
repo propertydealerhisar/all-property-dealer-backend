@@ -29,6 +29,8 @@ const corsOptions = {
    "https://www.property-dealer-in-hisar-2.vercel.app",
    "https://propertydealerinhisar.com",
    "https://www.propertydealerinhisar.com",
+   "https://propertydealerinfaridabad.com/",
+   "https://www.propertydealerinfaridabad.com",
     "https://www.projectwallah.live",
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],

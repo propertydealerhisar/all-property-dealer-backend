@@ -35,7 +35,8 @@ const {
   getSingleBySlug,
   getAllDataByCity,
   getDealersByLocation,
-  getPropertiesByArea
+  getPropertiesByArea,
+  haryanaLocationFilter
 } = require("../controllers/get.controller");
 
 const domainMiddleware = require("../middleware/domainMiddleware");
@@ -58,4 +59,5 @@ router.get("/locationDealers", getDealersByLocation);
 // 🔥 AREA PROPERTIES
 router.get("/properties/:area", getPropertiesByArea);
 
+router.get("/haryana-location-filter", haryanaLocationFilter);
 module.exports = router;

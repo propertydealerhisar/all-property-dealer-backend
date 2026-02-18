@@ -251,8 +251,9 @@ exports.getAllDataWithFallback = async (req, res) => {
 exports.getAllDataByState = async (req, res) => {
   try {
     let state = req.params.state;
+    let { page = 1, limit = 100, city } = req.query;
 
-    // 1. STATE VALIDATION
+    // ================= VALIDATION =================
     if (!state || state.trim() === "") {
       return res.status(400).json({
         success: false,
@@ -261,66 +262,63 @@ exports.getAllDataByState = async (req, res) => {
     }
 
     state = state.trim();
+    page = parseInt(page);
+    limit = parseInt(limit);
 
-    console.log("Searching state =>", state);
+    if (page < 1) page = 1;
+    if (limit > 200) limit = 100; // safety cap
 
-    // 2. SAFE REGEX MATCH
-    const matchQuery = {
-      state: { $regex: new RegExp("^" + state.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$", "i") }
+    // ================= DEFAULT CITY =================
+    if (!city || city.trim() === "") {
+      city = "Faridabad"; // ✅ Default City
+    }
+
+    // ================= BUILD QUERY =================
+    const query = {
+      state: { 
+        $regex: new RegExp("^" + state.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$", "i") 
+      },
+      city: { 
+        $regex: new RegExp("^" + city.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$", "i") 
+      }
     };
 
-    // 3. CHECK DATA EXISTS
-    const total = await Dealer.countDocuments(matchQuery);
+    console.log("Searching:", query);
+
+    // ================= COUNT =================
+    const total = await Dealer.countDocuments(query);
 
     if (total === 0) {
       return res.status(404).json({
         success: false,
-        message: "No dealers found for this state",
-        state: state
+        message: "No dealers found",
+        state,
+        city
       });
     }
 
-    // 4. LIMIT CONTROL (for safety)
-    const MAX_LIMIT = 2000;
-    const sampleSize = total > MAX_LIMIT ? MAX_LIMIT : total;
+    // ================= PAGINATION =================
+    const skip = (page - 1) * limit;
 
-    // 5. AGGREGATION WITH ERROR SAFE PIPELINE
-    const list = await Dealer.aggregate([
-      { $match: matchQuery },
-      { $sample: { size: sampleSize } }
-    ]);
+    const dealers = await Dealer.find(query)
+      .skip(skip)
+      .limit(limit)
+      .sort({ createdAt: -1 }); // newest first
 
-    // 6. FINAL SUCCESS RESPONSE
     return res.json({
       success: true,
-      state: state,
+      state,
+      city,
+      currentPage: page,
+      totalPages: Math.ceil(total / limit),
       totalRecords: total,
-      returnedRecords: list.length,
-      data: list
+      returnedRecords: dealers.length,
+      data: dealers
     });
 
   } catch (err) {
     console.error("GET DATA BY STATE ERROR:", err);
 
-    // 7. HANDLE MONGODB ERRORS
-    if (err.name === "MongoError") {
-      return res.status(503).json({
-        success: false,
-        message: "Database error occurred",
-        error: err.message
-      });
-    }
-
-    // 8. REGEX OR QUERY ERROR
-    if (err.name === "SyntaxError") {
-      return res.status(400).json({
-        success: false,
-        message: "Invalid state format",
-        error: err.message
-      });
-    }
-
-    // 9. DEFAULT SERVER ERROR
     return res.status(500).json({
       success: false,
       message: "Internal Server Error",
@@ -328,6 +326,7 @@ exports.getAllDataByState = async (req, res) => {
     });
   }
 };
+
 
 
 
@@ -567,6 +566,65 @@ exports.getPropertiesByArea = async (req, res) => {
     return res.status(500).json({
       success: false,
       message: "Server error"
+    });
+  }
+};
+
+
+
+exports.haryanaLocationFilter = async (req, res) => {
+  try {
+    const { city, location } = req.query;
+
+    if (!city) {
+      return res.status(400).json({
+        success: false,
+        message: "City is required",
+      });
+    }
+
+    const cityRegex = new RegExp(city.trim(), "i");
+
+    let matchedDealers = [];
+
+    // 🔹 Step 1: Location matched dealers
+    if (location && location.trim() !== "") {
+      const locationRegex = new RegExp(location.trim(), "i");
+
+      matchedDealers = await Dealer.find({
+        city: cityRegex,
+        address: locationRegex,
+      });
+    }
+
+    // 🔹 Step 2: Random dealers (excluding matched ones)
+    const matchedIds = matchedDealers.map(d => d._id);
+
+    const randomDealers = await Dealer.aggregate([
+      {
+        $match: {
+          city: cityRegex,
+          _id: { $nin: matchedIds }
+        }
+      },
+      { $sample: { size: 30 } }
+    ]);
+
+    // 🔹 Step 3: Combine → matched first, then random
+    const finalDealers = [...matchedDealers, ...randomDealers].slice(0, 30);
+
+    return res.status(200).json({
+      success: true,
+      count: finalDealers.length,
+      matchedCount: matchedDealers.length,
+      data: finalDealers,
+    });
+
+  } catch (error) {
+    console.error("Haryana location filter error:", error);
+    res.status(500).json({
+      success: false,
+      message: "Server Error",
     });
   }
 };
