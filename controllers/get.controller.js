@@ -283,7 +283,7 @@ exports.getAllDataByState = async (req, res) => {
       }
     };
 
-    console.log("Searching:", query);
+    // console.log("Searching:", query);
 
     // ================= COUNT =================
     const total = await Dealer.countDocuments(query);

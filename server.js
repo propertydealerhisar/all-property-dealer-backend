@@ -31,6 +31,8 @@ const corsOptions = {
    "https://www.propertydealerinhisar.com",
    "https://propertydealerinfaridabad.com/",
    "https://www.propertydealerinfaridabad.com",
+   "https://propertydealerinnoida.com/",
+   "https://www.propertydealerinnoida.com",
     "https://www.projectwallah.live",
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
