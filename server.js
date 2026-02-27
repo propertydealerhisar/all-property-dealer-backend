@@ -40,6 +40,7 @@ const corsOptions = {
    "https://propertyforsalenearme.in",
    "https://www.propertyforsalenearme.in",
     "https://www.projectwallah.live",
+    "https://all-property-dealers.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true,
