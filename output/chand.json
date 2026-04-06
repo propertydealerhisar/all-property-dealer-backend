@@ -1,0 +1,632 @@
+[
+  {
+    "name": "Ashoka Associates | Best property dealer in Chandigarh",
+    "address": "Plot no 800, Industrial Area, Ram Darbar, Chandigarh 160002",
+    "slug": "ashoka-associates-best-property-dealer-in-chandigarh",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "CCS Real Estate Private Limited",
+    "address": "B210, 2nd floor, &, Elante Mall Office Complex, Business Park, Industrial Area Phase I, Chandigarh, 160002",
+    "slug": "ccs-real-estate-private-limited",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Puri Properties",
+    "address": "booth no 50, In Main Market, Modern Housing Complex, Sector 13, Chandigarh, 160101",
+    "slug": "puri-properties",
+    "city": "Chandigarh",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "Negi Associates | Property Consultants | Rental Home & Flats | Best Property Dealer in Chandigarh",
+    "address": "ground floor, Quit office 12, Sector 35 Market Rd, 35A, Sector 35, Chandigarh, 160022",
+    "slug": "negi-associates-property-consultants-rental-home-flats-best-property-dealer-in-chandigarh",
+    "city": "Chandigarh",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "NEXTGEN",
+    "address": "Phase 9, Sahibzada Ajit Singh Nagar, Punjab 160062",
+    "slug": "nextgen",
+    "city": "Chandigarh",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Luckypropertywala | Kothi For Sale in Chandigarh | Flat For Sale in Mohali | Flat For Sale in Panchkula",
+    "address": "Booth No-162, Sector 38C, Sector 38, Chandigarh, 160014",
+    "slug": "luckypropertywala-kothi-for-sale-in-chandigarh-flat-for-sale-in-mohali-flat-for-sale-in-panchkula",
+    "city": "Chandigarh",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Niwas Property",
+    "address": "H.No 2910 Housing Board Flats, Sector 49 D, Sahibzada Ajit Singh Nagar, Punjab 160062",
+    "slug": "niwas-property",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Brij Properties Sachin Walia",
+    "address": "First Floor, Cabin No. 102, S.C.O. 144-145, Sector 34B, Sector 34, Chandigarh, 160022",
+    "slug": "brij-properties-sachin-walia",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Shyam Property Consultants",
+    "address": "Booth No. 10, Sector 49B, Block B, Sector 49, Chandigarh, 160047",
+    "slug": "shyam-property-consultants",
+    "city": "Chandigarh",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "Kamal Estates ( Property Dealer Chandigarh| Property Consultants| Real Estate Agent) - Best Property Dealers In Chandigarh",
+    "address": "S.C.O-209, Sector 36-D, Sector 36, Chandigarh, 160036",
+    "slug": "kamal-estates-property-dealer-chandigarh-property-consultants-real-estate-agent-best-property-dealers-in-chandigarh",
+    "city": "Chandigarh",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "SANKALP REAL ESTATES",
+    "address": "SPACEJAM, SCO 50-51, Sector 34A, Sector 34, Chandigarh, 160035",
+    "slug": "sankalp-real-estates",
+    "city": "Chandigarh",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Veekay Property Dealers (Regd.)",
+    "address": "SCO 1116-1117, Sector 22B, Sector 22, Chandigarh, 160022",
+    "slug": "veekay-property-dealers-regd",
+    "city": "Chandigarh",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Property Dealers New Chandigarh",
+    "address": "9th Floor, India Trade Tower, New Chandigarh, Punjab 140901",
+    "slug": "property-dealers-new-chandigarh",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Malhotra Properties - Property Dealer in New Chandigarh - Omaxe Property Dealer New Chandigarh - Property in New Chandigarh",
+    "address": "Booth No 100, Clockton Street Market, Omaxe Phase 1, Sector 13, New Chandigarh, Punjab 140901",
+    "slug": "malhotra-properties-property-dealer-in-new-chandigarh-omaxe-property-dealer-new-chandigarh-property-in-new-chandigarh",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Property Dealers in New Chandigarh)Vrindavan Estate| Omaxe New Chandigarh| Residential/Commercial Property|Real Estate Agent",
+    "address": "Booth No 80, Clocktown street, Market, New Chandigarh, Punjab 140901",
+    "slug": "property-dealers-in-new-chandigarhvrindavan-estate-omaxe-new-chandigarh-residentialcommercial-propertyreal-estate-agent",
+    "city": "Chandigarh",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "Bhalla Property Consultants",
+    "address": "Shop No. 92, Circular Road, Burail, Sector 45C, Chandigarh, 160047",
+    "slug": "bhalla-property-consultants",
+    "city": "Chandigarh",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "The Property Safari",
+    "address": "Plot Number 66, 2nd Floor, Industrial Area Phase 2, Justdial Limited, Chandigarh, 160002",
+    "slug": "the-property-safari",
+    "city": "Chandigarh",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Maa Jwalamukhi Property Consultant",
+    "address": "35A, Sector 35, Chandigarh, 160022",
+    "slug": "maa-jwalamukhi-property-consultant",
+    "city": "Chandigarh",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Ganpati Real Estates",
+    "address": "SCO 1128-29, 1st Floor, Cabin No. 6, Himalaya Marg, Sector 22B, Sector 22, Chandigarh, 160022",
+    "slug": "ganpati-real-estates",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Gill Real Estate ( Regd.)",
+    "address": "Ground Floor, Army Complex, 17, Sector 44 A, Chandigarh, 160043",
+    "slug": "gill-real-estate-regd",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Dhawan Properties",
+    "address": "1704, Sector 22B, Sector 22, Chandigarh, 160022",
+    "slug": "dhawan-properties",
+    "city": "Chandigarh",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "MultiGains Real Estate",
+    "address": "Booth No-135/1, Above HDFC ATM, Burail, Sector 45C, Sector 45, Chandigarh, 160047",
+    "slug": "multigains-real-estate",
+    "city": "Chandigarh",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "Sanjeev Properties",
+    "address": "S.C.O 34, Second Floor, Sector 7-C, Sector 7, Chandigarh, 160019",
+    "slug": "sanjeev-properties",
+    "city": "Chandigarh",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Shiv properties",
+    "address": "BOOTH NO 42, MHC MANIMAJRA, Modern Housing Complex, Sector 13, Chandigarh, 160101",
+    "slug": "shiv-properties",
+    "city": "Chandigarh",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "DURGA PROPERTIES - BEST DEALS IN OMAXE, DLF, ECOCITY, AMBIKA, THE ADDRESS, NEW CHANDIGARH, CHANDIGARH, MOHALI, PANCHKULA",
+    "address": "13, near panjab University, Sector 15-A, Sector 15, Chandigarh, 160015",
+    "slug": "durga-properties-best-deals-in-omaxe-dlf-ecocity-ambika-the-address-new-chandigarh-chandigarh-mohali-panchkula",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "BUDHIRAJA PROPERTY CONSULTANT(Regd.)- Real Estate Agent for Panchkula, Chandigarh and Mohali, Best Proper Dealers",
+    "address": "Shop Number 33, Sector 15, Panchkula, Haryana 134113",
+    "slug": "budhiraja-property-consultantregd-real-estate-agent-for-panchkula-chandigarh-and-mohali-best-proper-dealers",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "MAINI PROPERTIES",
+    "address": "BOOTH NO- 10, Sector 51A, Sector 51, Chandigarh, 160043",
+    "slug": "maini-properties",
+    "city": "Chandigarh",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "Evergreen Property- Dealer New Chandigarh",
+    "address": "Silver birch, Omaxe Phase 1, 246 i, New Chandigarh, Punjab 140901",
+    "slug": "evergreen-property-dealer-new-chandigarh",
+    "city": "Chandigarh",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "Cheema Real Estate",
+    "address": "337, Dakshin Marg, Industrial Area Phase I, Chandigarh, 160002",
+    "slug": "cheema-real-estate",
+    "city": "Chandigarh",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Goel Properties",
+    "address": "Sco 76-77, Level 1, Madhya Marg, Sector 8C, Chandigarh, 160009",
+    "slug": "goel-properties",
+    "city": "Chandigarh",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Charanjit Properties",
+    "address": "Booth 1, 39B, Sector 39, Chandigarh, 160036",
+    "slug": "charanjit-properties",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Champions Property | Real Estate Agency",
+    "address": "Phase 4, Sector 59, Sahibzada Ajit Singh Nagar, Punjab 160059",
+    "slug": "champions-property-real-estate-agency",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Plutus Realtors | Real Estate Agent in Chandigarh | Property Dealers in Mohali, Chandigarh",
+    "address": "237, Sector 41A, Sector 41, Chandigarh, 160036",
+    "slug": "plutus-realtors-real-estate-agent-in-chandigarh-property-dealers-in-mohali-chandigarh",
+    "city": "Chandigarh",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "wadhawan real estate",
+    "address": "sco no. 37, sec no 8B, inner market, near Subway, 8B, Sector 8, Chandigarh, 160009",
+    "slug": "wadhawan-real-estate",
+    "city": "Chandigarh",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "RS Realtors - Property dealer in new chandigarh - Real estate new chandigarh - Omaxe property dealer new chandigarh -",
+    "address": "11th Floor, India Trade Tower, 1103-B, New Chandigarh, Punjab 140901",
+    "slug": "rs-realtors-property-dealer-in-new-chandigarh-real-estate-new-chandigarh-omaxe-property-dealer-new-chandigarh-",
+    "city": "Chandigarh",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "World Property Centre",
+    "address": "SCO 2413-14, Sector 22C, Sector 22, Chandigarh, 160022",
+    "slug": "world-property-centre",
+    "city": "Chandigarh",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Corp ProLease - Property Dealer",
+    "address": "4th floor, SCO 134-135-136, Sub. City Center, Sector 34A, Sector 34, Chandigarh, 160022",
+    "slug": "corp-prolease-property-dealer",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Rajesh Estates",
+    "address": "first floor, Sector 44D, Sco 372, Sector 44D, Sector 44, Chandigarh, 160047",
+    "slug": "rajesh-estates",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Gulati Estates",
+    "address": "SCO 1, Sector 27D, Sector 27, Chandigarh, 160019",
+    "slug": "gulati-estates",
+    "city": "Chandigarh",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "GuruDev Property",
+    "address": "57, 1, near VerkaBooth, Sector 41A, Sector 41, Chandigarh, 160036",
+    "slug": "gurudev-property",
+    "city": "Chandigarh",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "Rama Property Consultants",
+    "address": "House 40 Army Complex, Sector 44 A, Chandigarh, 160043",
+    "slug": "rama-property-consultants",
+    "city": "Chandigarh",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Sunil Properties",
+    "address": "Plot no. 73, Industrial Area Phase II, Chandigarh, 160002",
+    "slug": "sunil-properties",
+    "city": "Chandigarh",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Bdesk Chandigarh",
+    "address": "Sub. City Center, Sector 34B, Sector 34, Chandigarh, 160022",
+    "slug": "bdesk-chandigarh",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Lakshmi Real Estate",
+    "address": "3338, Sector, 23D, Chandigarh, 160023",
+    "slug": "lakshmi-real-estate",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Goel property",
+    "address": "Booth no.29, 44C, market, Chandigarh, 160043",
+    "slug": "goel-property",
+    "city": "Chandigarh",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "Inderjit Properties",
+    "address": "GF, SCO 188-190, Sub. City Center, Sector 34A, Sector 34, Chandigarh, 160022",
+    "slug": "inderjit-properties",
+    "city": "Chandigarh",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "Tolet Service In Mohali",
+    "address": "",
+    "slug": "tolet-service-in-mohali",
+    "city": "Chandigarh",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Gurjashan Bhandal",
+    "address": "1084/2, 39B, Sector 39, Chandigarh, 160014",
+    "slug": "gurjashan-bhandal",
+    "city": "Chandigarh",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "BUNNY REALTORS - Omaxe Property Dealer - Real Estate Consultant",
+    "address": "12th, India Trade Tower Omaxe, 1206-A, New Chandigarh, Sahibzada Ajit Singh Nagar, Punjab 140901",
+    "slug": "bunny-realtors-omaxe-property-dealer-real-estate-consultant",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "GR Properties",
+    "address": "GR Properties, SCO 120-121, Second Floor, Sector 8-C, Madhya Marg, Chandigarh, 160009",
+    "slug": "gr-properties",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Yours Property",
+    "address": "1st Floor, SCO No.449-450, 35C, Sector 35, Chandigarh, 160022",
+    "slug": "yours-property",
+    "city": "Chandigarh",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "Peoples Property Point | Property Dealers In Zirakpur",
+    "address": "House no. 15, Old Kalka Ambala Rd, opposite Dadoo Dairy, Ms Enclave, Dhakoli, Zirakpur, Punjab 160104",
+    "slug": "peoples-property-point-property-dealers-in-zirakpur",
+    "city": "Chandigarh",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "Fateh Estate | Best Property Dealer In New Chandigarh",
+    "address": "Eco City 2, 281, New Chandigarh, Punjab 140901",
+    "slug": "fateh-estate-best-property-dealer-in-new-chandigarh",
+    "city": "Chandigarh",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "Subhash Mangat & Co",
+    "address": "sco 1132, Sector 22B, Sector 22, Chandigarh, 160022",
+    "slug": "subhash-mangat-co",
+    "city": "Chandigarh",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Bajaj Real Estates",
+    "address": "Block B, CSIO Colony, Chandigrah, Sector 30, Sahibzada Ajit Singh Nagar, Panchkula, Chandigarh 160030",
+    "slug": "bajaj-real-estates",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "Arju Property Consultant",
+    "address": "Block T, B03-00300, Shivalik vihar, Nayagaon, Punjab 160103",
+    "slug": "arju-property-consultant",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Eminent Housing - Property Dealers in Mohali, Chandigarh",
+    "address": "SCO No 67, Second Floor, Sector 82, JLPL Industrial Area, Sahibzada Ajit Singh Nagar, Punjab 140306",
+    "slug": "eminent-housing-property-dealers-in-mohali-chandigarh",
+    "city": "Chandigarh",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  },
+  {
+    "name": "Excellent Properties",
+    "address": "Sco-75, First Floor, Sector 38C, Sector 38, Chandigarh, 160014",
+    "slug": "excellent-properties",
+    "city": "Chandigarh",
+    "tags": [
+      "Apartment Rental",
+      "Estate Agents for Residential Space"
+    ]
+  },
+  {
+    "name": "Manish From White Deal Realtors",
+    "address": "SCO 80-81, 15D, Sector 15, Chandigarh, 160015",
+    "slug": "manish-from-white-deal-realtors",
+    "city": "Chandigarh",
+    "tags": [
+      "House Rentals for Family",
+      "Real Estate Agents for House Sell/Purchase"
+    ]
+  },
+  {
+    "name": "SIYARAM ESTATES",
+    "address": "Sco -26 second floor, Block C, Sector 27, Chandigarh, 160019",
+    "slug": "siyaram-estates",
+    "city": "Chandigarh",
+    "tags": [
+      "Estate Agents for Commercial Rental",
+      "Estate Agents for Residence"
+    ]
+  },
+  {
+    "name": "Saxam Real Estate",
+    "address": "S.C.F 12 C Chandigarh, Sector 20, Chandigarh, 160020",
+    "slug": "saxam-real-estate",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate agents for Flat Sell/Purchase",
+      "Estate Agent for Leasehold"
+    ]
+  },
+  {
+    "name": "S. K. Properties",
+    "address": "First Floor, SCO 219, 40D, Sector 40D, Chandigarh, 160036",
+    "slug": "s-k-properties",
+    "city": "Chandigarh",
+    "tags": [
+      "Real Estate Agents for To-Let Service",
+      "Real Estate Agents"
+    ]
+  },
+  {
+    "name": "Kartik Real Estate",
+    "address": "Booth No. 5, Sector 44-C, Chandigarh, 160043",
+    "slug": "kartik-real-estate",
+    "city": "Chandigarh",
+    "tags": [
+      "Trusted Property Dealer",
+      "Real Estate Broker for Residence"
+    ]
+  }
+]

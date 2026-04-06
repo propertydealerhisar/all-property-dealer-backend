@@ -15,36 +15,51 @@ exports.getAllData = async (req, res) => {
     const withoutWWW = domain.replace("www.", "");
     const withWWW = "www." + withoutWWW;
 
-    // Pagination params
+    // Pagination
     let page = parseInt(req.query.page) || 1;
-    let limit = parseInt(req.query.limit) || 10;
+    let limit = parseInt(req.query.limit) || 100;
     const search = req.query.search ? req.query.search.trim() : "";
+    const location = req.query.location ? req.query.location.trim() : "";
 
     if (page < 1) page = 1;
-    if (limit < 1 || limit > 500) limit = 10;
+    if (limit < 1 || limit > 500) limit = 100;
 
     const skip = (page - 1) * limit;
 
-    // Base match query
+    // =====================================================
+    // 🔥 COMBINE SEARCH + LOCATION
+    // =====================================================
+    const finalSearch = `${search} ${location}`.trim();
+
+    // =====================================================
+    // BASE MATCH
+    // =====================================================
     let matchQuery = {
-      $or: [
-        { domain: withoutWWW },
-        { domain: withWWW }
+      $and: [
+        {
+          $or: [
+            { domain: withoutWWW },
+            { domain: withWWW }
+          ]
+        }
       ]
     };
 
-    // Add search condition
-    if (search.length > 0) {
-      matchQuery.$text = { $search: search };
+    // =====================================================
+    // 🔥 TEXT SEARCH APPLY
+    // =====================================================
+    if (finalSearch) {
+      matchQuery.$and.push({
+        $text: {
+          $search: finalSearch
+        }
+      });
     }
 
-    // Check domain exists
-    const domainExists = await Dealer.exists({
-      $or: [
-        { domain: withoutWWW },
-        { domain: withWWW }
-      ]
-    });
+    // =====================================================
+    // CHECK DOMAIN
+    // =====================================================
+    const domainExists = await Dealer.exists(matchQuery);
 
     if (!domainExists) {
       return res.status(404).json({
@@ -53,27 +68,48 @@ exports.getAllData = async (req, res) => {
       });
     }
 
-    // Total records count
+    // =====================================================
+    // COUNT
+    // =====================================================
     const totalRecords = await Dealer.countDocuments(matchQuery);
     const totalPages = Math.ceil(totalRecords / limit);
 
-    // Aggregation pipeline
+    // =====================================================
+    // PIPELINE
+    // =====================================================
     let pipeline = [
       { $match: matchQuery }
     ];
 
-    if (search.length > 0) {
-      // SEARCH MODE → sort by textScore
+    // =====================================================
+    // 🔥 SORT LOGIC
+    // =====================================================
+    if (finalSearch) {
       pipeline.push(
-        { $addFields: { score: { $meta: "textScore" } } },
-        { $sort: { score: -1 } },
+        {
+          $addFields: {
+            score: { $meta: "textScore" } // 🔥 main power
+          }
+        },
+        {
+          $sort: {
+            score: -1,          // 🔥 best match top
+            subscription: -1,   // 🔥 verified next
+            createdAt: -1
+          }
+        },
         { $skip: skip },
         { $limit: limit }
       );
     } else {
-      // RANDOM SHUFFLE MODE
+      // no search → normal
       pipeline.push(
-        { $sample: { size: totalRecords } }, // shuffle all matched records
+        {
+          $sort: {
+            subscription: -1,
+            createdAt: -1
+          }
+        },
         { $skip: skip },
         { $limit: limit }
       );
@@ -625,6 +661,330 @@ exports.haryanaLocationFilter = async (req, res) => {
     res.status(500).json({
       success: false,
       message: "Server Error",
+    });
+  }
+};
+
+
+
+
+// search ka liye api ha ya
+// controllers/searchController.js
+
+
+
+exports.searchDealers = async (req, res) => {
+  try {
+    let { q, domain, page = 1, limit = 50 } = req.query;
+
+    q = q?.trim();
+    domain = domain?.trim();
+    page = Number(page) || 1;
+    limit = Number(limit) || 10;
+
+    if (!q) {
+      return res.status(400).json({
+        success: false,
+        message: "Search query (q) is required",
+      });
+    }
+
+    if (!domain) {
+      return res.status(400).json({
+        success: false,
+        message: "Domain is required",
+      });
+    }
+
+    const skip = (page - 1) * limit;
+
+    // 🔥 Base filter (IMPORTANT)
+    const baseFilter = {
+      domain: domain   // 👈 yahi main logic hai
+    };
+
+    let dealers;
+    let query;
+
+    // 🔹 SHORT QUERY → REGEX
+    if (q.length < 3) {
+      query = {
+        ...baseFilter,
+        $or: [
+          { name: { $regex: q, $options: "i" } },
+          { address: { $regex: q, $options: "i" } },
+          { area: { $regex: q, $options: "i" } },
+          { tags: { $regex: q, $options: "i" } }
+        ]
+      };
+
+      dealers = await Dealer.find(query)
+        .skip(skip)
+        .limit(limit);
+
+    } else {
+      // 🔥 TEXT SEARCH
+      query = {
+        ...baseFilter,
+        $text: { $search: q }
+      };
+
+      dealers = await Dealer.find(
+        query,
+        { score: { $meta: "textScore" } }
+      )
+        .sort({ score: { $meta: "textScore" } })
+        .skip(skip)
+        .limit(limit);
+    }
+
+    // 🔹 total count
+    const total = await Dealer.countDocuments(query);
+
+    res.status(200).json({
+      success: true,
+      domain,
+      page,
+      limit,
+      total,
+      totalPages: Math.ceil(total / limit),
+      data: dealers,
+    });
+
+  } catch (error) {
+    console.error("Search Error:", error);
+
+    res.status(500).json({
+      success: false,
+      message: "Server Error",
+      error: error.message,
+    });
+  }
+};
+// ************************************************************************
+
+exports.getAllData2 = async (req, res) => {
+  try {
+    // 🔥 PARAMS (domain required)
+    const { domain } = req.params;
+
+    if (!domain) {
+      return res.status(400).json({
+        success: false,
+        message: "Domain is required",
+      });
+    }
+
+    // 🔥 QUERY PARAMS
+    let { page = 1, limit = 50, search } = req.query;
+
+    page = parseInt(page);
+    limit = parseInt(limit);
+
+    const skip = (page - 1) * limit;
+
+    // 🔥 BASE FILTER (DOMAIN FIRST)
+    let baseFilter = { domain };
+
+    let data = [];
+    let totalDocs = 0;
+
+    // =====================================================
+    // 🔍 CASE 1: SEARCH AVAILABLE → TEXT INDEX SEARCH
+    // =====================================================
+    if (search && search.trim() !== "") {
+      const searchFilter = {
+        ...baseFilter,
+        $text: { $search: search }
+      };
+
+      totalDocs = await Dealer.countDocuments(searchFilter);
+
+      data = await Dealer.find(searchFilter, {
+        score: { $meta: "textScore" },
+      })
+        .sort({ score: { $meta: "textScore" } }) // best match first
+        .skip(skip)
+        .limit(limit);
+    } 
+    
+    // =====================================================
+    // 🎲 CASE 2: NO SEARCH → RANDOM DATA
+    // =====================================================
+    else {
+      // count total docs for pagination
+      totalDocs = await Dealer.countDocuments(baseFilter);
+
+      data = await Dealer.aggregate([
+        { $match: baseFilter },
+        { $sample: { size: limit } }, // random docs
+      ]);
+    }
+
+    // 🔥 PAGINATION DETAILS
+    const totalPages = Math.ceil(totalDocs / limit);
+
+    return res.status(200).json({
+      success: true,
+      page,
+      limit,
+      totalPages,
+      totalDocs,
+      count: data.length,
+      data,
+    });
+
+  } catch (error) {
+    console.error("ERROR:", error);
+    return res.status(500).json({
+      success: false,
+      message: "Server Error",
+    });
+  }
+};
+// ************************************************************************
+exports.getDealers = async (req, res) => {
+  try {
+    const { domain } = req.params;
+    let { search, page = 1, limit = 10 } = req.query;
+    console.log("Getting dealers for domain:", search===" ");
+
+    page = parseInt(page);
+    limit = parseInt(limit);
+
+    const skip = (page - 1) * limit;
+
+    // 🔹 COMMON TOTAL (for random cases)
+    const totalDomainDocs = await Dealer.countDocuments({ domain });
+
+    // =========================================================
+    // 🔹 CASE 1: NO SEARCH → RANDOM WITH PAGINATION
+    // =========================================================
+    if (!search || search.trim() === "") {
+      console.log("No search query, returning random data...");
+      const data = await Dealer.find({ domain })
+        .skip(skip)
+        .limit(limit);
+
+      return res.json({
+        success: true,
+        pagination: {
+          page,
+          limit,
+          totalDocs: totalDomainDocs,
+          totalPages: Math.ceil(totalDomainDocs / limit)
+        },
+        data
+      });
+    }
+
+    // =========================================================
+    // 🔹 SEARCH EXISTS
+    // =========================================================
+
+    // 👉 total search count
+    const searchCount = await Dealer.countDocuments({
+      domain,
+      $text: { $search: search }
+    });
+
+    // =========================================================
+    // 🔹 CASE 2: searchCount >= 100 → PURE SEARCH PAGINATION
+    // =========================================================
+    if (searchCount >= 100) {
+      const data = await Dealer.find(
+        {
+          domain,
+          $text: { $search: search }
+        },
+        { score: { $meta: "textScore" } }
+      )
+        .sort({ score: { $meta: "textScore" } })
+        .skip(skip)
+        .limit(limit);
+
+      return res.json({
+        success: true,
+        pagination: {
+          page,
+          limit,
+          totalDocs: searchCount,
+          totalPages: Math.ceil(searchCount / limit)
+        },
+        data
+      });
+    }
+
+    // =========================================================
+    // 🔹 CASE 3: searchCount < 100
+    // =========================================================
+
+    // 👉 PAGE 1 → SEARCH + RANDOM FILL (till 100)
+    if (page === 1) {
+      const searchResults = await Dealer.find(
+        {
+          domain,
+          $text: { $search: search }
+        },
+        { score: { $meta: "textScore" } }
+      ).sort({ score: { $meta: "textScore" } });
+
+      const remaining = 100 - searchResults.length;
+
+      let randomData = [];
+
+      if (remaining > 0) {
+        randomData = await Dealer.aggregate([
+          {
+            $match: {
+              domain,
+              _id: { $nin: searchResults.map(d => d._id) }
+            }
+          },
+          { $sample: { size: remaining } }
+        ]);
+      }
+
+      const combined = [...searchResults, ...randomData];
+
+      const paginatedData = combined.slice(0, limit);
+
+      return res.json({
+        success: true,
+        pagination: {
+          page,
+          limit,
+          totalDocs: combined.length, // max 100
+          totalPages: Math.ceil(combined.length / limit)
+        },
+        data: paginatedData
+      });
+    }
+
+    // =========================================================
+    // 👉 PAGE > 1 → RANDOM ONLY
+    // =========================================================
+    const data = await Dealer.aggregate([
+      { $match: { domain } },
+      { $sample: { size: limit } }
+    ]);
+
+    return res.json({
+      success: true,
+      pagination: {
+        page,
+        limit,
+        totalDocs: totalDomainDocs,
+        totalPages: Math.ceil(totalDomainDocs / limit)
+      },
+      data
+    });
+
+  } catch (error) {
+    console.error("Error in getDealers:", error);
+    return res.status(500).json({
+      success: false,
+      message: "Server Error"
     });
   }
 };

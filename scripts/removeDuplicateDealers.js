@@ -1,72 +1,64 @@
 const fs = require("fs");
+const path = require("path");
 
-// ===== CONFIG =====
-const FILE_PATH = "./Central-delhi/emerged.json";
-// ==================
+// 👉 INPUT FILE
+const INPUT_FILE = "./data/chand.json";
 
-try {
-  const raw = fs.readFileSync(FILE_PATH, "utf-8");
-  const data = JSON.parse(raw);
+// 👉 OUTPUT FOLDER
+const OUTPUT_FOLDER = "./output";
 
-  if (!Array.isArray(data)) {
-    console.log("❌ JSON file array format me nahi hai");
-    process.exit(1);
-  }
+const UNIQUE_FILE = path.join(OUTPUT_FOLDER, "unique.json");
+const DUPLICATE_FILE = path.join(OUTPUT_FOLDER, "duplicates.json");
 
-  console.log(`Total Records Before: ${data.length}`);
+// 👉 slug generator
+const generateSlug = (text) => {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
+};
 
-  const uniqueMap = new Map();
-  const slugSet = new Set();
-
-  let duplicateCount = 0;
-  let emptyAddressCount = 0;
-  let slugDuplicateCount = 0;
-
-  data.forEach(item => {
-    const name = (item.name || "").toLowerCase().trim();
-    const address = (item.address || "").toLowerCase().trim();
-    const slug = (item.slug || "").toLowerCase().trim();
-
-    // 🔴 REMOVE EMPTY ADDRESS RECORDS
-    if (!address) {
-      emptyAddressCount++;
-      return;
-    }
-
-    // 🔴 REMOVE SLUG DUPLICATES
-    if (slugSet.has(slug)) {
-      slugDuplicateCount++;
-      return;
-    }
-
-    // mark slug as used
-    slugSet.add(slug);
-
-    // name + address ko unique key banaya
-    const key = `${name}___${address}`;
-
-    if (!uniqueMap.has(key)) {
-      uniqueMap.set(key, item);
-    } else {
-      duplicateCount++;
-    }
-  });
-
-  const uniqueData = Array.from(uniqueMap.values());
-
-  console.log(`Total Records After: ${uniqueData.length}`);
-  console.log(`Removed Name+Address Duplicates: ${duplicateCount}`);
-  console.log(`Removed Empty Address Records: ${emptyAddressCount}`);
-  console.log(`Removed Slug Duplicates: ${slugDuplicateCount}`);
-
-  fs.writeFileSync(
-    FILE_PATH,
-    JSON.stringify(uniqueData, null, 2),
-    "utf-8"
-  );
-
-  console.log("✅ CLEANUP DONE → Empty Address + Duplicates + Slug Duplicates Removed!");
-
-} catch (err) {
-  console.log("❌ Error:", err.message);
+// 👉 create folder
+if (!fs.existsSync(OUTPUT_FOLDER)) {
+  fs.mkdirSync(OUTPUT_FOLDER);
 }
+
+// 👉 read data
+const rawData = fs.readFileSync(INPUT_FILE, "utf-8");
+let data = JSON.parse(rawData);
+
+if (!Array.isArray(data)) {
+  data = [data];
+}
+
+// 👉 process
+const slugMap = new Map();
+const unique = [];
+const duplicates = [];
+
+data.forEach((item) => {
+  const slug = item.slug || generateSlug(item.name || "");
+
+  if (slugMap.has(slug)) {
+    duplicates.push({
+      ...item,
+      slug,
+    });
+  } else {
+    slugMap.set(slug, true);
+    unique.push({
+      ...item,
+      slug,
+    });
+  }
+});
+
+// 👉 save files
+fs.writeFileSync(UNIQUE_FILE, JSON.stringify(unique, null, 2));
+fs.writeFileSync(DUPLICATE_FILE, JSON.stringify(duplicates, null, 2));
+
+console.log("✅ Unique saved:", unique.length);
+console.log("❌ Duplicates saved:", duplicates.length);
+console.log("🔥 Done bhai!");
