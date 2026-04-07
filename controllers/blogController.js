@@ -332,3 +332,38 @@ exports.getNextBlog = async (req, res) => {
     });
   }
 };
+
+
+
+//================================================================================
+exports. getBlogSlugsByDomain = async (req, res) => {
+  try {
+    const { domain } = req.query;
+
+    if (!domain) {
+      return res.status(400).json({
+        success: false,
+        message: "Domain is required",
+      });
+    }
+
+    const cleanDomain = domain.replace(/^www\./, "").trim();
+
+    const blogs = await Blog.find({ domain: cleanDomain })
+      .select("slug -_id");
+
+    return res.status(200).json({
+      success: true,
+      count: blogs.length,
+      data: blogs,
+    });
+
+  } catch (error) {
+    console.error("Blog Error:", error);
+
+    return res.status(500).json({
+      success: false,
+      message: "Server Error",
+    });
+  }
+};

@@ -159,63 +159,50 @@ exports.getSingleBySlug = async (req, res) => {
       });
     }
 
-    // 2. DOMAIN VALIDATION
-    if (!req.domain) {
+    // 2. DOMAIN GET (AUTO FIX 🔥)
+    const domain = req.headers.domain || req.hostname;
+
+    if (!domain) {
       return res.status(400).json({
         success: false,
         message: "Domain is missing in request",
       });
     }
 
-    // 3. FIND DEALER
-    const item = await Dealer.findOne({
-      domain: req.domain,
-      slug: slug.trim(),
-    });
+    // 3. FIND DEALER (ONLY REQUIRED FIELDS 🔥)
+    const item = await Dealer.findOne(
+      {
+        domain: domain,
+        slug: slug.trim(),
+      },
+      "name city state slug" // 👈 sirf ye fields
+    );
 
-    // 4. NOT FOUND HANDLING
+    // 4. NOT FOUND
     if (!item) {
       return res.status(404).json({
         success: false,
         message: "Dealer not found",
-        slug: slug,
-        domain: req.domain,
       });
     }
 
-    // 5. SUCCESS RESPONSE
+    // 5. CLEAN RESPONSE 🔥
     return res.json({
       success: true,
-      domain: req.domain,
-      data: item,
+      data: {
+        name: item.name,
+        city: item.city,
+        state: item.state,
+        slug: item.slug,
+      },
     });
 
   } catch (err) {
     console.error("GET SINGLE DEALER ERROR:", err);
 
-    // 6. INVALID OBJECT ID / QUERY ERROR
-    if (err.name === "CastError") {
-      return res.status(400).json({
-        success: false,
-        message: "Invalid slug format",
-        error: err.message,
-      });
-    }
-
-    // 7. MONGODB CONNECTION ERROR
-    if (err.name === "MongoError") {
-      return res.status(503).json({
-        success: false,
-        message: "Database error occurred",
-        error: err.message,
-      });
-    }
-
-    // 8. DEFAULT SERVER ERROR
     return res.status(500).json({
       success: false,
       message: "Internal Server Error",
-      error: err.message,
     });
   }
 };
@@ -610,7 +597,7 @@ exports.getPropertiesByArea = async (req, res) => {
 
 exports.haryanaLocationFilter = async (req, res) => {
   try {
-    const { city, location } = req.query;
+    const { city, location, search } = req.query;
 
     if (!city) {
       return res.status(400).json({
@@ -623,8 +610,22 @@ exports.haryanaLocationFilter = async (req, res) => {
 
     let matchedDealers = [];
 
-    // 🔹 Step 1: Location matched dealers
-    if (location && location.trim() !== "") {
+    // ✅ SEARCH WORKING (MAIN FIX)
+    if (search && search.trim() !== "") {
+      const searchRegex = new RegExp(search.trim(), "i");
+
+      matchedDealers = await Dealer.find({
+        city: cityRegex,
+        $or: [
+          { name: searchRegex },
+          { address: searchRegex },
+          { company: searchRegex },
+        ],
+      });
+    }
+
+    // ✅ LOCATION (fallback)
+    else if (location && location.trim() !== "") {
       const locationRegex = new RegExp(location.trim(), "i");
 
       matchedDealers = await Dealer.find({
@@ -633,20 +634,19 @@ exports.haryanaLocationFilter = async (req, res) => {
       });
     }
 
-    // 🔹 Step 2: Random dealers (excluding matched ones)
-    const matchedIds = matchedDealers.map(d => d._id);
+    // 🔹 Random dealers
+    const matchedIds = matchedDealers.map((d) => d._id);
 
     const randomDealers = await Dealer.aggregate([
       {
         $match: {
           city: cityRegex,
-          _id: { $nin: matchedIds }
-        }
+          _id: { $nin: matchedIds },
+        },
       },
-      { $sample: { size: 30 } }
+      { $sample: { size: 30 } },
     ]);
 
-    // 🔹 Step 3: Combine → matched first, then random
     const finalDealers = [...matchedDealers, ...randomDealers].slice(0, 30);
 
     return res.status(200).json({
@@ -657,14 +657,13 @@ exports.haryanaLocationFilter = async (req, res) => {
     });
 
   } catch (error) {
-    console.error("Haryana location filter error:", error);
+    console.error("Haryana filter error:", error);
     res.status(500).json({
       success: false,
       message: "Server Error",
     });
   }
 };
-
 
 
 
@@ -985,6 +984,112 @@ exports.getDealers = async (req, res) => {
     return res.status(500).json({
       success: false,
       message: "Server Error"
+    });
+  }
+};
+
+
+
+//==================================================================================
+// controllers/dealer.controller.js
+
+exports.getDealerBasicBySlug = async (req, res) => {
+  try {
+    const { slug } = req.params;
+
+    // 1. VALIDATION
+    if (!slug || slug.trim() === "") {
+      return res.status(400).json({
+        success: false,
+        message: "Slug is required",
+      });
+    }
+
+    // 2. DOMAIN (AUTO HANDLE 🔥)
+    const domain = req.headers.domain || req.hostname;
+
+    // 3. FIND ONLY REQUIRED DATA
+    const dealer = await Dealer.findOne(
+      {
+        slug: slug.trim(),
+        domain: domain,
+      },
+      "name city state slug" // 👈 only required fields
+    );
+
+    // 4. NOT FOUND
+    if (!dealer) {
+      return res.status(404).json({
+        success: false,
+        message: "Dealer not found",
+      });
+    }
+
+    // 5. SUCCESS RESPONSE
+    return res.status(200).json({
+      success: true,
+      data: {
+        name: dealer.name,
+        city: dealer.city,
+        state: dealer.state,
+        slug: dealer.slug,
+      },
+    });
+
+  } catch (error) {
+    console.error("GET DEALER BASIC ERROR:", error);
+
+    return res.status(500).json({
+      success: false,
+      message: "Server Error",
+    });
+  }
+};
+
+
+
+
+//=============================================================================================
+exports.getDealerSlugsByDomain = async (req, res) => {
+  try {
+    const { domain } = req.query;
+
+    if (!domain) {
+      return res.status(400).json({
+        success: false,
+        message: "Domain is required",
+      });
+    }
+
+    // 🔥 FULL CLEAN (important)
+    const cleanDomain = domain
+      .replace(/^https?:\/\//, "")
+      .replace(/\/$/, "")
+      .trim();
+
+    // 🔥 MATCH BOTH (www + non-www)
+    const dealer = await Dealer.find({
+      domain: {
+        $in: [
+          cleanDomain,
+          `www.${cleanDomain.replace(/^www\./, "")}`,
+          cleanDomain.replace(/^www\./, "")
+        ]
+      }
+    }).select("slug -_id");
+
+    return res.status(200).json({
+      success: true,
+      count: dealer.length,
+      data: dealer,
+    });
+
+  } catch (error) {
+    console.error("Dealer Controller Error:", error);
+
+    return res.status(500).json({
+      success: false,
+      message: "Server Error",
     });
   }
 };
