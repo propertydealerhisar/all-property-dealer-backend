@@ -1097,7 +1097,6 @@ exports.getDealerSlugsByDomain = async (req, res) => {
 
 //=====================================================
 exports.getAllDealerSlugs = async (req, res) => {
-
   try {
 
     const { city } = req.query;
@@ -1110,11 +1109,11 @@ exports.getAllDealerSlugs = async (req, res) => {
       });
     }
 
-    // 🔥 DB match (Haryana case-insensitive)
+    // 🔥 Haryana state ke sabhi dealers
     const dealers = await Dealer.find({
-      state: { $regex: /^haryana$/i } // ✅ BEST MATCH
+      state: { $regex: /^haryana$/i }
     })
-      .select("slug -_id") // only slug
+      .select("slug city -_id") // ✅ slug + city
       .lean();
 
     return res.status(200).json({
