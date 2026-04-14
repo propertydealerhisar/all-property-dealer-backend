@@ -37,7 +37,7 @@ const {
   getDealersByLocation,
   getPropertiesByArea,
   haryanaLocationFilter,
-  searchDealers,getAllData2,getDealers ,getDealerBasicBySlug,getDealerSlugsByDomain
+  searchDealers,getAllData2,getDealers ,getDealerBasicBySlug,getDealerSlugsByDomain,getAllDealerSlugs
 } = require("../controllers/get.controller");
 
 const domainMiddleware = require("../middleware/domainMiddleware");
@@ -68,5 +68,5 @@ router.get("/getAllData2/:domain",getAllData2);
 router.get("/getDealers/:domain",getDealers )
 router.get("/dealer-basic/:slug", getDealerBasicBySlug);
 router.get("/slugs", getDealerSlugsByDomain);
-
+router.get("/all-dealer-slugs", getAllDealerSlugs);
 module.exports = router;

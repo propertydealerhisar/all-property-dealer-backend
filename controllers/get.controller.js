@@ -1093,3 +1093,42 @@ exports.getDealerSlugsByDomain = async (req, res) => {
     });
   }
 };
+
+
+//=====================================================
+exports.getAllDealerSlugs = async (req, res) => {
+
+  try {
+
+    const { city } = req.query;
+
+    // 🔥 sirf haryana allow
+    if (!city || city.toLowerCase() !== "haryana") {
+      return res.status(400).json({
+        success: false,
+        message: "Only city=haryana is allowed",
+      });
+    }
+
+    // 🔥 DB match (Haryana case-insensitive)
+    const dealers = await Dealer.find({
+      state: { $regex: /^haryana$/i } // ✅ BEST MATCH
+    })
+      .select("slug -_id") // only slug
+      .lean();
+
+    return res.status(200).json({
+      success: true,
+      count: dealers.length,
+      data: dealers,
+    });
+
+  } catch (error) {
+    console.error("Haryana Dealer Slugs Error:", error);
+
+    return res.status(500).json({
+      success: false,
+      message: "Server Error",
+    });
+  }
+};
