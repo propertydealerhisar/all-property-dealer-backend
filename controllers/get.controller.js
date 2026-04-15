@@ -595,6 +595,75 @@ exports.getPropertiesByArea = async (req, res) => {
 
 
 
+// exports.haryanaLocationFilter = async (req, res) => {
+//   try {
+//     const { city, location, search } = req.query;
+
+//     if (!city) {
+//       return res.status(400).json({
+//         success: false,
+//         message: "City is required",
+//       });
+//     }
+
+//     const cityRegex = new RegExp(city.trim(), "i");
+
+//     let matchedDealers = [];
+
+//     // ✅ SEARCH WORKING (MAIN FIX)
+//     if (search && search.trim() !== "") {
+//       const searchRegex = new RegExp(search.trim(), "i");
+
+//       matchedDealers = await Dealer.find({
+//         city: cityRegex,
+//         $or: [
+//           { name: searchRegex },
+//           { address: searchRegex },
+//           { company: searchRegex },
+//         ],
+//       });
+//     }
+
+//     // ✅ LOCATION (fallback)
+//     else if (location && location.trim() !== "") {
+//       const locationRegex = new RegExp(location.trim(), "i");
+
+//       matchedDealers = await Dealer.find({
+//         city: cityRegex,
+//         address: locationRegex,
+//       });
+//     }
+
+//     // 🔹 Random dealers
+//     const matchedIds = matchedDealers.map((d) => d._id);
+
+//     const randomDealers = await Dealer.aggregate([
+//       {
+//         $match: {
+//           city: cityRegex,
+//           _id: { $nin: matchedIds },
+//         },
+//       },
+//       { $sample: { size: 30 } },
+//     ]);
+
+//     const finalDealers = [...matchedDealers, ...randomDealers].slice(0, 30);
+
+//     return res.status(200).json({
+//       success: true,
+//       count: finalDealers.length,
+//       matchedCount: matchedDealers.length,
+//       data: finalDealers,
+//     });
+
+//   } catch (error) {
+//     console.error("Haryana filter error:", error);
+//     res.status(500).json({
+//       success: false,
+//       message: "Server Error",
+//     });
+//   }
+// };
 exports.haryanaLocationFilter = async (req, res) => {
   try {
     const { city, location, search } = req.query;
@@ -610,50 +679,49 @@ exports.haryanaLocationFilter = async (req, res) => {
 
     let matchedDealers = [];
 
-    // ✅ SEARCH WORKING (MAIN FIX)
+    // ================= 🔍 SEARCH =================
     if (search && search.trim() !== "") {
-      const searchRegex = new RegExp(search.trim(), "i");
 
-      matchedDealers = await Dealer.find({
-        city: cityRegex,
-        $or: [
-          { name: searchRegex },
-          { address: searchRegex },
-          { company: searchRegex },
-        ],
-      });
-    }
-
-    // ✅ LOCATION (fallback)
-    else if (location && location.trim() !== "") {
-      const locationRegex = new RegExp(location.trim(), "i");
-
-      matchedDealers = await Dealer.find({
-        city: cityRegex,
-        address: locationRegex,
-      });
-    }
-
-    // 🔹 Random dealers
-    const matchedIds = matchedDealers.map((d) => d._id);
-
-    const randomDealers = await Dealer.aggregate([
-      {
-        $match: {
+      matchedDealers = await Dealer.find(
+        {
           city: cityRegex,
-          _id: { $nin: matchedIds },
+          $text: { $search: search }, // 🔥 TEXT SEARCH
         },
-      },
-      { $sample: { size: 30 } },
-    ]);
+        {
+          score: { $meta: "textScore" }
+        }
+      )
+      .sort({ score: { $meta: "textScore" } }) // 🔥 BEST MATCH TOP
+      .limit(30);
+    }
 
-    const finalDealers = [...matchedDealers, ...randomDealers].slice(0, 30);
+    // ================= 📍 LOCATION =================
+    else if (location && location.trim() !== "") {
+
+      const cleanLocation = location
+        .toLowerCase()
+        .replace(/[^a-z0-9\s]/g, "")
+        .replace(city.toLowerCase(), "")
+        .replace(/-/g, " ")
+        .trim();
+
+      matchedDealers = await Dealer.find(
+        {
+          city: cityRegex,
+          $text: { $search: cleanLocation }, // 🔥 MAIN MAGIC
+        },
+        {
+          score: { $meta: "textScore" }
+        }
+      )
+      .sort({ score: { $meta: "textScore" } }) // 🔥 TOP MATCH FIRST
+      .limit(30);
+    }
 
     return res.status(200).json({
       success: true,
-      count: finalDealers.length,
-      matchedCount: matchedDealers.length,
-      data: finalDealers,
+      count: matchedDealers.length,
+      data: matchedDealers,
     });
 
   } catch (error) {
@@ -664,7 +732,6 @@ exports.haryanaLocationFilter = async (req, res) => {
     });
   }
 };
-
 
 
 // search ka liye api ha ya
