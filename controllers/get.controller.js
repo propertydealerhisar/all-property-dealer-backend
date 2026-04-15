@@ -271,10 +271,88 @@ exports.getAllDataWithFallback = async (req, res) => {
 };
 
 //ya state ka dataa haryanaa ka la jaiyee
+// exports.getAllDataByState = async (req, res) => {
+//   try {
+//     let state = req.params.state;
+//     let { page = 1, limit = 100, city } = req.query;
+
+//     // ================= VALIDATION =================
+//     if (!state || state.trim() === "") {
+//       return res.status(400).json({
+//         success: false,
+//         message: "State parameter is required"
+//       });
+//     }
+
+//     state = state.trim();
+//     page = parseInt(page);
+//     limit = parseInt(limit);
+
+//     if (page < 1) page = 1;
+//     if (limit > 200) limit = 100; // safety cap
+
+//     // ================= DEFAULT CITY =================
+//     if (!city || city.trim() === "") {
+//       city = "Faridabad"; // ✅ Default City
+//     }
+
+//     // ================= BUILD QUERY =================
+//     const query = {
+//       state: { 
+//         $regex: new RegExp("^" + state.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$", "i") 
+//       },
+//       city: { 
+//         $regex: new RegExp("^" + city.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$", "i") 
+//       }
+//     };
+
+//     // console.log("Searching:", query);
+
+//     // ================= COUNT =================
+//     const total = await Dealer.countDocuments(query);
+
+//     if (total === 0) {
+//       return res.status(404).json({
+//         success: false,
+//         message: "No dealers found",
+//         state,
+//         city
+//       });
+//     }
+
+//     // ================= PAGINATION =================
+//     const skip = (page - 1) * limit;
+
+//     const dealers = await Dealer.find(query)
+//       .skip(skip)
+//       .limit(limit)
+//       .sort({ createdAt: -1 }); // newest first
+
+//     return res.json({
+//       success: true,
+//       state,
+//       city,
+//       currentPage: page,
+//       totalPages: Math.ceil(total / limit),
+//       totalRecords: total,
+//       returnedRecords: dealers.length,
+//       data: dealers
+//     });
+
+//   } catch (err) {
+//     console.error("GET DATA BY STATE ERROR:", err);
+
+//     return res.status(500).json({
+//       success: false,
+//       message: "Internal Server Error",
+//       error: err.message
+//     });
+//   }
+// };
 exports.getAllDataByState = async (req, res) => {
   try {
     let state = req.params.state;
-    let { page = 1, limit = 100, city } = req.query;
+    let { page = 1, limit = 100, city, search } = req.query;
 
     // ================= VALIDATION =================
     if (!state || state.trim() === "") {
@@ -289,24 +367,53 @@ exports.getAllDataByState = async (req, res) => {
     limit = parseInt(limit);
 
     if (page < 1) page = 1;
-    if (limit > 200) limit = 100; // safety cap
+    if (limit > 200) limit = 100;
 
-    // ================= DEFAULT CITY =================
-    if (!city || city.trim() === "") {
-      city = "Faridabad"; // ✅ Default City
-    }
-
-    // ================= BUILD QUERY =================
-    const query = {
-      state: { 
-        $regex: new RegExp("^" + state.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$", "i") 
-      },
-      city: { 
-        $regex: new RegExp("^" + city.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$", "i") 
+    // ================= BASE QUERY =================
+    let query = {
+      state: {
+        $regex: new RegExp(
+          "^" + state.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$",
+          "i"
+        )
       }
     };
 
-    // console.log("Searching:", query);
+    // ================= CITY FILTER =================
+    if (city && city.trim() !== "") {
+      const safeCity = city.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+      query.city = {
+        $regex: new RegExp("^" + safeCity + "$", "i")
+      };
+    }
+
+    // ================= 🔥 SEARCH (GLOBAL) =================
+    if (search && search.trim() !== "") {
+  const safeSearch = search.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+  // 🔥 agar search city jaisa lag raha hai
+  const isCitySearch = city &&
+    city.toLowerCase().includes(search.toLowerCase());
+
+  if (isCitySearch) {
+    // 👉 direct city filter use kar
+    query.city = {
+      $regex: new RegExp("^" + safeSearch + "$", "i")
+    };
+  } else {
+    // 👉 normal search
+    query.$or = [
+      { name: { $regex: safeSearch, $options: "i" } },
+      { address: { $regex: safeSearch, $options: "i" } },
+      { tags: { $regex: safeSearch, $options: "i" } },
+      { city: { $regex: safeSearch, $options: "i" } }
+    ];
+
+    // ❌ city strict filter hata de
+    delete query.city;
+  }
+}
 
     // ================= COUNT =================
     const total = await Dealer.countDocuments(query);
@@ -316,7 +423,8 @@ exports.getAllDataByState = async (req, res) => {
         success: false,
         message: "No dealers found",
         state,
-        city
+        city,
+        search
       });
     }
 
@@ -326,12 +434,13 @@ exports.getAllDataByState = async (req, res) => {
     const dealers = await Dealer.find(query)
       .skip(skip)
       .limit(limit)
-      .sort({ createdAt: -1 }); // newest first
+      .sort({ createdAt: -1 });
 
     return res.json({
       success: true,
       state,
       city,
+      search,
       currentPage: page,
       totalPages: Math.ceil(total / limit),
       totalRecords: total,
