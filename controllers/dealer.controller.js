@@ -147,3 +147,52 @@ exports.updateAreaByDomainAndSlug = async (req, res) => {
     });
   }
 };
+
+
+
+
+//=================bread crumb====================================
+// import Dealer from "../models/Dealer.js";
+
+exports.getDealerBySlug = async (req, res) => {
+  try {
+    const { slug } = req.params;
+
+    const dealer = await Dealer.findOne({ slug });
+
+    if (!dealer) {
+      return res.status(404).json({ message: "Dealer not found" });
+    }
+
+    // 🔥 Domain based city
+    const host = req.headers.host || "";
+
+    let city = dealer.city;
+
+    if (host.includes("delhi")) city = "Delhi";
+    if (host.includes("gurgaon")) city = "Gurgaon";
+    if (host.includes("faridabad")) city = "Faridabad";
+
+    // 🔥 Breadcrumb
+    const breadcrumb = [
+      { name: "Home", link: "/" },
+      {
+        name: city,
+        link: `/${city.toLowerCase()}`,
+      },
+      {
+        name: dealer.name,
+        link: null,
+      },
+    ];
+
+    res.json({
+      dealer,
+      breadcrumb,
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Server error" });
+  }
+};
+
