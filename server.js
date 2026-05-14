@@ -39,6 +39,8 @@ const corsOptions = {
    "https://www.propertydealerindelhi.com",
    "https://propertydealersnearme.com",
    "https://www.propertydealersnearme.com",
+   "https://realestateagentsnearme.in",
+   "https://www.realestateagentsnearme.in",
     "https://www.projectwallah.live",
     "https://all-property-dealers.vercel.app"
   ],
