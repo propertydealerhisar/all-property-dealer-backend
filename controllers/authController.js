@@ -1,4 +1,4 @@
-const User = require('../models/User');
+const User = require('../models/DealerMeta');
 const jwt = require('jsonwebtoken');
 
 // Register User

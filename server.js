@@ -64,14 +64,14 @@ const getRoutes = require("./routes/get.routes");
 const blogRoutes = require("./routes/blogRoutes");
 const tagsRoutes = require("./routes/tag.routes");
 const getroutes = require("./routes/get.routes");
-
+const dealerMetaRoutes =require("./routes/dealerMetaRoutes");
 app.use("/api/auth", authRoutes);
 app.use("/api/get", getRoutes);
 app.use("/api/dealers", dealerRoutes);
 app.use("/api/blogs", blogRoutes);
 app.use("/api/tags", tagsRoutes);
 app.use("/api", getroutes );
-
+app.use("/api/add",dealerMetaRoutes);
   //project2 ki api
 
 // ================= START SERVER =================
