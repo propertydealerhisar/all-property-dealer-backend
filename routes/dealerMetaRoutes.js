@@ -9,8 +9,7 @@ const router =
 const {
   addDealerMeta,
   getDealerMeta,
-} = require(
-  "../controllers/dealerMetaController"
+} = require("../controllers/dealerMetaController"
 );
 
 // ✅ ADD DEALER META ROUTE

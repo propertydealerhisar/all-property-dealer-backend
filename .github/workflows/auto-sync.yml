@@ -1,0 +1,27 @@
+name: Auto Sync to Property Dealers 
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Configure git
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "github-actions"
+
+      - name: Sync to Property Dealers Repo
+        run: |
+          git remote remove second || true
+          git remote add second https://x-access-token:${{ secrets.PROPERTY_DEALERS_TOKEN }}@github.com/propertydealerhisar/all-property-dealer-backend.git
+          git push second HEAD:main --force
