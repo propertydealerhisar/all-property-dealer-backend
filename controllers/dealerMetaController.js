@@ -12,135 +12,134 @@ const fs = require("fs");
 
 // ✅ ADD DEALER META
 
-const addDealerMeta =
-  async (req, res) => {
-    try {
+const addDealerMeta = async (req, res) => {
+  try {
+    // ✅ JSON FILE PATH
 
-      // ✅ JSON FILE PATH
+    const { jsonPath } = req.body;
 
+    // ✅ CHECK PATH
+
+    if (!jsonPath) {
+      return res.status(400).json({
+        success: false,
+        message: "JSON file path is required",
+      });
+    }
+
+    // ✅ READ JSON FILE
+
+    const rawData = fs.readFileSync(jsonPath, "utf-8");
+
+    const jsonData = JSON.parse(rawData);
+
+    // ✅ ARRAY CHECK
+
+    const dataArray = Array.isArray(jsonData)
+      ? jsonData
+      : [jsonData];
+
+    // ✅ INSERT DATA
+
+    const insertedData = [];
+
+    for (const item of dataArray) {
       const {
-        jsonPath,
-      } = req.body;
+        location,
+        metaTitle,
+        metaDescription,
+        pageContent,
+        slug,
+      } = item;
 
-      // ✅ CHECK PATH
+      // ✅ REQUIRED CHECK
 
-      if (!jsonPath) {
-        return res
-          .status(400)
-          .json({
-            success: false,
-            message:
-              "JSON file path is required",
-          });
+      if (
+        !location ||
+        !metaTitle ||
+        !metaDescription ||
+        !pageContent ||
+        !slug
+      ) {
+        continue;
       }
 
-      // ✅ READ JSON FILE
+      // ✅ CLEAN VALUES
 
-      const rawData =
-        fs.readFileSync(
-          jsonPath,
-          "utf-8"
+      const cleanLocation =
+        location.trim().toLowerCase();
+
+      const cleanSlug =
+        slug.trim().toLowerCase();
+
+      // ✅ CHECK LOCATION EXISTS
+
+      const existingLocation =
+        await DealerMeta.findOne({
+          location: cleanLocation,
+        });
+
+      // ✅ AGAR LOCATION SAME HAI TO SKIP
+
+      if (existingLocation) {
+        console.log(
+          `Skipped Location: ${location}`
         );
+        continue;
+      }
 
-      const jsonData =
-        JSON.parse(rawData);
+      // ✅ CHECK SLUG EXISTS
 
-      // ✅ ARRAY CHECK
+      const existingSlug =
+        await DealerMeta.findOne({
+          slug: cleanSlug,
+        });
 
-      const dataArray =
-        Array.isArray(
-          jsonData
-        )
-          ? jsonData
-          : [jsonData];
+      // ✅ AGAR SLUG SAME HAI TO SKIP
 
-      // ✅ INSERT DATA
+      if (existingSlug) {
+        console.log(
+          `Skipped Slug: ${slug}`
+        );
+        continue;
+      }
 
-      const insertedData =
-        [];
+      // ✅ CREATE DATA
 
-      for (const item of dataArray) {
-
-        const {
-          location,
+      const newMeta =
+        new DealerMeta({
+          location: cleanLocation,
           metaTitle,
           metaDescription,
           pageContent,
-          slug,
-        } = item;
+          slug: cleanSlug,
+        });
 
-        // ✅ REQUIRED CHECK
+      await newMeta.save();
 
-        if (
-          !location ||
-          !metaTitle ||
-          !metaDescription ||
-          !pageContent ||
-          !slug
-        ) {
-          continue;
-        }
-
-        // ✅ CHECK SLUG EXISTS
-
-        const existingSlug =
-          await DealerMeta.findOne(
-            {
-              slug:
-                slug.toLowerCase(),
-            }
-          );
-
-        if (
-          existingSlug
-        ) {
-          continue;
-        }
-
-        // ✅ CREATE DATA
-
-        const newMeta =
-          new DealerMeta({
-            location,
-            metaTitle,
-            metaDescription,
-            pageContent,
-            slug:
-              slug.toLowerCase(),
-          });
-
-        await newMeta.save();
-
-        insertedData.push(
-          newMeta
-        );
-      }
-
-      // ✅ RESPONSE
-
-      res.status(201).json({
-        success: true,
-        message:
-          "JSON data imported successfully",
-        total:
-          insertedData.length,
-        data: insertedData,
-      });
-
-    } catch (error) {
-
-      console.log(error);
-
-      res.status(500).json({
-        success: false,
-        message:
-          "Server Error",
-        error:
-          error.message,
-      });
-
+      insertedData.push(newMeta);
     }
-  };
+
+    // ✅ RESPONSE
+
+    res.status(201).json({
+      success: true,
+      message:
+        "JSON data imported successfully",
+      total: insertedData.length,
+      data: insertedData,
+    });
+
+  } catch (error) {
+    console.log(error);
+
+    res.status(500).json({
+      success: false,
+      message: "Server Error",
+      error: error.message,
+    });
+  }
+};
 
 
 

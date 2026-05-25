@@ -72,6 +72,7 @@ app.use("/api/blogs", blogRoutes);
 app.use("/api/tags", tagsRoutes);
 app.use("/api", getroutes );
 app.use("/api/add",dealerMetaRoutes);
+app.use("/api/area", require("./routes/areaDetailes"));
   //project2 ki api
 
 // ================= START SERVER =================
