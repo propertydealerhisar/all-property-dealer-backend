@@ -2,344 +2,44 @@ const fs = require("fs");
 const path = require("path");
 const Blog = require("../models/Blog");
 
-exports.importJsonDirect = async (req, res) => {
+exports.getBlogBySlug = async (req, res) => {
   try {
-
-    // JSON file ka path
-    const filePath = path.join(__dirname, "../data/blogs.json");
-
-    // File read karo
-    const jsonData = fs.readFileSync(filePath, "utf-8");
-
-    // JSON ko parse karo
-    const blogs = JSON.parse(jsonData);
-
-    // Seedha pura data insert karo
-    await Blog.insertMany(blogs);
-
-    res.status(200).json({
-      message: "JSON data saved to DB successfully"
+    const { slug } = req.params;
+    const { domain } = req.query;
+    // 🔥 Filter with domain + published only
+    const blog = await Blog.findOne({
+      Slug: slug,
+      domain,
+      status: "publish",
     });
-
-  } catch (error) {
-    res.status(500).json({
-      message: "Error importing JSON data",
-      error: error.message
-    });
-  }
-};
-
-// ya hero image update kartha aha
-
-function extractFirstImage(html) {
-  try {
-    if (!html) return "";
-
-    const imgTagRegex = /<img[^>]+src=["']([^"']+)["']/i;
-
-    const match = imgTagRegex.exec(html);
-
-    return match && match[1] ? match[1] : "";
-
-  } catch (error) {
-    return "";
-  }
-}
-
-// UPDATE EXISTING BLOGS
-exports.updateHeroImagesInDB = async (req, res) => {
-  try {
-
-    const blogs = await Blog.find();
-
-    let updatedCount = 0;
-    let skippedCount = 0;
-
-    for (let blog of blogs) {
-
-      // AGAR heroImg pehle se hai → SKIP KAR DO
-      if (blog.heroImg && blog.heroImg.trim() !== "") {
-        skippedCount++;
-        continue;
-      }
-
-      const htmlContent = blog?.content?.rendered || "";
-
-      if (!htmlContent) {
-        continue;
-      }
-
-      // Sabhi images extract karo
-      const imgTagRegex = /<img[^>]+src=["']([^"']+)["']/gi;
-
-      let matches = [];
-      let match;
-
-      while ((match = imgTagRegex.exec(htmlContent)) !== null) {
-        matches.push(match[1]);
-      }
-
-      // Agar ek bhi image nahi mili → skip
-      if (matches.length === 0) {
-        continue;
-      }
-
-      // Pehli available image use karo
-      const selectedImage = matches[0];
-
-      await Blog.findByIdAndUpdate(blog._id, {
-        heroImg: selectedImage
-      });
-
-      updatedCount++;
-    }
-
-    res.status(200).json({
-      message: "Hero images update process completed",
-      totalBlogs: blogs.length,
-      updatedBlogs: updatedCount,
-      skippedBlogs: skippedCount
-    });
-
-  } catch (error) {
-    res.status(500).json({
-      message: "Error updating hero images",
-      error: error.message
-    });
-  }
-};
-
-
-
-// BLOG LIST API (Pagination)
-exports.getBlogs = async (req, res) => {
-  try {
-
-    const page = parseInt(req.query.page) || 1;
-    const limit = 30;
-
-    const domain = req.query.domain;
-
-    let filter = {};
-
-    if (domain) {
-      filter.domain = domain;
-    }
-
-    const total = await Blog.countDocuments(filter);
-
-    const blogs = await Blog.aggregate([
-      { $match: filter },
-      { $sample: { size: limit } },   // 👈 RANDOM BLOGS
-      // {
-      //   $project: {
-      //     title: 1,
-      //     excerpt: 1,
-      //     slug: 1,
-      //     heroImg: 1,
-      //     date: 1,
-      //     domain: 1
-      //   }
-      // }
-    ]);
-
-    res.status(200).json({
-      success: true,
-      totalBlogs: total,
-      totalPages: Math.ceil(total / limit),
-      data: blogs
-    });
-
-  } catch (error) {
-    res.status(500).json({
-      message: error.message
-    });
-  }
-};
-
-exports.getSingleBlog = async (req, res) => {
-  try {
-
-    const blog = await Blog.findOne({ slug: req.params.slug });
 
     if (!blog) {
       return res.status(404).json({
-        message: "Blog not found"
-      });
-    }
-
-    res.status(200).json({
-      success: true,
-      data: blog
-    });
-
-  } catch (error) {
-    res.status(500).json({
-      message: error.message
-    });
-  }
-};
-
-// json sa img dali gai
-exports.updateHeroImgFromFile = async (req, res) => {
-  try {
-
-    const { filePath } = req.body;
-
-    if (!filePath) {
-      return res.status(400).json({
-        message: "File path required"
-      });
-    }
-
-    // ----- YAHA APNA DOMAIN NAME LIKH DO -----
-    const DOMAIN_NAME = "www.propertydealerindelhi.com";
-    // -----------------------------------------
-
-    const fullPath = path.join(process.cwd(), filePath);
-
-    if (!fs.existsSync(fullPath)) {
-      return res.status(404).json({
-        message: "File not found at given path"
-      });
-    }
-
-    const jsonData = fs.readFileSync(fullPath, "utf-8");
-
-    const records = JSON.parse(jsonData);
-
-    let updated = 0;
-    let notFound = 0;
-    let domainMismatch = 0;
-
-    for (let item of records) {
-
-      const { slug, heroImg } = item;
-
-      if (!slug || !heroImg) {
-        continue;
-      }
-
-      // 🔥 PEHLE DOMAIN + SLUG DONO MATCH HONGE
-      const blog = await Blog.findOne({
-        domain: DOMAIN_NAME,
-        slug: slug
-      });
-
-      if (!blog) {
-        notFound++;
-        continue;
-      }
-
-      // Double safety – agar kisi blog ka domain alag ho
-      if (blog.domain !== DOMAIN_NAME) {
-        domainMismatch++;
-        continue;
-      }
-
-      await Blog.updateOne(
-        {
-          domain: DOMAIN_NAME,
-          slug: slug
-        },
-        { $set: { heroImg: heroImg } }
-      );
-
-      updated++;
-    }
-
-    res.status(200).json({
-      message: "Hero Images Updated Successfully (Domain Wise)",
-      totalRecords: records.length,
-      updatedBlogs: updated,
-      slugNotFound: notFound,
-      domainMismatch: domainMismatch
-    });
-
-  } catch (error) {
-    res.status(500).json({
-      message: "Error updating hero images from file",
-      error: error.message
-    });
-  }
-};
-
-
-
-
-exports.getBlogsByFixedDomains = async (req, res) => {
-  try {
-
-    const allowedDomains = [
-      "www.propertydealerinfaridabad.com",
-      "www.propertydealeringurgaon.com",
-      "www.propertydealerinhisar.com"
-    ];
-
-    // 🔥 RANDOMIZED MIXED DATA LOGIC
-    const blogs = await Blog.aggregate([
-      {
-        $match: {
-          domain: { $in: allowedDomains }
-        }
-      },
-      {
-        $sample: { size: 1000 }   // jitna max data chahiye
-      }
-    ]);
-
-    res.status(200).json({
-      success: true,
-      total: blogs.length,
-      data: blogs
-    });
-
-  } catch (error) {
-    console.log("Error in getBlogsByFixedDomains:", error);
-
-    res.status(500).json({
-      success: false,
-      message: "Server Error"
-    });
-  }
-};
-exports.getNextBlog = async (req, res) => {
-  try {
-    const currentBlog = await Blog.findOne({
-      slug: req.params.slug
-    });
-
-    if (!currentBlog) {
-      return res.status(404).json({
         success: false,
-        message: "Blog not found"
+        message: "Blog not found for the given slug and domain",
       });
     }
 
-    const nextBlog = await Blog.findOne({
-      _id: { $gt: currentBlog._id }
-    }).sort({ _id: 1 });
+    const { __v, updatedAt, createdAt, ...cleanBlog } = blog.toObject();
 
-    res.status(200).json({
+    return res.status(200).json({
       success: true,
-      data: nextBlog || null
+      blog: cleanBlog,
     });
-
   } catch (error) {
-    res.status(500).json({
+    return res.status(500).json({
       success: false,
-      message: error.message
+      message: "Internal server error",
+      error: error.message,
     });
   }
 };
-
-
-
-//================================================================================
-exports. getBlogSlugsByDomain = async (req, res) => {
+// **************************************************************
+exports.getSlugsByDomain = async (req, res) => {
   try {
-    const { domain } = req.query;
-
+    const { domain } = req.params;
+   console.log("Domain received:", domain);
+    // 1. Check domain
     if (!domain) {
       return res.status(400).json({
         success: false,
@@ -347,23 +47,444 @@ exports. getBlogSlugsByDomain = async (req, res) => {
       });
     }
 
-    const cleanDomain = domain.replace(/^www\./, "").trim();
+    // 2. Find ONLY published blogs by domain
+    const blogs = await Blog.find({ 
+        domain,
+        status: "publish"   // ✅ filter added
+      })
+      .select("Slug")
+      .lean();
 
-    const blogs = await Blog.find({ domain: cleanDomain })
-      .select("slug -_id");
+    // 3. Extract slugs into array
+    const slugs = blogs.map(blog => blog.Slug);
 
+    // 4. Return response
     return res.status(200).json({
       success: true,
-      count: blogs.length,
-      data: blogs,
+      count: slugs.length,
+      data: slugs,
     });
 
   } catch (error) {
-    console.error("Blog Error:", error);
-
     return res.status(500).json({
       success: false,
       message: "Server Error",
+      error: error.message,
     });
   }
 };
+// ******************************************************************
+exports.fetchBlogs = async (req, res) => {
+  try {
+    const { page = 1, limit = 10, domain } = req.query;
+    // console.log("req rec");
+    // console.log(req.query);
+
+    const skip = (page - 1) * limit;
+
+    // 🔥 common filter
+    const filter = {
+      status: "publish",
+      domain, // 👈 domain filter add
+    };
+
+    const blogs = await Blog.find(
+      filter,
+      {
+        Slug: 1,
+        HeroImg: 1,
+        Category: 1,
+        Date: 1,
+        Title: 1,
+        Subtitle: 1,
+        _id: 0,
+      }
+    )
+      .sort({ Date: -1 })
+      .skip(skip)
+      .limit(limit);
+
+    const totalBlogs = await Blog.countDocuments(filter);
+
+    res.status(200).json({
+      success: true,
+      currentPage: page,
+      totalPages: Math.ceil(totalBlogs / limit),
+      totalBlogs,
+      blogs,
+    });
+  } catch (err) {
+    res.status(500).json({
+      success: false,
+      message: "Internal server error",
+      error: err.message,
+    });
+  }
+};
+
+
+// exports.importJsonDirect = async (req, res) => {
+//   try {
+
+//     // JSON file ka path
+//     const filePath = path.join(__dirname, "../data/blogs.json");
+
+//     // File read karo
+//     const jsonData = fs.readFileSync(filePath, "utf-8");
+
+//     // JSON ko parse karo
+//     const blogs = JSON.parse(jsonData);
+
+//     // Seedha pura data insert karo
+//     await Blog.insertMany(blogs);
+
+//     res.status(200).json({
+//       message: "JSON data saved to DB successfully"
+//     });
+
+//   } catch (error) {
+//     res.status(500).json({
+//       message: "Error importing JSON data",
+//       error: error.message
+//     });
+//   }
+// };
+
+// // ya hero image update kartha aha
+
+// function extractFirstImage(html) {
+//   try {
+//     if (!html) return "";
+
+//     const imgTagRegex = /<img[^>]+src=["']([^"']+)["']/i;
+
+//     const match = imgTagRegex.exec(html);
+
+//     return match && match[1] ? match[1] : "";
+
+//   } catch (error) {
+//     return "";
+//   }
+// }
+
+// // UPDATE EXISTING BLOGS
+// exports.updateHeroImagesInDB = async (req, res) => {
+//   try {
+
+//     const blogs = await Blog.find();
+
+//     let updatedCount = 0;
+//     let skippedCount = 0;
+
+//     for (let blog of blogs) {
+
+//       // AGAR heroImg pehle se hai → SKIP KAR DO
+//       if (blog.heroImg && blog.heroImg.trim() !== "") {
+//         skippedCount++;
+//         continue;
+//       }
+
+//       const htmlContent = blog?.content?.rendered || "";
+
+//       if (!htmlContent) {
+//         continue;
+//       }
+
+//       // Sabhi images extract karo
+//       const imgTagRegex = /<img[^>]+src=["']([^"']+)["']/gi;
+
+//       let matches = [];
+//       let match;
+
+//       while ((match = imgTagRegex.exec(htmlContent)) !== null) {
+//         matches.push(match[1]);
+//       }
+
+//       // Agar ek bhi image nahi mili → skip
+//       if (matches.length === 0) {
+//         continue;
+//       }
+
+//       // Pehli available image use karo
+//       const selectedImage = matches[0];
+
+//       await Blog.findByIdAndUpdate(blog._id, {
+//         heroImg: selectedImage
+//       });
+
+//       updatedCount++;
+//     }
+
+//     res.status(200).json({
+//       message: "Hero images update process completed",
+//       totalBlogs: blogs.length,
+//       updatedBlogs: updatedCount,
+//       skippedBlogs: skippedCount
+//     });
+
+//   } catch (error) {
+//     res.status(500).json({
+//       message: "Error updating hero images",
+//       error: error.message
+//     });
+//   }
+// };
+
+
+
+// // BLOG LIST API (Pagination)
+// exports.getBlogs = async (req, res) => {
+//   try {
+
+//     const page = parseInt(req.query.page) || 1;
+//     const limit = 30;
+
+//     const domain = req.query.domain;
+
+//     let filter = {};
+
+//     if (domain) {
+//       filter.domain = domain;
+//     }
+
+//     const total = await Blog.countDocuments(filter);
+
+//     const blogs = await Blog.aggregate([
+//       { $match: filter },
+//       { $sample: { size: limit } },   // 👈 RANDOM BLOGS
+//       // {
+//       //   $project: {
+//       //     title: 1,
+//       //     excerpt: 1,
+//       //     slug: 1,
+//       //     heroImg: 1,
+//       //     date: 1,
+//       //     domain: 1
+//       //   }
+//       // }
+//     ]);
+
+//     res.status(200).json({
+//       success: true,
+//       totalBlogs: total,
+//       totalPages: Math.ceil(total / limit),
+//       data: blogs
+//     });
+
+//   } catch (error) {
+//     res.status(500).json({
+//       message: error.message
+//     });
+//   }
+// };
+
+// exports.getSingleBlog = async (req, res) => {
+//   try {
+
+//     const blog = await Blog.findOne({ slug: req.params.slug });
+
+//     if (!blog) {
+//       return res.status(404).json({
+//         message: "Blog not found"
+//       });
+//     }
+
+//     res.status(200).json({
+//       success: true,
+//       data: blog
+//     });
+
+//   } catch (error) {
+//     res.status(500).json({
+//       message: error.message
+//     });
+//   }
+// };
+
+// // json sa img dali gai
+// exports.updateHeroImgFromFile = async (req, res) => {
+//   try {
+
+//     const { filePath } = req.body;
+
+//     if (!filePath) {
+//       return res.status(400).json({
+//         message: "File path required"
+//       });
+//     }
+
+//     // ----- YAHA APNA DOMAIN NAME LIKH DO -----
+//     const DOMAIN_NAME = "www.propertydealerindelhi.com";
+//     // -----------------------------------------
+
+//     const fullPath = path.join(process.cwd(), filePath);
+
+//     if (!fs.existsSync(fullPath)) {
+//       return res.status(404).json({
+//         message: "File not found at given path"
+//       });
+//     }
+
+//     const jsonData = fs.readFileSync(fullPath, "utf-8");
+
+//     const records = JSON.parse(jsonData);
+
+//     let updated = 0;
+//     let notFound = 0;
+//     let domainMismatch = 0;
+
+//     for (let item of records) {
+
+//       const { slug, heroImg } = item;
+
+//       if (!slug || !heroImg) {
+//         continue;
+//       }
+
+//       // 🔥 PEHLE DOMAIN + SLUG DONO MATCH HONGE
+//       const blog = await Blog.findOne({
+//         domain: DOMAIN_NAME,
+//         slug: slug
+//       });
+
+//       if (!blog) {
+//         notFound++;
+//         continue;
+//       }
+
+//       // Double safety – agar kisi blog ka domain alag ho
+//       if (blog.domain !== DOMAIN_NAME) {
+//         domainMismatch++;
+//         continue;
+//       }
+
+//       await Blog.updateOne(
+//         {
+//           domain: DOMAIN_NAME,
+//           slug: slug
+//         },
+//         { $set: { heroImg: heroImg } }
+//       );
+
+//       updated++;
+//     }
+
+//     res.status(200).json({
+//       message: "Hero Images Updated Successfully (Domain Wise)",
+//       totalRecords: records.length,
+//       updatedBlogs: updated,
+//       slugNotFound: notFound,
+//       domainMismatch: domainMismatch
+//     });
+
+//   } catch (error) {
+//     res.status(500).json({
+//       message: "Error updating hero images from file",
+//       error: error.message
+//     });
+//   }
+// };
+
+
+
+
+// exports.getBlogsByFixedDomains = async (req, res) => {
+//   try {
+
+//     const allowedDomains = [
+//       "www.propertydealerinfaridabad.com",
+//       "www.propertydealeringurgaon.com",
+//       "www.propertydealerinhisar.com"
+//     ];
+
+//     // 🔥 RANDOMIZED MIXED DATA LOGIC
+//     const blogs = await Blog.aggregate([
+//       {
+//         $match: {
+//           domain: { $in: allowedDomains }
+//         }
+//       },
+//       {
+//         $sample: { size: 1000 }   // jitna max data chahiye
+//       }
+//     ]);
+
+//     res.status(200).json({
+//       success: true,
+//       total: blogs.length,
+//       data: blogs
+//     });
+
+//   } catch (error) {
+//     console.log("Error in getBlogsByFixedDomains:", error);
+
+//     res.status(500).json({
+//       success: false,
+//       message: "Server Error"
+//     });
+//   }
+// };
+// exports.getNextBlog = async (req, res) => {
+//   try {
+//     const currentBlog = await Blog.findOne({
+//       slug: req.params.slug
+//     });
+
+//     if (!currentBlog) {
+//       return res.status(404).json({
+//         success: false,
+//         message: "Blog not found"
+//       });
+//     }
+
+//     const nextBlog = await Blog.findOne({
+//       _id: { $gt: currentBlog._id }
+//     }).sort({ _id: 1 });
+
+//     res.status(200).json({
+//       success: true,
+//       data: nextBlog || null
+//     });
+
+//   } catch (error) {
+//     res.status(500).json({
+//       success: false,
+//       message: error.message
+//     });
+//   }
+// };
+
+
+
+// //================================================================================
+// exports. getBlogSlugsByDomain = async (req, res) => {
+//   try {
+//     const { domain } = req.query;
+
+//     if (!domain) {
+//       return res.status(400).json({
+//         success: false,
+//         message: "Domain is required",
+//       });
+//     }
+
+//     const cleanDomain = domain.replace(/^www\./, "").trim();
+
+//     const blogs = await Blog.find({ domain: cleanDomain })
+//       .select("slug -_id");
+
+//     return res.status(200).json({
+//       success: true,
+//       count: blogs.length,
+//       data: blogs,
+//     });
+
+//   } catch (error) {
+//     console.error("Blog Error:", error);
+
+//     return res.status(500).json({
+//       success: false,
+//       message: "Server Error",
+//     });
+//   }
+// };

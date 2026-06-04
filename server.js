@@ -68,7 +68,7 @@ const dealerMetaRoutes =require("./routes/dealerMetaRoutes");
 app.use("/api/auth", authRoutes);
 app.use("/api/get", getRoutes);
 app.use("/api/dealers", dealerRoutes);
-app.use("/api/blogs", blogRoutes);
+app.use("/blogs", blogRoutes);
 app.use("/api/tags", tagsRoutes);
 app.use("/api", getroutes );
 app.use("/api/add",dealerMetaRoutes);
