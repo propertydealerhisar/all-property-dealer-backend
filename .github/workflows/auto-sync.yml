@@ -1,4 +1,4 @@
-name: Auto Sync to Property Dealers 
+name: Auto Sync to Property Dealers Backend
 
 on:
   push:
@@ -21,7 +21,15 @@ jobs:
           git config --global user.name "github-actions"
 
       - name: Sync to Property Dealers Repo
+        continue-on-error: true
         run: |
           git remote remove second || true
           git remote add second https://x-access-token:${{ secrets.PROPERTY_DEALERS_TOKEN }}@github.com/propertydealerhisar/all-property-dealer-backend.git
           git push second HEAD:main --force
+
+      - name: Sync to Mukesh Backend Repo
+        continue-on-error: true
+        run: |
+          git remote remove third || true
+          git remote add third https://x-access-token:${{ secrets.MUKESH_PROJECTS_ACCESS_TOKEN }}@github.com/mukeshkumar44/PropertyDealerBackend.git
+          git push third HEAD:main --force
